@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-01T23:59:13.501633+09:00",
+  "ts": "2026-04-02T00:00:15.102197+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 9994.39,
-  "available": 9301.61,
-  "unrealized": -3.79,
+  "equity": 9994.55,
+  "available": 9301.66,
+  "unrealized": -4.01,
   "daily_pnl": 0.61,
-  "total_pnl": -5.61,
-  "cum_pct": -0.06,
-  "daily_avg_pct": -0.06,
-  "annual_pct": -19.67,
+  "total_pnl": -5.45,
+  "cum_pct": -0.05,
+  "daily_avg_pct": -0.025,
+  "annual_pct": -8.72,
   "mdd": -0.05,
   "current_dd": -0.03,
-  "seed_used": 692.78,
+  "seed_used": 692.89,
   "seed_used_pct": 6.93,
   "long_count": 3,
   "short_count": 7,
@@ -20,68 +20,68 @@
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": -1.99,
-      "pnl_pct": -0.34,
+      "pnl": -1.82,
+      "pnl_pct": -0.31,
       "margin": 58.91,
       "leverage": "10",
       "tier": "2/9",
       "entry": 1.3512,
-      "mark": 1.3558
+      "mark": 1.3554
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -0.12,
-      "pnl_pct": -0.03,
+      "pnl": -0.62,
+      "pnl_pct": -0.15,
       "margin": 52.25,
       "leverage": "8",
       "tier": "3/10",
       "entry": 0.2482,
-      "mark": 0.2483
+      "mark": 0.2486
     },
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": -0.12,
-      "pnl_pct": -0.03,
+      "pnl": -0.26,
+      "pnl_pct": -0.06,
       "margin": 52.16,
       "leverage": "9",
       "tier": "3/10",
       "entry": 99.8846,
-      "mark": 99.91
+      "mark": 99.94
     },
     {
       "symbol": "SUIUSDT",
       "side": "SHORT",
-      "pnl": -3.37,
-      "pnl_pct": -0.47,
+      "pnl": -3.28,
+      "pnl_pct": -0.46,
       "margin": 51.13,
       "leverage": "14",
       "tier": "2/10",
       "entry": 0.8947,
-      "mark": 0.8989
+      "mark": 0.8988
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 0.42,
-      "pnl_pct": 0.06,
+      "pnl": 0.55,
+      "pnl_pct": 0.08,
       "margin": 50.08,
       "leverage": "14",
       "tier": "3/10",
       "entry": 2124.4576,
-      "mark": 2125.73
+      "mark": 2126.13
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -1.26,
-      "pnl_pct": -0.37,
+      "pnl": -1.34,
+      "pnl_pct": -0.39,
       "margin": 42.7,
       "leverage": "8",
       "tier": "3/9",
       "entry": 68324.46,
-      "mark": 68577.3
+      "mark": 68593.0
     },
     {
       "symbol": "1000PEPEUSDT",
@@ -103,29 +103,29 @@
       "leverage": "9",
       "tier": "2/9",
       "entry": 615.1,
-      "mark": 613.71
+      "mark": 613.7
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 0.76,
-      "pnl_pct": 0.56,
+      "pnl": 0.85,
+      "pnl_pct": 0.63,
       "margin": 22.65,
       "leverage": "6",
       "tier": "2/10",
       "entry": 8.942,
-      "mark": 8.992
+      "mark": 8.998
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -0.35,
-      "pnl_pct": -0.32,
+      "pnl": -0.33,
+      "pnl_pct": -0.31,
       "margin": 21.61,
       "leverage": "5",
       "tier": "2/10",
       "entry": 83.1031,
-      "mark": 83.37
+      "mark": 83.36
     }
   ],
   "signals": {
@@ -256,5 +256,5 @@
       "reason": "마진 24.6USDT < 100"
     }
   ],
-  "num_days": 1
+  "num_days": 2
 }
