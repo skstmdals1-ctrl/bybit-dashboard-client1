@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-02T05:39:53.975580+09:00",
+  "ts": "2026-04-02T05:40:55.476550+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 9994.04,
-  "available": 8814.56,
-  "unrealized": -30.17,
+  "equity": 9991.07,
+  "available": 8811.92,
+  "unrealized": -33.33,
   "daily_pnl": 16.61,
-  "total_pnl": -5.96,
-  "cum_pct": -0.06,
-  "daily_avg_pct": -0.03,
-  "annual_pct": -10.37,
+  "total_pnl": -8.93,
+  "cum_pct": -0.09,
+  "daily_avg_pct": -0.045,
+  "annual_pct": -15.15,
   "mdd": -0.54,
   "current_dd": -0.37,
-  "seed_used": 1179.47,
+  "seed_used": 1179.15,
   "seed_used_pct": 11.8,
   "long_count": 10,
   "short_count": 1,
@@ -20,24 +20,24 @@
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -20.93,
-      "pnl_pct": -1.35,
+      "pnl": -23.4,
+      "pnl_pct": -1.5,
       "margin": 172.85,
       "leverage": "9",
       "tier": "6/11",
       "entry": 83.6373,
-      "mark": 82.512
+      "mark": 82.379
     },
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": -8.76,
-      "pnl_pct": -0.57,
+      "pnl": -9.02,
+      "pnl_pct": -0.59,
       "margin": 138.73,
       "leverage": "11",
       "tier": "5/10",
       "entry": 0.8924,
-      "mark": 0.8873
+      "mark": 0.8871
     },
     {
       "symbol": "XRPUSDT",
@@ -64,30 +64,30 @@
     {
       "symbol": "AAVEUSDT",
       "side": "LONG",
-      "pnl": -0.96,
-      "pnl_pct": -0.18,
+      "pnl": -1.12,
+      "pnl_pct": -0.21,
       "margin": 58.74,
       "leverage": "9",
       "tier": "3/9",
       "entry": 98.8087,
-      "mark": 98.63
+      "mark": 98.6
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 0.19,
-      "pnl_pct": 0.02,
+      "pnl": 0.12,
+      "pnl_pct": 0.01,
       "margin": 54.47,
       "leverage": "15",
       "tier": "3/9",
       "entry": 68090.7833,
-      "mark": 68106.8
+      "mark": 68100.96
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -0.44,
-      "pnl_pct": -0.14,
+      "pnl": -0.48,
+      "pnl_pct": -0.15,
       "margin": 52.4,
       "leverage": "6",
       "tier": "3/10",
@@ -108,41 +108,41 @@
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": -0.76,
-      "pnl_pct": -0.38,
+      "pnl": -0.79,
+      "pnl_pct": -0.4,
       "margin": 24.56,
       "leverage": "8",
       "tier": "2/9",
       "entry": 614.1,
-      "mark": 611.74
+      "mark": 611.63
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 0.5,
-      "pnl_pct": 0.37,
+      "pnl": 0.43,
+      "pnl_pct": 0.31,
       "margin": 22.65,
       "leverage": "6",
       "tier": "2/10",
       "entry": 8.942,
-      "mark": 8.975
+      "mark": 8.97
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 0.4,
-      "pnl_pct": 0.47,
+      "pnl": 0.35,
+      "pnl_pct": 0.42,
       "margin": 9.46,
       "leverage": "9",
       "tier": "2/10",
       "entry": 2128.59,
-      "mark": 2138.53
+      "mark": 2137.44
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "long",
-      "conf": 0.992
+      "conf": 0.993
     },
     "ETHUSDT": {
       "dir": "short",
@@ -154,11 +154,11 @@
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.83
+      "conf": 0.827
     },
     "DOGEUSDT": {
       "dir": "long",
-      "conf": 0.67
+      "conf": 0.669
     },
     "HYPEUSDT": {
       "dir": "long",
@@ -170,7 +170,7 @@
     },
     "ADAUSDT": {
       "dir": "long",
-      "conf": 0.761
+      "conf": 0.769
     },
     "ZECUSDT": {
       "dir": "short",
@@ -178,7 +178,7 @@
     },
     "1000PEPEUSDT": {
       "dir": "long",
-      "conf": 0.79
+      "conf": 0.789
     },
     "SUIUSDT": {
       "dir": "long",
@@ -206,7 +206,7 @@
     },
     "AAVEUSDT": {
       "dir": "long",
-      "conf": 0.606
+      "conf": 0.627
     },
     "NEARUSDT": {
       "dir": "short",
@@ -214,7 +214,7 @@
     },
     "BNBUSDT": {
       "dir": "long",
-      "conf": 0.803
+      "conf": 0.804
     },
     "KASUSDT": {
       "dir": "short",
