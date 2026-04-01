@@ -1,32 +1,32 @@
 {
-  "ts": "2026-04-02T00:02:17.667249+09:00",
+  "ts": "2026-04-02T00:03:18.933268+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 9995.33,
-  "available": 9302.5,
-  "unrealized": -3.66,
-  "daily_pnl": 0.0,
-  "total_pnl": -4.67,
+  "equity": 9995.32,
+  "available": 9365.31,
+  "unrealized": -3.46,
+  "daily_pnl": -0.03,
+  "total_pnl": -4.68,
   "cum_pct": -0.05,
   "daily_avg_pct": -0.025,
   "annual_pct": -8.72,
   "mdd": -0.05,
   "current_dd": -0.05,
-  "seed_used": 692.84,
-  "seed_used_pct": 6.93,
+  "seed_used": 630.01,
+  "seed_used_pct": 6.3,
   "long_count": 3,
   "short_count": 7,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": -1.56,
+      "pnl": -1.51,
       "pnl_pct": -0.26,
       "margin": 58.91,
       "leverage": "10",
       "tier": "2/9",
       "entry": 1.3512,
-      "mark": 1.3548
+      "mark": 1.3547
     },
     {
       "symbol": "ADAUSDT",
@@ -53,41 +53,30 @@
     {
       "symbol": "SUIUSDT",
       "side": "SHORT",
-      "pnl": -3.15,
-      "pnl_pct": -0.44,
+      "pnl": -2.88,
+      "pnl_pct": -0.4,
       "margin": 51.13,
       "leverage": "14",
       "tier": "2/10",
       "entry": 0.8947,
-      "mark": 0.8986
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "LONG",
-      "pnl": 0.23,
-      "pnl_pct": 0.03,
-      "margin": 50.08,
-      "leverage": "14",
-      "tier": "3/10",
-      "entry": 2124.4576,
-      "mark": 2125.15
+      "mark": 0.8983
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -1.1,
-      "pnl_pct": -0.32,
+      "pnl": -1.18,
+      "pnl_pct": -0.35,
       "margin": 42.7,
       "leverage": "8",
       "tier": "3/9",
       "entry": 68324.46,
-      "mark": 68544.31
+      "mark": 68560.7
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": 2.0,
-      "pnl_pct": 0.7,
+      "pnl": 1.97,
+      "pnl_pct": 0.69,
       "margin": 26.08,
       "leverage": "11",
       "tier": "3/10",
@@ -95,37 +84,48 @@
       "mark": 0.0034
     },
     {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "pnl": 0.21,
+      "pnl_pct": 0.06,
+      "margin": 25.8,
+      "leverage": "14",
+      "tier": "3/10",
+      "entry": 2124.4576,
+      "mark": 2125.67
+    },
+    {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": 0.58,
-      "pnl_pct": 0.27,
+      "pnl": 0.59,
+      "pnl_pct": 0.28,
       "margin": 23.92,
       "leverage": "9",
       "tier": "2/9",
       "entry": 615.1,
-      "mark": 613.44
+      "mark": 613.4
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 0.7,
-      "pnl_pct": 0.51,
+      "pnl": 0.71,
+      "pnl_pct": 0.53,
       "margin": 22.65,
       "leverage": "6",
       "tier": "2/10",
       "entry": 8.942,
-      "mark": 8.988
+      "mark": 8.989
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -0.27,
-      "pnl_pct": -0.25,
+      "pnl": -0.31,
+      "pnl_pct": -0.29,
       "margin": 21.61,
       "leverage": "5",
       "tier": "2/10",
       "entry": 83.1031,
-      "mark": 83.31
+      "mark": 83.34
     }
   ],
   "signals": {
@@ -135,11 +135,11 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.698
+      "conf": 0.704
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.701
+      "conf": 0.702
     },
     "XRPUSDT": {
       "dir": "short",
@@ -159,7 +159,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.819
+      "conf": 0.853
     },
     "ZECUSDT": {
       "dir": "short",
@@ -167,7 +167,7 @@
     },
     "1000PEPEUSDT": {
       "dir": "short",
-      "conf": 0.948
+      "conf": 0.986
     },
     "SUIUSDT": {
       "dir": "long",
@@ -195,7 +195,7 @@
     },
     "AAVEUSDT": {
       "dir": "short",
-      "conf": 0.794
+      "conf": 0.79
     },
     "NEARUSDT": {
       "dir": "short",
@@ -210,9 +210,20 @@
     {
       "t": "2026-04-01",
       "v": 0.61
+    },
+    {
+      "t": "2026-04-02",
+      "v": 0.58
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-02 00:02",
+      "symbol": "ETHUSDT",
+      "side": "Buy",
+      "pnl": -0.03,
+      "reason": "3/10"
+    },
     {
       "ts": "2026-04-01 23:46",
       "symbol": "1000PEPEUSDT",
