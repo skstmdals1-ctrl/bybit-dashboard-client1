@@ -1,87 +1,87 @@
 {
-  "ts": "2026-04-02T03:07:48.256671+09:00",
+  "ts": "2026-04-02T03:08:49.408705+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 10018.76,
-  "available": 9630.85,
-  "unrealized": -1.31,
-  "daily_pnl": 11.39,
-  "total_pnl": 18.76,
+  "equity": 10018.9,
+  "available": 9605.61,
+  "unrealized": -0.82,
+  "daily_pnl": 16.01,
+  "total_pnl": 18.9,
   "cum_pct": 0.19,
   "daily_avg_pct": 0.095,
   "annual_pct": 41.42,
   "mdd": -0.54,
   "current_dd": -0.09,
-  "seed_used": 387.91,
-  "seed_used_pct": 3.87,
+  "seed_used": 413.29,
+  "seed_used_pct": 4.13,
   "long_count": 5,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -3.76,
-      "pnl_pct": -0.52,
+      "pnl": -3.25,
+      "pnl_pct": -0.45,
       "margin": 79.69,
       "leverage": "9",
       "tier": "3/11",
       "entry": 84.3819,
-      "mark": 83.94
+      "mark": 84.0
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 1.15,
-      "pnl_pct": 0.19,
+      "pnl": 1.02,
+      "pnl_pct": 0.17,
       "margin": 58.91,
       "leverage": "10",
       "tier": "2/9",
       "entry": 1.3512,
-      "mark": 1.3486
+      "mark": 1.3489
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -1.22,
-      "pnl_pct": -0.15,
+      "pnl": -0.91,
+      "pnl_pct": -0.11,
       "margin": 54.47,
       "leverage": "15",
       "tier": "2/9",
       "entry": 68090.7833,
-      "mark": 67989.37
+      "mark": 68015.33
     },
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": -0.48,
-      "pnl_pct": -0.09,
+      "pnl": -0.6,
+      "pnl_pct": -0.11,
       "margin": 51.49,
       "leverage": "11",
       "tier": "3/10",
       "entry": 0.899,
-      "mark": 0.8982
+      "mark": 0.898
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": 1.78,
+      "pnl": 1.79,
       "pnl_pct": 0.69,
       "margin": 28.81,
       "leverage": "9",
       "tier": "2/9",
       "entry": 617.3554,
-      "mark": 613.11
+      "mark": 613.1
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 0.46,
-      "pnl_pct": 0.2,
+      "pnl": 0.37,
+      "pnl_pct": 0.16,
       "margin": 22.82,
       "leverage": "10",
       "tier": "1/10",
       "entry": 0.2489,
-      "mark": 0.2494
+      "mark": 0.2493
     },
     {
       "symbol": "LINKUSDT",
@@ -180,10 +180,17 @@
     },
     {
       "t": "2026-04-02",
-      "v": 12.0
+      "v": 16.63
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-02 03:07",
+      "symbol": "AAVEUSDT",
+      "side": "Sell",
+      "pnl": 4.63,
+      "reason": "3/10"
+    },
     {
       "ts": "2026-04-02 03:04",
       "symbol": "BNBUSDT",
@@ -316,13 +323,6 @@
       "side": "Buy",
       "pnl": 0.23,
       "reason": "마진 21.1USDT < 100"
-    },
-    {
-      "ts": "2026-04-01 22:09",
-      "symbol": "BNBUSDT",
-      "side": "Sell",
-      "pnl": -0.31,
-      "reason": "마진 24.6USDT < 100"
     }
   ],
   "num_days": 2
