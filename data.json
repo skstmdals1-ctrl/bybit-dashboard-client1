@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-03T06:01:06.253112+09:00",
+  "ts": "2026-04-03T06:02:07.379257+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 9580.15,
-  "available": 5631.13,
-  "unrealized": -257.09,
+  "equity": 9579.59,
+  "available": 5630.51,
+  "unrealized": -258.16,
   "daily_pnl": 1.34,
-  "total_pnl": -419.85,
+  "total_pnl": -420.41,
   "cum_pct": -4.2,
   "daily_avg_pct": -1.4,
   "annual_pct": -99.42,
   "mdd": -11.27,
-  "current_dd": -4.68,
-  "seed_used": 3949.03,
+  "current_dd": -4.49,
+  "seed_used": 3949.08,
   "seed_used_pct": 41.22,
   "long_count": 8,
   "short_count": 3,
@@ -31,13 +31,13 @@
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -105.92,
-      "pnl_pct": -1.63,
+      "pnl": -106.24,
+      "pnl_pct": -1.64,
       "margin": 721.78,
       "leverage": "9",
       "tier": "10/11",
       "entry": 80.4965,
-      "mark": 79.184
+      "mark": 79.18
     },
     {
       "symbol": "SUIUSDT",
@@ -53,35 +53,35 @@
     {
       "symbol": "AAVEUSDT",
       "side": "LONG",
-      "pnl": -21.27,
-      "pnl_pct": -0.49,
+      "pnl": -21.73,
+      "pnl_pct": -0.5,
       "margin": 486.99,
       "leverage": "9",
       "tier": "6/9",
       "entry": 95.3427,
-      "mark": 94.88
+      "mark": 94.87
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -33.93,
-      "pnl_pct": -1.11,
+      "pnl": -34.28,
+      "pnl_pct": -1.12,
       "margin": 340.48,
       "leverage": "9",
       "tier": "8/9",
       "entry": 8.8156,
-      "mark": 8.718
+      "mark": 8.717
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 4.76,
-      "pnl_pct": 0.36,
+      "pnl": 4.91,
+      "pnl_pct": 0.37,
       "margin": 220.44,
       "leverage": "6",
       "tier": "5/10",
       "entry": 8.611,
-      "mark": 8.642
+      "mark": 8.643
     },
     {
       "symbol": "1000PEPEUSDT",
@@ -97,46 +97,46 @@
     {
       "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": -0.18,
-      "pnl_pct": -0.09,
+      "pnl": -0.12,
+      "pnl_pct": -0.06,
       "margin": 42.63,
       "leverage": "5",
       "tier": "3/10",
       "entry": 35.1129,
-      "mark": 35.143
+      "mark": 35.133
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": -7.96,
-      "pnl_pct": -2.35,
+      "pnl": -8.18,
+      "pnl_pct": -2.41,
       "margin": 37.68,
       "leverage": "9",
       "tier": "3/10",
       "entry": 2119.365,
-      "mark": 2069.62
+      "mark": 2068.21
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -0.05,
-      "pnl_pct": -0.04,
+      "pnl": 0.0,
+      "pnl_pct": -0.0,
       "margin": 20.7,
       "leverage": "6",
       "tier": "2/9",
       "entry": 0.2402,
-      "mark": 0.2403
+      "mark": 0.2402
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": -0.02,
-      "pnl_pct": -0.02,
+      "pnl": 0.01,
+      "pnl_pct": 0.01,
       "margin": 18.49,
       "leverage": "6",
       "tier": "2/10",
       "entry": 1.2272,
-      "mark": 1.2274
+      "mark": 1.2271
     }
   ],
   "signals": {
@@ -146,7 +146,7 @@
     },
     "ETHUSDT": {
       "dir": "long",
-      "conf": 0.605
+      "conf": 0.596
     },
     "SOLUSDT": {
       "dir": "short",
@@ -170,7 +170,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.63
+      "conf": 0.648
     },
     "ZECUSDT": {
       "dir": "short",
@@ -182,11 +182,11 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.537
+      "conf": 0.538
     },
     "LINKUSDT": {
       "dir": "long",
-      "conf": 0.591
+      "conf": 0.594
     },
     "ENAUSDT": {
       "dir": "short",
@@ -202,7 +202,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.572
+      "conf": 0.571
     },
     "AAVEUSDT": {
       "dir": "short",
@@ -210,11 +210,11 @@
     },
     "NEARUSDT": {
       "dir": "short",
-      "conf": 0.638
+      "conf": 0.639
     },
     "BNBUSDT": {
       "dir": "long",
-      "conf": 0.717
+      "conf": 0.727
     },
     "KASUSDT": {
       "dir": "short",
