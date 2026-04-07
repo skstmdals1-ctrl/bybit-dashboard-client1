@@ -1,49 +1,49 @@
 {
-  "ts": "2026-04-07T11:03:31.014486+09:00",
+  "ts": "2026-04-07T11:04:32.101651+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 29921.53,
-  "available": 25569.88,
-  "unrealized": -631.01,
-  "daily_pnl": 114.09,
-  "total_pnl": -78.47,
-  "cum_pct": -0.26,
-  "daily_avg_pct": -0.0371,
-  "annual_pct": -12.67,
+  "equity": 29919.78,
+  "available": 25583.5,
+  "unrealized": -636.21,
+  "daily_pnl": 116.3,
+  "total_pnl": -80.22,
+  "cum_pct": -0.27,
+  "daily_avg_pct": -0.0386,
+  "annual_pct": -13.14,
   "mdd": -10.32,
   "current_dd": -1.03,
-  "seed_used": 4351.65,
-  "seed_used_pct": 14.54,
+  "seed_used": 4336.27,
+  "seed_used_pct": 14.49,
   "long_count": 4,
   "short_count": 7,
   "positions": [
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -350.22,
-      "pnl_pct": -2.79,
+      "pnl": -348.82,
+      "pnl_pct": -2.78,
       "margin": 1254.58,
       "leverage": "10",
       "tier": "8/9",
       "entry": 8.9447,
-      "mark": 8.695
+      "mark": 8.696
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 9.26,
-      "pnl_pct": 0.37,
+      "pnl": 8.38,
+      "pnl_pct": 0.33,
       "margin": 421.48,
       "leverage": "6",
       "tier": "5/9",
       "entry": 432.2829,
-      "mark": 430.7
+      "mark": 430.85
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -157.11,
-      "pnl_pct": -4.45,
+      "pnl": -158.83,
+      "pnl_pct": -4.5,
       "margin": 392.11,
       "leverage": "9",
       "tier": "5/12",
@@ -53,35 +53,35 @@
     {
       "symbol": "ALGOUSDT",
       "side": "LONG",
-      "pnl": -82.79,
-      "pnl_pct": -5.3,
+      "pnl": -84.21,
+      "pnl_pct": -5.39,
       "margin": 312.63,
       "leverage": "5",
       "tier": "4/11",
       "entry": 0.1214,
-      "mark": 0.1149
+      "mark": 0.1148
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": -0.68,
-      "pnl_pct": -0.05,
+      "pnl": -0.53,
+      "pnl_pct": -0.04,
       "margin": 264.84,
       "leverage": "5",
       "tier": "3/9",
       "entry": 596.4919,
-      "mark": 596.8
+      "mark": 596.73
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -31.64,
-      "pnl_pct": -2.73,
+      "pnl": -31.55,
+      "pnl_pct": -2.72,
       "margin": 231.76,
       "leverage": "5",
       "tier": "3/10",
       "entry": 1.2678,
-      "mark": 1.2332
+      "mark": 1.2333
     },
     {
       "symbol": "XRPUSDT",
@@ -97,8 +97,8 @@
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": -40.07,
-      "pnl_pct": -4.41,
+      "pnl": -40.18,
+      "pnl_pct": -4.43,
       "margin": 151.32,
       "leverage": "6",
       "tier": "2/9",
@@ -108,35 +108,35 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 6.71,
-      "pnl_pct": 0.91,
+      "pnl": 6.35,
+      "pnl_pct": 0.86,
       "margin": 147.62,
       "leverage": "5",
       "tier": "2/9",
       "entry": 80.2304,
-      "mark": 79.501
+      "mark": 79.54
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 6.46,
-      "pnl_pct": 0.78,
+      "pnl": 6.13,
+      "pnl_pct": 0.74,
       "margin": 138.8,
       "leverage": "6",
       "tier": "4/9",
       "entry": 1.2424,
-      "mark": 1.2328
+      "mark": 1.2333
     },
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 4.65,
-      "pnl_pct": 2.86,
-      "margin": 32.57,
+      "pnl": 2.35,
+      "pnl_pct": 2.84,
+      "margin": 16.57,
       "leverage": "5",
       "tier": "2/9",
       "entry": 95.2211,
-      "mark": 92.5
+      "mark": 92.52
     }
   ],
   "signals": {
@@ -272,10 +272,17 @@
     },
     {
       "t": "2026-04-07",
-      "v": 198.97
+      "v": 201.18
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-07 11:03",
+      "symbol": "AAVEUSDT",
+      "side": "Sell",
+      "pnl": 2.21,
+      "reason": "2/9"
+    },
     {
       "ts": "2026-04-07 11:01",
       "symbol": "AAVEUSDT",
@@ -407,13 +414,6 @@
       "symbol": "AAVEUSDT",
       "side": "Buy",
       "pnl": 15.65,
-      "reason": "7/9"
-    },
-    {
-      "ts": "2026-04-06 18:16",
-      "symbol": "AAVEUSDT",
-      "side": "Buy",
-      "pnl": 31.09,
       "reason": "7/9"
     }
   ],
