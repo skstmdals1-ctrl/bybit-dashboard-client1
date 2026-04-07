@@ -1,49 +1,49 @@
 {
-  "ts": "2026-04-07T22:53:25.836069+09:00",
+  "ts": "2026-04-07T22:54:27.082923+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 29660.76,
-  "available": 25970.61,
-  "unrealized": -277.56,
+  "equity": 29662.58,
+  "available": 25970.31,
+  "unrealized": -276.82,
   "daily_pnl": -199.18,
-  "total_pnl": -339.24,
-  "cum_pct": -1.13,
-  "daily_avg_pct": -0.1614,
-  "annual_pct": -44.54,
+  "total_pnl": -337.42,
+  "cum_pct": -1.12,
+  "daily_avg_pct": -0.16,
+  "annual_pct": -44.26,
   "mdd": -10.32,
   "current_dd": -1.97,
-  "seed_used": 3690.14,
-  "seed_used_pct": 12.44,
+  "seed_used": 3692.27,
+  "seed_used_pct": 12.45,
   "long_count": 3,
   "short_count": 8,
   "positions": [
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -3.61,
-      "pnl_pct": -0.14,
+      "pnl": -5.37,
+      "pnl_pct": -0.21,
       "margin": 421.48,
       "leverage": "6",
       "tier": "5/9",
       "entry": 432.2829,
-      "mark": 432.9
+      "mark": 433.2
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": 6.08,
-      "pnl_pct": 0.29,
+      "pnl": 5.91,
+      "pnl_pct": 0.28,
       "margin": 418.13,
       "leverage": "5",
       "tier": "5/9",
       "entry": 599.0421,
-      "mark": 597.3
+      "mark": 597.35
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -163.98,
-      "pnl_pct": -4.65,
+      "pnl": -161.25,
+      "pnl_pct": -4.57,
       "margin": 392.11,
       "leverage": "9",
       "tier": "5/12",
@@ -53,19 +53,19 @@
     {
       "symbol": "ALGOUSDT",
       "side": "LONG",
-      "pnl": -101.21,
-      "pnl_pct": -6.47,
+      "pnl": -97.86,
+      "pnl_pct": -6.26,
       "margin": 312.63,
       "leverage": "5",
       "tier": "4/11",
       "entry": 0.1214,
-      "mark": 0.1135
+      "mark": 0.1138
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
-      "pnl": 6.2,
-      "pnl_pct": 0.47,
+      "pnl": 5.91,
+      "pnl_pct": 0.44,
       "margin": 266.1,
       "leverage": "5",
       "tier": "4/9",
@@ -75,68 +75,68 @@
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -27.98,
-      "pnl_pct": -2.41,
+      "pnl": -27.62,
+      "pnl_pct": -2.38,
       "margin": 231.76,
       "leverage": "5",
       "tier": "3/10",
       "entry": 1.2678,
-      "mark": 1.2372
+      "mark": 1.2376
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 9.72,
-      "pnl_pct": 1.07,
+      "pnl": 9.03,
+      "pnl_pct": 0.99,
       "margin": 151.39,
       "leverage": "6",
       "tier": "2/9",
       "entry": 1.3199,
-      "mark": 1.3058
+      "mark": 1.3068
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": -29.05,
-      "pnl_pct": -3.2,
+      "pnl": -30.55,
+      "pnl_pct": -3.37,
       "margin": 151.32,
       "leverage": "6",
       "tier": "2/9",
       "entry": 0.0783,
-      "mark": 0.0808
+      "mark": 0.0809
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 11.38,
-      "pnl_pct": 1.54,
+      "pnl": 11.04,
+      "pnl_pct": 1.5,
       "margin": 147.62,
       "leverage": "5",
       "tier": "3/9",
       "entry": 80.2304,
-      "mark": 78.994
+      "mark": 79.03
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 16.05,
-      "pnl_pct": 1.93,
+      "pnl": 15.38,
+      "pnl_pct": 1.85,
       "margin": 138.8,
       "leverage": "6",
       "tier": "4/9",
       "entry": 1.2424,
-      "mark": 1.2185
+      "mark": 1.2195
     },
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": -1.19,
-      "pnl_pct": -0.17,
+      "pnl": -1.45,
+      "pnl_pct": -0.21,
       "margin": 64.14,
       "leverage": "11",
       "tier": "2/9",
       "entry": 53.45,
-      "mark": 53.54
+      "mark": 53.56
     }
   ],
   "signals": {
@@ -229,8 +229,8 @@
       "conf": 0.547
     },
     "ALGOUSDT": {
-      "dir": "long",
-      "conf": 0.537
+      "dir": "short",
+      "conf": 0.623
     },
     "TRUMPUSDT": {
       "dir": "short",
