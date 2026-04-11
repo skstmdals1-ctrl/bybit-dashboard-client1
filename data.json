@@ -1,49 +1,49 @@
 {
-  "ts": "2026-04-11T10:12:47.328989+09:00",
+  "ts": "2026-04-11T10:13:48.542231+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 30130.47,
-  "available": 25917.48,
-  "unrealized": -313.56,
-  "daily_pnl": 96.79,
-  "total_pnl": 130.47,
+  "equity": 30128.09,
+  "available": 26082.2,
+  "unrealized": -305.13,
+  "daily_pnl": 86.96,
+  "total_pnl": 128.09,
   "cum_pct": 0.43,
   "daily_avg_pct": 0.0391,
   "annual_pct": 15.34,
   "mdd": -10.32,
   "current_dd": -0.42,
-  "seed_used": 4212.99,
-  "seed_used_pct": 13.98,
-  "long_count": 8,
+  "seed_used": 4045.89,
+  "seed_used_pct": 13.43,
+  "long_count": 7,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -118.53,
-      "pnl_pct": -1.87,
+      "pnl": -114.7,
+      "pnl_pct": -1.81,
       "margin": 1270.52,
       "leverage": "5",
       "tier": "8/9",
       "entry": 83.0407,
-      "mark": 84.59
+      "mark": 84.54
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -5.77,
+      "pnl": -5.9,
       "pnl_pct": -0.2,
       "margin": 368.48,
       "leverage": "8",
       "tier": "3/9",
       "entry": 442.6138,
-      "mark": 443.48
+      "mark": 443.5
     },
     {
       "symbol": "ALGOUSDT",
       "side": "LONG",
-      "pnl": -151.05,
-      "pnl_pct": -9.66,
+      "pnl": -152.21,
+      "pnl_pct": -9.74,
       "margin": 312.63,
       "leverage": "5",
       "tier": "4/11",
@@ -64,13 +64,13 @@
     {
       "symbol": "DOTUSDT",
       "side": "LONG",
-      "pnl": -7.84,
-      "pnl_pct": -0.42,
+      "pnl": -9.55,
+      "pnl_pct": -0.52,
       "margin": 205.37,
       "leverage": "9",
       "tier": "3/9",
       "entry": 1.2997,
-      "mark": 1.2942
+      "mark": 1.293
     },
     {
       "symbol": "ADAUSDT",
@@ -86,8 +86,8 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -2.54,
-      "pnl_pct": -0.34,
+      "pnl": -2.78,
+      "pnl_pct": -0.37,
       "margin": 82.9,
       "leverage": "9",
       "tier": "2/9",
@@ -95,26 +95,15 @@
       "mark": 0.0935
     },
     {
-      "symbol": "SUIUSDT",
-      "side": "LONG",
-      "pnl": -8.96,
-      "pnl_pct": -1.29,
-      "margin": 77.07,
-      "leverage": "9",
-      "tier": "1/9",
-      "entry": 0.9502,
-      "mark": 0.9379
-    },
-    {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 3.16,
-      "pnl_pct": 0.5,
+      "pnl": 2.03,
+      "pnl_pct": 0.32,
       "margin": 69.56,
       "leverage": "9",
       "tier": "1/10",
       "entry": 0.2774,
-      "mark": 0.2788
+      "mark": 0.2783
     },
     {
       "symbol": "LTCUSDT",
@@ -293,10 +282,17 @@
     },
     {
       "t": "2026-04-11",
-      "v": -147.4
+      "v": -157.23
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-11 10:13",
+      "symbol": "SUIUSDT",
+      "side": "Buy",
+      "pnl": -9.83,
+      "reason": "1/9"
+    },
     {
       "ts": "2026-04-11 09:28",
       "symbol": "WLDUSDT",
@@ -428,13 +424,6 @@
       "symbol": "SUIUSDT",
       "side": "Buy",
       "pnl": 1.79,
-      "reason": "2/9"
-    },
-    {
-      "ts": "2026-04-10 20:34",
-      "symbol": "LTCUSDT",
-      "side": "Buy",
-      "pnl": 1.13,
       "reason": "2/9"
     }
   ],
