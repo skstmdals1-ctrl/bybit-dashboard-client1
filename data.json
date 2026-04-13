@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-14T06:51:03.570557+09:00",
+  "ts": "2026-04-14T06:52:05.105419+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 30491.95,
-  "available": 29716.08,
-  "unrealized": 137.08,
+  "equity": 30493.3,
+  "available": 29717.33,
+  "unrealized": 138.21,
   "daily_pnl": 40.13,
-  "total_pnl": 491.95,
+  "total_pnl": 493.3,
   "cum_pct": 1.64,
   "daily_avg_pct": 0.1171,
   "annual_pct": 53.29,
   "mdd": -10.32,
   "current_dd": -0.08,
-  "seed_used": 775.87,
+  "seed_used": 775.97,
   "seed_used_pct": 2.54,
   "long_count": 2,
   "short_count": 0,
@@ -20,13 +20,13 @@
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 126.22,
-      "pnl_pct": 2.77,
+      "pnl": 127.35,
+      "pnl_pct": 2.79,
       "margin": 379.84,
       "leverage": "12",
       "tier": "4/9",
       "entry": 71220.9016,
-      "mark": 73193.03
+      "mark": 73210.7
     },
     {
       "symbol": "AVAXUSDT",
@@ -43,7 +43,7 @@
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.555
+      "conf": 0.553
     },
     "XRPUSDT": {
       "dir": "short",
@@ -51,7 +51,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.518
+      "conf": 0.52
     },
     "LINKUSDT": {
       "dir": "short",
@@ -98,8 +98,8 @@
       "conf": 0.522
     },
     "AVAXUSDT": {
-      "dir": "long",
-      "conf": 0.678
+      "dir": "short",
+      "conf": 0.607
     },
     "NEARUSDT": {
       "dir": "short",
