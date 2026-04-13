@@ -1,54 +1,54 @@
 {
-  "ts": "2026-04-14T04:45:30.177012+09:00",
+  "ts": "2026-04-14T04:46:31.362467+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 30492.16,
-  "available": 29477.4,
-  "unrealized": 140.96,
-  "daily_pnl": 30.45,
-  "total_pnl": 492.16,
-  "cum_pct": 1.64,
-  "daily_avg_pct": 0.1171,
-  "annual_pct": 53.29,
+  "equity": 30500.26,
+  "available": 29723.18,
+  "unrealized": 142.06,
+  "daily_pnl": 40.0,
+  "total_pnl": 500.26,
+  "cum_pct": 1.67,
+  "daily_avg_pct": 0.1193,
+  "annual_pct": 54.52,
   "mdd": -10.32,
   "current_dd": -0.03,
-  "seed_used": 1014.77,
-  "seed_used_pct": 3.33,
+  "seed_used": 777.08,
+  "seed_used_pct": 2.55,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 115.36,
-      "pnl_pct": 2.53,
+      "pnl": 125.06,
+      "pnl_pct": 2.74,
       "margin": 379.84,
       "leverage": "12",
       "tier": "4/9",
       "entry": 71220.9016,
-      "mark": 73023.41
+      "mark": 73175.0
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 15.94,
-      "pnl_pct": 1.86,
+      "pnl": 17.34,
+      "pnl_pct": 2.02,
       "margin": 77.97,
       "leverage": "11",
       "tier": "2/10",
       "entry": 9.203,
-      "mark": 9.374
+      "mark": 9.389
     },
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": 9.58,
-      "pnl_pct": 2.57,
-      "margin": 46.64,
+      "pnl": 0.14,
+      "pnl_pct": 2.53,
+      "margin": 0.69,
       "leverage": "8",
-      "tier": "4/9",
+      "tier": "1/9",
       "entry": 54.8688,
-      "mark": 53.46
+      "mark": 53.48
     }
   ],
   "signals": {
@@ -232,10 +232,17 @@
     },
     {
       "t": "2026-04-14",
-      "v": -331.66
+      "v": -322.11
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-14 04:45",
+      "symbol": "LTCUSDT",
+      "side": "Sell",
+      "pnl": 9.55,
+      "reason": "4/9"
+    },
     {
       "ts": "2026-04-14 04:30",
       "symbol": "DOGEUSDT",
@@ -368,13 +375,6 @@
       "side": "Sell",
       "pnl": -0.02,
       "reason": "마진 0.1USDT < 12"
-    },
-    {
-      "ts": "2026-04-13 12:19",
-      "symbol": "AAVEUSDT",
-      "side": "Sell",
-      "pnl": -12.9,
-      "reason": "2/9"
     }
   ],
   "num_days": 14
