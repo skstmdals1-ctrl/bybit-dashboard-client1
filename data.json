@@ -1,57 +1,46 @@
 {
-  "ts": "2026-04-14T07:20:40.554327+09:00",
+  "ts": "2026-04-14T07:21:41.798098+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 30548.92,
-  "available": 29944.19,
-  "unrealized": 179.16,
-  "daily_pnl": 55.39,
-  "total_pnl": 548.92,
+  "equity": 30549.33,
+  "available": 29944.67,
+  "unrealized": 179.3,
+  "daily_pnl": 55.42,
+  "total_pnl": 549.33,
   "cum_pct": 1.83,
   "daily_avg_pct": 0.1307,
   "annual_pct": 61.08,
   "mdd": -10.32,
   "current_dd": 0.0,
-  "seed_used": 604.72,
+  "seed_used": 604.66,
   "seed_used_pct": 1.98,
-  "long_count": 2,
+  "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 179.07,
+      "pnl": 179.24,
       "pnl_pct": 3.93,
       "margin": 379.84,
       "leverage": "12",
       "tier": "4/9",
       "entry": 71220.9016,
-      "mark": 74018.92
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "pnl": 0.03,
-      "pnl_pct": 2.97,
-      "margin": 0.08,
-      "leverage": "11",
-      "tier": "1/10",
-      "entry": 9.203,
-      "mark": 9.476
+      "mark": 74021.48
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.556
+      "conf": 0.555
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.575
+      "conf": 0.576
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.518
+      "conf": 0.521
     },
     "LINKUSDT": {
       "dir": "short",
@@ -71,7 +60,7 @@
     },
     "SUIUSDT": {
       "dir": "long",
-      "conf": 0.507
+      "conf": 0.508
     },
     "ETHUSDT": {
       "dir": "short",
@@ -91,7 +80,7 @@
     },
     "DOTUSDT": {
       "dir": "short",
-      "conf": 0.534
+      "conf": 0.535
     },
     "AAVEUSDT": {
       "dir": "short",
@@ -107,7 +96,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.541
+      "conf": 0.539
     },
     "UNIUSDT": {
       "dir": "short",
@@ -221,10 +210,17 @@
     },
     {
       "t": "2026-04-14",
-      "v": -306.72
+      "v": -306.7
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-14 07:20",
+      "symbol": "AVAXUSDT",
+      "side": "Buy",
+      "pnl": 0.03,
+      "reason": "마진 0.1USDT < 13"
+    },
     {
       "ts": "2026-04-14 07:16",
       "symbol": "AVAXUSDT",
@@ -357,13 +353,6 @@
       "side": "Sell",
       "pnl": 12.38,
       "reason": "1/9"
-    },
-    {
-      "ts": "2026-04-13 13:51",
-      "symbol": "DOTUSDT",
-      "side": "Sell",
-      "pnl": 10.08,
-      "reason": "-"
     }
   ],
   "num_days": 14
