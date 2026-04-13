@@ -1,32 +1,32 @@
 {
-  "ts": "2026-04-14T04:50:36.385787+09:00",
+  "ts": "2026-04-14T04:51:37.620480+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 30507.62,
-  "available": 29730.19,
-  "unrealized": 144.92,
-  "daily_pnl": 40.0,
-  "total_pnl": 507.62,
-  "cum_pct": 1.69,
-  "daily_avg_pct": 0.1207,
-  "annual_pct": 55.32,
+  "equity": 30509.39,
+  "available": 29732.41,
+  "unrealized": 147.72,
+  "daily_pnl": 40.13,
+  "total_pnl": 509.39,
+  "cum_pct": 1.7,
+  "daily_avg_pct": 0.1214,
+  "annual_pct": 55.71,
   "mdd": -10.32,
-  "current_dd": -0.03,
-  "seed_used": 777.43,
+  "current_dd": 0.0,
+  "seed_used": 776.97,
   "seed_used_pct": 2.55,
   "long_count": 2,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 127.83,
-      "pnl_pct": 2.8,
+      "pnl": 130.76,
+      "pnl_pct": 2.87,
       "margin": 379.84,
       "leverage": "12",
       "tier": "4/9",
       "entry": 71220.9016,
-      "mark": 73218.2
+      "mark": 73264.0
     },
     {
       "symbol": "AVAXUSDT",
@@ -38,23 +38,12 @@
       "tier": "2/10",
       "entry": 9.203,
       "mark": 9.384
-    },
-    {
-      "symbol": "LTCUSDT",
-      "side": "SHORT",
-      "pnl": 0.13,
-      "pnl_pct": 2.46,
-      "margin": 0.69,
-      "leverage": "8",
-      "tier": "1/9",
-      "entry": 54.8688,
-      "mark": 53.52
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.555
+      "conf": 0.556
     },
     "XRPUSDT": {
       "dir": "short",
@@ -62,7 +51,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.519
+      "conf": 0.517
     },
     "LINKUSDT": {
       "dir": "short",
@@ -118,7 +107,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.541
+      "conf": 0.54
     },
     "UNIUSDT": {
       "dir": "short",
@@ -232,10 +221,17 @@
     },
     {
       "t": "2026-04-14",
-      "v": -322.11
+      "v": -321.98
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-14 04:51",
+      "symbol": "LTCUSDT",
+      "side": "Sell",
+      "pnl": 0.13,
+      "reason": "마진 0.7USDT < 12"
+    },
     {
       "ts": "2026-04-14 04:45",
       "symbol": "LTCUSDT",
@@ -368,13 +364,6 @@
       "side": "Sell",
       "pnl": 105.81,
       "reason": "4/9"
-    },
-    {
-      "ts": "2026-04-13 12:38",
-      "symbol": "AAVEUSDT",
-      "side": "Sell",
-      "pnl": -0.02,
-      "reason": "마진 0.1USDT < 12"
     }
   ],
   "num_days": 14
