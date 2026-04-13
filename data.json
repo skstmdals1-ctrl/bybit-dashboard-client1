@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-13T11:48:49.969947+09:00",
+  "ts": "2026-04-13T11:49:52.148883+09:00",
   "start_date": "2026-04-01",
-  "status": "stopped",
-  "equity": 30236.9,
-  "available": 25903.29,
-  "unrealized": 79.26,
+  "status": "running",
+  "equity": 30235.2,
+  "available": 25901.7,
+  "unrealized": 78.64,
   "daily_pnl": 197.0,
-  "total_pnl": 236.9,
-  "cum_pct": 0.79,
-  "daily_avg_pct": 0.0608,
-  "annual_pct": 24.84,
+  "total_pnl": 235.2,
+  "cum_pct": 0.78,
+  "daily_avg_pct": 0.06,
+  "annual_pct": 24.47,
   "mdd": -10.32,
-  "current_dd": -0.12,
-  "seed_used": 4333.61,
+  "current_dd": -0.13,
+  "seed_used": 4333.49,
   "seed_used_pct": 14.33,
   "long_count": 3,
   "short_count": 7,
@@ -31,35 +31,35 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -34.82,
-      "pnl_pct": -0.83,
+      "pnl": -33.91,
+      "pnl_pct": -0.81,
       "margin": 464.88,
       "leverage": "9",
       "tier": "6/9",
       "entry": 0.0918,
-      "mark": 0.091
+      "mark": 0.0911
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -11.97,
-      "pnl_pct": -0.26,
+      "pnl": -13.17,
+      "pnl_pct": -0.29,
       "margin": 379.84,
       "leverage": "12",
       "tier": "4/9",
       "entry": 71220.9016,
-      "mark": 71033.9
+      "mark": 71015.14
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 113.31,
-      "pnl_pct": 3.84,
+      "pnl": 113.84,
+      "pnl_pct": 3.86,
       "margin": 368.48,
       "leverage": "8",
       "tier": "4/9",
       "entry": 442.6138,
-      "mark": 425.6
+      "mark": 425.52
     },
     {
       "symbol": "SOLUSDT",
@@ -97,35 +97,35 @@
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": -1.66,
-      "pnl_pct": -0.16,
+      "pnl": -1.44,
+      "pnl_pct": -0.14,
       "margin": 149.3,
       "leverage": "7",
       "tier": "2/9",
       "entry": 92.6527,
-      "mark": 92.8
+      "mark": 92.78
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 3.37,
-      "pnl_pct": 0.49,
+      "pnl": 2.58,
+      "pnl_pct": 0.37,
       "margin": 86.72,
       "leverage": "8",
       "tier": "1/9",
       "entry": 1.2362,
-      "mark": 1.2302
+      "mark": 1.2316
     },
     {
       "symbol": "SUIUSDT",
       "side": "SHORT",
-      "pnl": 2.77,
-      "pnl_pct": 0.41,
+      "pnl": 2.48,
+      "pnl_pct": 0.36,
       "margin": 85.25,
       "leverage": "8",
       "tier": "2/9",
       "entry": 0.9093,
-      "mark": 0.9056
+      "mark": 0.906
     }
   ],
   "signals": {
@@ -195,7 +195,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.528
+      "conf": 0.529
     },
     "UNIUSDT": {
       "dir": "short",
