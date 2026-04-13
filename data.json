@@ -1,65 +1,54 @@
 {
-  "ts": "2026-04-14T04:30:11.808990+09:00",
+  "ts": "2026-04-14T04:31:13.033733+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 30469.56,
-  "available": 28942.1,
-  "unrealized": 135.5,
-  "daily_pnl": 19.23,
-  "total_pnl": 469.56,
-  "cum_pct": 1.57,
-  "daily_avg_pct": 0.1121,
-  "annual_pct": 50.52,
+  "equity": 30478.51,
+  "available": 29464.94,
+  "unrealized": 132.41,
+  "daily_pnl": 30.45,
+  "total_pnl": 478.51,
+  "cum_pct": 1.6,
+  "daily_avg_pct": 0.1143,
+  "annual_pct": 51.73,
   "mdd": -10.32,
-  "current_dd": -0.0,
-  "seed_used": 1527.46,
-  "seed_used_pct": 5.01,
-  "long_count": 3,
+  "current_dd": 0.0,
+  "seed_used": 1013.57,
+  "seed_used_pct": 3.33,
+  "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 101.52,
-      "pnl_pct": 2.23,
+      "pnl": 107.55,
+      "pnl_pct": 2.36,
       "margin": 379.84,
       "leverage": "12",
       "tier": "4/9",
       "entry": 71220.9016,
-      "mark": 72807.2
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "pnl": 10.62,
-      "pnl_pct": 0.51,
-      "margin": 232.44,
-      "leverage": "9",
-      "tier": "6/9",
-      "entry": 0.0918,
-      "mark": 0.0923
+      "mark": 72901.4
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 12.02,
-      "pnl_pct": 1.4,
+      "pnl": 13.79,
+      "pnl_pct": 1.61,
       "margin": 77.97,
       "leverage": "11",
       "tier": "2/10",
       "entry": 9.203,
-      "mark": 9.332
+      "mark": 9.351
     },
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": 11.28,
-      "pnl_pct": 3.02,
+      "pnl": 11.01,
+      "pnl_pct": 2.95,
       "margin": 46.64,
       "leverage": "8",
       "tier": "4/9",
       "entry": 54.8688,
-      "mark": 53.21
+      "mark": 53.25
     }
   ],
   "signals": {
@@ -129,7 +118,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.541
+      "conf": 0.539
     },
     "UNIUSDT": {
       "dir": "short",
@@ -243,10 +232,17 @@
     },
     {
       "t": "2026-04-14",
-      "v": -342.88
+      "v": -331.66
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-14 04:30",
+      "symbol": "DOGEUSDT",
+      "side": "Buy",
+      "pnl": 11.22,
+      "reason": "5/9"
+    },
     {
       "ts": "2026-04-14 04:15",
       "symbol": "DOGEUSDT",
@@ -379,13 +375,6 @@
       "side": "Sell",
       "pnl": -12.9,
       "reason": "2/9"
-    },
-    {
-      "ts": "2026-04-13 11:05",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": 0.0,
-      "reason": "T1 진입 | GF=6 | Lv=8x | Seed=$2249(7.4%)"
     }
   ],
   "num_days": 14
