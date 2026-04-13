@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-13T23:38:53.513815+09:00",
+  "ts": "2026-04-13T23:39:54.871841+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 30362.55,
-  "available": 27682.99,
-  "unrealized": 43.2,
+  "equity": 30366.8,
+  "available": 27686.8,
+  "unrealized": 48.14,
   "daily_pnl": 344.95,
-  "total_pnl": 362.55,
-  "cum_pct": 1.21,
-  "daily_avg_pct": 0.0931,
-  "annual_pct": 40.45,
+  "total_pnl": 366.8,
+  "cum_pct": 1.22,
+  "daily_avg_pct": 0.0938,
+  "annual_pct": 40.81,
   "mdd": -10.32,
   "current_dd": 0.0,
-  "seed_used": 2679.56,
+  "seed_used": 2680.0,
   "seed_used_pct": 8.83,
   "long_count": 4,
   "short_count": 1,
@@ -20,19 +20,19 @@
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": -9.4,
-      "pnl_pct": -0.18,
+      "pnl": -8.55,
+      "pnl_pct": -0.17,
       "margin": 567.81,
       "leverage": "9",
       "tier": "7/9",
       "entry": 601.2158,
-      "mark": 600.11
+      "mark": 600.21
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 7.11,
-      "pnl_pct": 0.17,
+      "pnl": 8.48,
+      "pnl_pct": 0.2,
       "margin": 464.88,
       "leverage": "9",
       "tier": "6/9",
@@ -42,45 +42,45 @@
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 32.03,
-      "pnl_pct": 0.7,
+      "pnl": 33.98,
+      "pnl_pct": 0.75,
       "margin": 379.84,
       "leverage": "12",
       "tier": "4/9",
       "entry": 71220.9016,
-      "mark": 71721.33
+      "mark": 71751.85
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 0.93,
-      "pnl_pct": 0.11,
+      "pnl": 1.77,
+      "pnl_pct": 0.21,
       "margin": 77.97,
       "leverage": "11",
       "tier": "2/10",
       "entry": 9.203,
-      "mark": 9.213
+      "mark": 9.222
     },
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": 12.5,
-      "pnl_pct": 3.35,
+      "pnl": 12.44,
+      "pnl_pct": 3.33,
       "margin": 46.64,
       "leverage": "8",
       "tier": "4/9",
       "entry": 54.8688,
-      "mark": 53.03
+      "mark": 53.04
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.553
+      "conf": 0.552
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.579
+      "conf": 0.58
     },
     "SOLUSDT": {
       "dir": "short",
@@ -104,7 +104,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.505
+      "conf": 0.504
     },
     "ETHUSDT": {
       "dir": "short",
@@ -112,7 +112,7 @@
     },
     "DOGEUSDT": {
       "dir": "long",
-      "conf": 0.735
+      "conf": 0.739
     },
     "TAOUSDT": {
       "dir": "short",
