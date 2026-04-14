@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-14T23:59:31.071652+09:00",
+  "ts": "2026-04-15T00:00:32.354857+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 30664.4,
-  "available": 29470.29,
-  "unrealized": 244.08,
-  "daily_pnl": 93.65,
-  "total_pnl": 664.4,
-  "cum_pct": 2.21,
-  "daily_avg_pct": 0.1579,
-  "annual_pct": 77.87,
+  "equity": 30646.67,
+  "available": 29454.2,
+  "unrealized": 228.14,
+  "daily_pnl": 0,
+  "total_pnl": 646.67,
+  "cum_pct": 2.16,
+  "daily_avg_pct": 0.144,
+  "annual_pct": 69.08,
   "mdd": -10.32,
   "current_dd": -0.21,
-  "seed_used": 1194.12,
+  "seed_used": 1192.47,
   "seed_used_pct": 3.89,
   "long_count": 4,
   "short_count": 0,
@@ -20,46 +20,46 @@
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 245.74,
-      "pnl_pct": 5.39,
+      "pnl": 236.74,
+      "pnl_pct": 5.19,
       "margin": 379.84,
       "leverage": "12",
       "tier": "4/9",
       "entry": 71220.9016,
-      "mark": 75060.6
+      "mark": 74920.0
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -5.24,
-      "pnl_pct": -0.52,
+      "pnl": -7.26,
+      "pnl_pct": -0.72,
       "margin": 125.7,
       "leverage": "8",
       "tier": "3/11",
       "entry": 363.0221,
-      "mark": 361.13
+      "mark": 360.4
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 0.87,
-      "pnl_pct": 0.1,
+      "pnl": -2.13,
+      "pnl_pct": -0.23,
       "margin": 91.01,
       "leverage": "10",
       "tier": "2/10",
       "entry": 9.392,
-      "mark": 9.401
+      "mark": 9.37
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 2.52,
-      "pnl_pct": 0.48,
+      "pnl": 0.63,
+      "pnl_pct": 0.12,
       "margin": 74.6,
       "leverage": "7",
       "tier": "2/9",
       "entry": 9.113,
-      "mark": 9.157
+      "mark": 9.124
     }
   ],
   "signals": {
@@ -192,6 +192,10 @@
     {
       "t": "2026-04-14",
       "v": 664.4
+    },
+    {
+      "t": "2026-04-15",
+      "v": 646.67
     }
   ],
   "trade_history": [
@@ -336,5 +340,5 @@
       "reason": "3/9"
     }
   ],
-  "num_days": 14
+  "num_days": 15
 }
