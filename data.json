@@ -1,60 +1,71 @@
 {
-  "ts": "2026-04-14T23:46:12.896892+09:00",
+  "ts": "2026-04-14T23:47:14.108851+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 30686.04,
-  "available": 29776.66,
-  "unrealized": 257.89,
+  "equity": 30693.44,
+  "available": 29692.0,
+  "unrealized": 266.25,
   "daily_pnl": 93.65,
-  "total_pnl": 686.04,
-  "cum_pct": 2.29,
-  "daily_avg_pct": 0.1636,
-  "annual_pct": 81.6,
+  "total_pnl": 693.44,
+  "cum_pct": 2.31,
+  "daily_avg_pct": 0.165,
+  "annual_pct": 82.53,
   "mdd": -10.32,
   "current_dd": -0.18,
-  "seed_used": 909.38,
-  "seed_used_pct": 2.96,
-  "long_count": 3,
+  "seed_used": 1001.44,
+  "seed_used_pct": 3.26,
+  "long_count": 4,
   "short_count": 0,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 256.42,
-      "pnl_pct": 5.63,
+      "pnl": 260.68,
+      "pnl_pct": 5.72,
       "margin": 379.84,
       "leverage": "12",
       "tier": "4/9",
       "entry": 71220.9016,
-      "mark": 75227.51
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "LONG",
-      "pnl": 3.38,
-      "pnl_pct": 0.65,
-      "margin": 74.6,
-      "leverage": "7",
-      "tier": "2/9",
-      "entry": 9.113,
-      "mark": 9.172
+      "mark": 75294.0
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -2.17,
-      "pnl_pct": -0.48,
-      "margin": 56.93,
+      "pnl": -0.53,
+      "pnl_pct": -0.05,
+      "margin": 125.7,
       "leverage": "8",
       "tier": "2/11",
-      "entry": 364.35,
-      "mark": 362.61
+      "entry": 363.0221,
+      "mark": 362.83
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "pnl": 1.94,
+      "pnl_pct": 0.21,
+      "margin": 91.01,
+      "leverage": "10",
+      "tier": "1/10",
+      "entry": 9.392,
+      "mark": 9.412
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "pnl": 3.9,
+      "pnl_pct": 0.75,
+      "margin": 74.6,
+      "leverage": "7",
+      "tier": "2/9",
+      "entry": 9.113,
+      "mark": 9.181
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.556
+      "conf": 0.557
     },
     "XRPUSDT": {
       "dir": "short",
@@ -66,7 +77,7 @@
     },
     "LINKUSDT": {
       "dir": "long",
-      "conf": 0.598
+      "conf": 0.596
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -134,7 +145,7 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.75
+      "conf": 0.749
     },
     "ARBUSDT": {
       "dir": "short",
@@ -180,7 +191,7 @@
   "equity_hist": [
     {
       "t": "2026-04-14",
-      "v": 686.04
+      "v": 693.44
     }
   ],
   "trade_history": [
