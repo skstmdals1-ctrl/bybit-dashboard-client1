@@ -1,54 +1,54 @@
 {
-  "ts": "2026-04-15T00:05:38.787680+09:00",
+  "ts": "2026-04-15T00:06:40.091608+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 30643.72,
-  "available": 30043.2,
-  "unrealized": -8.6,
+  "equity": 30643.62,
+  "available": 30043.62,
+  "unrealized": -8.08,
   "daily_pnl": 232.15,
-  "total_pnl": 643.72,
+  "total_pnl": 643.62,
   "cum_pct": 2.15,
   "daily_avg_pct": 0.1433,
   "annual_pct": 68.65,
   "mdd": -10.32,
   "current_dd": -0.3,
-  "seed_used": 600.52,
+  "seed_used": 600.0,
   "seed_used_pct": 1.96,
   "long_count": 3,
   "short_count": 0,
   "positions": [
     {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "pnl": -4.36,
+      "pnl_pct": -0.22,
+      "margin": 202.24,
+      "leverage": "10",
+      "tier": "2/10",
+      "entry": 9.3672,
+      "mark": 9.347
+    },
+    {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -6.16,
-      "pnl_pct": -0.61,
+      "pnl": -4.69,
+      "pnl_pct": -0.47,
       "margin": 125.7,
       "leverage": "8",
       "tier": "3/11",
       "entry": 363.0221,
-      "mark": 360.8
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "pnl": -3.29,
-      "pnl_pct": -0.36,
-      "margin": 91.01,
-      "leverage": "10",
-      "tier": "2/10",
-      "entry": 9.392,
-      "mark": 9.358
+      "mark": 361.33
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 0.86,
-      "pnl_pct": 0.16,
+      "pnl": 0.97,
+      "pnl_pct": 0.19,
       "margin": 74.6,
       "leverage": "7",
       "tier": "2/9",
       "entry": 9.113,
-      "mark": 9.128
+      "mark": 9.13
     }
   ],
   "signals": {
@@ -184,7 +184,7 @@
     },
     {
       "t": "2026-04-15",
-      "v": 643.72
+      "v": 643.62
     }
   ],
   "trade_history": [
