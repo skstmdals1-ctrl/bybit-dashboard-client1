@@ -1,27 +1,27 @@
 {
-  "ts": "2026-04-17T06:30:43.850929+09:00",
+  "ts": "2026-04-17T06:31:45.219253+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 31128.63,
-  "available": 29456.45,
-  "unrealized": 24.97,
+  "equity": 31129.55,
+  "available": 29457.25,
+  "unrealized": 24.58,
   "daily_pnl": -15.94,
-  "total_pnl": 1128.63,
-  "cum_pct": 3.76,
-  "daily_avg_pct": 0.2212,
-  "annual_pct": 124.0,
+  "total_pnl": 1129.55,
+  "cum_pct": 3.77,
+  "daily_avg_pct": 0.2218,
+  "annual_pct": 124.49,
   "mdd": -10.32,
   "current_dd": -0.07,
-  "seed_used": 1672.18,
+  "seed_used": 1672.29,
   "seed_used_pct": 5.37,
-  "long_count": 8,
+  "long_count": 7,
   "short_count": 1,
   "positions": [
     {
       "symbol": "WLFIUSDT",
       "side": "SHORT",
-      "pnl": 19.13,
-      "pnl_pct": 0.58,
+      "pnl": 18.73,
+      "pnl_pct": 0.57,
       "margin": 472.97,
       "leverage": "7",
       "tier": "5/9",
@@ -42,8 +42,8 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 0.35,
-      "pnl_pct": 0.05,
+      "pnl": 0.63,
+      "pnl_pct": 0.09,
       "margin": 68.47,
       "leverage": "10",
       "tier": "2/10",
@@ -53,68 +53,57 @@
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -1.44,
-      "pnl_pct": -0.32,
+      "pnl": -1.74,
+      "pnl_pct": -0.39,
       "margin": 64.15,
       "leverage": "7",
       "tier": "2/10",
       "entry": 342.79,
-      "mark": 341.69
+      "mark": 341.46
     },
     {
       "symbol": "TRUMPUSDT",
       "side": "LONG",
-      "pnl": 0.76,
-      "pnl_pct": 0.13,
+      "pnl": 0.95,
+      "pnl_pct": 0.17,
       "margin": 63.96,
       "leverage": "9",
       "tier": "2/10",
       "entry": 3.017,
-      "mark": 3.021
+      "mark": 3.022
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 6.93,
-      "pnl_pct": 1.89,
+      "pnl": 6.92,
+      "pnl_pct": 1.88,
       "margin": 61.22,
       "leverage": "6",
       "tier": "2/10",
       "entry": 73458.6,
-      "mark": 74845.1
+      "mark": 74842.92
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 0.65,
-      "pnl_pct": 0.16,
+      "pnl": 0.81,
+      "pnl_pct": 0.19,
       "margin": 59.79,
       "leverage": "7",
       "tier": "1/10",
       "entry": 0.2571,
-      "mark": 0.2575
+      "mark": 0.2576
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": 0.0,
-      "pnl_pct": 0.0,
+      "pnl": -0.31,
+      "pnl_pct": -0.08,
       "margin": 50.58,
       "leverage": "8",
       "tier": "2/11",
       "entry": 0.004,
       "mark": 0.004
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "LONG",
-      "pnl": 0.0,
-      "pnl_pct": 1.74,
-      "margin": 0.01,
-      "leverage": "6",
-      "tier": "2/10",
-      "entry": 0.3107,
-      "mark": 0.3161
     }
   ],
   "signals": {
@@ -128,7 +117,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.929
+      "conf": 0.925
     },
     "LINKUSDT": {
       "dir": "long",
@@ -168,7 +157,7 @@
     },
     "DOTUSDT": {
       "dir": "short",
-      "conf": 0.583
+      "conf": 0.584
     },
     "AAVEUSDT": {
       "dir": "short",
@@ -176,7 +165,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.602
+      "conf": 0.603
     },
     "NEARUSDT": {
       "dir": "short",
@@ -200,7 +189,7 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.615
+      "conf": 0.613
     },
     "ARBUSDT": {
       "dir": "short",
@@ -270,10 +259,17 @@
     },
     {
       "t": "2026-04-17",
-      "v": 1128.63
+      "v": 1129.55
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-17 06:31",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": 0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-04-17 06:27",
       "symbol": "WLDUSDT",
@@ -405,13 +401,6 @@
       "symbol": "AVAXUSDT",
       "side": "Buy",
       "pnl": 0.01,
-      "reason": "2/11"
-    },
-    {
-      "ts": "2026-04-17 01:34",
-      "symbol": "LINKUSDT",
-      "side": "Buy",
-      "pnl": 0.02,
       "reason": "2/11"
     }
   ],
