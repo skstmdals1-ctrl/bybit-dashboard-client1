@@ -1,27 +1,27 @@
 {
-  "ts": "2026-04-17T20:28:14.217622+09:00",
+  "ts": "2026-04-17T20:29:15.396167+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 31282.1,
-  "available": 29786.52,
-  "unrealized": 34.76,
+  "equity": 31280.45,
+  "available": 29785.23,
+  "unrealized": 32.23,
   "daily_pnl": 124.46,
-  "total_pnl": 1282.1,
+  "total_pnl": 1280.45,
   "cum_pct": 4.27,
   "daily_avg_pct": 0.2512,
   "annual_pct": 149.86,
   "mdd": -10.32,
   "current_dd": -0.02,
-  "seed_used": 1495.58,
+  "seed_used": 1495.22,
   "seed_used_pct": 4.78,
-  "long_count": 4,
+  "long_count": 5,
   "short_count": 2,
   "positions": [
     {
       "symbol": "1000BONKUSDT",
       "side": "LONG",
-      "pnl": 12.61,
-      "pnl_pct": 0.64,
+      "pnl": 11.01,
+      "pnl_pct": 0.56,
       "margin": 280.52,
       "leverage": "7",
       "tier": "5/11",
@@ -31,19 +31,19 @@
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 2.01,
-      "pnl_pct": 0.12,
+      "pnl": 1.34,
+      "pnl_pct": 0.08,
       "margin": 178.36,
       "leverage": "9",
       "tier": "3/10",
       "entry": 9.612,
-      "mark": 9.624
+      "mark": 9.62
     },
     {
       "symbol": "WLFIUSDT",
       "side": "SHORT",
-      "pnl": -3.76,
-      "pnl_pct": -0.32,
+      "pnl": -4.61,
+      "pnl_pct": -0.4,
       "margin": 166.26,
       "leverage": "7",
       "tier": "3/9",
@@ -53,19 +53,19 @@
     {
       "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": 11.64,
-      "pnl_pct": 1.11,
+      "pnl": 11.78,
+      "pnl_pct": 1.13,
       "margin": 149.59,
       "leverage": "7",
       "tier": "2/9",
       "entry": 44.0335,
-      "mark": 43.544
+      "mark": 43.538
     },
     {
       "symbol": "ENAUSDT",
       "side": "LONG",
-      "pnl": 12.36,
-      "pnl_pct": 1.1,
+      "pnl": 13.07,
+      "pnl_pct": 1.16,
       "margin": 140.51,
       "leverage": "8",
       "tier": "3/11",
@@ -73,15 +73,26 @@
       "mark": 0.1123
     },
     {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "pnl": -0.03,
+      "pnl_pct": -0.01,
+      "margin": 64.65,
+      "leverage": "7",
+      "tier": "1/9",
+      "entry": 75422.2,
+      "mark": 75417.74
+    },
+    {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": -0.12,
-      "pnl_pct": -0.03,
+      "pnl": -0.35,
+      "pnl_pct": -0.1,
       "margin": 59.43,
       "leverage": "6",
       "tier": "1/12",
       "entry": 0.3091,
-      "mark": 0.309
+      "mark": 0.3088
     }
   ],
   "signals": {
@@ -219,7 +230,7 @@
     },
     "1000BONKUSDT": {
       "dir": "short",
-      "conf": 0.541
+      "conf": 0.543
     }
   },
   "equity_hist": [
@@ -237,7 +248,7 @@
     },
     {
       "t": "2026-04-17",
-      "v": 1282.1
+      "v": 1280.45
     }
   ],
   "trade_history": [
