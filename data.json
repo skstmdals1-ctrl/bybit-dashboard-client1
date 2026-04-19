@@ -1,43 +1,43 @@
 {
-  "ts": "2026-04-19T18:12:33.949505+09:00",
+  "ts": "2026-04-19T18:13:35.204946+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 31226.14,
-  "available": 28457.84,
-  "unrealized": -458.59,
+  "equity": 31219.13,
+  "available": 28378.9,
+  "unrealized": -466.04,
   "daily_pnl": 96.37,
-  "total_pnl": 1226.14,
-  "cum_pct": 4.09,
-  "daily_avg_pct": 0.2153,
-  "annual_pct": 119.24,
+  "total_pnl": 1219.13,
+  "cum_pct": 4.06,
+  "daily_avg_pct": 0.2137,
+  "annual_pct": 117.97,
   "mdd": -10.32,
-  "current_dd": -1.0,
-  "seed_used": 2768.3,
-  "seed_used_pct": 8.87,
+  "current_dd": -1.02,
+  "seed_used": 2840.24,
+  "seed_used_pct": 9.1,
   "long_count": 5,
   "short_count": 6,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -67.31,
-      "pnl_pct": -1.63,
+      "pnl": -72.66,
+      "pnl_pct": -1.76,
       "margin": 515.27,
       "leverage": "8",
       "tier": "4/9",
       "entry": 86.2381,
-      "mark": 84.83
+      "mark": 84.718
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -162.35,
-      "pnl_pct": -6.23,
+      "pnl": -164.34,
+      "pnl_pct": -6.31,
       "margin": 372.01,
       "leverage": "7",
       "tier": "4/10",
       "entry": 0.2615,
-      "mark": 0.2452
+      "mark": 0.245
     },
     {
       "symbol": "LINKUSDT",
@@ -53,8 +53,8 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -164.42,
-      "pnl_pct": -5.81,
+      "pnl": -164.71,
+      "pnl_pct": -5.82,
       "margin": 353.46,
       "leverage": "8",
       "tier": "4/10",
@@ -64,13 +64,13 @@
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 14.42,
-      "pnl_pct": 1.27,
+      "pnl": 14.82,
+      "pnl_pct": 1.31,
       "margin": 161.78,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.4389,
-      "mark": 1.4206
+      "mark": 1.4201
     },
     {
       "symbol": "DOTUSDT",
@@ -86,30 +86,30 @@
     {
       "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": 19.61,
-      "pnl_pct": 1.87,
+      "pnl": 20.58,
+      "pnl_pct": 1.97,
       "margin": 149.59,
       "leverage": "7",
       "tier": "2/9",
       "entry": 44.0335,
-      "mark": 43.209
+      "mark": 43.168
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": -2.3,
-      "pnl_pct": -0.3,
+      "pnl": -3.2,
+      "pnl_pct": -0.42,
       "margin": 108.52,
       "leverage": "7",
-      "tier": "2/11",
+      "tier": "3/11",
       "entry": 0.1178,
-      "mark": 0.1182
+      "mark": 0.1183
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "SHORT",
-      "pnl": 5.98,
-      "pnl_pct": 1.32,
+      "pnl": 5.82,
+      "pnl_pct": 1.28,
       "margin": 64.79,
       "leverage": "7",
       "tier": "2/9",
@@ -119,30 +119,30 @@
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 1.94,
+      "pnl": 1.91,
       "pnl_pct": 0.43,
       "margin": 64.12,
       "leverage": "7",
       "tier": "2/9",
       "entry": 74811.1,
-      "mark": 75134.27
+      "mark": 75130.16
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 22.23,
-      "pnl_pct": 7.75,
+      "pnl": 22.13,
+      "pnl_pct": 7.72,
       "margin": 31.85,
       "leverage": "9",
       "tier": "3/10",
       "entry": 0.2826,
-      "mark": 0.2607
+      "mark": 0.2608
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "long",
-      "conf": 0.71
+      "conf": 0.687
     },
     "XRPUSDT": {
       "dir": "short",
@@ -150,11 +150,11 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.519
+      "conf": 0.526
     },
     "LINKUSDT": {
       "dir": "short",
-      "conf": 0.539
+      "conf": 0.538
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -170,7 +170,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.506
+      "conf": 0.507
     },
     "ETHUSDT": {
       "dir": "long",
@@ -238,7 +238,7 @@
     },
     "WLDUSDT": {
       "dir": "short",
-      "conf": 0.849
+      "conf": 0.85
     },
     "BCHUSDT": {
       "dir": "long",
@@ -304,7 +304,7 @@
     },
     {
       "t": "2026-04-19",
-      "v": 1226.14
+      "v": 1219.13
     }
   ],
   "trade_history": [
