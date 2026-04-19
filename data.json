@@ -1,71 +1,71 @@
 {
-  "ts": "2026-04-19T21:10:07.415653+09:00",
+  "ts": "2026-04-19T21:11:08.685005+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 31282.37,
-  "available": 28301.03,
-  "unrealized": -434.09,
+  "equity": 31278.9,
+  "available": 28301.28,
+  "unrealized": -437.43,
   "daily_pnl": 130.6,
-  "total_pnl": 1282.37,
-  "cum_pct": 4.27,
-  "daily_avg_pct": 0.2247,
-  "annual_pct": 126.88,
+  "total_pnl": 1278.9,
+  "cum_pct": 4.26,
+  "daily_avg_pct": 0.2242,
+  "annual_pct": 126.46,
   "mdd": -10.32,
   "current_dd": -0.85,
-  "seed_used": 2981.34,
-  "seed_used_pct": 9.53,
+  "seed_used": 2977.62,
+  "seed_used_pct": 9.52,
   "long_count": 5,
   "short_count": 5,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -26.96,
-      "pnl_pct": -0.65,
+      "pnl": -35.57,
+      "pnl_pct": -0.86,
       "margin": 515.27,
       "leverage": "8",
       "tier": "4/9",
       "entry": 86.2381,
-      "mark": 85.674
+      "mark": 85.494
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": -34.1,
-      "pnl_pct": -1.3,
+      "pnl": -26.18,
+      "pnl_pct": -1.0,
       "margin": 375.93,
       "leverage": "7",
       "tier": "6/11",
       "entry": 0.1197,
-      "mark": 0.1213
+      "mark": 0.1209
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -134.46,
-      "pnl_pct": -5.16,
+      "pnl": -136.45,
+      "pnl_pct": -5.24,
       "margin": 372.01,
       "leverage": "7",
       "tier": "4/10",
       "entry": 0.2615,
-      "mark": 0.248
+      "mark": 0.2478
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -124.53,
-      "pnl_pct": -4.19,
+      "pnl": -127.92,
+      "pnl_pct": -4.3,
       "margin": 371.73,
       "leverage": "8",
       "tier": "4/10",
       "entry": 9.6365,
-      "mark": 9.233
+      "mark": 9.222
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -136.04,
-      "pnl_pct": -4.81,
+      "pnl": -136.61,
+      "pnl_pct": -4.83,
       "margin": 353.46,
       "leverage": "8",
       "tier": "4/10",
@@ -75,63 +75,63 @@
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 5.53,
-      "pnl_pct": 0.49,
+      "pnl": 7.1,
+      "pnl_pct": 0.63,
       "margin": 161.78,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.4389,
-      "mark": 1.4319
+      "mark": 1.4299
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 7.0,
-      "pnl_pct": 0.74,
+      "pnl": 7.73,
+      "pnl_pct": 0.82,
       "margin": 157.94,
       "leverage": "6",
       "tier": "3/9",
       "entry": 1.2841,
-      "mark": 1.2746
+      "mark": 1.2736
     },
     {
       "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": 7.22,
-      "pnl_pct": 1.38,
+      "pnl": 8.01,
+      "pnl_pct": 1.53,
       "margin": 74.79,
       "leverage": "7",
       "tier": "2/9",
       "entry": 44.0335,
-      "mark": 43.426
+      "mark": 43.36
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 4.86,
-      "pnl_pct": 1.08,
+      "pnl": 4.05,
+      "pnl_pct": 0.9,
       "margin": 64.12,
       "leverage": "7",
       "tier": "2/9",
       "entry": 74811.1,
-      "mark": 75621.68
+      "mark": 75486.59
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": -2.46,
-      "pnl_pct": -0.65,
+      "pnl": -1.45,
+      "pnl_pct": -0.38,
       "margin": 54.51,
       "leverage": "7",
       "tier": "1/10",
       "entry": 0.2634,
-      "mark": 0.2651
+      "mark": 0.2644
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "long",
-      "conf": 0.726
+      "conf": 0.733
     },
     "XRPUSDT": {
       "dir": "short",
@@ -139,7 +139,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.853
+      "conf": 0.863
     },
     "LINKUSDT": {
       "dir": "short",
@@ -293,7 +293,7 @@
     },
     {
       "t": "2026-04-19",
-      "v": 1282.37
+      "v": 1278.9
     }
   ],
   "trade_history": [
