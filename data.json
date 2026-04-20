@@ -1,131 +1,120 @@
 {
-  "ts": "2026-04-20T09:22:44.089227+09:00",
+  "ts": "2026-04-20T09:23:45.316890+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 31382.78,
-  "available": 29065.99,
-  "unrealized": -411.69,
-  "daily_pnl": 100.86,
-  "total_pnl": 1382.78,
+  "equity": 31384.12,
+  "available": 29278.77,
+  "unrealized": -429.7,
+  "daily_pnl": 121.65,
+  "total_pnl": 1384.12,
   "cum_pct": 4.61,
   "daily_avg_pct": 0.2305,
   "annual_pct": 131.72,
   "mdd": -10.32,
   "current_dd": -0.52,
-  "seed_used": 2316.78,
-  "seed_used_pct": 7.38,
+  "seed_used": 2105.35,
+  "seed_used_pct": 6.71,
   "long_count": 3,
-  "short_count": 7,
+  "short_count": 6,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -182.26,
-      "pnl_pct": -7.0,
+      "pnl": -178.28,
+      "pnl_pct": -6.85,
       "margin": 372.01,
       "leverage": "7",
       "tier": "4/10",
       "entry": 0.2615,
-      "mark": 0.2432
+      "mark": 0.2436
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -162.17,
-      "pnl_pct": -5.45,
+      "pnl": -161.25,
+      "pnl_pct": -5.42,
       "margin": 371.73,
       "leverage": "8",
       "tier": "4/10",
       "entry": 9.6365,
-      "mark": 9.111
+      "mark": 9.114
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -176.06,
-      "pnl_pct": -6.23,
+      "pnl": -172.94,
+      "pnl_pct": -6.12,
       "margin": 353.46,
       "leverage": "8",
       "tier": "4/10",
       "entry": 0.0996,
-      "mark": 0.0934
+      "mark": 0.0935
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 68.58,
-      "pnl_pct": 3.2,
+      "pnl": 67.91,
+      "pnl_pct": 3.17,
       "margin": 214.32,
       "leverage": "10",
       "tier": "3/9",
       "entry": 86.4183,
-      "mark": 83.653
-    },
-    {
-      "symbol": "ENAUSDT",
-      "side": "SHORT",
-      "pnl": 22.79,
-      "pnl_pct": 2.56,
-      "margin": 127.24,
-      "leverage": "7",
-      "tier": "3/10",
-      "entry": 0.1163,
-      "mark": 0.1133
+      "mark": 83.68
     },
     {
       "symbol": "ZECUSDT",
       "side": "SHORT",
-      "pnl": 3.43,
-      "pnl_pct": 0.47,
+      "pnl": 3.6,
+      "pnl_pct": 0.49,
       "margin": 91.98,
       "leverage": "8",
       "tier": "3/12",
       "entry": 305.312,
-      "mark": 303.89
+      "mark": 303.82
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -1.14,
-      "pnl_pct": -0.26,
+      "pnl": -1.35,
+      "pnl_pct": -0.3,
       "margin": 55.48,
       "leverage": "8",
       "tier": "2/9",
       "entry": 73973.2,
-      "mark": 74163.8
+      "mark": 74197.7
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 7.21,
-      "pnl_pct": 2.55,
+      "pnl": 6.99,
+      "pnl_pct": 2.47,
       "margin": 40.45,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.4389,
-      "mark": 1.4023
+      "mark": 1.4034
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 6.52,
-      "pnl_pct": 2.75,
+      "pnl": 6.24,
+      "pnl_pct": 2.63,
       "margin": 39.53,
       "leverage": "6",
       "tier": "3/9",
       "entry": 1.2841,
-      "mark": 1.2488
+      "mark": 1.2503
     },
     {
       "symbol": "MUSDT",
       "side": "SHORT",
-      "pnl": 1.59,
-      "pnl_pct": 0.72,
+      "pnl": -0.49,
+      "pnl_pct": -0.22,
       "margin": 31.36,
       "leverage": "7",
       "tier": "2/12",
       "entry": 3.4843,
-      "mark": 3.4591
+      "mark": 3.4921
     }
   ],
   "signals": {
@@ -301,10 +290,17 @@
     },
     {
       "t": "2026-04-20",
-      "v": 1382.78
+      "v": 1384.12
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-20 09:23",
+      "symbol": "ENAUSDT",
+      "side": "Sell",
+      "pnl": 20.79,
+      "reason": "3/10"
+    },
     {
       "ts": "2026-04-20 09:21",
       "symbol": "TAOUSDT",
@@ -437,13 +433,6 @@
       "side": "Sell",
       "pnl": -1.41,
       "reason": "1/12"
-    },
-    {
-      "ts": "2026-04-20 01:05",
-      "symbol": "MUSDT",
-      "side": "Sell",
-      "pnl": 5.76,
-      "reason": "T1 진입 | GF=7 | Lv=8x | Seed=$2236(7.1%)"
     }
   ],
   "num_days": 20
