@@ -1,43 +1,43 @@
 {
-  "ts": "2026-04-30T11:21:01.862090+09:00",
+  "ts": "2026-04-30T11:22:03.269011+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 85685.69,
-  "available": 66871.88,
-  "unrealized": -81.73,
-  "daily_pnl": 638.42,
-  "total_pnl": 5685.69,
-  "cum_pct": 7.11,
-  "daily_avg_pct": 0.2292,
-  "annual_pct": 130.62,
+  "equity": 85667.29,
+  "available": 66964.02,
+  "unrealized": -100.79,
+  "daily_pnl": 643.82,
+  "total_pnl": 5667.29,
+  "cum_pct": 7.08,
+  "daily_avg_pct": 0.2283,
+  "annual_pct": 129.87,
   "mdd": -10.32,
   "current_dd": -0.46,
-  "seed_used": 18813.81,
-  "seed_used_pct": 21.96,
+  "seed_used": 18703.27,
+  "seed_used_pct": 21.83,
   "long_count": 5,
   "short_count": 7,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 10.05,
-      "pnl_pct": 0.02,
-      "margin": 4449.26,
+      "pnl": 2.3,
+      "pnl_pct": 0.0,
+      "margin": 4448.62,
       "leverage": "12",
       "tier": "8/9",
       "entry": 1.3769,
-      "mark": 1.3772
+      "mark": 1.377
     },
     {
       "symbol": "ZECUSDT",
       "side": "SHORT",
-      "pnl": -138.56,
-      "pnl_pct": -1.33,
-      "margin": 1316.88,
+      "pnl": -142.04,
+      "pnl_pct": -1.37,
+      "margin": 1317.31,
       "leverage": "8",
       "tier": "5/10",
       "entry": 328.4822,
-      "mark": 332.86
+      "mark": 332.97
     },
     {
       "symbol": "DOTUSDT",
@@ -75,57 +75,57 @@
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": 16.59,
-      "pnl_pct": 0.32,
-      "margin": 727.18,
+      "pnl": 14.76,
+      "pnl_pct": 0.29,
+      "margin": 727.44,
       "leverage": "7",
       "tier": "3/9",
       "entry": 55.691,
-      "mark": 55.51
-    },
-    {
-      "symbol": "TONUSDT",
-      "side": "LONG",
-      "pnl": 30.79,
-      "pnl_pct": 0.71,
-      "margin": 626.52,
-      "leverage": "7",
-      "tier": "5/10",
-      "entry": 1.3075,
-      "mark": 1.3167
+      "mark": 55.53
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "SHORT",
-      "pnl": -25.93,
-      "pnl_pct": -0.69,
-      "margin": 538.44,
+      "pnl": -24.48,
+      "pnl_pct": -0.65,
+      "margin": 538.24,
       "leverage": "7",
       "tier": "3/10",
       "entry": 0.0039,
       "mark": 0.0039
     },
     {
+      "symbol": "TONUSDT",
+      "side": "LONG",
+      "pnl": 25.98,
+      "pnl_pct": 0.72,
+      "margin": 517.47,
+      "leverage": "7",
+      "tier": "5/10",
+      "entry": 1.3075,
+      "mark": 1.3169
+    },
+    {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 59.48,
-      "pnl_pct": 1.73,
-      "margin": 498.49,
+      "pnl": 58.31,
+      "pnl_pct": 1.7,
+      "margin": 498.33,
       "leverage": "7",
       "tier": "5/9",
       "entry": 82.2537,
-      "mark": 83.68
+      "mark": 83.652
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
-      "pnl": 2.1,
-      "pnl_pct": 0.09,
-      "margin": 300.15,
+      "pnl": 1.84,
+      "pnl_pct": 0.08,
+      "margin": 300.18,
       "leverage": "8",
       "tier": "2/9",
       "entry": 9.152,
-      "mark": 9.144
+      "mark": 9.145
     },
     {
       "symbol": "ADAUSDT",
@@ -141,13 +141,13 @@
     {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": 11.28,
-      "pnl_pct": 0.66,
-      "margin": 242.12,
+      "pnl": 10.07,
+      "pnl_pct": 0.59,
+      "margin": 242.29,
       "leverage": "7",
       "tier": "2/9",
       "entry": 254.04,
-      "mark": 252.36
+      "mark": 252.54
     }
   ],
   "signals": {
@@ -375,10 +375,17 @@
     },
     {
       "t": "2026-04-30",
-      "v": 5685.69
+      "v": 5667.29
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-30 11:21",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": 5.4,
+      "reason": "-"
+    },
     {
       "ts": "2026-04-30 10:58",
       "symbol": "ADAUSDT",
@@ -510,13 +517,6 @@
       "symbol": "AAVEUSDT",
       "side": "Sell",
       "pnl": 0.03,
-      "reason": "L4"
-    },
-    {
-      "ts": "2026-04-30 03:04",
-      "symbol": "TAOUSDT",
-      "side": "Sell",
-      "pnl": 0.01,
       "reason": "L4"
     }
   ],
