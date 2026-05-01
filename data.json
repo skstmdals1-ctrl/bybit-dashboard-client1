@@ -1,39 +1,39 @@
 {
-  "ts": "2026-05-02T01:09:19.924907+09:00",
+  "ts": "2026-05-02T01:10:21.526411+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 85063.72,
-  "available": 71206.06,
-  "unrealized": -1145.2,
-  "daily_pnl": 131.68,
-  "total_pnl": 5063.72,
-  "cum_pct": 6.33,
-  "daily_avg_pct": 0.192,
-  "annual_pct": 101.4,
+  "equity": 84970.8,
+  "available": 71552.98,
+  "unrealized": -1195.55,
+  "daily_pnl": 94.24,
+  "total_pnl": 4970.8,
+  "cum_pct": 6.21,
+  "daily_avg_pct": 0.1885,
+  "annual_pct": 98.85,
   "mdd": -10.32,
-  "current_dd": -1.14,
-  "seed_used": 13857.66,
-  "seed_used_pct": 16.29,
+  "current_dd": -1.1,
+  "seed_used": 13417.82,
+  "seed_used_pct": 15.79,
   "long_count": 5,
-  "short_count": 8,
+  "short_count": 7,
   "positions": [
     {
       "symbol": "ZECUSDT",
       "side": "SHORT",
-      "pnl": -1248.49,
-      "pnl_pct": -8.54,
-      "margin": 1984.5,
+      "pnl": -1330.63,
+      "pnl_pct": -9.1,
+      "margin": 1994.76,
       "leverage": "8",
       "tier": "5/10",
       "entry": 331.238,
-      "mark": 359.51
+      "mark": 361.37
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "SHORT",
-      "pnl": -152.09,
-      "pnl_pct": -1.62,
-      "margin": 1361.33,
+      "pnl": -153.29,
+      "pnl_pct": -1.63,
+      "margin": 1361.5,
       "leverage": "7",
       "tier": "4/10",
       "entry": 0.0039,
@@ -53,24 +53,24 @@
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 23.15,
-      "pnl_pct": 0.38,
-      "margin": 763.93,
+      "pnl": 19.63,
+      "pnl_pct": 0.32,
+      "margin": 764.37,
       "leverage": "8",
       "tier": "2/9",
       "entry": 1.2176,
-      "mark": 1.213
+      "mark": 1.2137
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 103.94,
-      "pnl_pct": 1.99,
-      "margin": 760.39,
+      "pnl": 102.49,
+      "pnl_pct": 1.96,
+      "margin": 760.18,
       "leverage": "7",
       "tier": "3/9",
       "entry": 82.7068,
-      "mark": 84.354
+      "mark": 84.331
     },
     {
       "symbol": "LTCUSDT",
@@ -97,86 +97,75 @@
     {
       "symbol": "PENGUUSDT",
       "side": "LONG",
-      "pnl": 38.36,
-      "pnl_pct": 0.69,
-      "margin": 560.12,
+      "pnl": 37.25,
+      "pnl_pct": 0.67,
+      "margin": 560.0,
       "leverage": "10",
       "tier": "3/11",
       "entry": 0.01,
       "mark": 0.0101
     },
     {
-      "symbol": "TAOUSDT",
-      "side": "SHORT",
-      "pnl": -36.96,
-      "pnl_pct": -1.39,
-      "margin": 447.69,
-      "leverage": "6",
-      "tier": "1/10",
-      "entry": 271.0982,
-      "mark": 274.88
-    },
-    {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 53.5,
-      "pnl_pct": 1.32,
-      "margin": 411.3,
+      "pnl": 53.05,
+      "pnl_pct": 1.31,
+      "margin": 411.25,
       "leverage": "10",
       "tier": "2/9",
       "entry": 9.106,
-      "mark": 9.226
+      "mark": 9.225
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -6.76,
-      "pnl_pct": -0.29,
-      "margin": 294.0,
+      "pnl": -4.94,
+      "pnl_pct": -0.21,
+      "margin": 293.77,
       "leverage": "8",
       "tier": "2/9",
       "entry": 451.0,
-      "mark": 452.3
+      "mark": 451.95
     },
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": 35.64,
-      "pnl_pct": 1.59,
-      "margin": 285.37,
+      "pnl": 36.46,
+      "pnl_pct": 1.62,
+      "margin": 285.47,
       "leverage": "8",
       "tier": "2/9",
       "entry": 0.9098,
-      "mark": 0.9243
+      "mark": 0.9246
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 5.34,
+      "pnl": 5.19,
       "pnl_pct": 0.24,
-      "margin": 273.99,
+      "margin": 273.97,
       "leverage": "8",
       "tier": "2/9",
       "entry": 1.3914,
-      "mark": 1.3948
+      "mark": 1.3947
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.5
+      "conf": 0.501
     },
     "XRPUSDT": {
       "dir": "long",
-      "conf": 0.543
+      "conf": 0.525
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.766
+      "conf": 0.769
     },
     "LINKUSDT": {
       "dir": "short",
-      "conf": 0.525
+      "conf": 0.526
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -188,11 +177,11 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.805
+      "conf": 0.828
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.915
+      "conf": 0.92
     },
     "ETHUSDT": {
       "dir": "short",
@@ -204,7 +193,7 @@
     },
     "TAOUSDT": {
       "dir": "short",
-      "conf": 0.648
+      "conf": 0.644
     },
     "BNBUSDT": {
       "dir": "short",
@@ -212,7 +201,7 @@
     },
     "DOTUSDT": {
       "dir": "short",
-      "conf": 0.712
+      "conf": 0.707
     },
     "AAVEUSDT": {
       "dir": "short",
@@ -244,7 +233,7 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.525
+      "conf": 0.526
     },
     "ARBUSDT": {
       "dir": "short",
@@ -264,7 +253,7 @@
     },
     "BCHUSDT": {
       "dir": "short",
-      "conf": 0.751
+      "conf": 0.753
     },
     "XMRUSDT": {
       "dir": "short",
@@ -308,7 +297,7 @@
     },
     "TRXUSDT": {
       "dir": "short",
-      "conf": 0.566
+      "conf": 0.563
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -316,7 +305,7 @@
     },
     "APTUSDT": {
       "dir": "short",
-      "conf": 0.518
+      "conf": 0.516
     }
   },
   "equity_hist": [
@@ -394,10 +383,17 @@
     },
     {
       "t": "2026-05-02",
-      "v": 5063.72
+      "v": 4970.8
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-02 01:09",
+      "symbol": "TAOUSDT",
+      "side": "Sell",
+      "pnl": -37.44,
+      "reason": "1/10"
+    },
     {
       "ts": "2026-05-02 01:01",
       "symbol": "TAOUSDT",
@@ -530,13 +526,6 @@
       "side": "Sell",
       "pnl": -0.0,
       "reason": "마진 0.0USDT < 48"
-    },
-    {
-      "ts": "2026-05-01 12:23",
-      "symbol": "DOTUSDT",
-      "side": "Sell",
-      "pnl": -4.77,
-      "reason": "3/9"
     }
   ],
   "num_days": 32
