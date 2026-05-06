@@ -1,60 +1,60 @@
 {
-  "ts": "2026-05-07T00:32:02.552672+09:00",
+  "ts": "2026-05-07T00:33:04.239726+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4830.11,
-  "available": 4724.09,
-  "unrealized": -1.09,
+  "equity": 4830.03,
+  "available": 4724.0,
+  "unrealized": -1.21,
   "daily_pnl": 0,
-  "total_pnl": -169.89,
+  "total_pnl": -169.97,
   "cum_pct": -3.4,
   "daily_avg_pct": -0.0934,
   "annual_pct": -28.9,
   "mdd": -3.41,
-  "current_dd": -3.41,
+  "current_dd": -3.4,
   "seed_used": 106.02,
-  "seed_used_pct": 2.19,
+  "seed_used_pct": 2.2,
   "long_count": 3,
   "short_count": 2,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -0.1,
-      "pnl_pct": -0.12,
+      "pnl": -0.13,
+      "pnl_pct": -0.15,
       "margin": 11.66,
       "leverage": "7",
       "tier": "2/9",
       "entry": 81512.5,
-      "mark": 81612.4
+      "mark": 81637.8
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -0.31,
-      "pnl_pct": -0.3,
+      "pnl": -0.37,
+      "pnl_pct": -0.36,
       "margin": 11.51,
       "leverage": "9",
       "tier": "2/10",
       "entry": 9.56,
-      "mark": 9.589
+      "mark": 9.594
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 0.14,
-      "pnl_pct": 0.16,
-      "margin": 9.77,
+      "pnl": 0.24,
+      "pnl_pct": 0.27,
+      "margin": 9.78,
       "leverage": "9",
       "tier": "2/10",
       "entry": 9.976,
-      "mark": 9.992
+      "mark": 10.003
     },
     {
       "symbol": "PENGUUSDT",
       "side": "LONG",
-      "pnl": -0.08,
-      "pnl_pct": -0.12,
+      "pnl": -0.11,
+      "pnl_pct": -0.16,
       "margin": 8.63,
       "leverage": "8",
       "tier": "2/11",
@@ -64,19 +64,19 @@
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": -0.74,
-      "pnl_pct": -1.05,
-      "margin": 6.95,
+      "pnl": -0.85,
+      "pnl_pct": -1.2,
+      "margin": 6.94,
       "leverage": "10",
       "tier": "2/12",
       "entry": 2.2582,
-      "mark": 2.2345
+      "mark": 2.231
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.732
+      "conf": 0.718
     },
     "XRPUSDT": {
       "dir": "short",
@@ -132,7 +132,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.988
+      "conf": 0.996
     },
     "NEARUSDT": {
       "dir": "short",
@@ -240,7 +240,7 @@
     },
     "1000LUNCUSDT": {
       "dir": "long",
-      "conf": 0.607
+      "conf": 0.609
     }
   },
   "equity_hist": [
@@ -338,7 +338,7 @@
     },
     {
       "t": "2026-05-07",
-      "v": -169.89
+      "v": -169.97
     }
   ],
   "trade_history": [
