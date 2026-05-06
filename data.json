@@ -1,22 +1,45 @@
 {
-  "ts": "2026-05-07T00:01:13.382621+09:00",
+  "ts": "2026-05-07T00:02:14.720710+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4831.45,
-  "available": 4831.45,
-  "unrealized": 0.0,
+  "equity": 4831.46,
+  "available": 4799.5,
+  "unrealized": -0.03,
   "daily_pnl": 0,
-  "total_pnl": -168.55,
+  "total_pnl": -168.54,
   "cum_pct": -3.37,
   "daily_avg_pct": -0.0926,
   "annual_pct": -28.69,
   "mdd": -3.39,
-  "current_dd": -3.37,
-  "seed_used": 0,
-  "seed_used_pct": 0.0,
-  "long_count": 0,
-  "short_count": 0,
-  "positions": [],
+  "current_dd": -3.38,
+  "seed_used": 31.96,
+  "seed_used_pct": 0.66,
+  "long_count": 1,
+  "short_count": 1,
+  "positions": [
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "pnl": -0.0,
+      "pnl_pct": -0.0,
+      "margin": 11.65,
+      "leverage": "7",
+      "tier": "1/9",
+      "entry": 81512.5,
+      "mark": 81516.01
+    },
+    {
+      "symbol": "PENGUUSDT",
+      "side": "LONG",
+      "pnl": -0.03,
+      "pnl_pct": -0.04,
+      "margin": 8.64,
+      "leverage": "8",
+      "tier": "1/11",
+      "entry": 0.0109,
+      "mark": 0.0109
+    }
+  ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
@@ -119,7 +142,7 @@
       "conf": 0.517
     },
     "BCHUSDT": {
-      "dir": "long",
+      "dir": "short",
       "conf": 0.505
     },
     "XMRUSDT": {
@@ -282,7 +305,7 @@
     },
     {
       "t": "2026-05-07",
-      "v": -168.55
+      "v": -168.54
     }
   ],
   "trade_history": [
