@@ -1,49 +1,49 @@
 {
-  "ts": "2026-05-07T08:26:36.865522+09:00",
+  "ts": "2026-05-07T08:27:38.334408+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4829.37,
-  "available": 4626.96,
-  "unrealized": -1.87,
+  "equity": 4829.51,
+  "available": 4627.12,
+  "unrealized": -1.83,
   "daily_pnl": -0.15,
-  "total_pnl": -170.63,
+  "total_pnl": -170.49,
   "cum_pct": -3.41,
   "daily_avg_pct": -0.0937,
   "annual_pct": -28.98,
   "mdd": -3.43,
   "current_dd": -3.41,
-  "seed_used": 202.4,
+  "seed_used": 202.39,
   "seed_used_pct": 4.19,
-  "long_count": 3,
+  "long_count": 4,
   "short_count": 3,
   "positions": [
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": -0.67,
-      "pnl_pct": -0.28,
-      "margin": 26.43,
+      "pnl": -0.75,
+      "pnl_pct": -0.31,
+      "margin": 26.42,
       "leverage": "9",
       "tier": "4/12",
       "entry": 0.325,
-      "mark": 0.3241
+      "mark": 0.324
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 0.1,
-      "pnl_pct": 0.05,
+      "pnl": 0.13,
+      "pnl_pct": 0.06,
       "margin": 25.68,
       "leverage": "9",
       "tier": "3/10",
       "entry": 9.5953,
-      "mark": 9.591
+      "mark": 9.59
     },
     {
       "symbol": "PENGUUSDT",
       "side": "LONG",
-      "pnl": -1.96,
-      "pnl_pct": -1.27,
+      "pnl": -1.93,
+      "pnl_pct": -1.25,
       "margin": 19.04,
       "leverage": "8",
       "tier": "3/11",
@@ -59,18 +59,18 @@
       "leverage": "7",
       "tier": "3/10",
       "entry": 0.0042,
-      "mark": 0.0041
+      "mark": 0.0042
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 0.35,
-      "pnl_pct": 0.37,
+      "pnl": 0.36,
+      "pnl_pct": 0.38,
       "margin": 11.74,
       "leverage": "8",
       "tier": "2/9",
       "entry": 2356.45,
-      "mark": 2347.67
+      "mark": 2347.5
     },
     {
       "symbol": "LINKUSDT",
@@ -82,6 +82,17 @@
       "tier": "2/10",
       "entry": 9.976,
       "mark": 9.999
+    },
+    {
+      "symbol": "VIRTUALUSDT",
+      "side": "LONG",
+      "pnl": 0.06,
+      "pnl_pct": 0.15,
+      "margin": 7.08,
+      "leverage": "6",
+      "tier": "1/11",
+      "entry": 0.8657,
+      "mark": 0.867
     }
   ],
   "signals": {
@@ -357,7 +368,7 @@
     },
     {
       "t": "2026-05-07",
-      "v": -170.63
+      "v": -170.49
     }
   ],
   "trade_history": [
