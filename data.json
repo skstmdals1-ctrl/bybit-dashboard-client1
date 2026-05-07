@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-07T12:16:07.834378+09:00",
+  "ts": "2026-05-07T12:17:09.307254+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4824.79,
-  "available": 4454.75,
-  "unrealized": -7.37,
+  "equity": 4824.45,
+  "available": 4454.5,
+  "unrealized": -7.94,
   "daily_pnl": 1.01,
-  "total_pnl": -175.21,
-  "cum_pct": -3.5,
-  "daily_avg_pct": -0.0962,
-  "annual_pct": -29.62,
+  "total_pnl": -175.55,
+  "cum_pct": -3.51,
+  "daily_avg_pct": -0.0965,
+  "annual_pct": -29.7,
   "mdd": -3.7,
-  "current_dd": -3.62,
-  "seed_used": 370.04,
+  "current_dd": -3.52,
+  "seed_used": 369.95,
   "seed_used_pct": 7.67,
   "long_count": 5,
   "short_count": 2,
@@ -20,9 +20,9 @@
     {
       "symbol": "PENGUUSDT",
       "side": "LONG",
-      "pnl": -10.81,
-      "pnl_pct": -1.99,
-      "margin": 66.39,
+      "pnl": -11.06,
+      "pnl_pct": -2.04,
+      "margin": 66.36,
       "leverage": "8",
       "tier": "6/11",
       "entry": 0.0106,
@@ -31,64 +31,64 @@
     {
       "symbol": "VIRTUALUSDT",
       "side": "LONG",
-      "pnl": 2.88,
-      "pnl_pct": 1.24,
-      "margin": 39.22,
+      "pnl": 2.2,
+      "pnl_pct": 0.95,
+      "margin": 39.1,
       "leverage": "6",
       "tier": "5/11",
       "entry": 0.8545,
-      "mark": 0.8651
+      "mark": 0.8626
     },
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": -2.57,
-      "pnl_pct": -0.73,
-      "margin": 38.67,
+      "pnl": -2.14,
+      "pnl_pct": -0.61,
+      "margin": 38.72,
       "leverage": "9",
       "tier": "5/12",
       "entry": 0.3232,
-      "mark": 0.3208
+      "mark": 0.3212
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -0.19,
-      "pnl_pct": -0.06,
-      "margin": 36.66,
+      "pnl": -0.32,
+      "pnl_pct": -0.1,
+      "margin": 36.64,
       "leverage": "9",
       "tier": "4/10",
       "entry": 9.9127,
-      "mark": 9.907
+      "mark": 9.903
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 2.03,
-      "pnl_pct": 0.88,
-      "margin": 25.47,
+      "pnl": 2.13,
+      "pnl_pct": 0.92,
+      "margin": 25.46,
       "leverage": "9",
       "tier": "3/10",
       "entry": 9.5953,
-      "mark": 9.511
+      "mark": 9.507
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -0.33,
-      "pnl_pct": -0.21,
+      "pnl": -0.32,
+      "pnl_pct": -0.2,
       "margin": 20.26,
       "leverage": "8",
       "tier": "3/9",
       "entry": 81194.9,
-      "mark": 81027.8
+      "mark": 81034.39
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "SHORT",
-      "pnl": 1.62,
-      "pnl_pct": 1.26,
-      "margin": 18.1,
+      "pnl": 1.58,
+      "pnl_pct": 1.23,
+      "margin": 18.11,
       "leverage": "7",
       "tier": "3/10",
       "entry": 0.0042,
@@ -98,7 +98,7 @@
   "signals": {
     "BTCUSDT": {
       "dir": "long",
-      "conf": 0.995
+      "conf": 0.993
     },
     "XRPUSDT": {
       "dir": "short",
@@ -110,11 +110,11 @@
     },
     "LINKUSDT": {
       "dir": "long",
-      "conf": 0.717
+      "conf": 0.731
     },
     "1000PEPEUSDT": {
       "dir": "long",
-      "conf": 0.538
+      "conf": 0.536
     },
     "HYPEUSDT": {
       "dir": "long",
@@ -254,7 +254,7 @@
     },
     "ONDOUSDT": {
       "dir": "long",
-      "conf": 0.702
+      "conf": 0.699
     },
     "ICPUSDT": {
       "dir": "long",
@@ -270,7 +270,7 @@
     },
     "VIRTUALUSDT": {
       "dir": "long",
-      "conf": 0.584
+      "conf": 0.531
     }
   },
   "equity_hist": [
@@ -368,7 +368,7 @@
     },
     {
       "t": "2026-05-07",
-      "v": -175.21
+      "v": -175.55
     }
   ],
   "trade_history": [
