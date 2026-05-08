@@ -1,45 +1,22 @@
 {
-  "ts": "2026-05-08T23:25:24.019824+09:00",
+  "ts": "2026-05-08T23:39:17.814295+09:00",
   "start_date": "2026-04-01",
-  "status": "running",
-  "equity": 4945.99,
-  "available": 3396.83,
-  "unrealized": 3.73,
-  "daily_pnl": 48.83,
-  "total_pnl": 0.99,
-  "cum_pct": 0.02,
-  "daily_avg_pct": 0.0005,
-  "annual_pct": 0.18,
-  "mdd": -0.06,
+  "status": "stopped",
+  "equity": 4943.07,
+  "available": 4943.07,
+  "unrealized": 0.0,
+  "daily_pnl": 48.99,
+  "total_pnl": -1.93,
+  "cum_pct": -0.04,
+  "daily_avg_pct": -0.0011,
+  "annual_pct": -0.4,
+  "mdd": 0.0,
   "current_dd": -0.06,
-  "seed_used": 1549.16,
-  "seed_used_pct": 31.32,
-  "long_count": 1,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "pnl": -4.98,
-      "pnl_pct": -0.11,
-      "margin": 646.97,
-      "leverage": "7",
-      "tier": "3/4",
-      "entry": 2284.7661,
-      "mark": 2287.28
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "LONG",
-      "pnl": 8.71,
-      "pnl_pct": 0.78,
-      "margin": 140.34,
-      "leverage": "8",
-      "tier": "2/4",
-      "entry": 79574.3,
-      "mark": 80196.16
-    }
-  ],
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
+  "long_count": 0,
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
@@ -321,10 +298,24 @@
     },
     {
       "t": "2026-05-08",
-      "v": 0.99
+      "v": -1.93
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-08 23:26",
+      "symbol": "BTCUSDT",
+      "side": "Buy",
+      "pnl": 8.39,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-05-08 23:26",
+      "symbol": "ETHUSDT",
+      "side": "Sell",
+      "pnl": -8.24,
+      "reason": "-"
+    },
     {
       "ts": "2026-05-08 22:55",
       "symbol": "BTCUSDT",
@@ -450,20 +441,6 @@
       "side": "Buy",
       "pnl": 0.01,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-05-08 15:36",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": 2.57,
-      "reason": "1/8"
-    },
-    {
-      "ts": "2026-05-08 15:19",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": 4.35,
-      "reason": "-"
     }
   ],
   "num_days": 38
