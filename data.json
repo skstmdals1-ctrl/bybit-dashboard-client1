@@ -1,65 +1,76 @@
 {
-  "ts": "2026-05-08T10:46:51.879795+09:00",
+  "ts": "2026-05-08T10:47:53.317727+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4882.66,
-  "available": 4438.05,
-  "unrealized": -24.53,
+  "equity": 4880.12,
+  "available": 4435.93,
+  "unrealized": -26.78,
   "daily_pnl": 13.18,
-  "total_pnl": -117.34,
-  "cum_pct": -2.35,
-  "daily_avg_pct": -0.0626,
-  "annual_pct": -20.43,
+  "total_pnl": -119.88,
+  "cum_pct": -2.4,
+  "daily_avg_pct": -0.0639,
+  "annual_pct": -20.81,
   "mdd": -3.7,
   "current_dd": -2.34,
-  "seed_used": 444.61,
-  "seed_used_pct": 9.11,
-  "long_count": 5,
+  "seed_used": 444.19,
+  "seed_used_pct": 9.1,
+  "long_count": 6,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": -20.03,
-      "pnl_pct": -2.81,
-      "margin": 86.73,
+      "pnl": -21.82,
+      "pnl_pct": -3.06,
+      "margin": 86.51,
       "leverage": "8",
       "tier": "6/12",
       "entry": 0.3586,
-      "mark": 0.3485
+      "mark": 0.3476
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -4.2,
-      "pnl_pct": -0.87,
-      "margin": 59.83,
+      "pnl": -4.42,
+      "pnl_pct": -0.92,
+      "margin": 59.81,
       "leverage": "8",
       "tier": "5/9",
       "entry": 80479.2,
-      "mark": 79779.6
+      "mark": 79742.5
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -2.42,
-      "pnl_pct": -0.49,
-      "margin": 54.48,
+      "pnl": -2.57,
+      "pnl_pct": -0.52,
+      "margin": 54.46,
       "leverage": "9",
       "tier": "5/10",
       "entry": 9.8745,
-      "mark": 9.826
+      "mark": 9.823
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -1.2,
-      "pnl_pct": -0.36,
-      "margin": 41.98,
+      "pnl": -1.45,
+      "pnl_pct": -0.43,
+      "margin": 41.95,
       "leverage": "8",
       "tier": "4/10",
       "entry": 9.522,
-      "mark": 9.488
+      "mark": 9.481
+    },
+    {
+      "symbol": "TONUSDT",
+      "side": "LONG",
+      "pnl": 0.07,
+      "pnl_pct": 0.04,
+      "margin": 19.27,
+      "leverage": "9",
+      "tier": "1/8",
+      "entry": 2.6709,
+      "mark": 2.672
     },
     {
       "symbol": "TRXUSDT",
@@ -75,13 +86,13 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 2.22,
-      "pnl_pct": 2.37,
-      "margin": 11.43,
+      "pnl": 2.31,
+      "pnl_pct": 2.47,
+      "margin": 11.42,
       "leverage": "8",
       "tier": "2/9",
       "entry": 2340.96,
-      "mark": 2285.44
+      "mark": 2283.21
     }
   ],
   "signals": {
@@ -365,7 +376,7 @@
     },
     {
       "t": "2026-05-08",
-      "v": -117.34
+      "v": -119.88
     }
   ],
   "trade_history": [
