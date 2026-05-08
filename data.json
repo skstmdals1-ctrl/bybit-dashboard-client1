@@ -1,43 +1,54 @@
 {
-  "ts": "2026-05-08T21:18:58.089348+09:00",
+  "ts": "2026-05-08T21:19:59.554187+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4955.52,
-  "available": 4546.23,
-  "unrealized": 10.17,
+  "equity": 4955.08,
+  "available": 4546.07,
+  "unrealized": 9.76,
   "daily_pnl": 51.17,
-  "total_pnl": -44.48,
-  "cum_pct": -0.89,
-  "daily_avg_pct": -0.0235,
-  "annual_pct": -8.22,
+  "total_pnl": -44.92,
+  "cum_pct": -0.9,
+  "daily_avg_pct": -0.0238,
+  "annual_pct": -8.32,
   "mdd": -3.7,
   "current_dd": -0.88,
-  "seed_used": 409.29,
-  "seed_used_pct": 8.26,
-  "long_count": 4,
+  "seed_used": 409.01,
+  "seed_used_pct": 8.25,
+  "long_count": 5,
   "short_count": 1,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 2.03,
-      "pnl_pct": 0.28,
+      "pnl": 2.07,
+      "pnl_pct": 0.29,
       "margin": 90.29,
       "leverage": "8",
       "tier": "6/9",
       "entry": 80031.4333,
-      "mark": 80256.6
+      "mark": 80260.9
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 3.42,
-      "pnl_pct": 0.69,
-      "margin": 55.13,
+      "pnl": 3.17,
+      "pnl_pct": 0.64,
+      "margin": 55.1,
       "leverage": "9",
       "tier": "5/10",
       "entry": 9.8745,
-      "mark": 9.943
+      "mark": 9.938
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "pnl": -0.2,
+      "pnl_pct": -0.05,
+      "margin": 47.75,
+      "leverage": "9",
+      "tier": "1/5",
+      "entry": 0.1072,
+      "mark": 0.1072
     },
     {
       "symbol": "AVAXUSDT",
@@ -53,18 +64,18 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.97,
-      "pnl_pct": 2.11,
+      "pnl": 1.98,
+      "pnl_pct": 2.12,
       "margin": 11.46,
       "leverage": "8",
       "tier": "2/9",
       "entry": 2340.96,
-      "mark": 2291.61
+      "mark": 2291.42
     },
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": 0.62,
+      "pnl": 0.63,
       "pnl_pct": 1.27,
       "margin": 7.12,
       "leverage": "7",
@@ -354,7 +365,7 @@
     },
     {
       "t": "2026-05-08",
-      "v": -44.48
+      "v": -44.92
     }
   ],
   "trade_history": [
