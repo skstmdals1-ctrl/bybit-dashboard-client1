@@ -1,98 +1,98 @@
 {
-  "ts": "2026-05-08T10:11:59.669121+09:00",
+  "ts": "2026-05-08T10:13:01.180687+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4879.2,
-  "available": 4454.57,
-  "unrealized": -26.62,
-  "daily_pnl": 12.06,
-  "total_pnl": -120.8,
-  "cum_pct": -2.42,
-  "daily_avg_pct": -0.0644,
-  "annual_pct": -20.95,
+  "equity": 4876.7,
+  "available": 4431.64,
+  "unrealized": -29.25,
+  "daily_pnl": 12.05,
+  "total_pnl": -123.3,
+  "cum_pct": -2.47,
+  "daily_avg_pct": -0.0658,
+  "annual_pct": -21.36,
   "mdd": -3.7,
   "current_dd": -2.41,
-  "seed_used": 424.64,
-  "seed_used_pct": 8.7,
+  "seed_used": 445.06,
+  "seed_used_pct": 9.13,
   "long_count": 6,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": -22.02,
-      "pnl_pct": -3.08,
-      "margin": 86.48,
+      "pnl": -23.42,
+      "pnl_pct": -3.28,
+      "margin": 86.31,
       "leverage": "8",
       "tier": "6/12",
       "entry": 0.3586,
-      "mark": 0.3475
+      "mark": 0.3468
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -4.53,
-      "pnl_pct": -0.94,
+      "pnl": -4.59,
+      "pnl_pct": -0.95,
       "margin": 59.79,
       "leverage": "8",
       "tier": "5/9",
       "entry": 80479.2,
-      "mark": 79724.9
+      "mark": 79713.93
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -2.12,
-      "pnl_pct": -0.43,
-      "margin": 54.51,
+      "pnl": -2.47,
+      "pnl_pct": -0.5,
+      "margin": 54.47,
       "leverage": "9",
       "tier": "5/10",
       "entry": 9.8745,
-      "mark": 9.832
+      "mark": 9.825
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -1.52,
-      "pnl_pct": -0.45,
+      "pnl": -1.56,
+      "pnl_pct": -0.46,
       "margin": 41.94,
       "leverage": "8",
-      "tier": "3/10",
+      "tier": "4/10",
       "entry": 9.522,
-      "mark": 9.479
-    },
-    {
-      "symbol": "TRXUSDT",
-      "side": "LONG",
-      "pnl": 1.29,
-      "pnl_pct": 1.31,
-      "margin": 14.19,
-      "leverage": "7",
-      "tier": "2/9",
-      "entry": 0.344,
-      "mark": 0.3485
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "pnl": 2.28,
-      "pnl_pct": 2.44,
-      "margin": 11.42,
-      "leverage": "8",
-      "tier": "2/9",
-      "entry": 2340.96,
-      "mark": 2283.89
+      "mark": 9.478
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": -0.01,
-      "pnl_pct": -1.86,
-      "margin": 0.03,
+      "pnl": -0.78,
+      "pnl_pct": -0.38,
+      "margin": 20.31,
       "leverage": "10",
-      "tier": "2/8",
-      "entry": 2.7081,
-      "mark": 2.6576
+      "tier": "1/1",
+      "entry": 2.6446,
+      "mark": 2.6345
+    },
+    {
+      "symbol": "TRXUSDT",
+      "side": "LONG",
+      "pnl": 1.25,
+      "pnl_pct": 1.28,
+      "margin": 14.19,
+      "leverage": "7",
+      "tier": "2/9",
+      "entry": 0.344,
+      "mark": 0.3484
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "pnl": 2.31,
+      "pnl_pct": 2.46,
+      "margin": 11.42,
+      "leverage": "8",
+      "tier": "2/9",
+      "entry": 2340.96,
+      "mark": 2283.26
     }
   ],
   "signals": {
@@ -153,8 +153,8 @@
       "conf": 0.533
     },
     "AVAXUSDT": {
-      "dir": "short",
-      "conf": 0.506
+      "dir": "long",
+      "conf": 0.62
     },
     "NEARUSDT": {
       "dir": "short",
@@ -376,10 +376,17 @@
     },
     {
       "t": "2026-05-08",
-      "v": -120.8
+      "v": -123.3
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-08 10:12",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": -0.01,
+      "reason": "L2"
+    },
     {
       "ts": "2026-05-08 10:08",
       "symbol": "TONUSDT",
@@ -512,13 +519,6 @@
       "side": "Sell",
       "pnl": 2.98,
       "reason": "-"
-    },
-    {
-      "ts": "2026-05-07 22:43",
-      "symbol": "ARBUSDT",
-      "side": "Buy",
-      "pnl": 0.0,
-      "reason": "1/10"
     }
   ],
   "num_days": 38
