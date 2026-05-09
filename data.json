@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-10T01:56:54.366462+09:00",
+  "ts": "2026-05-10T01:57:25.685547+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4934.12,
-  "available": 4341.62,
-  "unrealized": -9.01,
+  "equity": 4932.88,
+  "available": 4340.62,
+  "unrealized": -10.11,
   "daily_pnl": 0,
-  "total_pnl": -10.88,
-  "cum_pct": -0.22,
-  "daily_avg_pct": -0.0055,
-  "annual_pct": -1.99,
+  "total_pnl": -12.12,
+  "cum_pct": -0.25,
+  "daily_avg_pct": -0.0063,
+  "annual_pct": -2.27,
   "mdd": -0.45,
   "current_dd": -0.26,
-  "seed_used": 592.49,
+  "seed_used": 592.26,
   "seed_used_pct": 12.01,
   "long_count": 2,
   "short_count": 0,
@@ -20,9 +20,9 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -3.24,
-      "pnl_pct": -0.22,
-      "margin": 295.74,
+      "pnl": -3.37,
+      "pnl_pct": -0.23,
+      "margin": 295.71,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.1091,
@@ -31,13 +31,13 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -5.77,
-      "pnl_pct": -0.39,
-      "margin": 295.46,
+      "pnl": -6.73,
+      "pnl_pct": -0.45,
+      "margin": 295.27,
       "leverage": "5",
       "tier": "2/2",
       "entry": 43.1248,
-      "mark": 42.957
+      "mark": 42.929
     }
   ],
   "signals": {
@@ -106,8 +106,8 @@
       "conf": 0.517
     },
     "ENAUSDT": {
-      "dir": "long",
-      "conf": 0.365
+      "dir": "neutral",
+      "conf": 0.379
     },
     "UNIUSDT": {
       "dir": "short",
@@ -329,7 +329,7 @@
     },
     {
       "t": "2026-05-10",
-      "v": -10.88
+      "v": -12.12
     }
   ],
   "trade_history": [
