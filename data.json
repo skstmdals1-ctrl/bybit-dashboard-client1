@@ -1,39 +1,39 @@
 {
-  "ts": "2026-05-11T03:44:43.605706+09:00",
+  "ts": "2026-05-11T03:45:45.178196+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5146.59,
-  "available": 4134.7,
-  "unrealized": 42.88,
-  "daily_pnl": 82.81,
-  "total_pnl": 201.59,
-  "cum_pct": 4.08,
-  "daily_avg_pct": 0.0976,
-  "annual_pct": 42.77,
+  "equity": 5145.01,
+  "available": 4236.22,
+  "unrealized": 37.27,
+  "daily_pnl": 87.11,
+  "total_pnl": 200.01,
+  "cum_pct": 4.04,
+  "daily_avg_pct": 0.0966,
+  "annual_pct": 42.25,
   "mdd": -0.22,
   "current_dd": 0.0,
-  "seed_used": 1011.89,
-  "seed_used_pct": 19.66,
-  "long_count": 3,
+  "seed_used": 908.79,
+  "seed_used_pct": 17.66,
+  "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": 3.45,
-      "pnl_pct": 0.22,
-      "margin": 306.88,
+      "pnl": 3.59,
+      "pnl_pct": 0.23,
+      "margin": 306.85,
       "leverage": "5",
       "tier": "2/2",
       "entry": 328.597,
-      "mark": 327.86
+      "mark": 327.83
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 25.97,
-      "pnl_pct": 1.75,
-      "margin": 301.58,
+      "pnl": 25.7,
+      "pnl_pct": 1.73,
+      "margin": 301.53,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.1091,
@@ -42,24 +42,13 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 8.67,
-      "pnl_pct": 0.58,
-      "margin": 298.35,
+      "pnl": 7.99,
+      "pnl_pct": 0.54,
+      "margin": 298.21,
       "leverage": "5",
       "tier": "2/2",
       "entry": 43.1248,
-      "mark": 43.377
-    },
-    {
-      "symbol": "SUIUSDT",
-      "side": "LONG",
-      "pnl": 4.78,
-      "pnl_pct": 4.56,
-      "margin": 27.43,
-      "leverage": "4",
-      "tier": "2/3",
-      "entry": 1.3117,
-      "mark": 1.3715
+      "mark": 43.357
     }
   ],
   "signals": {
@@ -355,10 +344,17 @@
     },
     {
       "t": "2026-05-11",
-      "v": 201.59
+      "v": 200.01
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-11 03:44",
+      "symbol": "SUIUSDT",
+      "side": "Buy",
+      "pnl": 4.31,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-05-11 03:14",
       "symbol": "SUIUSDT",
@@ -490,13 +486,6 @@
       "symbol": "DOGEUSDT",
       "side": "Buy",
       "pnl": -3.41,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-05-08 21:39",
-      "symbol": "TRXUSDT",
-      "side": "Buy",
-      "pnl": 0.65,
       "reason": "-"
     }
   ],
