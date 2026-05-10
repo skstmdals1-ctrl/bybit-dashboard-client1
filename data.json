@@ -1,54 +1,43 @@
 {
-  "ts": "2026-05-11T06:38:53.468642+09:00",
+  "ts": "2026-05-11T06:39:54.964931+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5090.34,
-  "available": 4414.26,
-  "unrealized": 9.36,
-  "daily_pnl": 58.55,
-  "total_pnl": 145.34,
+  "equity": 5090.59,
+  "available": 4715.41,
+  "unrealized": 2.3,
+  "daily_pnl": 65.8,
+  "total_pnl": 145.59,
   "cum_pct": 2.94,
   "daily_avg_pct": 0.0707,
   "annual_pct": 29.43,
   "mdd": -1.26,
   "current_dd": -1.13,
-  "seed_used": 676.08,
-  "seed_used_pct": 13.28,
-  "long_count": 2,
+  "seed_used": 375.18,
+  "seed_used_pct": 7.37,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "SUIUSDT",
-      "side": "LONG",
-      "pnl": 8.11,
-      "pnl_pct": 2.04,
-      "margin": 101.27,
-      "leverage": "4",
-      "tier": "3/3",
-      "entry": 1.3232,
-      "mark": 1.3502
-    },
-    {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": 0.43,
-      "pnl_pct": 0.13,
-      "margin": 69.14,
+      "pnl": 1.84,
+      "pnl_pct": 0.53,
+      "margin": 68.86,
       "leverage": "5",
       "tier": "1/3",
       "entry": 319.91,
-      "mark": 319.51
+      "mark": 318.21
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.81,
-      "pnl_pct": 0.54,
-      "margin": 38.15,
+      "pnl": 0.46,
+      "pnl_pct": 0.31,
+      "margin": 38.06,
       "leverage": "4",
       "tier": "2/2",
       "entry": 42.16,
-      "mark": 42.386
+      "mark": 42.289
     }
   ],
   "signals": {
@@ -344,10 +333,17 @@
     },
     {
       "t": "2026-05-11",
-      "v": 145.34
+      "v": 145.59
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-11 06:39",
+      "symbol": "SUIUSDT",
+      "side": "Buy",
+      "pnl": 7.25,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-05-11 06:34",
       "symbol": "TAOUSDT",
@@ -480,13 +476,6 @@
       "side": "Buy",
       "pnl": 71.0,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-05-10 23:14",
-      "symbol": "SUIUSDT",
-      "side": "Buy",
-      "pnl": 14.93,
-      "reason": "2/2"
     }
   ],
   "num_days": 41
