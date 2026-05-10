@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-11T05:51:46.015125+09:00",
+  "ts": "2026-05-11T05:52:47.335621+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5097.09,
-  "available": 4627.75,
-  "unrealized": 3.22,
-  "daily_pnl": 72.27,
-  "total_pnl": 152.09,
-  "cum_pct": 3.08,
-  "daily_avg_pct": 0.074,
-  "annual_pct": 31.0,
+  "equity": 5097.88,
+  "available": 4778.11,
+  "unrealized": -21.23,
+  "daily_pnl": 97.1,
+  "total_pnl": 152.88,
+  "cum_pct": 3.09,
+  "daily_avg_pct": 0.0743,
+  "annual_pct": 31.14,
   "mdd": -1.02,
   "current_dd": -1.02,
-  "seed_used": 469.33,
-  "seed_used_pct": 9.21,
-  "long_count": 1,
-  "short_count": 1,
+  "seed_used": 319.77,
+  "seed_used_pct": 6.27,
+  "long_count": 2,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -20.69,
-      "pnl_pct": -1.4,
-      "margin": 292.47,
+      "pnl": -20.9,
+      "pnl_pct": -1.41,
+      "margin": 292.43,
       "leverage": "5",
       "tier": "2/2",
       "entry": 43.1248,
-      "mark": 42.523
+      "mark": 42.517
     },
     {
-      "symbol": "TAOUSDT",
-      "side": "SHORT",
-      "pnl": 23.92,
-      "pnl_pct": 3.11,
-      "margin": 149.07,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 328.597,
-      "mark": 318.38
+      "symbol": "SUIUSDT",
+      "side": "LONG",
+      "pnl": -0.33,
+      "pnl_pct": -0.31,
+      "margin": 26.64,
+      "leverage": "4",
+      "tier": "1/3",
+      "entry": 1.3363,
+      "mark": 1.3322
     }
   ],
   "signals": {
@@ -51,7 +51,7 @@
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.485
+      "conf": 0.486
     },
     "LINKUSDT": {
       "dir": "neutral",
@@ -151,7 +151,7 @@
     },
     "TONUSDT": {
       "dir": "neutral",
-      "conf": 0.448
+      "conf": 0.453
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -333,10 +333,17 @@
     },
     {
       "t": "2026-05-11",
-      "v": 152.09
+      "v": 152.88
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-11 05:52",
+      "symbol": "TAOUSDT",
+      "side": "Sell",
+      "pnl": 24.83,
+      "reason": "T1 진입 | GF=7 | Lv=4x | Seed=$300(5.9%)"
+    },
     {
       "ts": "2026-05-11 05:49",
       "symbol": "DOGEUSDT",
@@ -469,13 +476,6 @@
       "side": "Buy",
       "pnl": 22.93,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-10 17:23",
-      "symbol": "SUIUSDT",
-      "side": "Buy",
-      "pnl": 17.39,
-      "reason": "-"
     }
   ],
   "num_days": 41
