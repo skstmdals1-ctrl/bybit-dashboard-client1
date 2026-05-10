@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-10T16:09:50.177903+09:00",
+  "ts": "2026-05-10T16:10:21.532353+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4932.19,
-  "available": 4045.79,
-  "unrealized": -15.35,
+  "equity": 4933.22,
+  "available": 4046.58,
+  "unrealized": -14.32,
   "daily_pnl": 5.0,
-  "total_pnl": -12.81,
-  "cum_pct": -0.26,
-  "daily_avg_pct": -0.0065,
-  "annual_pct": -2.34,
+  "total_pnl": -11.78,
+  "cum_pct": -0.24,
+  "daily_avg_pct": -0.006,
+  "annual_pct": -2.17,
   "mdd": -0.97,
   "current_dd": -0.45,
-  "seed_used": 886.4,
+  "seed_used": 886.64,
   "seed_used_pct": 17.97,
   "long_count": 3,
   "short_count": 0,
@@ -20,13 +20,24 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -4.08,
-      "pnl_pct": -0.28,
-      "margin": 295.8,
+      "pnl": -3.71,
+      "pnl_pct": -0.25,
+      "margin": 295.87,
       "leverage": "5",
       "tier": "2/2",
       "entry": 43.1248,
-      "mark": 43.006
+      "mark": 43.017
+    },
+    {
+      "symbol": "SUIUSDT",
+      "side": "LONG",
+      "pnl": -1.13,
+      "pnl_pct": -0.1,
+      "margin": 294.55,
+      "leverage": "4",
+      "tier": "2/2",
+      "entry": 1.0819,
+      "mark": 1.0809
     },
     {
       "symbol": "DOGEUSDT",
@@ -38,17 +49,6 @@
       "tier": "2/2",
       "entry": 0.1091,
       "mark": 0.1084
-    },
-    {
-      "symbol": "SUIUSDT",
-      "side": "LONG",
-      "pnl": -1.78,
-      "pnl_pct": -0.15,
-      "margin": 294.38,
-      "leverage": "4",
-      "tier": "2/2",
-      "entry": 1.0819,
-      "mark": 1.0803
     }
   ],
   "signals": {
@@ -340,7 +340,7 @@
     },
     {
       "t": "2026-05-10",
-      "v": -12.81
+      "v": -11.78
     }
   ],
   "trade_history": [
