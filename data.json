@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-11T06:21:28.559275+09:00",
+  "ts": "2026-05-11T06:22:30.017365+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5084.76,
-  "available": 4510.97,
-  "unrealized": 0.55,
+  "equity": 5084.77,
+  "available": 4511.34,
+  "unrealized": 0.69,
   "daily_pnl": 61.69,
-  "total_pnl": 139.76,
+  "total_pnl": 139.77,
   "cum_pct": 2.83,
   "daily_avg_pct": 0.0681,
   "annual_pct": 28.21,
   "mdd": -1.26,
   "current_dd": -1.26,
-  "seed_used": 573.79,
+  "seed_used": 573.43,
   "seed_used_pct": 11.28,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
+      "symbol": "SUIUSDT",
+      "side": "LONG",
+      "pnl": 0.46,
+      "pnl_pct": 0.12,
+      "margin": 99.35,
+      "leverage": "4",
+      "tier": "2/3",
+      "entry": 1.3232,
+      "mark": 1.3247
+    },
+    {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": -0.53,
-      "pnl_pct": -0.15,
-      "margin": 69.26,
+      "pnl": -0.03,
+      "pnl_pct": -0.01,
+      "margin": 69.16,
       "leverage": "5",
       "tier": "2/3",
       "entry": 317.79,
-      "mark": 318.28
+      "mark": 317.82
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.66,
-      "pnl_pct": 0.43,
-      "margin": 38.11,
+      "pnl": 0.26,
+      "pnl_pct": 0.17,
+      "margin": 38.01,
       "leverage": "4",
       "tier": "2/2",
       "entry": 42.16,
-      "mark": 42.343
-    },
-    {
-      "symbol": "SUIUSDT",
-      "side": "LONG",
-      "pnl": 0.43,
-      "pnl_pct": 0.4,
-      "margin": 26.8,
-      "leverage": "4",
-      "tier": "2/3",
-      "entry": 1.3349,
-      "mark": 1.3402
+      "mark": 42.232
     }
   ],
   "signals": {
@@ -344,7 +344,7 @@
     },
     {
       "t": "2026-05-11",
-      "v": 139.76
+      "v": 139.77
     }
   ],
   "trade_history": [
