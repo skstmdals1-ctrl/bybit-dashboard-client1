@@ -1,53 +1,64 @@
 {
-  "ts": "2026-05-11T06:35:49.083596+09:00",
+  "ts": "2026-05-11T06:36:50.458762+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5090.43,
-  "available": 4483.58,
-  "unrealized": 9.56,
+  "equity": 5091.13,
+  "available": 4414.62,
+  "unrealized": 10.38,
   "daily_pnl": 58.55,
-  "total_pnl": 145.43,
-  "cum_pct": 2.94,
-  "daily_avg_pct": 0.0707,
-  "annual_pct": 29.43,
+  "total_pnl": 146.13,
+  "cum_pct": 2.96,
+  "daily_avg_pct": 0.0712,
+  "annual_pct": 29.67,
   "mdd": -1.26,
-  "current_dd": -1.19,
-  "seed_used": 606.85,
-  "seed_used_pct": 11.92,
+  "current_dd": -1.13,
+  "seed_used": 676.5,
+  "seed_used_pct": 13.29,
   "long_count": 2,
-  "short_count": 0,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": 8.58,
-      "pnl_pct": 2.16,
-      "margin": 101.38,
+      "pnl": 9.34,
+      "pnl_pct": 2.35,
+      "margin": 101.57,
       "leverage": "4",
       "tier": "3/3",
       "entry": 1.3232,
-      "mark": 1.3518
+      "mark": 1.3543
+    },
+    {
+      "symbol": "TAOUSDT",
+      "side": "SHORT",
+      "pnl": -0.01,
+      "pnl_pct": -0.0,
+      "margin": 69.23,
+      "leverage": "5",
+      "tier": "1/3",
+      "entry": 319.91,
+      "mark": 319.92
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.98,
-      "pnl_pct": 0.65,
-      "margin": 38.19,
+      "pnl": 1.05,
+      "pnl_pct": 0.69,
+      "margin": 38.21,
       "leverage": "4",
       "tier": "2/2",
       "entry": 42.16,
-      "mark": 42.433
+      "mark": 42.452
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.78
+      "conf": 0.745
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.344
+      "conf": 0.343
     },
     "SOLUSDT": {
       "dir": "neutral",
@@ -63,7 +74,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.462
+      "conf": 0.465
     },
     "ADAUSDT": {
       "dir": "short",
@@ -83,7 +94,7 @@
     },
     "TAOUSDT": {
       "dir": "short",
-      "conf": 0.53
+      "conf": 0.528
     },
     "BNBUSDT": {
       "dir": "long",
@@ -95,11 +106,11 @@
     },
     "AAVEUSDT": {
       "dir": "short",
-      "conf": 0.533
+      "conf": 0.503
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.388
+      "conf": 0.387
     },
     "NEARUSDT": {
       "dir": "short",
@@ -333,7 +344,7 @@
     },
     {
       "t": "2026-05-11",
-      "v": 145.43
+      "v": 146.13
     }
   ],
   "trade_history": [
