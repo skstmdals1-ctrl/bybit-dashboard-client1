@@ -1,43 +1,32 @@
 {
-  "ts": "2026-05-11T11:22:40.186990+09:00",
+  "ts": "2026-05-11T11:23:41.511710+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5095.9,
-  "available": 4486.73,
-  "unrealized": -0.1,
-  "daily_pnl": 74.54,
-  "total_pnl": 150.9,
-  "cum_pct": 3.05,
-  "daily_avg_pct": 0.0733,
-  "annual_pct": 30.66,
+  "equity": 5093.98,
+  "available": 4787.57,
+  "unrealized": 1.61,
+  "daily_pnl": 71.13,
+  "total_pnl": 148.98,
+  "cum_pct": 3.01,
+  "daily_avg_pct": 0.0724,
+  "annual_pct": 30.23,
   "mdd": -1.26,
   "current_dd": -1.03,
-  "seed_used": 609.17,
-  "seed_used_pct": 11.95,
-  "long_count": 1,
+  "seed_used": 306.41,
+  "seed_used_pct": 6.02,
+  "long_count": 0,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "SUIUSDT",
-      "side": "LONG",
-      "pnl": -1.69,
-      "pnl_pct": -0.42,
-      "margin": 101.44,
-      "leverage": "4",
-      "tier": "3/3",
-      "entry": 1.3143,
-      "mark": 1.3089
-    },
-    {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.59,
-      "pnl_pct": 0.84,
-      "margin": 37.59,
+      "pnl": 1.62,
+      "pnl_pct": 0.85,
+      "margin": 37.58,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2369.0,
-      "mark": 2349.13
+      "mark": 2348.81
     }
   ],
   "signals": {
@@ -333,10 +322,17 @@
     },
     {
       "t": "2026-05-11",
-      "v": 150.9
+      "v": 148.98
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-11 11:23",
+      "symbol": "SUIUSDT",
+      "side": "Buy",
+      "pnl": -3.41,
+      "reason": "L3"
+    },
     {
       "ts": "2026-05-11 11:10",
       "symbol": "SUIUSDT",
@@ -469,13 +465,6 @@
       "side": "Sell",
       "pnl": 24.83,
       "reason": "T1 진입 | GF=7 | Lv=4x | Seed=$300(5.9%)"
-    },
-    {
-      "ts": "2026-05-11 05:49",
-      "symbol": "DOGEUSDT",
-      "side": "Buy",
-      "pnl": -31.73,
-      "reason": "External Exit"
     }
   ],
   "num_days": 41
