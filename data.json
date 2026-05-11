@@ -1,43 +1,32 @@
 {
-  "ts": "2026-05-11T12:13:49.759999+09:00",
+  "ts": "2026-05-11T12:14:51.321140+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5094.76,
-  "available": 4687.7,
-  "unrealized": 2.48,
-  "daily_pnl": 71.13,
-  "total_pnl": 149.76,
+  "equity": 5094.79,
+  "available": 4788.67,
+  "unrealized": 3.17,
+  "daily_pnl": 69.99,
+  "total_pnl": 149.79,
   "cum_pct": 3.03,
   "daily_avg_pct": 0.0728,
   "annual_pct": 30.42,
   "mdd": -1.26,
   "current_dd": -1.06,
-  "seed_used": 407.06,
-  "seed_used_pct": 7.99,
-  "long_count": 1,
+  "seed_used": 306.12,
+  "seed_used_pct": 6.01,
+  "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 3.16,
+      "pnl": 3.17,
       "pnl_pct": 1.67,
       "margin": 37.27,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2369.0,
-      "mark": 2329.44
-    },
-    {
-      "symbol": "SUIUSDT",
-      "side": "LONG",
-      "pnl": -0.68,
-      "pnl_pct": -0.65,
-      "margin": 26.09,
-      "leverage": "4",
-      "tier": "2/3",
-      "entry": 1.313,
-      "mark": 1.3045
+      "mark": 2329.39
     }
   ],
   "signals": {
@@ -333,10 +322,17 @@
     },
     {
       "t": "2026-05-11",
-      "v": 149.76
+      "v": 149.79
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-11 12:14",
+      "symbol": "SUIUSDT",
+      "side": "Buy",
+      "pnl": -1.13,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-05-11 11:23",
       "symbol": "SUIUSDT",
@@ -469,13 +465,6 @@
       "side": "Buy",
       "pnl": -35.48,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-05-11 05:52",
-      "symbol": "TAOUSDT",
-      "side": "Sell",
-      "pnl": 24.83,
-      "reason": "T1 진입 | GF=7 | Lv=4x | Seed=$300(5.9%)"
     }
   ],
   "num_days": 41
