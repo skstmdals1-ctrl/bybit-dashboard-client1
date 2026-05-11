@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-11T11:06:18.035216+09:00",
+  "ts": "2026-05-11T11:07:19.418639+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5098.76,
-  "available": 4689.9,
-  "unrealized": 2.1,
+  "equity": 5098.97,
+  "available": 4690.19,
+  "unrealized": 1.88,
   "daily_pnl": 74.54,
-  "total_pnl": 153.76,
+  "total_pnl": 153.97,
   "cum_pct": 3.11,
   "daily_avg_pct": 0.0747,
   "annual_pct": 31.33,
   "mdd": -1.26,
-  "current_dd": -0.99,
-  "seed_used": 408.86,
+  "current_dd": -1.0,
+  "seed_used": 408.78,
   "seed_used_pct": 8.02,
   "long_count": 1,
   "short_count": 1,
@@ -20,30 +20,30 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.02,
-      "pnl_pct": 0.54,
-      "margin": 37.7,
+      "pnl": 1.15,
+      "pnl_pct": 0.61,
+      "margin": 37.67,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2369.0,
-      "mark": 2356.2
+      "mark": 2354.66
     },
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": 1.07,
-      "pnl_pct": 1.01,
-      "margin": 26.74,
+      "pnl": 0.74,
+      "pnl_pct": 0.7,
+      "margin": 26.66,
       "leverage": "4",
       "tier": "2/3",
       "entry": 1.3236,
-      "mark": 1.337
+      "mark": 1.3328
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.348
+      "conf": 0.347
     },
     "XRPUSDT": {
       "dir": "short",
@@ -63,7 +63,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.412
+      "conf": 0.409
     },
     "ADAUSDT": {
       "dir": "short",
@@ -78,8 +78,8 @@
       "conf": 0.469
     },
     "DOGEUSDT": {
-      "dir": "neutral",
-      "conf": 0.358
+      "dir": "long",
+      "conf": 0.343
     },
     "TAOUSDT": {
       "dir": "short",
@@ -151,7 +151,7 @@
     },
     "TONUSDT": {
       "dir": "neutral",
-      "conf": 0.603
+      "conf": 0.609
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -333,7 +333,7 @@
     },
     {
       "t": "2026-05-11",
-      "v": 153.76
+      "v": 153.97
     }
   ],
   "trade_history": [
