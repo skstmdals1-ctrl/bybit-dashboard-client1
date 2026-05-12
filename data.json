@@ -1,65 +1,54 @@
 {
-  "ts": "2026-05-12T17:16:51.295274+09:00",
+  "ts": "2026-05-12T17:17:53.117768+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5020.45,
-  "available": 4112.48,
-  "unrealized": 3.58,
+  "equity": 5021.35,
+  "available": 4113.08,
+  "unrealized": 4.43,
   "daily_pnl": -73.36,
-  "total_pnl": 75.45,
-  "cum_pct": 1.53,
-  "daily_avg_pct": 0.0362,
-  "annual_pct": 14.12,
+  "total_pnl": 76.35,
+  "cum_pct": 1.54,
+  "daily_avg_pct": 0.0364,
+  "annual_pct": 14.21,
   "mdd": -2.87,
-  "current_dd": -2.26,
-  "seed_used": 907.97,
+  "current_dd": -2.51,
+  "seed_used": 908.27,
   "seed_used_pct": 18.09,
-  "long_count": 3,
+  "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 7.04,
-      "pnl_pct": 0.58,
-      "margin": 303.2,
+      "pnl": 6.62,
+      "pnl_pct": 0.54,
+      "margin": 303.3,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.4697,
-      "mark": 1.4612
+      "mark": 1.4617
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -2.35,
-      "pnl_pct": -0.16,
-      "margin": 301.53,
+      "pnl": -1.99,
+      "pnl_pct": -0.13,
+      "margin": 301.6,
       "leverage": "5",
       "tier": "2/2",
       "entry": 41.3243,
-      "mark": 41.26
+      "mark": 41.27
     },
     {
       "symbol": "TAOUSDT",
       "side": "LONG",
-      "pnl": -1.1,
-      "pnl_pct": -0.22,
-      "margin": 100.12,
+      "pnl": -0.21,
+      "pnl_pct": -0.04,
+      "margin": 100.3,
       "leverage": "5",
       "tier": "2/2",
       "entry": 317.95,
-      "mark": 317.25
-    },
-    {
-      "symbol": "TONUSDT",
-      "side": "LONG",
-      "pnl": -0.0,
-      "pnl_pct": -0.47,
-      "margin": 0.06,
-      "leverage": "4",
-      "tier": "1/3",
-      "entry": 2.4294,
-      "mark": 2.418
+      "mark": 317.82
     }
   ],
   "signals": {
@@ -105,7 +94,7 @@
     },
     "TAOUSDT": {
       "dir": "short",
-      "conf": 0.49
+      "conf": 0.489
     },
     "BNBUSDT": {
       "dir": "long",
@@ -173,7 +162,7 @@
     },
     "TONUSDT": {
       "dir": "long",
-      "conf": 0.48
+      "conf": 0.481
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -241,7 +230,7 @@
     },
     "VVVUSDT": {
       "dir": "short",
-      "conf": 0.467
+      "conf": 0.466
     },
     "BUSDT": {
       "dir": "short",
@@ -363,10 +352,17 @@
     },
     {
       "t": "2026-05-12",
-      "v": 75.45
+      "v": 76.35
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-12 17:17",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": -0.0,
+      "reason": "마진 0.1USDT < 4"
+    },
     {
       "ts": "2026-05-12 17:15",
       "symbol": "TONUSDT",
@@ -499,13 +495,6 @@
       "side": "Buy",
       "pnl": 1.09,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-11 09:53",
-      "symbol": "DOGEUSDT",
-      "side": "Buy",
-      "pnl": -2.31,
-      "reason": "1/2"
     }
   ],
   "num_days": 42
