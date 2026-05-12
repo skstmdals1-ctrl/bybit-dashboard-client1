@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-12T21:03:23.368759+09:00",
+  "ts": "2026-05-12T21:04:24.986100+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4991.26,
-  "available": 3753.57,
-  "unrealized": -6.85,
+  "equity": 4988.78,
+  "available": 3751.68,
+  "unrealized": -9.05,
   "daily_pnl": -92.7,
-  "total_pnl": 46.26,
-  "cum_pct": 0.94,
-  "daily_avg_pct": 0.0223,
-  "annual_pct": 8.48,
+  "total_pnl": 43.78,
+  "cum_pct": 0.89,
+  "daily_avg_pct": 0.0211,
+  "annual_pct": 8.0,
   "mdd": -3.2,
-  "current_dd": -2.95,
-  "seed_used": 1237.68,
+  "current_dd": -3.07,
+  "seed_used": 1237.1,
   "seed_used_pct": 24.8,
   "long_count": 2,
   "short_count": 1,
@@ -20,35 +20,35 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 0.16,
-      "pnl_pct": 0.01,
-      "margin": 301.19,
+      "pnl": -1.5,
+      "pnl_pct": -0.1,
+      "margin": 300.86,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.1092,
-      "mark": 0.1092
+      "mark": 0.1091
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 17.74,
-      "pnl_pct": 1.45,
-      "margin": 300.52,
+      "pnl": 17.91,
+      "pnl_pct": 1.47,
+      "margin": 300.48,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.4697,
-      "mark": 1.4483
+      "mark": 1.4481
     },
     {
       "symbol": "TAOUSDT",
       "side": "LONG",
-      "pnl": -24.75,
-      "pnl_pct": -1.64,
-      "margin": 296.01,
+      "pnl": -25.47,
+      "pnl_pct": -1.69,
+      "margin": 295.87,
       "leverage": "5",
       "tier": "2/2",
       "entry": 316.2724,
-      "mark": 311.07
+      "mark": 310.92
     }
   ],
   "signals": {
@@ -58,7 +58,7 @@
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.353
+      "conf": 0.357
     },
     "SOLUSDT": {
       "dir": "neutral",
@@ -90,11 +90,11 @@
     },
     "DOGEUSDT": {
       "dir": "neutral",
-      "conf": 0.405
+      "conf": 0.411
     },
     "TAOUSDT": {
       "dir": "long",
-      "conf": 0.426
+      "conf": 0.423
     },
     "BNBUSDT": {
       "dir": "long",
@@ -352,7 +352,7 @@
     },
     {
       "t": "2026-05-12",
-      "v": 46.26
+      "v": 43.78
     }
   ],
   "trade_history": [
