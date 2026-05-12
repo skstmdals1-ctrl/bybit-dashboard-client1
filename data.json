@@ -1,22 +1,33 @@
 {
-  "ts": "2026-05-12T10:59:43.210048+09:00",
+  "ts": "2026-05-12T11:00:44.835477+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5044.54,
-  "available": 4131.96,
-  "unrealized": 6.25,
+  "equity": 5036.09,
+  "available": 4121.29,
+  "unrealized": -2.1,
   "daily_pnl": -52.48,
-  "total_pnl": 99.54,
-  "cum_pct": 2.01,
-  "daily_avg_pct": 0.0474,
-  "annual_pct": 18.88,
+  "total_pnl": 91.09,
+  "cum_pct": 1.84,
+  "daily_avg_pct": 0.0434,
+  "annual_pct": 17.16,
   "mdd": -2.21,
   "current_dd": -2.09,
-  "seed_used": 912.58,
-  "seed_used_pct": 18.09,
+  "seed_used": 914.8,
+  "seed_used_pct": 18.16,
   "long_count": 1,
   "short_count": 2,
   "positions": [
+    {
+      "symbol": "ONDOUSDT",
+      "side": "SHORT",
+      "pnl": -6.42,
+      "pnl_pct": -0.53,
+      "margin": 306.19,
+      "leverage": "4",
+      "tier": "2/2",
+      "entry": 0.4348,
+      "mark": 0.4371
+    },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
@@ -29,26 +40,15 @@
       "mark": 1.4661
     },
     {
-      "symbol": "ONDOUSDT",
-      "side": "SHORT",
-      "pnl": 2.27,
-      "pnl_pct": 0.19,
-      "margin": 304.02,
-      "leverage": "4",
-      "tier": "2/2",
-      "entry": 0.4348,
-      "mark": 0.434
-    },
-    {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 1.01,
-      "pnl_pct": 0.07,
-      "margin": 302.2,
+      "pnl": 1.34,
+      "pnl_pct": 0.09,
+      "margin": 302.27,
       "leverage": "5",
       "tier": "2/2",
       "entry": 41.3243,
-      "mark": 41.352
+      "mark": 41.361
     }
   ],
   "signals": {
@@ -352,7 +352,7 @@
     },
     {
       "t": "2026-05-12",
-      "v": 99.54
+      "v": 91.09
     }
   ],
   "trade_history": [
