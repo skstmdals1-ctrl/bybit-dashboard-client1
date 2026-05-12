@@ -1,65 +1,65 @@
 {
-  "ts": "2026-05-12T10:16:33.811959+09:00",
+  "ts": "2026-05-12T10:17:35.504350+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5047.62,
-  "available": 3521.77,
-  "unrealized": -9.31,
+  "equity": 5040.48,
+  "available": 3513.05,
+  "unrealized": -16.56,
   "daily_pnl": -33.95,
-  "total_pnl": 102.62,
-  "cum_pct": 2.08,
-  "daily_avg_pct": 0.049,
-  "annual_pct": 19.58,
+  "total_pnl": 95.48,
+  "cum_pct": 1.93,
+  "daily_avg_pct": 0.0455,
+  "annual_pct": 18.06,
   "mdd": -2.21,
   "current_dd": -2.02,
-  "seed_used": 1525.84,
-  "seed_used_pct": 30.23,
+  "seed_used": 1527.43,
+  "seed_used_pct": 30.3,
   "long_count": 2,
   "short_count": 3,
   "positions": [
     {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "pnl": -3.67,
-      "pnl_pct": -0.3,
-      "margin": 305.88,
-      "leverage": "4",
-      "tier": "2/2",
-      "entry": 1.4697,
-      "mark": 1.4741
-    },
-    {
       "symbol": "ONDOUSDT",
       "side": "SHORT",
-      "pnl": -4.17,
-      "pnl_pct": -0.34,
-      "margin": 305.63,
+      "pnl": -10.34,
+      "pnl_pct": -0.85,
+      "margin": 307.17,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.4348,
-      "mark": 0.4363
+      "mark": 0.4385
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "pnl": -4.25,
+      "pnl_pct": -0.35,
+      "margin": 306.02,
+      "leverage": "4",
+      "tier": "2/2",
+      "entry": 1.4697,
+      "mark": 1.4748
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": -4.79,
-      "pnl_pct": -0.39,
-      "margin": 303.07,
+      "pnl": -5.45,
+      "pnl_pct": -0.45,
+      "margin": 302.91,
       "leverage": "4",
       "tier": "3/3",
       "entry": 2.4182,
-      "mark": 2.4087
+      "mark": 2.4074
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -0.38,
-      "pnl_pct": -0.2,
-      "margin": 37.59,
+      "pnl": -0.23,
+      "pnl_pct": -0.12,
+      "margin": 37.62,
       "leverage": "5",
       "tier": "2/2",
       "entry": 41.574,
-      "mark": 41.49
+      "mark": 41.524
     },
     {
       "symbol": "ETHUSDT",
@@ -70,7 +70,7 @@
       "leverage": "5",
       "tier": "2/2",
       "entry": 2369.0,
-      "mark": 2322.73
+      "mark": 2322.74
     }
   ],
   "signals": {
@@ -374,7 +374,7 @@
     },
     {
       "t": "2026-05-12",
-      "v": 102.62
+      "v": 95.48
     }
   ],
   "trade_history": [
