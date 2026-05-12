@@ -1,49 +1,38 @@
 {
-  "ts": "2026-05-13T00:48:31.659081+09:00",
+  "ts": "2026-05-13T00:49:33.661200+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4978.38,
-  "available": 4470.35,
-  "unrealized": -4.24,
+  "equity": 4978.05,
+  "available": 3994.83,
+  "unrealized": -4.32,
   "daily_pnl": 18.27,
-  "total_pnl": 33.38,
-  "cum_pct": 0.68,
-  "daily_avg_pct": 0.0158,
-  "annual_pct": 5.94,
+  "total_pnl": 33.05,
+  "cum_pct": 0.67,
+  "daily_avg_pct": 0.0155,
+  "annual_pct": 5.82,
   "mdd": -3.47,
-  "current_dd": -3.22,
-  "seed_used": 508.03,
-  "seed_used_pct": 10.2,
+  "current_dd": -3.32,
+  "seed_used": 983.21,
+  "seed_used_pct": 19.75,
   "long_count": 1,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -4.24,
+      "pnl": -4.2,
       "pnl_pct": -0.25,
-      "margin": 335.5,
+      "margin": 335.51,
       "leverage": "5",
       "tier": "2/3",
       "entry": 40.436,
-      "mark": 40.334
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "pnl": 0.0,
-      "pnl_pct": 3.23,
-      "margin": 0.04,
-      "leverage": "4",
-      "tier": "1/2",
-      "entry": 1.4697,
-      "mark": 1.4222
+      "mark": 40.335
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.767
+      "conf": 0.768
     },
     "XRPUSDT": {
       "dir": "short",
@@ -59,11 +48,11 @@
     },
     "1000PEPEUSDT": {
       "dir": "long",
-      "conf": 0.436
+      "conf": 0.435
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.415
+      "conf": 0.412
     },
     "ADAUSDT": {
       "dir": "short",
@@ -75,7 +64,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.411
+      "conf": 0.414
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -345,10 +334,17 @@
     },
     {
       "t": "2026-05-13",
-      "v": 33.38
+      "v": 33.05
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-13 00:49",
+      "symbol": "XRPUSDT",
+      "side": "Sell",
+      "pnl": 0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-05-13 00:45",
       "symbol": "XRPUSDT",
@@ -481,13 +477,6 @@
       "side": "Buy",
       "pnl": 22.24,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-12 00:40",
-      "symbol": "TONUSDT",
-      "side": "Sell",
-      "pnl": -25.56,
-      "reason": "External Exit"
     }
   ],
   "num_days": 43
