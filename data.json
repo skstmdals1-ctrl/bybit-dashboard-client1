@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-12T23:50:50.309567+09:00",
+  "ts": "2026-05-12T23:51:52.073126+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4976.86,
-  "available": 4172.4,
-  "unrealized": 30.63,
-  "daily_pnl": -144.42,
-  "total_pnl": 31.86,
+  "equity": 4976.72,
+  "available": 4320.65,
+  "unrealized": 12.47,
+  "daily_pnl": -126.32,
+  "total_pnl": 31.72,
   "cum_pct": 0.64,
   "daily_avg_pct": 0.0152,
   "annual_pct": 5.7,
   "mdd": -3.34,
   "current_dd": -3.33,
-  "seed_used": 804.47,
-  "seed_used_pct": 16.16,
+  "seed_used": 656.07,
+  "seed_used_pct": 13.18,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -5.45,
-      "pnl_pct": -0.32,
-      "margin": 335.26,
+      "pnl": -5.66,
+      "pnl_pct": -0.34,
+      "margin": 335.22,
       "leverage": "5",
       "tier": "2/3",
       "entry": 40.436,
-      "mark": 40.305
+      "mark": 40.3
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 36.09,
-      "pnl_pct": 2.96,
-      "margin": 295.94,
+      "pnl": 18.13,
+      "pnl_pct": 2.97,
+      "margin": 147.98,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.4697,
-      "mark": 1.4262
+      "mark": 1.426
     }
   ],
   "signals": {
@@ -341,10 +341,17 @@
     },
     {
       "t": "2026-05-12",
-      "v": 31.86
+      "v": 31.72
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-12 23:50",
+      "symbol": "XRPUSDT",
+      "side": "Sell",
+      "pnl": 18.1,
+      "reason": "-"
+    },
     {
       "ts": "2026-05-12 23:34",
       "symbol": "DOGEUSDT",
@@ -477,13 +484,6 @@
       "side": "Sell",
       "pnl": -30.63,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-05-11 12:14",
-      "symbol": "SUIUSDT",
-      "side": "Buy",
-      "pnl": -1.13,
-      "reason": "2/3"
     }
   ],
   "num_days": 42
