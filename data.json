@@ -1,65 +1,76 @@
 {
-  "ts": "2026-05-12T09:59:05.341920+09:00",
+  "ts": "2026-05-12T10:00:07.074130+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5035.43,
-  "available": 3770.47,
-  "unrealized": -21.88,
+  "equity": 5037.86,
+  "available": 3773.62,
+  "unrealized": -19.45,
   "daily_pnl": -33.95,
-  "total_pnl": 90.43,
-  "cum_pct": 1.83,
-  "daily_avg_pct": 0.0432,
-  "annual_pct": 17.08,
+  "total_pnl": 92.86,
+  "cum_pct": 1.88,
+  "daily_avg_pct": 0.0444,
+  "annual_pct": 17.59,
   "mdd": -2.2,
   "current_dd": -2.2,
-  "seed_used": 1264.95,
-  "seed_used_pct": 25.12,
-  "long_count": 1,
+  "seed_used": 1264.24,
+  "seed_used_pct": 25.09,
+  "long_count": 2,
   "short_count": 3,
   "positions": [
     {
       "symbol": "ONDOUSDT",
       "side": "SHORT",
-      "pnl": -13.7,
-      "pnl_pct": -1.12,
-      "margin": 308.01,
+      "pnl": -11.74,
+      "pnl_pct": -0.96,
+      "margin": 307.52,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.4348,
-      "mark": 0.4397
+      "mark": 0.439
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": -7.99,
-      "pnl_pct": -0.65,
-      "margin": 306.95,
+      "pnl": -7.49,
+      "pnl_pct": -0.61,
+      "margin": 306.83,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.4697,
-      "mark": 1.4793
+      "mark": 1.4787
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": -3.13,
-      "pnl_pct": -0.75,
-      "margin": 103.39,
+      "pnl": -3.19,
+      "pnl_pct": -0.77,
+      "margin": 103.38,
       "leverage": "4",
       "tier": "3/3",
       "entry": 2.4383,
-      "mark": 2.42
+      "mark": 2.4196
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": 0.05,
+      "pnl_pct": 0.02,
+      "margin": 37.68,
+      "leverage": "5",
+      "tier": "1/2",
+      "entry": 41.574,
+      "mark": 41.584
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "pnl": 2.93,
-      "pnl_pct": 1.55,
+      "pnl_pct": 1.54,
       "margin": 37.32,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2369.0,
-      "mark": 2332.39
+      "mark": 2332.43
     }
   ],
   "signals": {
@@ -363,7 +374,7 @@
     },
     {
       "t": "2026-05-12",
-      "v": 90.43
+      "v": 92.86
     }
   ],
   "trade_history": [
