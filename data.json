@@ -1,54 +1,43 @@
 {
-  "ts": "2026-05-14T03:27:27.960067+09:00",
+  "ts": "2026-05-14T03:28:29.601664+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5030.29,
-  "available": 3663.54,
-  "unrealized": 26.25,
-  "daily_pnl": 78.91,
-  "total_pnl": 85.29,
-  "cum_pct": 1.72,
-  "daily_avg_pct": 0.0388,
-  "annual_pct": 15.21,
+  "equity": 5029.27,
+  "available": 3873.99,
+  "unrealized": -20.01,
+  "daily_pnl": 124.04,
+  "total_pnl": 84.27,
+  "cum_pct": 1.7,
+  "daily_avg_pct": 0.0383,
+  "annual_pct": 15.0,
   "mdd": -1.87,
   "current_dd": -0.11,
-  "seed_used": 1366.75,
-  "seed_used_pct": 27.17,
-  "long_count": 2,
+  "seed_used": 1155.28,
+  "seed_used_pct": 22.97,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -21.92,
-      "pnl_pct": -0.56,
-      "margin": 492.7,
+      "pnl": -21.42,
+      "pnl_pct": -0.55,
+      "margin": 492.64,
       "leverage": "8",
       "tier": "2/2",
       "entry": 2252.7017,
-      "mark": 2265.3
+      "mark": 2265.01
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 1.46,
-      "pnl_pct": 0.06,
-      "margin": 262.41,
+      "pnl": 1.4,
+      "pnl_pct": 0.05,
+      "margin": 262.4,
       "leverage": "10",
       "tier": "3/3",
       "entry": 39.2611,
-      "mark": 39.283
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "pnl": 46.71,
-      "pnl_pct": 3.27,
-      "margin": 210.75,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 0.1105,
-      "mark": 0.1142
+      "mark": 39.282
     }
   ],
   "signals": {
@@ -364,10 +353,17 @@
     },
     {
       "t": "2026-05-14",
-      "v": 85.29
+      "v": 84.27
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-14 03:28",
+      "symbol": "DOGEUSDT",
+      "side": "Buy",
+      "pnl": 45.13,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-05-14 03:26",
       "symbol": "NEARUSDT",
@@ -500,13 +496,6 @@
       "side": "Buy",
       "pnl": -0.0,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-05-13 14:36",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": -16.03,
-      "reason": "2/3"
     }
   ],
   "num_days": 44
