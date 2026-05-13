@@ -1,60 +1,60 @@
 {
-  "ts": "2026-05-13T22:46:33.158974+09:00",
+  "ts": "2026-05-13T22:47:34.876340+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4941.08,
-  "available": 3889.39,
-  "unrealized": 15.14,
+  "equity": 4942.45,
+  "available": 3891.24,
+  "unrealized": 16.52,
   "daily_pnl": -38.03,
-  "total_pnl": -3.92,
-  "cum_pct": -0.08,
-  "daily_avg_pct": -0.0019,
-  "annual_pct": -0.69,
-  "mdd": -1.04,
-  "current_dd": -0.93,
-  "seed_used": 1051.69,
-  "seed_used_pct": 21.28,
+  "total_pnl": -2.55,
+  "cum_pct": -0.05,
+  "daily_avg_pct": -0.0012,
+  "annual_pct": -0.44,
+  "mdd": -1.7,
+  "current_dd": -1.7,
+  "seed_used": 1051.21,
+  "seed_used_pct": 21.27,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 22.55,
-      "pnl_pct": 1.66,
-      "margin": 334.04,
+      "pnl": 24.14,
+      "pnl_pct": 1.78,
+      "margin": 333.64,
       "leverage": "4",
       "tier": "2/2",
       "entry": 2302.8671,
-      "mark": 2264.65
+      "mark": 2261.96
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -11.08,
-      "pnl_pct": -0.7,
-      "margin": 156.43,
+      "pnl": -11.56,
+      "pnl_pct": -0.73,
+      "margin": 156.38,
       "leverage": "10",
       "tier": "3/3",
       "entry": 39.4837,
-      "mark": 39.206
+      "mark": 39.194
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 3.67,
-      "pnl_pct": 0.83,
-      "margin": 54.56,
+      "pnl": 3.95,
+      "pnl_pct": 0.9,
+      "margin": 54.52,
       "leverage": "8",
       "tier": "1/2",
       "entry": 1.5929,
-      "mark": 1.5796
+      "mark": 1.5786
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.365
+      "conf": 0.366
     },
     "XRPUSDT": {
       "dir": "short",
@@ -62,7 +62,7 @@
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.495
+      "conf": 0.494
     },
     "LINKUSDT": {
       "dir": "neutral",
@@ -238,7 +238,7 @@
     },
     "INJUSDT": {
       "dir": "short",
-      "conf": 0.481
+      "conf": 0.482
     }
   },
   "equity_hist": [
@@ -360,7 +360,7 @@
     },
     {
       "t": "2026-05-13",
-      "v": -3.92
+      "v": -2.55
     }
   ],
   "trade_history": [
