@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-13T10:10:13.134986+09:00",
+  "ts": "2026-05-13T10:11:14.742657+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4979.84,
-  "available": 3399.22,
-  "unrealized": -0.81,
+  "equity": 4980.56,
+  "available": 3399.81,
+  "unrealized": 0.23,
   "daily_pnl": 16.46,
-  "total_pnl": 34.84,
-  "cum_pct": 0.7,
-  "daily_avg_pct": 0.0162,
-  "annual_pct": 6.09,
+  "total_pnl": 35.56,
+  "cum_pct": 0.72,
+  "daily_avg_pct": 0.0167,
+  "annual_pct": 6.28,
   "mdd": -3.82,
   "current_dd": -3.33,
-  "seed_used": 1580.61,
+  "seed_used": 1580.75,
   "seed_used_pct": 31.74,
   "long_count": 1,
   "short_count": 2,
@@ -20,35 +20,35 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.6,
-      "pnl_pct": 0.02,
-      "margin": 507.53,
+      "pnl": 2.86,
+      "pnl_pct": 0.11,
+      "margin": 507.99,
       "leverage": "5",
       "tier": "2/3",
       "entry": 40.2965,
-      "mark": 40.306
-    },
-    {
-      "symbol": "SUIUSDT",
-      "side": "SHORT",
-      "pnl": -0.28,
-      "pnl_pct": -0.02,
-      "margin": 294.93,
-      "leverage": "4",
-      "tier": "2/2",
-      "entry": 1.2415,
-      "mark": 1.2418
+      "mark": 40.342
     },
     {
       "symbol": "ONDOUSDT",
       "side": "SHORT",
-      "pnl": -1.13,
-      "pnl_pct": -0.75,
-      "margin": 37.65,
+      "pnl": -1.84,
+      "pnl_pct": -0.15,
+      "margin": 299.85,
       "leverage": "4",
       "tier": "2/2",
-      "entry": 0.3975,
-      "mark": 0.4005
+      "entry": 0.4004,
+      "mark": 0.401
+    },
+    {
+      "symbol": "SUIUSDT",
+      "side": "SHORT",
+      "pnl": -0.79,
+      "pnl_pct": -0.07,
+      "margin": 295.06,
+      "leverage": "4",
+      "tier": "2/2",
+      "entry": 1.2415,
+      "mark": 1.2423
     }
   ],
   "signals": {
@@ -356,7 +356,7 @@
     },
     {
       "t": "2026-05-13",
-      "v": 34.84
+      "v": 35.56
     }
   ],
   "trade_history": [
