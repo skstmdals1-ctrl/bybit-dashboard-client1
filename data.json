@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-13T14:48:00.903978+09:00",
+  "ts": "2026-05-13T14:49:02.453310+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4959.57,
-  "available": 4006.83,
-  "unrealized": 14.9,
+  "equity": 4957.92,
+  "available": 4004.84,
+  "unrealized": 13.38,
   "daily_pnl": -19.78,
-  "total_pnl": 14.57,
-  "cum_pct": 0.29,
-  "daily_avg_pct": 0.0067,
-  "annual_pct": 2.48,
+  "total_pnl": 12.92,
+  "cum_pct": 0.26,
+  "daily_avg_pct": 0.006,
+  "annual_pct": 2.21,
   "mdd": -0.39,
   "current_dd": -0.2,
-  "seed_used": 952.74,
-  "seed_used_pct": 19.21,
+  "seed_used": 953.08,
+  "seed_used_pct": 19.22,
   "long_count": 0,
   "short_count": 3,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 4.24,
-      "pnl_pct": 0.31,
-      "margin": 338.61,
+      "pnl": 3.47,
+      "pnl_pct": 0.26,
+      "margin": 338.81,
       "leverage": "4",
       "tier": "2/2",
       "entry": 2302.8671,
-      "mark": 2295.68
+      "mark": 2296.99
     },
     {
       "symbol": "SUIUSDT",
       "side": "SHORT",
-      "pnl": 6.49,
-      "pnl_pct": 1.09,
-      "margin": 147.36,
+      "pnl": 6.1,
+      "pnl_pct": 1.02,
+      "margin": 147.46,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.2415,
-      "mark": 1.228
+      "mark": 1.2288
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 4.17,
-      "pnl_pct": 1.06,
-      "margin": 77.7,
+      "pnl": 3.82,
+      "pnl_pct": 0.97,
+      "margin": 77.77,
       "leverage": "5",
       "tier": "2/3",
       "entry": 1.6568,
-      "mark": 1.6392
+      "mark": 1.6407
     }
   ],
   "signals": {
@@ -133,8 +133,8 @@
       "conf": 0.5
     },
     "ZECUSDT": {
-      "dir": "neutral",
-      "conf": 0.352
+      "dir": "long",
+      "conf": 0.484
     },
     "ARBUSDT": {
       "dir": "short",
@@ -356,7 +356,7 @@
     },
     {
       "t": "2026-05-13",
-      "v": 14.57
+      "v": 12.92
     }
   ],
   "trade_history": [
