@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-13T09:55:50.235873+09:00",
+  "ts": "2026-05-13T09:56:51.821173+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4980.13,
-  "available": 3700.08,
-  "unrealized": -0.96,
+  "equity": 4981.19,
+  "available": 3700.95,
+  "unrealized": 0.19,
   "daily_pnl": 16.46,
-  "total_pnl": 35.13,
-  "cum_pct": 0.71,
-  "daily_avg_pct": 0.0165,
-  "annual_pct": 6.21,
+  "total_pnl": 36.19,
+  "cum_pct": 0.73,
+  "daily_avg_pct": 0.0169,
+  "annual_pct": 6.36,
   "mdd": -3.82,
   "current_dd": -3.36,
-  "seed_used": 1280.04,
+  "seed_used": 1280.24,
   "seed_used_pct": 25.7,
   "long_count": 1,
   "short_count": 1,
@@ -20,38 +20,38 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -0.54,
-      "pnl_pct": -0.02,
-      "margin": 507.31,
+      "pnl": 0.6,
+      "pnl_pct": 0.02,
+      "margin": 507.53,
       "leverage": "5",
       "tier": "2/3",
       "entry": 40.2965,
-      "mark": 40.288
+      "mark": 40.306
     },
     {
       "symbol": "SUIUSDT",
       "side": "SHORT",
-      "pnl": -0.43,
-      "pnl_pct": -0.35,
+      "pnl": -0.41,
+      "pnl_pct": -0.33,
       "margin": 30.95,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.2339,
-      "mark": 1.2382
+      "mark": 1.238
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.391
+      "conf": 0.392
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.371
+      "conf": 0.377
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.499
+      "conf": 0.498
     },
     "LINKUSDT": {
       "dir": "neutral",
@@ -75,7 +75,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.448
+      "conf": 0.398
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -345,7 +345,7 @@
     },
     {
       "t": "2026-05-13",
-      "v": 35.13
+      "v": 36.19
     }
   ],
   "trade_history": [
