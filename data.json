@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-13T23:59:37.328456+09:00",
+  "ts": "2026-05-14T00:00:39.637888+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4934.22,
-  "available": 3471.83,
-  "unrealized": 8.44,
-  "daily_pnl": -38.03,
-  "total_pnl": -10.78,
-  "cum_pct": -0.22,
-  "daily_avg_pct": -0.0051,
-  "annual_pct": -1.84,
+  "equity": 4933.05,
+  "available": 3470.71,
+  "unrealized": 7.57,
+  "daily_pnl": 0,
+  "total_pnl": -11.95,
+  "cum_pct": -0.24,
+  "daily_avg_pct": -0.0055,
+  "annual_pct": -1.99,
   "mdd": -1.86,
   "current_dd": -1.79,
-  "seed_used": 1462.39,
+  "seed_used": 1462.33,
   "seed_used_pct": 29.64,
   "long_count": 2,
   "short_count": 2,
@@ -20,46 +20,46 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 21.42,
-      "pnl_pct": 1.58,
-      "margin": 334.32,
+      "pnl": 21.39,
+      "pnl_pct": 1.57,
+      "margin": 334.33,
       "leverage": "4",
       "tier": "2/2",
       "entry": 2302.8671,
-      "mark": 2266.57
+      "mark": 2266.62
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -16.94,
-      "pnl_pct": -1.08,
-      "margin": 155.85,
+      "pnl": -17.7,
+      "pnl_pct": -1.12,
+      "margin": 155.77,
       "leverage": "10",
       "tier": "3/3",
       "entry": 39.4837,
-      "mark": 39.059
+      "mark": 39.04
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 2.82,
-      "pnl_pct": 0.64,
-      "margin": 54.66,
+      "pnl": 2.4,
+      "pnl_pct": 0.55,
+      "margin": 54.71,
       "leverage": "8",
       "tier": "1/2",
       "entry": 1.5929,
-      "mark": 1.5827
+      "mark": 1.5842
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 1.16,
-      "pnl_pct": 0.4,
-      "margin": 41.0,
+      "pnl": 1.49,
+      "pnl_pct": 0.52,
+      "margin": 41.05,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.1113,
-      "mark": 0.1118
+      "mark": 0.1119
     }
   ],
   "signals": {
@@ -372,6 +372,10 @@
     {
       "t": "2026-05-13",
       "v": -10.78
+    },
+    {
+      "t": "2026-05-14",
+      "v": -11.95
     }
   ],
   "trade_history": [
@@ -516,5 +520,5 @@
       "reason": "2/2"
     }
   ],
-  "num_days": 43
+  "num_days": 44
 }
