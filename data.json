@@ -1,32 +1,32 @@
 {
-  "ts": "2026-05-13T20:34:48.358383+09:00",
+  "ts": "2026-05-13T20:35:50.074625+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4935.52,
-  "available": 3567.15,
-  "unrealized": -8.54,
+  "equity": 4933.66,
+  "available": 3565.09,
+  "unrealized": -10.25,
   "daily_pnl": -19.59,
-  "total_pnl": -9.48,
-  "cum_pct": -0.19,
-  "daily_avg_pct": -0.0044,
-  "annual_pct": -1.59,
+  "total_pnl": -11.34,
+  "cum_pct": -0.23,
+  "daily_avg_pct": -0.0054,
+  "annual_pct": -1.95,
   "mdd": -0.78,
   "current_dd": -0.61,
-  "seed_used": 1368.37,
-  "seed_used_pct": 27.72,
+  "seed_used": 1368.57,
+  "seed_used_pct": 27.74,
   "long_count": 2,
   "short_count": 2,
   "positions": [
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 0.98,
-      "pnl_pct": 0.06,
-      "margin": 345.88,
+      "pnl": -0.41,
+      "pnl_pct": -0.02,
+      "margin": 346.16,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.6246,
-      "mark": 1.6237
+      "mark": 1.625
     },
     {
       "symbol": "ETHUSDT",
@@ -42,30 +42,30 @@
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -3.83,
-      "pnl_pct": -0.38,
-      "margin": 111.83,
+      "pnl": -4.07,
+      "pnl_pct": -0.4,
+      "margin": 111.8,
       "leverage": "9",
       "tier": "3/3",
       "entry": 552.0846,
-      "mark": 549.99
+      "mark": 549.86
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -4.97,
-      "pnl_pct": -0.59,
-      "margin": 83.02,
+      "pnl": -5.05,
+      "pnl_pct": -0.6,
+      "margin": 83.01,
       "leverage": "10",
       "tier": "2/3",
       "entry": 39.694,
-      "mark": 39.458
+      "mark": 39.454
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.357
+      "conf": 0.359
     },
     "XRPUSDT": {
       "dir": "neutral",
@@ -73,7 +73,7 @@
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.485
+      "conf": 0.486
     },
     "LINKUSDT": {
       "dir": "neutral",
@@ -371,7 +371,7 @@
     },
     {
       "t": "2026-05-13",
-      "v": -9.48
+      "v": -11.34
     }
   ],
   "trade_history": [
