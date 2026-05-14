@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-14T15:27:04.357901+09:00",
+  "ts": "2026-05-14T15:28:05.798471+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4959.93,
-  "available": 3935.8,
-  "unrealized": 0.07,
-  "daily_pnl": 34.01,
-  "total_pnl": 14.93,
+  "equity": 4959.83,
+  "available": 4191.32,
+  "unrealized": 2.52,
+  "daily_pnl": 31.37,
+  "total_pnl": 14.83,
   "cum_pct": 0.3,
   "daily_avg_pct": 0.0068,
   "annual_pct": 2.51,
   "mdd": -1.87,
   "current_dd": -1.69,
-  "seed_used": 1024.12,
-  "seed_used_pct": 20.65,
+  "seed_used": 768.51,
+  "seed_used_pct": 15.49,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "NEARUSDT",
-      "side": "SHORT",
-      "pnl": -2.4,
-      "pnl_pct": -0.87,
-      "margin": 39.84,
-      "leverage": "7",
-      "tier": "1/2",
-      "entry": 1.5664,
-      "mark": 1.58
-    },
-    {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 2.47,
-      "pnl_pct": 0.97,
-      "margin": 36.75,
+      "pnl": 2.52,
+      "pnl_pct": 0.99,
+      "margin": 36.76,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.1134,
-      "mark": 0.1144
+      "mark": 0.1145
+    },
+    {
+      "symbol": "NEARUSDT",
+      "side": "SHORT",
+      "pnl": -0.0,
+      "pnl_pct": -0.84,
+      "margin": 0.02,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 1.5664,
+      "mark": 1.5795
     }
   ],
   "signals": {
@@ -353,10 +353,17 @@
     },
     {
       "t": "2026-05-14",
-      "v": 14.93
+      "v": 14.83
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-14 15:27",
+      "symbol": "NEARUSDT",
+      "side": "Sell",
+      "pnl": -2.64,
+      "reason": "1/2"
+    },
     {
       "ts": "2026-05-14 14:53",
       "symbol": "ETHUSDT",
@@ -489,13 +496,6 @@
       "side": "Sell",
       "pnl": 0.0,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-05-14 01:26",
-      "symbol": "NEARUSDT",
-      "side": "Sell",
-      "pnl": 5.19,
-      "reason": "1/2"
     }
   ],
   "num_days": 44
