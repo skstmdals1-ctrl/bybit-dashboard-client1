@@ -1,19 +1,19 @@
 {
-  "ts": "2026-05-14T19:54:03.053901+09:00",
+  "ts": "2026-05-14T19:55:04.595674+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4977.98,
-  "available": 3840.38,
-  "unrealized": 22.82,
-  "daily_pnl": 30.23,
-  "total_pnl": 32.98,
-  "cum_pct": 0.67,
-  "daily_avg_pct": 0.0152,
-  "annual_pct": 5.7,
+  "equity": 4977.43,
+  "available": 4204.01,
+  "unrealized": 19.09,
+  "daily_pnl": 32.94,
+  "total_pnl": 32.43,
+  "cum_pct": 0.66,
+  "daily_avg_pct": 0.015,
+  "annual_pct": 5.63,
   "mdd": -1.87,
   "current_dd": -1.49,
-  "seed_used": 1137.6,
-  "seed_used_pct": 22.85,
+  "seed_used": 773.43,
+  "seed_used_pct": 15.54,
   "long_count": 1,
   "short_count": 1,
   "positions": [
@@ -31,13 +31,13 @@
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 2.83,
-      "pnl_pct": 1.01,
-      "margin": 39.78,
+      "pnl": 0.0,
+      "pnl_pct": 0.97,
+      "margin": 0.02,
       "leverage": "7",
-      "tier": "2/2",
+      "tier": "1/2",
       "entry": 1.5902,
-      "mark": 1.5742
+      "mark": 1.5747
     }
   ],
   "signals": {
@@ -151,7 +151,7 @@
     },
     "TONUSDT": {
       "dir": "neutral",
-      "conf": 0.497
+      "conf": 0.445
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -353,10 +353,17 @@
     },
     {
       "t": "2026-05-14",
-      "v": 32.98
+      "v": 32.43
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-14 19:54",
+      "symbol": "NEARUSDT",
+      "side": "Sell",
+      "pnl": 2.71,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-05-14 17:35",
       "symbol": "NEARUSDT",
@@ -489,13 +496,6 @@
       "side": "Sell",
       "pnl": -1.21,
       "reason": "1/2"
-    },
-    {
-      "ts": "2026-05-14 03:08",
-      "symbol": "DOGEUSDT",
-      "side": "Buy",
-      "pnl": 42.29,
-      "reason": "-"
     }
   ],
   "num_days": 44
