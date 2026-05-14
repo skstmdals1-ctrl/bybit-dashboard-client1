@@ -1,65 +1,54 @@
 {
-  "ts": "2026-05-14T09:27:03.985578+09:00",
+  "ts": "2026-05-14T09:28:05.739318+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5028.88,
-  "available": 3394.82,
-  "unrealized": 19.34,
-  "daily_pnl": 84.56,
-  "total_pnl": 83.88,
-  "cum_pct": 1.7,
-  "daily_avg_pct": 0.0383,
-  "annual_pct": 15.0,
+  "equity": 5026.91,
+  "available": 3638.65,
+  "unrealized": 12.17,
+  "daily_pnl": 89.72,
+  "total_pnl": 81.91,
+  "cum_pct": 1.66,
+  "daily_avg_pct": 0.0374,
+  "annual_pct": 14.62,
   "mdd": -1.87,
   "current_dd": -0.18,
-  "seed_used": 1634.06,
-  "seed_used_pct": 32.49,
+  "seed_used": 1388.27,
+  "seed_used_pct": 27.62,
   "long_count": 1,
-  "short_count": 3,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -18.58,
-      "pnl_pct": -0.47,
-      "margin": 492.29,
+      "pnl": -17.81,
+      "pnl_pct": -0.45,
+      "margin": 492.19,
       "leverage": "8",
       "tier": "2/2",
       "entry": 2252.7017,
-      "mark": 2263.38
+      "mark": 2262.94
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 29.17,
-      "pnl_pct": 0.92,
-      "margin": 356.0,
+      "pnl": 26.37,
+      "pnl_pct": 0.83,
+      "margin": 355.69,
       "leverage": "9",
       "tier": "2/2",
       "entry": 0.1134,
-      "mark": 0.1144
+      "mark": 0.1143
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 3.45,
-      "pnl_pct": 1.15,
-      "margin": 42.4,
+      "pnl": 3.62,
+      "pnl_pct": 1.21,
+      "margin": 42.38,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2.1386,
-      "mark": 2.114
-    },
-    {
-      "symbol": "NEARUSDT",
-      "side": "SHORT",
-      "pnl": 5.31,
-      "pnl_pct": 1.87,
-      "margin": 39.83,
-      "leverage": "7",
-      "tier": "1/2",
-      "entry": 1.6114,
-      "mark": 1.5813
+      "mark": 2.1128
     }
   ],
   "signals": {
@@ -375,10 +364,17 @@
     },
     {
       "t": "2026-05-14",
-      "v": 83.88
+      "v": 81.91
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-14 09:27",
+      "symbol": "NEARUSDT",
+      "side": "Sell",
+      "pnl": 5.16,
+      "reason": "1/2"
+    },
     {
       "ts": "2026-05-14 07:05",
       "symbol": "HYPEUSDT",
@@ -511,13 +507,6 @@
       "side": "Sell",
       "pnl": 5.81,
       "reason": "-"
-    },
-    {
-      "ts": "2026-05-13 16:19",
-      "symbol": "SUIUSDT",
-      "side": "Sell",
-      "pnl": -11.72,
-      "reason": "External Exit"
     }
   ],
   "num_days": 44
