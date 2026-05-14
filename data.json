@@ -1,79 +1,79 @@
 {
-  "ts": "2026-05-15T08:08:39.657476+09:00",
+  "ts": "2026-05-15T08:09:41.189586+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4877.47,
-  "available": 3122.71,
-  "unrealized": -2.71,
+  "equity": 4877.12,
+  "available": 3123.29,
+  "unrealized": -3.26,
   "daily_pnl": -139.5,
-  "total_pnl": -67.53,
+  "total_pnl": -67.88,
   "cum_pct": -1.37,
   "daily_avg_pct": -0.0307,
   "annual_pct": -10.6,
   "mdd": -3.7,
-  "current_dd": -3.29,
-  "seed_used": 1754.76,
-  "seed_used_pct": 35.98,
+  "current_dd": -3.36,
+  "seed_used": 1753.83,
+  "seed_used_pct": 35.96,
   "long_count": 2,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -0.36,
-      "pnl_pct": -0.01,
-      "margin": 638.15,
+      "pnl": 2.66,
+      "pnl_pct": 0.06,
+      "margin": 637.72,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2290.6032,
-      "mark": 2290.79
+      "mark": 2289.24
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -2.28,
-      "pnl_pct": -0.09,
-      "margin": 347.98,
+      "pnl": -6.28,
+      "pnl_pct": -0.26,
+      "margin": 347.41,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.1159,
-      "mark": 0.1158
+      "mark": 0.1156
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -0.33,
-      "pnl_pct": -0.09,
-      "margin": 46.35,
+      "pnl": -0.07,
+      "pnl_pct": -0.02,
+      "margin": 46.39,
       "leverage": "8",
       "tier": "2/2",
       "entry": 44.029,
-      "mark": 43.99
+      "mark": 44.021
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 0.26,
-      "pnl_pct": 0.14,
-      "margin": 37.85,
+      "pnl": 0.43,
+      "pnl_pct": 0.23,
+      "margin": 37.82,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.5847,
-      "mark": 1.5825
+      "mark": 1.5811
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.349
+      "conf": 0.345
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.337
+      "conf": 0.338
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.492
+      "conf": 0.491
     },
     "LINKUSDT": {
       "dir": "neutral",
@@ -93,11 +93,11 @@
     },
     "SUIUSDT": {
       "dir": "long",
-      "conf": 0.382
+      "conf": 0.38
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.71
+      "conf": 0.711
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -375,7 +375,7 @@
     },
     {
       "t": "2026-05-15",
-      "v": -67.53
+      "v": -67.88
     }
   ],
   "trade_history": [
