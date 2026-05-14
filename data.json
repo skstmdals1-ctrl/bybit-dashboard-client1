@@ -1,54 +1,65 @@
 {
-  "ts": "2026-05-15T07:09:09.791156+09:00",
+  "ts": "2026-05-15T07:10:11.406188+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4884.53,
-  "available": 3546.52,
-  "unrealized": 3.88,
+  "equity": 4884.06,
+  "available": 3499.37,
+  "unrealized": 3.48,
   "daily_pnl": -139.5,
-  "total_pnl": -60.47,
-  "cum_pct": -1.22,
-  "daily_avg_pct": -0.0273,
-  "annual_pct": -9.49,
+  "total_pnl": -60.94,
+  "cum_pct": -1.23,
+  "daily_avg_pct": -0.0275,
+  "annual_pct": -9.55,
   "mdd": -3.7,
   "current_dd": -3.19,
-  "seed_used": 1338.01,
-  "seed_used_pct": 27.39,
-  "long_count": 1,
+  "seed_used": 1384.69,
+  "seed_used_pct": 28.35,
+  "long_count": 2,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -12.51,
-      "pnl_pct": -0.28,
-      "margin": 639.88,
+      "pnl": -13.12,
+      "pnl_pct": -0.29,
+      "margin": 639.97,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2290.6032,
-      "mark": 2297.02
+      "mark": 2297.33
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 16.66,
-      "pnl_pct": 0.68,
-      "margin": 350.68,
+      "pnl": 16.87,
+      "pnl_pct": 0.69,
+      "margin": 350.71,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.1159,
       "mark": 0.1167
     },
     {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": -0.03,
+      "pnl_pct": -0.01,
+      "margin": 46.39,
+      "leverage": "8",
+      "tier": "1/2",
+      "entry": 44.029,
+      "mark": 44.025
+    },
+    {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": -0.26,
-      "pnl_pct": -0.14,
-      "margin": 37.96,
+      "pnl": -0.24,
+      "pnl_pct": -0.13,
+      "margin": 37.95,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.5847,
-      "mark": 1.5869
+      "mark": 1.5867
     }
   ],
   "signals": {
@@ -114,7 +125,7 @@
     },
     "NEARUSDT": {
       "dir": "short",
-      "conf": 0.485
+      "conf": 0.486
     },
     "ENAUSDT": {
       "dir": "neutral",
@@ -364,7 +375,7 @@
     },
     {
       "t": "2026-05-15",
-      "v": -60.47
+      "v": -60.94
     }
   ],
   "trade_history": [
