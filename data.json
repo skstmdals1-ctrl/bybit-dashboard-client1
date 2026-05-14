@@ -1,43 +1,32 @@
 {
-  "ts": "2026-05-14T15:29:07.391301+09:00",
+  "ts": "2026-05-14T15:30:08.951348+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4960.08,
-  "available": 4191.53,
-  "unrealized": 2.76,
+  "equity": 4959.91,
+  "available": 3982.28,
+  "unrealized": 2.54,
   "daily_pnl": 31.37,
-  "total_pnl": 15.08,
+  "total_pnl": 14.91,
   "cum_pct": 0.3,
   "daily_avg_pct": 0.0068,
   "annual_pct": 2.51,
   "mdd": -1.87,
   "current_dd": -1.7,
-  "seed_used": 768.54,
-  "seed_used_pct": 15.49,
+  "seed_used": 977.63,
+  "seed_used_pct": 19.71,
   "long_count": 1,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 2.77,
-      "pnl_pct": 1.09,
-      "margin": 36.8,
+      "pnl": 2.54,
+      "pnl_pct": 1.0,
+      "margin": 36.76,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.1134,
-      "mark": 0.1146
-    },
-    {
-      "symbol": "NEARUSDT",
-      "side": "SHORT",
-      "pnl": -0.0,
-      "pnl_pct": -0.9,
-      "margin": 0.02,
-      "leverage": "7",
-      "tier": "1/2",
-      "entry": 1.5664,
-      "mark": 1.5805
+      "mark": 0.1145
     }
   ],
   "signals": {
@@ -353,10 +342,17 @@
     },
     {
       "t": "2026-05-14",
-      "v": 15.08
+      "v": 14.91
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-14 15:29",
+      "symbol": "NEARUSDT",
+      "side": "Sell",
+      "pnl": -0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-05-14 15:27",
       "symbol": "NEARUSDT",
@@ -489,13 +485,6 @@
       "side": "Sell",
       "pnl": -4.62,
       "reason": "1/2"
-    },
-    {
-      "ts": "2026-05-14 01:28",
-      "symbol": "NEARUSDT",
-      "side": "Sell",
-      "pnl": 0.0,
-      "reason": "L2"
     }
   ],
   "num_days": 44
