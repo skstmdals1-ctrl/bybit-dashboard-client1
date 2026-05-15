@@ -1,32 +1,32 @@
 {
-  "ts": "2026-05-15T11:27:10.876547+09:00",
+  "ts": "2026-05-15T11:28:12.350120+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 4925.98,
-  "available": 3410.04,
-  "unrealized": 52.04,
+  "equity": 4927.62,
+  "available": 3411.98,
+  "unrealized": 53.83,
   "daily_pnl": -146.34,
-  "total_pnl": -19.02,
-  "cum_pct": -0.38,
-  "daily_avg_pct": -0.0085,
-  "annual_pct": -3.05,
+  "total_pnl": -17.38,
+  "cum_pct": -0.35,
+  "daily_avg_pct": -0.0078,
+  "annual_pct": -2.81,
   "mdd": -1.39,
-  "current_dd": -0.4,
-  "seed_used": 1515.95,
-  "seed_used_pct": 30.77,
+  "current_dd": -0.38,
+  "seed_used": 1515.63,
+  "seed_used_pct": 30.76,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 49.81,
-      "pnl_pct": 1.12,
-      "margin": 630.98,
+      "pnl": 51.56,
+      "pnl_pct": 1.15,
+      "margin": 630.73,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2290.6032,
-      "mark": 2265.06
+      "mark": 2264.16
     },
     {
       "symbol": "BTCUSDT",
@@ -37,28 +37,28 @@
       "leverage": "7",
       "tier": "2/2",
       "entry": 81180.6,
-      "mark": 80898.61
+      "mark": 80897.75
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 3.36,
-      "pnl_pct": 1.77,
-      "margin": 37.23,
+      "pnl": 3.41,
+      "pnl_pct": 1.8,
+      "margin": 37.22,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.5847,
-      "mark": 1.5566
+      "mark": 1.5562
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "long",
-      "conf": 0.383
+      "conf": 0.385
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.339
+      "conf": 0.477
     },
     "SOLUSDT": {
       "dir": "long",
@@ -86,11 +86,11 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.386
+      "conf": 0.384
     },
     "DOGEUSDT": {
       "dir": "neutral",
-      "conf": 0.381
+      "conf": 0.39
     },
     "TAOUSDT": {
       "dir": "long",
@@ -364,7 +364,7 @@
     },
     {
       "t": "2026-05-15",
-      "v": -19.02
+      "v": -17.38
     }
   ],
   "trade_history": [
