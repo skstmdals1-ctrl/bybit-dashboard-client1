@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-16T02:26:10.328932+09:00",
+  "ts": "2026-05-16T02:27:12.013820+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5005.54,
-  "available": 4238.54,
-  "unrealized": 156.0,
-  "daily_pnl": 34.36,
-  "total_pnl": 60.54,
-  "cum_pct": 1.22,
-  "daily_avg_pct": 0.0264,
-  "annual_pct": 10.11,
+  "equity": 5010.63,
+  "available": 4315.78,
+  "unrealized": 142.79,
+  "daily_pnl": 52.01,
+  "total_pnl": 65.63,
+  "cum_pct": 1.33,
+  "daily_avg_pct": 0.0287,
+  "annual_pct": 11.04,
   "mdd": -1.39,
   "current_dd": -0.57,
-  "seed_used": 767.0,
-  "seed_used_pct": 15.32,
+  "seed_used": 694.85,
+  "seed_used_pct": 13.87,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 120.5,
-      "pnl_pct": 2.7,
-      "margin": 620.88,
+      "pnl": 124.53,
+      "pnl_pct": 2.79,
+      "margin": 620.31,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2290.6032,
-      "mark": 2228.81
+      "mark": 2226.74
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 35.56,
-      "pnl_pct": 2.55,
-      "margin": 142.91,
+      "pnl": 18.29,
+      "pnl_pct": 2.62,
+      "margin": 71.57,
       "leverage": "10",
       "tier": "3/3",
       "entry": 43.344,
-      "mark": 44.45
+      "mark": 44.481
     }
   ],
   "signals": {
@@ -353,7 +353,7 @@
     },
     {
       "t": "2026-05-16",
-      "v": 60.54
+      "v": 65.63
     }
   ],
   "trade_history": [
@@ -361,8 +361,15 @@
       "ts": "2026-05-16 02:26",
       "symbol": "HYPEUSDT",
       "side": "Buy",
+      "pnl": 17.65,
+      "reason": "3/3"
+    },
+    {
+      "ts": "2026-05-16 02:26",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
       "pnl": 34.36,
-      "reason": "-"
+      "reason": "3/3"
     },
     {
       "ts": "2026-05-15 22:42",
@@ -489,13 +496,6 @@
       "side": "Sell",
       "pnl": -11.73,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-14 23:17",
-      "symbol": "NEARUSDT",
-      "side": "Sell",
-      "pnl": -2.66,
-      "reason": "1/2"
     }
   ],
   "num_days": 46
