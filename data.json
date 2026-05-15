@@ -1,10 +1,10 @@
 {
-  "ts": "2026-05-15T21:08:09.371786+09:00",
+  "ts": "2026-05-15T21:09:10.972977+09:00",
   "start_date": "2026-04-01",
   "status": "running",
   "equity": 4937.39,
-  "available": 3770.61,
-  "unrealized": 62.99,
+  "available": 3770.38,
+  "unrealized": 63.2,
   "daily_pnl": -145.7,
   "total_pnl": -7.61,
   "cum_pct": -0.15,
@@ -12,38 +12,38 @@
   "annual_pct": -1.2,
   "mdd": -1.39,
   "current_dd": -0.5,
-  "seed_used": 1166.78,
-  "seed_used_pct": 23.63,
+  "seed_used": 1167.01,
+  "seed_used_pct": 23.64,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 74.69,
-      "pnl_pct": 1.67,
-      "margin": 627.43,
+      "pnl": 73.81,
+      "pnl_pct": 1.65,
+      "margin": 627.55,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2290.6032,
-      "mark": 2252.3
+      "mark": 2252.75
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -11.7,
-      "pnl_pct": -0.4,
-      "margin": 413.32,
+      "pnl": -10.61,
+      "pnl_pct": -0.37,
+      "margin": 413.47,
       "leverage": "7",
       "tier": "2/2",
       "entry": 80692.5111,
-      "mark": 80367.6
+      "mark": 80397.9
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "long",
-      "conf": 0.386
+      "conf": 0.384
     },
     "XRPUSDT": {
       "dir": "short",
@@ -51,7 +51,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.448
+      "conf": 0.449
     },
     "LINKUSDT": {
       "dir": "neutral",
