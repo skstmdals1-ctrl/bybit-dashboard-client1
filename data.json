@@ -1,38 +1,49 @@
 {
-  "ts": "2026-05-17T01:13:26.980445+09:00",
+  "ts": "2026-05-17T01:14:28.407710+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5109.96,
-  "available": 4501.33,
-  "unrealized": 223.8,
+  "equity": 5111.41,
+  "available": 4393.28,
+  "unrealized": 225.09,
   "daily_pnl": 0,
-  "total_pnl": 164.96,
-  "cum_pct": 3.34,
-  "daily_avg_pct": 0.0699,
-  "annual_pct": 29.05,
+  "total_pnl": 166.41,
+  "cum_pct": 3.37,
+  "daily_avg_pct": 0.0705,
+  "annual_pct": 29.33,
   "mdd": -0.22,
-  "current_dd": -0.11,
-  "seed_used": 608.63,
-  "seed_used_pct": 11.91,
-  "long_count": 0,
+  "current_dd": 0.0,
+  "seed_used": 718.14,
+  "seed_used_pct": 14.05,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 223.91,
-      "pnl_pct": 5.01,
-      "margin": 606.11,
+      "pnl": 225.19,
+      "pnl_pct": 5.04,
+      "margin": 605.93,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2290.6032,
-      "mark": 2175.78
+      "mark": 2175.12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "pnl": -0.01,
+      "pnl_pct": -0.0,
+      "margin": 109.46,
+      "leverage": "5",
+      "tier": "1/2",
+      "entry": 78189.8,
+      "mark": 78188.84
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "long",
-      "conf": 0.373
+      "conf": 0.374
     },
     "XRPUSDT": {
       "dir": "long",
@@ -342,7 +353,7 @@
     },
     {
       "t": "2026-05-17",
-      "v": 164.96
+      "v": 166.41
     }
   ],
   "trade_history": [
@@ -477,14 +488,14 @@
       "symbol": "ZECUSDT",
       "side": "Buy",
       "pnl": 28.72,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-05-14 23:23",
       "symbol": "NEARUSDT",
       "side": "Sell",
       "pnl": -0.0,
-      "reason": "L2"
+      "reason": "-"
     }
   ],
   "num_days": 47
