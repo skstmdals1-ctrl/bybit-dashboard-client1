@@ -1,49 +1,49 @@
 {
-  "ts": "2026-05-17T08:59:33.746563+09:00",
+  "ts": "2026-05-17T09:00:35.342972+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5101.67,
-  "available": 4148.26,
-  "unrealized": 215.3,
+  "equity": 5099.5,
+  "available": 4145.72,
+  "unrealized": 212.86,
   "daily_pnl": 0,
-  "total_pnl": 156.67,
-  "cum_pct": 3.17,
-  "daily_avg_pct": 0.0664,
-  "annual_pct": 27.42,
+  "total_pnl": 154.5,
+  "cum_pct": 3.12,
+  "daily_avg_pct": 0.0654,
+  "annual_pct": 26.95,
   "mdd": -0.47,
-  "current_dd": -0.39,
-  "seed_used": 953.41,
-  "seed_used_pct": 18.69,
+  "current_dd": -0.41,
+  "seed_used": 953.78,
+  "seed_used_pct": 18.7,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 215.77,
-      "pnl_pct": 4.83,
-      "margin": 607.27,
+      "pnl": 213.26,
+      "pnl_pct": 4.77,
+      "margin": 607.63,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2290.6032,
-      "mark": 2179.95
+      "mark": 2181.24
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -0.38,
-      "pnl_pct": -0.07,
-      "margin": 109.39,
+      "pnl": -0.33,
+      "pnl_pct": -0.06,
+      "margin": 109.4,
       "leverage": "5",
       "tier": "2/2",
       "entry": 78189.8,
-      "mark": 78134.9
+      "mark": 78142.9
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.546
+      "conf": 0.532
     },
     "XRPUSDT": {
       "dir": "neutral",
@@ -74,8 +74,8 @@
       "conf": 0.473
     },
     "ETHUSDT": {
-      "dir": "neutral",
-      "conf": 0.342
+      "dir": "long",
+      "conf": 0.341
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -151,7 +151,7 @@
     },
     "TONUSDT": {
       "dir": "neutral",
-      "conf": 0.472
+      "conf": 0.475
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -353,7 +353,7 @@
     },
     {
       "t": "2026-05-17",
-      "v": 156.67
+      "v": 154.5
     }
   ],
   "trade_history": [
