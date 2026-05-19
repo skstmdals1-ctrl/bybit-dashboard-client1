@@ -1,32 +1,32 @@
 {
-  "ts": "2026-05-19T23:59:30.631463+09:00",
+  "ts": "2026-05-20T00:00:32.268379+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5223.32,
-  "available": 4827.78,
-  "unrealized": 43.08,
+  "equity": 5225.81,
+  "available": 4830.58,
+  "unrealized": 45.4,
   "daily_pnl": 0,
-  "total_pnl": 278.32,
-  "cum_pct": 5.63,
-  "daily_avg_pct": 0.1118,
-  "annual_pct": 50.36,
+  "total_pnl": 280.81,
+  "cum_pct": 5.68,
+  "daily_avg_pct": 0.1106,
+  "annual_pct": 49.7,
   "mdd": -1.48,
   "current_dd": -0.56,
-  "seed_used": 395.54,
-  "seed_used_pct": 7.57,
+  "seed_used": 395.22,
+  "seed_used_pct": 7.56,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 43.12,
-      "pnl_pct": 1.54,
-      "margin": 394.12,
+      "pnl": 45.43,
+      "pnl_pct": 1.62,
+      "margin": 393.79,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2138.8926,
-      "mark": 2105.98
+      "mark": 2104.21
     }
   ],
   "signals": {
@@ -112,7 +112,7 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.513
+      "conf": 0.512
     },
     "ARBUSDT": {
       "dir": "short",
@@ -343,6 +343,10 @@
     {
       "t": "2026-05-19",
       "v": 278.32
+    },
+    {
+      "t": "2026-05-20",
+      "v": 280.81
     }
   ],
   "trade_history": [
@@ -487,5 +491,5 @@
       "reason": "-"
     }
   ],
-  "num_days": 49
+  "num_days": 50
 }
