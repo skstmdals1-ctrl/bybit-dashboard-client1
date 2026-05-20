@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-20T21:36:49.396255+09:00",
+  "ts": "2026-05-20T21:37:51.136623+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5203.34,
-  "available": 4361.35,
-  "unrealized": 14.02,
-  "daily_pnl": 8.98,
-  "total_pnl": 258.34,
+  "equity": 5203.23,
+  "available": 4368.15,
+  "unrealized": 11.64,
+  "daily_pnl": 11.24,
+  "total_pnl": 258.23,
   "cum_pct": 5.22,
   "daily_avg_pct": 0.1018,
   "annual_pct": 44.97,
   "mdd": -0.96,
   "current_dd": -0.42,
-  "seed_used": 841.99,
-  "seed_used_pct": 16.18,
+  "seed_used": 835.08,
+  "seed_used_pct": 16.05,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 9.79,
-      "pnl_pct": 0.35,
-      "margin": 398.88,
+      "pnl": 9.57,
+      "pnl_pct": 0.34,
+      "margin": 398.91,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2138.8926,
-      "mark": 2131.42
+      "mark": 2131.59
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -0.21,
-      "pnl_pct": -0.13,
+      "pnl": -0.22,
+      "pnl_pct": -0.14,
       "margin": 38.75,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77391.8,
-      "mark": 77495.92
+      "mark": 77500.5
     },
     {
       "symbol": "VVVUSDT",
       "side": "LONG",
-      "pnl": 4.45,
-      "pnl_pct": 4.81,
-      "margin": 13.85,
+      "pnl": 2.3,
+      "pnl_pct": 4.96,
+      "margin": 6.95,
       "leverage": "7",
       "tier": "2/3",
       "entry": 17.424,
-      "mark": 18.2615
+      "mark": 18.2876
     }
   ],
   "signals": {
@@ -364,10 +364,17 @@
     },
     {
       "t": "2026-05-20",
-      "v": 258.34
+      "v": 258.23
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-20 21:36",
+      "symbol": "VVVUSDT",
+      "side": "Buy",
+      "pnl": 2.27,
+      "reason": "-"
+    },
     {
       "ts": "2026-05-20 21:34",
       "symbol": "VVVUSDT",
@@ -499,13 +506,6 @@
       "symbol": "XRPUSDT",
       "side": "Sell",
       "pnl": -79.94,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-05-15 01:59",
-      "symbol": "BTCUSDT",
-      "side": "Sell",
-      "pnl": -67.55,
       "reason": "-"
     }
   ],
