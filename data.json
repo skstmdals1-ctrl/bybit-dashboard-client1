@@ -1,43 +1,54 @@
 {
-  "ts": "2026-05-20T18:25:13.432456+09:00",
+  "ts": "2026-05-20T18:26:15.351680+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5185.39,
-  "available": 4388.45,
-  "unrealized": 16.6,
+  "equity": 5186.87,
+  "available": 4389.73,
+  "unrealized": 18.24,
   "daily_pnl": -10.7,
-  "total_pnl": 240.39,
-  "cum_pct": 4.86,
-  "daily_avg_pct": 0.095,
-  "annual_pct": 41.42,
+  "total_pnl": 241.87,
+  "cum_pct": 4.89,
+  "daily_avg_pct": 0.0955,
+  "annual_pct": 41.68,
   "mdd": -0.96,
   "current_dd": -0.77,
-  "seed_used": 796.94,
+  "seed_used": 797.14,
   "seed_used_pct": 15.37,
   "long_count": 1,
-  "short_count": 1,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 13.33,
-      "pnl_pct": 0.48,
-      "margin": 398.37,
+      "pnl": 13.1,
+      "pnl_pct": 0.47,
+      "margin": 398.41,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2138.8926,
-      "mark": 2128.72
+      "mark": 2128.89
     },
     {
       "symbol": "VVVUSDT",
       "side": "LONG",
-      "pnl": 3.29,
-      "pnl_pct": 0.41,
-      "margin": 115.04,
+      "pnl": 5.17,
+      "pnl_pct": 0.64,
+      "margin": 115.3,
       "leverage": "7",
       "tier": "3/3",
       "entry": 17.0847,
-      "mark": 17.1548
+      "mark": 17.1948
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "pnl": -0.02,
+      "pnl_pct": -0.01,
+      "margin": 38.7,
+      "leverage": "4",
+      "tier": "1/2",
+      "entry": 77391.8,
+      "mark": 77400.4
     }
   ],
   "signals": {
@@ -123,7 +134,7 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.492
+      "conf": 0.473
     },
     "ARBUSDT": {
       "dir": "short",
@@ -353,7 +364,7 @@
     },
     {
       "t": "2026-05-20",
-      "v": 240.39
+      "v": 241.87
     }
   ],
   "trade_history": [
