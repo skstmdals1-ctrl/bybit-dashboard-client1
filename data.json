@@ -1,43 +1,32 @@
 {
-  "ts": "2026-05-22T09:58:57.298265+09:00",
+  "ts": "2026-05-22T09:59:58.993221+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5207.64,
-  "available": 4458.97,
-  "unrealized": 22.26,
-  "daily_pnl": 0,
-  "total_pnl": 262.64,
-  "cum_pct": 5.31,
-  "daily_avg_pct": 0.0995,
-  "annual_pct": 43.76,
+  "equity": 5207.25,
+  "available": 4858.53,
+  "unrealized": 9.57,
+  "daily_pnl": 13.15,
+  "total_pnl": 262.25,
+  "cum_pct": 5.3,
+  "daily_avg_pct": 0.0994,
+  "annual_pct": 43.71,
   "mdd": -1.37,
   "current_dd": -0.61,
-  "seed_used": 748.67,
-  "seed_used_pct": 14.38,
+  "seed_used": 348.72,
+  "seed_used_pct": 6.7,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "pnl": 13.16,
-      "pnl_pct": 0.47,
-      "margin": 398.4,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 2138.8926,
-      "mark": 2128.85
-    },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 9.13,
-      "pnl_pct": 0.65,
-      "margin": 348.16,
+      "pnl": 9.58,
+      "pnl_pct": 0.68,
+      "margin": 348.05,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77876.9556,
-      "mark": 77369.87
+      "mark": 77344.9
     }
   ],
   "signals": {
@@ -353,10 +342,17 @@
     },
     {
       "t": "2026-05-22",
-      "v": 262.64
+      "v": 262.25
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-22 09:59",
+      "symbol": "ETHUSDT",
+      "side": "Sell",
+      "pnl": 13.15,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-05-21 01:25",
       "symbol": "VVVUSDT",
@@ -439,14 +435,14 @@
       "symbol": "BTCUSDT",
       "side": "Buy",
       "pnl": -36.22,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-05-18 08:41",
       "symbol": "ETHUSDT",
       "side": "Sell",
       "pnl": 332.78,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-05-16 02:50",
@@ -488,13 +484,6 @@
       "symbol": "NEARUSDT",
       "side": "Sell",
       "pnl": -0.0,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-05-15 16:23",
-      "symbol": "NEARUSDT",
-      "side": "Sell",
-      "pnl": 0.64,
       "reason": "-"
     }
   ],
