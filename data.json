@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-23T23:59:32.252896+09:00",
+  "ts": "2026-05-24T00:00:33.865999+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5428.89,
-  "available": 3197.1,
-  "unrealized": 44.53,
-  "daily_pnl": 231.38,
-  "total_pnl": 483.89,
-  "cum_pct": 9.79,
-  "daily_avg_pct": 0.1764,
-  "annual_pct": 90.27,
+  "equity": 5428.62,
+  "available": 3196.79,
+  "unrealized": 44.29,
+  "daily_pnl": 0,
+  "total_pnl": 483.62,
+  "cum_pct": 9.78,
+  "daily_avg_pct": 0.1729,
+  "annual_pct": 87.86,
   "mdd": -3.84,
   "current_dd": -2.25,
-  "seed_used": 2231.8,
+  "seed_used": 2231.83,
   "seed_used_pct": 41.11,
   "long_count": 2,
   "short_count": 3,
@@ -31,13 +31,13 @@
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 42.8,
+      "pnl": 42.75,
       "pnl_pct": 3.05,
-      "margin": 339.75,
+      "margin": 339.76,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77876.9556,
-      "mark": 75499.0
+      "mark": 75501.9
     },
     {
       "symbol": "ADAUSDT",
@@ -53,24 +53,24 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 5.45,
-      "pnl_pct": 1.16,
-      "margin": 57.8,
+      "pnl": 5.22,
+      "pnl_pct": 1.12,
+      "margin": 57.83,
       "leverage": "8",
       "tier": "2/2",
       "entry": 85.07,
-      "mark": 84.08
+      "mark": 84.121
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 5.67,
-      "pnl_pct": 3.04,
-      "margin": 38.39,
+      "pnl": 5.71,
+      "pnl_pct": 3.07,
+      "margin": 38.4,
       "leverage": "5",
       "tier": "2/2",
       "entry": 582.16,
-      "mark": 599.88
+      "mark": 600.01
     }
   ],
   "signals": {
@@ -387,6 +387,10 @@
     {
       "t": "2026-05-23",
       "v": 483.89
+    },
+    {
+      "t": "2026-05-24",
+      "v": 483.62
     }
   ],
   "trade_history": [
@@ -531,5 +535,5 @@
       "reason": "3/3"
     }
   ],
-  "num_days": 53
+  "num_days": 54
 }
