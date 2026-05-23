@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-24T01:22:38.200162+09:00",
+  "ts": "2026-05-24T01:23:39.791614+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5446.12,
-  "available": 3148.53,
-  "unrealized": 61.71,
+  "equity": 5448.78,
+  "available": 3151.97,
+  "unrealized": 64.45,
   "daily_pnl": 0,
-  "total_pnl": 501.12,
-  "cum_pct": 10.13,
-  "daily_avg_pct": 0.1788,
-  "annual_pct": 91.94,
+  "total_pnl": 503.78,
+  "cum_pct": 10.19,
+  "daily_avg_pct": 0.1799,
+  "annual_pct": 92.72,
   "mdd": -3.84,
   "current_dd": -1.88,
-  "seed_used": 2297.6,
-  "seed_used_pct": 42.19,
-  "long_count": 2,
+  "seed_used": 2296.81,
+  "seed_used_pct": 42.15,
+  "long_count": 3,
   "short_count": 3,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -4.51,
-      "pnl_pct": -0.16,
-      "margin": 408.52,
+      "pnl": -2.41,
+      "pnl_pct": -0.08,
+      "margin": 408.22,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.7694,
-      "mark": 1.7722
+      "mark": 1.7709
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 43.66,
-      "pnl_pct": 3.11,
-      "margin": 339.53,
+      "pnl": 44.24,
+      "pnl_pct": 3.16,
+      "margin": 339.39,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77876.9556,
-      "mark": 75451.6
+      "mark": 75419.14
     },
     {
       "symbol": "ADAUSDT",
@@ -51,26 +51,37 @@
       "mark": 0.2421
     },
     {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "pnl": -0.16,
+      "pnl_pct": -0.03,
+      "margin": 68.1,
+      "leverage": "8",
+      "tier": "1/2",
+      "entry": 1.3364,
+      "mark": 1.336
+    },
+    {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 5.91,
-      "pnl_pct": 1.26,
-      "margin": 57.75,
+      "pnl": 6.16,
+      "pnl_pct": 1.32,
+      "margin": 57.72,
       "leverage": "8",
       "tier": "2/2",
       "entry": 85.07,
-      "mark": 83.995
+      "mark": 83.95
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 7.64,
-      "pnl_pct": 4.1,
-      "margin": 38.79,
+      "pnl": 7.62,
+      "pnl_pct": 4.09,
+      "margin": 38.78,
       "leverage": "5",
       "tier": "2/2",
       "entry": 582.16,
-      "mark": 606.04
+      "mark": 605.96
     }
   ],
   "signals": {
@@ -390,7 +401,7 @@
     },
     {
       "t": "2026-05-24",
-      "v": 501.12
+      "v": 503.78
     }
   ],
   "trade_history": [
