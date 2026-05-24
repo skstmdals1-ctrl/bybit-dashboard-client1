@@ -1,54 +1,65 @@
 {
-  "ts": "2026-05-24T13:44:37.133640+09:00",
+  "ts": "2026-05-24T13:45:38.715583+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5410.19,
-  "available": 3659.11,
-  "unrealized": 25.28,
+  "equity": 5410.1,
+  "available": 3659.42,
+  "unrealized": 25.41,
   "daily_pnl": -0.2,
-  "total_pnl": 465.19,
+  "total_pnl": 465.1,
   "cum_pct": 9.41,
   "daily_avg_pct": 0.1667,
   "annual_pct": 83.67,
   "mdd": -5.3,
   "current_dd": -2.57,
-  "seed_used": 1751.08,
-  "seed_used_pct": 32.37,
+  "seed_used": 1750.68,
+  "seed_used_pct": 32.36,
   "long_count": 3,
   "short_count": 2,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 20.3,
+      "pnl": 20.39,
       "pnl_pct": 1.45,
-      "margin": 345.37,
+      "margin": 345.35,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77876.9556,
-      "mark": 76748.9
+      "mark": 76744.33
+    },
+    {
+      "symbol": "NEARUSDT",
+      "side": "LONG",
+      "pnl": -3.01,
+      "pnl_pct": -0.35,
+      "margin": 120.79,
+      "leverage": "7",
+      "tier": "2/3",
+      "entry": 2.3788,
+      "mark": 2.3704
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 9.66,
+      "pnl": 9.62,
       "pnl_pct": 1.77,
       "margin": 69.33,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.3364,
-      "mark": 1.3601
+      "mark": 1.36
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -1.8,
-      "pnl_pct": -0.46,
-      "margin": 43.49,
+      "pnl": -1.33,
+      "pnl_pct": -0.34,
+      "margin": 43.54,
       "leverage": "9",
       "tier": "2/2",
       "entry": 60.126,
-      "mark": 59.851
+      "mark": 59.923
     },
     {
       "symbol": "ADAUSDT",
@@ -60,17 +71,6 @@
       "tier": "2/2",
       "entry": 0.2453,
       "mark": 0.2456
-    },
-    {
-      "symbol": "NEARUSDT",
-      "side": "LONG",
-      "pnl": -2.63,
-      "pnl_pct": -1.13,
-      "margin": 32.97,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 2.4038,
-      "mark": 2.3767
     }
   ],
   "signals": {
@@ -386,7 +386,7 @@
     },
     {
       "t": "2026-05-24",
-      "v": 465.19
+      "v": 465.1
     }
   ],
   "trade_history": [
