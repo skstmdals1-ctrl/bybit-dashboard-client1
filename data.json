@@ -1,54 +1,65 @@
 {
-  "ts": "2026-05-24T19:20:23.613307+09:00",
+  "ts": "2026-05-24T19:21:25.421924+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5427.33,
-  "available": 4042.07,
-  "unrealized": 31.86,
+  "equity": 5425.84,
+  "available": 3996.39,
+  "unrealized": 30.46,
   "daily_pnl": 11.01,
-  "total_pnl": 482.33,
-  "cum_pct": 9.75,
-  "daily_avg_pct": 0.1724,
-  "annual_pct": 87.52,
+  "total_pnl": 480.84,
+  "cum_pct": 9.72,
+  "daily_avg_pct": 0.1719,
+  "annual_pct": 87.18,
   "mdd": -5.3,
   "current_dd": -2.28,
-  "seed_used": 1385.27,
-  "seed_used_pct": 25.52,
-  "long_count": 3,
+  "seed_used": 1429.45,
+  "seed_used_pct": 26.35,
+  "long_count": 4,
   "short_count": 0,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 12.07,
-      "pnl_pct": 2.21,
-      "margin": 69.63,
+      "pnl": 11.66,
+      "pnl_pct": 2.14,
+      "margin": 69.58,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.3364,
-      "mark": 1.366
+      "mark": 1.365
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 0.18,
-      "pnl_pct": 0.04,
-      "margin": 59.7,
+      "pnl": -0.16,
+      "pnl_pct": -0.04,
+      "margin": 59.65,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2453,
-      "mark": 0.2454
+      "mark": 0.2452
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 19.64,
-      "pnl_pct": 4.99,
-      "margin": 45.87,
+      "pnl": 19.02,
+      "pnl_pct": 4.84,
+      "margin": 45.8,
       "leverage": "9",
       "tier": "2/2",
       "entry": 60.126,
-      "mark": 63.129
+      "mark": 63.034
+    },
+    {
+      "symbol": "NEARUSDT",
+      "side": "LONG",
+      "pnl": -0.03,
+      "pnl_pct": -0.01,
+      "margin": 44.27,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 2.3513,
+      "mark": 2.3511
     }
   ],
   "signals": {
@@ -58,7 +69,7 @@
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.594
+      "conf": 0.592
     },
     "SOLUSDT": {
       "dir": "short",
@@ -74,7 +85,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.486
+      "conf": 0.487
     },
     "ADAUSDT": {
       "dir": "long",
@@ -364,7 +375,7 @@
     },
     {
       "t": "2026-05-24",
-      "v": 482.33
+      "v": 480.84
     }
   ],
   "trade_history": [
