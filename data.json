@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-24T21:44:13.041738+09:00",
+  "ts": "2026-05-24T21:45:14.635285+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5475.99,
-  "available": 4004.49,
-  "unrealized": 63.83,
+  "equity": 5477.06,
+  "available": 4005.43,
+  "unrealized": 64.98,
   "daily_pnl": 27.64,
-  "total_pnl": 530.99,
-  "cum_pct": 10.74,
-  "daily_avg_pct": 0.1891,
-  "annual_pct": 99.28,
+  "total_pnl": 532.06,
+  "cum_pct": 10.76,
+  "daily_avg_pct": 0.1894,
+  "annual_pct": 99.5,
   "mdd": -5.3,
   "current_dd": -1.32,
-  "seed_used": 1471.5,
+  "seed_used": 1471.63,
   "seed_used_pct": 26.87,
   "long_count": 4,
   "short_count": 0,
@@ -20,24 +20,35 @@
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 49.81,
-      "pnl_pct": 2.0,
-      "margin": 362.25,
+      "pnl": 50.88,
+      "pnl_pct": 2.05,
+      "margin": 362.4,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2.3399,
-      "mark": 2.3868
+      "mark": 2.3878
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 10.64,
+      "pnl": 10.6,
       "pnl_pct": 1.95,
       "margin": 69.45,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.3364,
-      "mark": 1.3625
+      "mark": 1.3624
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": 4.02,
+      "pnl_pct": 1.52,
+      "margin": 29.82,
+      "leverage": "9",
+      "tier": "2/3",
+      "entry": 62.791,
+      "mark": 63.745
     },
     {
       "symbol": "ADAUSDT",
@@ -49,17 +60,6 @@
       "tier": "2/2",
       "entry": 0.2453,
       "mark": 0.2449
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 3.78,
-      "pnl_pct": 1.43,
-      "margin": 29.79,
-      "leverage": "9",
-      "tier": "2/3",
-      "entry": 62.791,
-      "mark": 63.688
     }
   ],
   "signals": {
@@ -375,7 +375,7 @@
     },
     {
       "t": "2026-05-24",
-      "v": 530.99
+      "v": 532.06
     }
   ],
   "trade_history": [
