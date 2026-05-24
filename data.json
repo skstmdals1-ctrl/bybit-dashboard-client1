@@ -1,32 +1,32 @@
 {
-  "ts": "2026-05-24T11:41:26.584097+09:00",
+  "ts": "2026-05-24T11:42:28.084265+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5416.75,
-  "available": 3936.2,
-  "unrealized": 57.52,
+  "equity": 5416.92,
+  "available": 3851.92,
+  "unrealized": 57.45,
   "daily_pnl": -25.47,
-  "total_pnl": 471.75,
+  "total_pnl": 471.92,
   "cum_pct": 9.54,
   "daily_avg_pct": 0.1689,
   "annual_pct": 85.14,
   "mdd": -5.3,
-  "current_dd": -2.07,
-  "seed_used": 1480.55,
-  "seed_used_pct": 27.33,
-  "long_count": 4,
+  "current_dd": -2.47,
+  "seed_used": 1564.99,
+  "seed_used_pct": 28.89,
+  "long_count": 3,
   "short_count": 1,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 19.26,
+      "pnl": 19.22,
       "pnl_pct": 1.37,
-      "margin": 345.63,
+      "margin": 345.64,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77876.9556,
-      "mark": 76807.0
+      "mark": 76808.95
     },
     {
       "symbol": "ADAUSDT",
@@ -42,45 +42,34 @@
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 9.75,
-      "pnl_pct": 1.79,
-      "margin": 69.34,
+      "pnl": 9.79,
+      "pnl_pct": 1.8,
+      "margin": 69.35,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.3364,
-      "mark": 1.3603
+      "mark": 1.3604
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 0.13,
-      "pnl_pct": 0.06,
-      "margin": 31.7,
+      "pnl": 0.06,
+      "pnl_pct": 0.03,
+      "margin": 31.69,
       "leverage": "7",
-      "tier": "1/3",
+      "tier": "2/3",
       "entry": 2.3665,
-      "mark": 2.3679
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -0.01,
-      "pnl_pct": -0.84,
-      "margin": 0.07,
-      "leverage": "9",
-      "tier": "1/2",
-      "entry": 60.4184,
-      "mark": 59.908
+      "mark": 2.3671
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.397
+      "conf": 0.388
     },
     "XRPUSDT": {
       "dir": "long",
-      "conf": 0.354
+      "conf": 0.353
     },
     "SOLUSDT": {
       "dir": "short",
@@ -92,7 +81,7 @@
     },
     "1000PEPEUSDT": {
       "dir": "long",
-      "conf": 0.482
+      "conf": 0.481
     },
     "HYPEUSDT": {
       "dir": "long",
@@ -104,11 +93,11 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.46
+      "conf": 0.459
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.343
+      "conf": 0.342
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -232,7 +221,7 @@
     },
     "ONDOUSDT": {
       "dir": "long",
-      "conf": 0.525
+      "conf": 0.524
     },
     "ICPUSDT": {
       "dir": "short",
@@ -386,10 +375,17 @@
     },
     {
       "t": "2026-05-24",
-      "v": 471.75
+      "v": 471.92
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-24 11:42",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": -0.01,
+      "reason": "L2"
+    },
     {
       "ts": "2026-05-24 11:38",
       "symbol": "HYPEUSDT",
@@ -522,13 +518,6 @@
       "side": "Sell",
       "pnl": -0.0,
       "reason": "마진 0.0USDT < 4"
-    },
-    {
-      "ts": "2026-05-23 23:47",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": -2.96,
-      "reason": "3/3"
     }
   ],
   "num_days": 54
