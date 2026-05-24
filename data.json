@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-25T08:56:47.434697+09:00",
+  "ts": "2026-05-25T08:57:48.950586+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5532.29,
-  "available": 3508.44,
-  "unrealized": 24.96,
+  "equity": 5526.35,
+  "available": 3501.8,
+  "unrealized": 19.08,
   "daily_pnl": -74.43,
-  "total_pnl": 587.29,
-  "cum_pct": 11.88,
-  "daily_avg_pct": 0.2043,
-  "annual_pct": 110.63,
+  "total_pnl": 581.35,
+  "cum_pct": 11.76,
+  "daily_avg_pct": 0.2024,
+  "annual_pct": 109.18,
   "mdd": -5.3,
   "current_dd": -1.06,
-  "seed_used": 2023.84,
-  "seed_used_pct": 36.58,
+  "seed_used": 2024.55,
+  "seed_used_pct": 36.63,
   "long_count": 3,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 14.39,
+      "pnl": 14.27,
       "pnl_pct": 0.74,
-      "margin": 390.66,
+      "margin": 390.63,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2084.832,
-      "mark": 2100.31
+      "mark": 2100.18
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 2.99,
-      "pnl_pct": 0.3,
-      "margin": 143.34,
+      "pnl": -2.5,
+      "pnl_pct": -0.25,
+      "margin": 144.12,
       "leverage": "7",
       "tier": "3/3",
       "entry": 0.2929,
-      "mark": 0.292
+      "mark": 0.2936
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 5.67,
-      "pnl_pct": 1.04,
-      "margin": 68.83,
+      "pnl": 5.71,
+      "pnl_pct": 1.05,
+      "margin": 68.84,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.3364,
-      "mark": 1.3503
+      "mark": 1.3504
     },
     {
       "symbol": "ADAUSDT",
@@ -64,13 +64,13 @@
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -3.16,
-      "pnl_pct": -1.18,
-      "margin": 29.46,
+      "pnl": -3.46,
+      "pnl_pct": -1.29,
+      "margin": 29.43,
       "leverage": "9",
       "tier": "2/3",
       "entry": 670.81,
-      "mark": 662.9
+      "mark": 662.15
     }
   ],
   "signals": {
@@ -156,7 +156,7 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.5
+      "conf": 0.499
     },
     "ARBUSDT": {
       "dir": "short",
@@ -386,7 +386,7 @@
     },
     {
       "t": "2026-05-25",
-      "v": 587.29
+      "v": 581.35
     }
   ],
   "trade_history": [
