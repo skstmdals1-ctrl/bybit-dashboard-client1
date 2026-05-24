@@ -1,19 +1,19 @@
 {
-  "ts": "2026-05-24T21:37:01.950126+09:00",
+  "ts": "2026-05-24T21:38:03.507323+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5458.0,
-  "available": 3959.24,
-  "unrealized": 45.38,
-  "daily_pnl": 28.48,
-  "total_pnl": 513.0,
-  "cum_pct": 10.37,
-  "daily_avg_pct": 0.1829,
-  "annual_pct": 94.83,
+  "equity": 5458.84,
+  "available": 3989.72,
+  "unrealized": 46.68,
+  "daily_pnl": 27.64,
+  "total_pnl": 513.84,
+  "cum_pct": 10.39,
+  "daily_avg_pct": 0.1832,
+  "annual_pct": 95.05,
   "mdd": -5.3,
   "current_dd": -1.71,
-  "seed_used": 1498.76,
-  "seed_used_pct": 27.46,
+  "seed_used": 1469.12,
+  "seed_used_pct": 26.91,
   "long_count": 4,
   "short_count": 0,
   "positions": [
@@ -31,35 +31,35 @@
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 10.03,
-      "pnl_pct": 1.84,
-      "margin": 69.38,
+      "pnl": 10.15,
+      "pnl_pct": 1.86,
+      "margin": 69.39,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.3364,
-      "mark": 1.361
+      "mark": 1.3613
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -1.52,
-      "pnl_pct": -0.36,
-      "margin": 59.46,
+      "pnl": -0.5,
+      "pnl_pct": -0.24,
+      "margin": 29.78,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2453,
-      "mark": 0.2444
+      "mark": 0.2447
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 1.55,
-      "pnl_pct": 0.59,
-      "margin": 29.54,
+      "pnl": 1.72,
+      "pnl_pct": 0.65,
+      "margin": 29.56,
       "leverage": "9",
       "tier": "2/3",
       "entry": 62.791,
-      "mark": 63.16
+      "mark": 63.199
     }
   ],
   "signals": {
@@ -97,7 +97,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.464
+      "conf": 0.434
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -125,7 +125,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.461
+      "conf": 0.46
     },
     "ENAUSDT": {
       "dir": "neutral",
@@ -375,10 +375,17 @@
     },
     {
       "t": "2026-05-24",
-      "v": 513.0
+      "v": 513.84
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-24 21:37",
+      "symbol": "ADAUSDT",
+      "side": "Buy",
+      "pnl": -0.85,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-05-24 19:30",
       "symbol": "HYPEUSDT",
@@ -511,13 +518,6 @@
       "side": "Buy",
       "pnl": -0.48,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-24 10:19",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 89.65,
-      "reason": "2/2"
     }
   ],
   "num_days": 54
