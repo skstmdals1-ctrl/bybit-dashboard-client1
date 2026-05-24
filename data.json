@@ -1,65 +1,65 @@
 {
-  "ts": "2026-05-24T19:00:51.978479+09:00",
+  "ts": "2026-05-24T19:01:53.625734+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5432.14,
-  "available": 3933.38,
-  "unrealized": 33.14,
+  "equity": 5431.36,
+  "available": 3933.03,
+  "unrealized": 32.85,
   "daily_pnl": 14.28,
-  "total_pnl": 487.14,
-  "cum_pct": 9.85,
-  "daily_avg_pct": 0.1741,
-  "annual_pct": 88.69,
+  "total_pnl": 486.36,
+  "cum_pct": 9.84,
+  "daily_avg_pct": 0.174,
+  "annual_pct": 88.62,
   "mdd": -5.3,
   "current_dd": -2.19,
-  "seed_used": 1498.76,
+  "seed_used": 1498.33,
   "seed_used_pct": 27.59,
   "long_count": 4,
   "short_count": 0,
   "positions": [
     {
+      "symbol": "NEARUSDT",
+      "side": "LONG",
+      "pnl": -0.09,
+      "pnl_pct": -0.01,
+      "margin": 112.73,
+      "leverage": "7",
+      "tier": "2/3",
+      "entry": 2.3587,
+      "mark": 2.3584
+    },
+    {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 11.21,
-      "pnl_pct": 2.06,
-      "margin": 69.52,
+      "pnl": 10.93,
+      "pnl_pct": 2.01,
+      "margin": 69.49,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.3364,
-      "mark": 1.3639
+      "mark": 1.3632
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 0.69,
-      "pnl_pct": 0.17,
-      "margin": 59.78,
+      "pnl": 0.18,
+      "pnl_pct": 0.04,
+      "margin": 59.7,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2453,
-      "mark": 0.2457
+      "mark": 0.2454
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 22.83,
-      "pnl_pct": 5.81,
-      "margin": 46.23,
+      "pnl": 21.87,
+      "pnl_pct": 5.56,
+      "margin": 46.12,
       "leverage": "9",
       "tier": "2/2",
       "entry": 60.126,
-      "mark": 63.617
-    },
-    {
-      "symbol": "NEARUSDT",
-      "side": "LONG",
-      "pnl": -1.56,
-      "pnl_pct": -0.76,
-      "margin": 29.21,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 2.3766,
-      "mark": 2.3586
+      "mark": 63.47
     }
   ],
   "signals": {
@@ -375,7 +375,7 @@
     },
     {
       "t": "2026-05-24",
-      "v": 487.14
+      "v": 486.36
     }
   ],
   "trade_history": [
