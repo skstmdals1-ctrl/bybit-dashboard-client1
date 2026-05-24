@@ -1,43 +1,32 @@
 {
-  "ts": "2026-05-24T23:56:44.699512+09:00",
+  "ts": "2026-05-24T23:57:46.256741+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5585.38,
-  "available": 4075.8,
-  "unrealized": 174.29,
-  "daily_pnl": 26.97,
-  "total_pnl": 640.38,
-  "cum_pct": 12.95,
-  "daily_avg_pct": 0.2258,
-  "annual_pct": 127.79,
+  "equity": 5592.08,
+  "available": 4461.89,
+  "unrealized": 10.08,
+  "daily_pnl": 197.65,
+  "total_pnl": 647.08,
+  "cum_pct": 13.09,
+  "daily_avg_pct": 0.2281,
+  "annual_pct": 129.7,
   "mdd": -5.3,
   "current_dd": 0.0,
-  "seed_used": 1509.58,
-  "seed_used_pct": 27.03,
-  "long_count": 2,
+  "seed_used": 1130.18,
+  "seed_used_pct": 20.21,
+  "long_count": 1,
   "short_count": 2,
   "positions": [
     {
-      "symbol": "NEARUSDT",
-      "side": "LONG",
-      "pnl": 173.69,
-      "pnl_pct": 6.99,
-      "margin": 379.94,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 2.3399,
-      "mark": 2.5034
-    },
-    {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 5.46,
-      "pnl_pct": 1.0,
-      "margin": 68.81,
+      "pnl": 5.63,
+      "pnl_pct": 1.03,
+      "margin": 68.83,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.3364,
-      "mark": 1.3498
+      "mark": 1.3502
     },
     {
       "symbol": "ADAUSDT",
@@ -53,13 +42,13 @@
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 0.39,
-      "pnl_pct": 0.26,
-      "margin": 29.9,
+      "pnl": 0.54,
+      "pnl_pct": 0.36,
+      "margin": 29.87,
       "leverage": "5",
       "tier": "1/3",
       "entry": 0.3036,
-      "mark": 0.3028
+      "mark": 0.3025
     }
   ],
   "signals": {
@@ -375,10 +364,17 @@
     },
     {
       "t": "2026-05-24",
-      "v": 640.38
+      "v": 647.08
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-24 23:56",
+      "symbol": "NEARUSDT",
+      "side": "Buy",
+      "pnl": 170.68,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-24 23:18",
       "symbol": "HYPEUSDT",
@@ -511,13 +507,6 @@
       "side": "Buy",
       "pnl": 14.11,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-24 11:42",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": -0.01,
-      "reason": "L2"
     }
   ],
   "num_days": 54
