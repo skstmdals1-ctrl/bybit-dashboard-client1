@@ -1,32 +1,32 @@
 {
-  "ts": "2026-05-25T16:15:19.963450+09:00",
+  "ts": "2026-05-25T16:16:21.614944+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5491.02,
-  "available": 3871.16,
-  "unrealized": 33.16,
-  "daily_pnl": -123.54,
-  "total_pnl": 546.02,
-  "cum_pct": 11.04,
-  "daily_avg_pct": 0.1906,
-  "annual_pct": 100.38,
+  "equity": 5491.76,
+  "available": 3997.09,
+  "unrealized": 34.98,
+  "daily_pnl": -125.18,
+  "total_pnl": 546.76,
+  "cum_pct": 11.06,
+  "daily_avg_pct": 0.1909,
+  "annual_pct": 100.6,
   "mdd": -5.3,
   "current_dd": -1.8,
-  "seed_used": 1619.86,
-  "seed_used_pct": 29.5,
+  "seed_used": 1494.66,
+  "seed_used_pct": 27.22,
   "long_count": 2,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 25.55,
-      "pnl_pct": 1.32,
-      "margin": 392.89,
+      "pnl": 26.09,
+      "pnl_pct": 1.35,
+      "margin": 393.0,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2084.832,
-      "mark": 2112.3
+      "mark": 2112.89
     },
     {
       "symbol": "XRPUSDT",
@@ -42,24 +42,13 @@
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 0.39,
-      "pnl_pct": 0.08,
-      "margin": 68.42,
+      "pnl": 0.2,
+      "pnl_pct": 0.04,
+      "margin": 68.45,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2448,
-      "mark": 0.2446
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -1.46,
-      "pnl_pct": -0.61,
-      "margin": 34.33,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 0.2941,
-      "mark": 0.2959
+      "mark": 0.2447
     }
   ],
   "signals": {
@@ -375,10 +364,17 @@
     },
     {
       "t": "2026-05-25",
-      "v": 546.02
+      "v": 546.76
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-25 16:15",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -1.64,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-05-25 12:15",
       "symbol": "ZECUSDT",
@@ -511,13 +507,6 @@
       "side": "Sell",
       "pnl": 17.49,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-24 16:34",
-      "symbol": "NEARUSDT",
-      "side": "Buy",
-      "pnl": 0.0,
-      "reason": "L2"
     }
   ],
   "num_days": 55
