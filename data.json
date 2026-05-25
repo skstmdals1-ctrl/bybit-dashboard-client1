@@ -1,65 +1,65 @@
 {
-  "ts": "2026-05-26T00:57:38.587134+09:00",
+  "ts": "2026-05-26T00:58:40.103919+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5425.55,
-  "available": 3336.49,
-  "unrealized": 52.44,
+  "equity": 5425.0,
+  "available": 3336.08,
+  "unrealized": 51.94,
   "daily_pnl": 0,
-  "total_pnl": 480.55,
-  "cum_pct": 9.72,
-  "daily_avg_pct": 0.1658,
-  "annual_pct": 83.06,
+  "total_pnl": 480.0,
+  "cum_pct": 9.71,
+  "daily_avg_pct": 0.1656,
+  "annual_pct": 82.93,
   "mdd": -5.3,
-  "current_dd": -3.06,
-  "seed_used": 2089.06,
-  "seed_used_pct": 38.5,
+  "current_dd": -3.0,
+  "seed_used": 2088.93,
+  "seed_used_pct": 38.51,
   "long_count": 4,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 39.61,
-      "pnl_pct": 2.04,
-      "margin": 395.7,
+      "pnl": 38.86,
+      "pnl_pct": 2.0,
+      "margin": 395.55,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2084.832,
-      "mark": 2127.42
+      "mark": 2126.62
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 9.05,
-      "pnl_pct": 1.66,
+      "pnl": 9.01,
+      "pnl_pct": 1.65,
       "margin": 69.25,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.3364,
-      "mark": 1.3586
+      "mark": 1.3585
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 1.58,
-      "pnl_pct": 0.33,
-      "margin": 60.7,
+      "pnl": 1.78,
+      "pnl_pct": 0.37,
+      "margin": 60.73,
       "leverage": "8",
       "tier": "2/2",
       "entry": 0.2452,
-      "mark": 0.246
+      "mark": 0.2461
     },
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 2.34,
-      "pnl_pct": 1.23,
-      "margin": 38.51,
+      "pnl": 2.43,
+      "pnl_pct": 1.28,
+      "margin": 38.52,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.4303,
-      "mark": 0.4356
+      "mark": 0.4358
     },
     {
       "symbol": "SOLUSDT",
@@ -70,21 +70,21 @@
       "leverage": "2",
       "tier": "2/2",
       "entry": 85.99,
-      "mark": 86.22
+      "mark": 86.218
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.354
+      "conf": 0.36
     },
     "XRPUSDT": {
-      "dir": "long",
-      "conf": 0.353
+      "dir": "short",
+      "conf": 0.35
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.535
+      "conf": 0.537
     },
     "LINKUSDT": {
       "dir": "long",
@@ -390,7 +390,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": 480.55
+      "v": 480.0
     }
   ],
   "trade_history": [
