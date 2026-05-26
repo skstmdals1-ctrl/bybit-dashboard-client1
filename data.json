@@ -1,98 +1,87 @@
 {
-  "ts": "2026-05-26T09:48:17.313564+09:00",
+  "ts": "2026-05-26T09:49:18.818167+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5344.74,
-  "available": 3002.21,
-  "unrealized": -18.08,
-  "daily_pnl": -9.55,
-  "total_pnl": 399.74,
-  "cum_pct": 8.08,
-  "daily_avg_pct": 0.1388,
-  "annual_pct": 65.91,
+  "equity": 5343.62,
+  "available": 3371.83,
+  "unrealized": 21.91,
+  "daily_pnl": -50.55,
+  "total_pnl": 398.62,
+  "cum_pct": 8.06,
+  "daily_avg_pct": 0.1385,
+  "annual_pct": 65.73,
   "mdd": -5.3,
   "current_dd": -4.1,
-  "seed_used": 2342.53,
-  "seed_used_pct": 43.83,
-  "long_count": 4,
+  "seed_used": 1971.79,
+  "seed_used_pct": 36.9,
+  "long_count": 3,
   "short_count": 3,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 9.55,
-      "pnl_pct": 0.49,
-      "margin": 389.69,
+      "pnl": 11.17,
+      "pnl_pct": 0.58,
+      "margin": 390.01,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2084.832,
-      "mark": 2095.1
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -38.33,
-      "pnl_pct": -2.03,
-      "margin": 370.63,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 61.1145,
-      "mark": 59.876
+      "mark": 2096.84
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 8.25,
-      "pnl_pct": 1.31,
-      "margin": 124.62,
+      "pnl": 7.74,
+      "pnl_pct": 1.23,
+      "margin": 124.72,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.2448,
-      "mark": 0.2416
+      "mark": 0.2418
     },
     {
       "symbol": "INJUSDT",
       "side": "LONG",
-      "pnl": -6.0,
-      "pnl_pct": -0.76,
-      "margin": 112.58,
+      "pnl": -5.3,
+      "pnl_pct": -0.67,
+      "margin": 112.68,
       "leverage": "7",
       "tier": "3/3",
       "entry": 5.6678,
-      "mark": 5.625
+      "mark": 5.63
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 1.67,
-      "pnl_pct": 0.31,
-      "margin": 68.33,
+      "pnl": 1.92,
+      "pnl_pct": 0.35,
+      "margin": 68.36,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.3364,
-      "mark": 1.3405
+      "mark": 1.3411
     },
     {
       "symbol": "ONDOUSDT",
       "side": "SHORT",
-      "pnl": 6.06,
-      "pnl_pct": 3.04,
-      "margin": 27.64,
+      "pnl": 5.73,
+      "pnl_pct": 2.87,
+      "margin": 27.69,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.4246,
-      "mark": 0.4117
+      "mark": 0.4124
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 0.7,
-      "pnl_pct": 2.02,
-      "margin": 16.85,
+      "pnl": 0.67,
+      "pnl_pct": 1.96,
+      "margin": 16.86,
       "leverage": "2",
       "tier": "2/2",
       "entry": 85.99,
-      "mark": 84.249
+      "mark": 84.303
     }
   ],
   "signals": {
@@ -408,10 +397,17 @@
     },
     {
       "t": "2026-05-26",
-      "v": 399.74
+      "v": 398.62
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-26 09:48",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": -41.0,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-26 09:12",
       "symbol": "ONDOUSDT",
@@ -543,13 +539,6 @@
       "symbol": "NEARUSDT",
       "side": "Buy",
       "pnl": -52.18,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-05-24 23:56",
-      "symbol": "NEARUSDT",
-      "side": "Buy",
-      "pnl": 170.68,
       "reason": "External Exit"
     }
   ],
