@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-27T23:59:58.401306+09:00",
+  "ts": "2026-05-28T00:01:00.198293+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5302.39,
-  "available": 2887.36,
-  "unrealized": -25.64,
-  "daily_pnl": -33.87,
-  "total_pnl": 357.39,
-  "cum_pct": 7.23,
-  "daily_avg_pct": 0.1225,
-  "annual_pct": 56.34,
+  "equity": 5301.04,
+  "available": 2886.21,
+  "unrealized": -27.27,
+  "daily_pnl": 0,
+  "total_pnl": 356.04,
+  "cum_pct": 7.2,
+  "daily_avg_pct": 0.1199,
+  "annual_pct": 54.86,
   "mdd": -1.79,
   "current_dd": -0.94,
-  "seed_used": 2415.04,
+  "seed_used": 2414.83,
   "seed_used_pct": 45.55,
   "long_count": 3,
   "short_count": 3,
@@ -31,57 +31,57 @@
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": -21.46,
-      "pnl_pct": -1.11,
-      "margin": 383.49,
+      "pnl": -21.93,
+      "pnl_pct": -1.13,
+      "margin": 383.39,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2084.832,
-      "mark": 2061.76
+      "mark": 2061.25
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -15.74,
-      "pnl_pct": -0.62,
-      "margin": 361.85,
+      "pnl": -17.14,
+      "pnl_pct": -0.67,
+      "margin": 361.65,
       "leverage": "7",
       "tier": "2/2",
       "entry": 60.3961,
-      "mark": 60.023
+      "mark": 59.99
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 2.0,
-      "pnl_pct": 0.42,
-      "margin": 60.1,
+      "pnl": 2.21,
+      "pnl_pct": 0.46,
+      "margin": 60.07,
       "leverage": "8",
       "tier": "2/2",
       "entry": 0.2408,
-      "mark": 0.2398
+      "mark": 0.2397
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 1.87,
-      "pnl_pct": 1.23,
-      "margin": 37.5,
+      "pnl": 1.9,
+      "pnl_pct": 1.25,
+      "margin": 37.49,
       "leverage": "4",
       "tier": "2/2",
       "entry": 75941.1,
-      "mark": 75005.23
+      "mark": 74988.8
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "pnl": 0.84,
-      "pnl_pct": 2.44,
+      "pnl_pct": 2.45,
       "margin": 16.78,
       "leverage": "2",
       "tier": "2/2",
       "entry": 85.99,
-      "mark": 83.89
+      "mark": 83.883
     }
   ],
   "signals": {
@@ -402,6 +402,10 @@
     {
       "t": "2026-05-27",
       "v": 357.39
+    },
+    {
+      "t": "2026-05-28",
+      "v": 356.04
     }
   ],
   "trade_history": [
@@ -546,5 +550,5 @@
       "reason": "External Exit"
     }
   ],
-  "num_days": 57
+  "num_days": 58
 }
