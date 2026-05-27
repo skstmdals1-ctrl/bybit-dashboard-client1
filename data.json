@@ -1,65 +1,54 @@
 {
-  "ts": "2026-05-28T06:44:03.761516+09:00",
+  "ts": "2026-05-28T06:45:05.661651+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5287.27,
-  "available": 3634.21,
-  "unrealized": 47.17,
-  "daily_pnl": -89.77,
-  "total_pnl": 342.27,
-  "cum_pct": 6.92,
-  "daily_avg_pct": 0.1154,
-  "annual_pct": 52.34,
+  "equity": 5290.46,
+  "available": 3851.05,
+  "unrealized": 49.23,
+  "daily_pnl": -88.5,
+  "total_pnl": 345.46,
+  "cum_pct": 6.99,
+  "daily_avg_pct": 0.1166,
+  "annual_pct": 53.01,
   "mdd": -1.79,
   "current_dd": -1.4,
-  "seed_used": 1653.05,
-  "seed_used_pct": 31.26,
+  "seed_used": 1439.41,
+  "seed_used_pct": 27.21,
   "long_count": 1,
-  "short_count": 3,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -30.63,
-      "pnl_pct": -0.7,
-      "margin": 541.14,
+      "pnl": -36.54,
+      "pnl_pct": -0.84,
+      "margin": 540.4,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.3277,
-      "mark": 1.3184
+      "mark": 1.3166
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 74.11,
-      "pnl_pct": 1.71,
-      "margin": 533.54,
+      "pnl": 83.08,
+      "pnl_pct": 1.91,
+      "margin": 532.42,
       "leverage": "8",
       "tier": "2/2",
       "entry": 0.2421,
-      "mark": 0.238
+      "mark": 0.2375
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 2.56,
-      "pnl_pct": 1.68,
-      "margin": 37.33,
+      "pnl": 2.78,
+      "pnl_pct": 1.83,
+      "margin": 37.28,
       "leverage": "4",
       "tier": "2/2",
       "entry": 75941.1,
-      "mark": 74663.52
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "pnl": 1.21,
-      "pnl_pct": 3.52,
-      "margin": 16.59,
-      "leverage": "2",
-      "tier": "2/2",
-      "entry": 85.99,
-      "mark": 82.959
+      "mark": 74552.19
     }
   ],
   "signals": {
@@ -379,10 +368,17 @@
     },
     {
       "t": "2026-05-28",
-      "v": 342.27
+      "v": 345.46
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-28 06:44",
+      "symbol": "SOLUSDT",
+      "side": "Sell",
+      "pnl": 1.27,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-28 02:56",
       "symbol": "ETHUSDT",
@@ -515,13 +511,6 @@
       "side": "Sell",
       "pnl": 1.79,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-27 02:44",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 0.0,
-      "reason": "L2"
     }
   ],
   "num_days": 58
