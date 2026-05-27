@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-28T08:32:08.812151+09:00",
+  "ts": "2026-05-28T08:33:10.407137+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5252.56,
-  "available": 4355.99,
-  "unrealized": 95.11,
+  "equity": 5257.89,
+  "available": 4362.01,
+  "unrealized": 100.52,
   "daily_pnl": -173.42,
-  "total_pnl": 307.56,
-  "cum_pct": 6.22,
-  "daily_avg_pct": 0.1041,
-  "annual_pct": 46.19,
+  "total_pnl": 312.89,
+  "cum_pct": 6.33,
+  "daily_avg_pct": 0.1059,
+  "annual_pct": 47.16,
   "mdd": -2.06,
   "current_dd": -2.06,
-  "seed_used": 896.58,
-  "seed_used_pct": 17.07,
+  "seed_used": 895.88,
+  "seed_used_pct": 17.04,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 92.04,
-      "pnl_pct": 2.12,
-      "margin": 531.29,
+      "pnl": 97.42,
+      "pnl_pct": 2.24,
+      "margin": 530.62,
       "leverage": "8",
       "tier": "2/2",
       "entry": 0.2421,
-      "mark": 0.237
+      "mark": 0.2367
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 3.21,
-      "pnl_pct": 2.11,
-      "margin": 37.17,
+      "pnl": 3.25,
+      "pnl_pct": 2.14,
+      "margin": 37.16,
       "leverage": "4",
       "tier": "2/2",
       "entry": 75941.1,
-      "mark": 74336.85
+      "mark": 74315.5
     }
   ],
   "signals": {
@@ -122,8 +122,8 @@
       "conf": 0.5
     },
     "ZECUSDT": {
-      "dir": "long",
-      "conf": 0.503
+      "dir": "short",
+      "conf": 0.456
     },
     "ARBUSDT": {
       "dir": "short",
@@ -357,7 +357,7 @@
     },
     {
       "t": "2026-05-28",
-      "v": 307.56
+      "v": 312.89
     }
   ],
   "trade_history": [
