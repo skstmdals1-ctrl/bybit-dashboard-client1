@@ -1,65 +1,65 @@
 {
-  "ts": "2026-05-29T04:25:46.745652+09:00",
+  "ts": "2026-05-29T04:26:48.414222+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5490.56,
-  "available": 3747.2,
-  "unrealized": 48.49,
+  "equity": 5489.31,
+  "available": 3745.69,
+  "unrealized": 47.1,
   "daily_pnl": 0,
-  "total_pnl": 545.56,
-  "cum_pct": 11.03,
-  "daily_avg_pct": 0.1775,
-  "annual_pct": 91.04,
-  "mdd": -0.42,
-  "current_dd": -0.25,
-  "seed_used": 1743.36,
-  "seed_used_pct": 31.75,
+  "total_pnl": 544.31,
+  "cum_pct": 11.01,
+  "daily_avg_pct": 0.1772,
+  "annual_pct": 90.83,
+  "mdd": -0.46,
+  "current_dd": -0.46,
+  "seed_used": 1743.62,
+  "seed_used_pct": 31.76,
   "long_count": 1,
   "short_count": 4,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 4.58,
-      "pnl_pct": 0.13,
-      "margin": 488.05,
+      "pnl": 3.86,
+      "pnl_pct": 0.11,
+      "margin": 488.16,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2024.2316,
-      "mark": 2021.52
+      "mark": 2021.95
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 30.7,
-      "pnl_pct": 1.16,
-      "margin": 372.46,
+      "pnl": 29.08,
+      "pnl_pct": 1.1,
+      "margin": 372.69,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.7896,
-      "mark": 1.7688
+      "mark": 1.7699
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 1.26,
-      "pnl_pct": 0.05,
-      "margin": 366.33,
+      "pnl": 2.16,
+      "pnl_pct": 0.08,
+      "margin": 366.2,
       "leverage": "7",
       "tier": "3/3",
       "entry": 0.2854,
-      "mark": 0.2853
+      "mark": 0.2852
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 7.12,
-      "pnl_pct": 2.3,
-      "margin": 39.61,
+      "pnl": 7.17,
+      "pnl_pct": 2.32,
+      "margin": 39.62,
       "leverage": "8",
       "tier": "2/3",
       "entry": 59.114,
-      "mark": 60.473
+      "mark": 60.483
     },
     {
       "symbol": "BTCUSDT",
@@ -70,13 +70,13 @@
       "leverage": "4",
       "tier": "2/2",
       "entry": 75941.1,
-      "mark": 73492.74
+      "mark": 73492.72
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.578
+      "conf": 0.579
     },
     "XRPUSDT": {
       "dir": "short",
@@ -104,7 +104,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.524
+      "conf": 0.522
     },
     "ETHUSDT": {
       "dir": "short",
@@ -136,7 +136,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.437
+      "conf": 0.438
     },
     "ENAUSDT": {
       "dir": "neutral",
@@ -183,8 +183,8 @@
       "conf": 0.563
     },
     "TONUSDT": {
-      "dir": "long",
-      "conf": 0.472
+      "dir": "short",
+      "conf": 0.469
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -390,7 +390,7 @@
     },
     {
       "t": "2026-05-29",
-      "v": 545.56
+      "v": 544.31
     }
   ],
   "trade_history": [
