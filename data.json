@@ -1,43 +1,32 @@
 {
-  "ts": "2026-05-28T14:08:31.028509+09:00",
+  "ts": "2026-05-28T14:09:32.638727+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5393.03,
-  "available": 4666.33,
-  "unrealized": 14.1,
-  "daily_pnl": 48.52,
-  "total_pnl": 448.03,
-  "cum_pct": 9.06,
-  "daily_avg_pct": 0.1496,
-  "annual_pct": 72.57,
+  "equity": 5394.36,
+  "available": 5031.68,
+  "unrealized": 5.84,
+  "daily_pnl": 57.93,
+  "total_pnl": 449.36,
+  "cum_pct": 9.09,
+  "daily_avg_pct": 0.1501,
+  "annual_pct": 72.88,
   "mdd": -0.2,
   "current_dd": -0.02,
-  "seed_used": 726.7,
-  "seed_used_pct": 13.47,
+  "seed_used": 362.69,
+  "seed_used_pct": 6.72,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 5.86,
-      "pnl_pct": 3.86,
+      "pnl": 5.85,
+      "pnl_pct": 3.85,
       "margin": 36.51,
       "leverage": "4",
       "tier": "2/2",
       "entry": 75941.1,
-      "mark": 73013.0
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": 8.27,
-      "pnl_pct": 5.55,
-      "margin": 20.11,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 0.3333,
-      "mark": 0.3148
+      "mark": 73016.76
     }
   ],
   "signals": {
@@ -357,16 +346,23 @@
     },
     {
       "t": "2026-05-28",
-      "v": 448.03
+      "v": 449.36
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-28 14:08",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": 9.42,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-28 14:07",
       "symbol": "WLDUSDT",
       "side": "Sell",
       "pnl": 7.41,
-      "reason": "-"
+      "reason": "External Exit"
     },
     {
       "ts": "2026-05-28 13:04",
@@ -493,13 +489,6 @@
       "side": "Buy",
       "pnl": 31.57,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-27 05:50",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 0.0,
-      "reason": "마진 0.0USDT < 4"
     }
   ],
   "num_days": 58
