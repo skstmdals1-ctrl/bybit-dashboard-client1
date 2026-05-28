@@ -1,43 +1,32 @@
 {
-  "ts": "2026-05-28T19:28:44.516651+09:00",
+  "ts": "2026-05-28T19:29:46.276854+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5430.34,
-  "available": 5067.5,
-  "unrealized": 5.19,
+  "equity": 5430.39,
+  "available": 5067.53,
+  "unrealized": 5.11,
   "daily_pnl": 94.77,
-  "total_pnl": 485.34,
-  "cum_pct": 9.81,
-  "daily_avg_pct": 0.1615,
-  "annual_pct": 80.22,
+  "total_pnl": 485.39,
+  "cum_pct": 9.82,
+  "daily_avg_pct": 0.1616,
+  "annual_pct": 80.28,
   "mdd": -0.21,
   "current_dd": 0.0,
-  "seed_used": 362.84,
+  "seed_used": 362.87,
   "seed_used_pct": 6.68,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 5.2,
-      "pnl_pct": 3.42,
-      "margin": 36.67,
+      "pnl": 5.12,
+      "pnl_pct": 3.37,
+      "margin": 36.69,
       "leverage": "4",
       "tier": "2/2",
       "entry": 75941.1,
-      "mark": 73342.8
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": 0.0,
-      "pnl_pct": 4.22,
-      "margin": 0.0,
-      "leverage": "7",
-      "tier": "1/3",
-      "entry": 0.3107,
-      "mark": 0.2976
+      "mark": 73382.73
     }
   ],
   "signals": {
@@ -357,10 +346,17 @@
     },
     {
       "t": "2026-05-28",
-      "v": 485.34
+      "v": 485.39
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-28 19:28",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": 0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-05-28 19:26",
       "symbol": "WLDUSDT",
@@ -492,13 +488,6 @@
       "symbol": "RENDERUSDT",
       "side": "Buy",
       "pnl": 11.16,
-      "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-27 06:28",
-      "symbol": "RENDERUSDT",
-      "side": "Buy",
-      "pnl": 16.01,
       "reason": "3/3"
     }
   ],
