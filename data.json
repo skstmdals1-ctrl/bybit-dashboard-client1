@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-29T02:10:53.825508+09:00",
+  "ts": "2026-05-29T02:11:55.720610+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5448.42,
-  "available": 4214.73,
-  "unrealized": 5.31,
+  "equity": 5448.49,
+  "available": 4214.83,
+  "unrealized": 5.43,
   "daily_pnl": 0,
-  "total_pnl": 503.42,
+  "total_pnl": 503.49,
   "cum_pct": 10.18,
   "daily_avg_pct": 0.1644,
   "annual_pct": 82.13,
   "mdd": -0.23,
-  "current_dd": -0.18,
-  "seed_used": 1233.69,
+  "current_dd": -0.22,
+  "seed_used": 1233.66,
   "seed_used_pct": 22.64,
   "long_count": 0,
   "short_count": 3,
@@ -20,41 +20,41 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -0.46,
-      "pnl_pct": -0.11,
-      "margin": 57.55,
+      "pnl": -0.51,
+      "pnl_pct": -0.13,
+      "margin": 57.56,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2012.1,
-      "mark": 2014.38
+      "mark": 2014.66
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 0.8,
-      "pnl_pct": 0.24,
-      "margin": 46.97,
+      "pnl": 0.93,
+      "pnl_pct": 0.28,
+      "margin": 46.95,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.7787,
-      "mark": 1.7744
+      "mark": 1.7737
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 4.98,
-      "pnl_pct": 3.28,
-      "margin": 36.72,
+      "pnl": 5.02,
+      "pnl_pct": 3.31,
+      "margin": 36.71,
       "leverage": "4",
       "tier": "2/2",
       "entry": 75941.1,
-      "mark": 73449.79
+      "mark": 73428.8
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.567
+      "conf": 0.561
     },
     "XRPUSDT": {
       "dir": "short",
@@ -86,7 +86,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.353
+      "conf": 0.352
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -162,7 +162,7 @@
     },
     "TONUSDT": {
       "dir": "short",
-      "conf": 0.466
+      "conf": 0.467
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -246,10 +246,6 @@
     }
   },
   "equity_hist": [
-    {
-      "t": "2026-04-28",
-      "v": 4396.16
-    },
     {
       "t": "2026-04-29",
       "v": 4947.79
@@ -372,7 +368,7 @@
     },
     {
       "t": "2026-05-29",
-      "v": 503.42
+      "v": 503.49
     }
   ],
   "trade_history": [
