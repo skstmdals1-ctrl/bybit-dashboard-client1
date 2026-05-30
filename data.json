@@ -1,32 +1,32 @@
 {
-  "ts": "2026-05-30T21:43:06.773217+09:00",
+  "ts": "2026-05-30T21:44:08.903784+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5651.67,
-  "available": 3306.41,
-  "unrealized": 50.75,
-  "daily_pnl": -28.17,
-  "total_pnl": 706.67,
-  "cum_pct": 14.29,
-  "daily_avg_pct": 0.2229,
-  "annual_pct": 125.39,
+  "equity": 5638.12,
+  "available": 3715.9,
+  "unrealized": 90.45,
+  "daily_pnl": -82.29,
+  "total_pnl": 693.12,
+  "cum_pct": 14.02,
+  "daily_avg_pct": 0.2189,
+  "annual_pct": 122.13,
   "mdd": -5.05,
   "current_dd": -3.78,
-  "seed_used": 2345.25,
-  "seed_used_pct": 41.5,
+  "seed_used": 1922.22,
+  "seed_used_pct": 34.09,
   "long_count": 1,
-  "short_count": 5,
+  "short_count": 4,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 12.41,
-      "pnl_pct": 0.36,
-      "margin": 486.93,
+      "pnl": 12.53,
+      "pnl_pct": 0.37,
+      "margin": 486.92,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2024.2316,
-      "mark": 2016.89
+      "mark": 2016.82
     },
     {
       "symbol": "BCHUSDT",
@@ -40,48 +40,37 @@
       "mark": 303.4
     },
     {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -38.69,
-      "pnl_pct": -1.33,
-      "margin": 421.83,
-      "leverage": "7",
-      "tier": "3/3",
-      "entry": 0.3008,
-      "mark": 0.3048
-    },
-    {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 28.16,
-      "pnl_pct": 1.75,
-      "margin": 226.05,
+      "pnl": 27.71,
+      "pnl_pct": 1.72,
+      "margin": 226.12,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.7887,
-      "mark": 1.7574
+      "mark": 1.7579
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 6.82,
-      "pnl_pct": 2.27,
-      "margin": 43.94,
+      "pnl": 7.27,
+      "pnl_pct": 2.42,
+      "margin": 44.01,
       "leverage": "7",
       "tier": "2/2",
       "entry": 66.109,
-      "mark": 67.607
+      "mark": 67.707
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 4.61,
-      "pnl_pct": 3.03,
+      "pnl": 4.62,
+      "pnl_pct": 3.04,
       "margin": 36.82,
       "leverage": "4",
       "tier": "2/2",
       "entry": 75941.1,
-      "mark": 73636.29
+      "mark": 73633.01
     }
   ],
   "signals": {
@@ -401,10 +390,17 @@
     },
     {
       "t": "2026-05-30",
-      "v": 706.67
+      "v": 693.12
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-30 21:43",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -54.12,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-30 14:05",
       "symbol": "WLDUSDT",
@@ -537,13 +533,6 @@
       "side": "Buy",
       "pnl": 0.0,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-05-29 16:27",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": 21.16,
-      "reason": "3/3"
     }
   ],
   "num_days": 60
