@@ -1,54 +1,43 @@
 {
-  "ts": "2026-05-31T20:03:36.953934+09:00",
+  "ts": "2026-05-31T20:04:39.275942+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 5614.45,
-  "available": 4302.45,
-  "unrealized": 6.58,
-  "daily_pnl": 79.07,
-  "total_pnl": 669.45,
-  "cum_pct": 13.54,
-  "daily_avg_pct": 0.2084,
-  "annual_pct": 113.8,
+  "equity": 5617.59,
+  "available": 4669.27,
+  "unrealized": 5.75,
+  "daily_pnl": 83.15,
+  "total_pnl": 672.59,
+  "cum_pct": 13.6,
+  "daily_avg_pct": 0.2093,
+  "annual_pct": 114.5,
   "mdd": -6.63,
   "current_dd": -4.33,
-  "seed_used": 1312.0,
-  "seed_used_pct": 23.37,
+  "seed_used": 948.32,
+  "seed_used_pct": 16.88,
   "long_count": 0,
-  "short_count": 3,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 3.67,
-      "pnl_pct": 0.11,
-      "margin": 488.18,
+      "pnl": 4.65,
+      "pnl_pct": 0.14,
+      "margin": 488.04,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2024.2316,
-      "mark": 2022.06
+      "mark": 2021.48
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -1.19,
-      "pnl_pct": -0.04,
-      "margin": 457.73,
+      "pnl": 1.11,
+      "pnl_pct": 0.03,
+      "margin": 457.4,
       "leverage": "7",
       "tier": "2/2",
       "entry": 307.086,
-      "mark": 307.2
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "pnl": 4.1,
-      "pnl_pct": 2.7,
-      "margin": 36.94,
-      "leverage": "4",
-      "tier": "2/2",
-      "entry": 75941.1,
-      "mark": 73889.48
+      "mark": 306.98
     }
   ],
   "signals": {
@@ -368,10 +357,17 @@
     },
     {
       "t": "2026-05-31",
-      "v": 669.45
+      "v": 672.59
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-31 20:04",
+      "symbol": "BTCUSDT",
+      "side": "Sell",
+      "pnl": 4.08,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-05-31 18:53",
       "symbol": "TONUSDT",
@@ -504,13 +500,6 @@
       "side": "Buy",
       "pnl": -9.1,
       "reason": "L3"
-    },
-    {
-      "ts": "2026-05-30 04:03",
-      "symbol": "TONUSDT",
-      "side": "Sell",
-      "pnl": 22.44,
-      "reason": "2/2"
     }
   ],
   "num_days": 61
