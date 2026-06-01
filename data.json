@@ -1,32 +1,43 @@
 {
-  "ts": "2026-06-02T05:44:58.131038+09:00",
+  "ts": "2026-06-02T05:45:59.638489+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6067.06,
-  "available": 5609.02,
-  "unrealized": 42.37,
+  "equity": 6072.0,
+  "available": 5585.43,
+  "unrealized": 47.6,
   "daily_pnl": 153.11,
-  "total_pnl": 1122.06,
-  "cum_pct": 22.69,
-  "daily_avg_pct": 0.3251,
-  "annual_pct": 226.97,
+  "total_pnl": 1127.0,
+  "cum_pct": 22.79,
+  "daily_avg_pct": 0.3264,
+  "annual_pct": 228.52,
   "mdd": -6.63,
-  "current_dd": -1.14,
-  "seed_used": 458.04,
-  "seed_used_pct": 7.55,
+  "current_dd": -1.35,
+  "seed_used": 486.57,
+  "seed_used_pct": 8.01,
   "long_count": 1,
-  "short_count": 0,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 42.41,
-      "pnl_pct": 1.17,
-      "margin": 456.8,
+      "pnl": 47.63,
+      "pnl_pct": 1.32,
+      "margin": 457.45,
       "leverage": "8",
       "tier": "2/2",
       "entry": 71.3126,
-      "mark": 72.15
+      "mark": 72.253
+    },
+    {
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": 0.03,
+      "pnl_pct": 0.02,
+      "margin": 27.86,
+      "leverage": "4",
+      "tier": "1/3",
+      "entry": 0.4267,
+      "mark": 0.4266
     }
   ],
   "signals": {
@@ -36,7 +47,7 @@
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.335
+      "conf": 0.336
     },
     "SOLUSDT": {
       "dir": "neutral",
@@ -60,11 +71,11 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.504
+      "conf": 0.502
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.347
+      "conf": 0.357
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -76,7 +87,7 @@
     },
     "BNBUSDT": {
       "dir": "long",
-      "conf": 0.347
+      "conf": 0.346
     },
     "DOTUSDT": {
       "dir": "long",
@@ -92,7 +103,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.449
+      "conf": 0.45
     },
     "ENAUSDT": {
       "dir": "neutral",
@@ -188,7 +199,7 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.492
+      "conf": 0.493
     },
     "ICPUSDT": {
       "dir": "short",
@@ -346,7 +357,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 1122.06
+      "v": 1127.0
     }
   ],
   "trade_history": [
