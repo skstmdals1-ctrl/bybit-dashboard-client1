@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-02T08:11:13.000902+09:00",
+  "ts": "2026-06-02T08:12:15.244945+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6187.39,
-  "available": 5290.47,
-  "unrealized": 165.06,
-  "daily_pnl": 151.89,
-  "total_pnl": 1242.39,
-  "cum_pct": 25.12,
-  "daily_avg_pct": 0.3564,
-  "annual_pct": 266.4,
+  "equity": 6201.5,
+  "available": 5540.31,
+  "unrealized": 89.32,
+  "daily_pnl": 241.21,
+  "total_pnl": 1256.5,
+  "cum_pct": 25.41,
+  "daily_avg_pct": 0.36,
+  "annual_pct": 271.23,
   "mdd": -6.63,
   "current_dd": 0.0,
-  "seed_used": 896.91,
-  "seed_used_pct": 14.5,
+  "seed_used": 661.19,
+  "seed_used_pct": 10.66,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 164.13,
-      "pnl_pct": 4.54,
-      "margin": 472.01,
+      "pnl": 87.88,
+      "pnl_pct": 4.87,
+      "margin": 236.78,
       "leverage": "8",
       "tier": "2/2",
       "entry": 71.3126,
-      "mark": 74.553
+      "mark": 74.782
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 1.15,
-      "pnl_pct": 0.45,
-      "margin": 51.3,
+      "pnl": 1.44,
+      "pnl_pct": 0.57,
+      "margin": 51.36,
       "leverage": "5",
       "tier": "2/2",
       "entry": 690.2,
-      "mark": 693.3
+      "mark": 694.1
     }
   ],
   "signals": {
@@ -357,10 +357,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 1242.39
+      "v": 1256.5
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 08:11",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 89.32,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-02 06:16",
       "symbol": "WLDUSDT",
@@ -493,13 +500,6 @@
       "side": "Buy",
       "pnl": 72.1,
       "reason": "-"
-    },
-    {
-      "ts": "2026-06-01 07:11",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 84.25,
-      "reason": "External Exit"
     }
   ],
   "num_days": 63
