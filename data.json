@@ -1,49 +1,38 @@
 {
-  "ts": "2026-06-02T08:24:43.491972+09:00",
+  "ts": "2026-06-02T08:25:46.092900+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6215.6,
-  "available": 5791.69,
-  "unrealized": 1.44,
-  "daily_pnl": 342.83,
-  "total_pnl": 1270.6,
+  "equity": 6215.44,
+  "available": 5791.66,
+  "unrealized": 1.23,
+  "daily_pnl": 342.87,
+  "total_pnl": 1270.44,
   "cum_pct": 25.69,
   "daily_avg_pct": 0.3636,
   "annual_pct": 276.12,
   "mdd": -6.63,
   "current_dd": 0.0,
-  "seed_used": 423.91,
+  "seed_used": 423.78,
   "seed_used_pct": 6.82,
-  "long_count": 2,
+  "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 1.41,
-      "pnl_pct": 0.55,
-      "margin": 51.36,
+      "pnl": 1.23,
+      "pnl_pct": 0.48,
+      "margin": 51.32,
       "leverage": "5",
       "tier": "2/2",
       "entry": 690.2,
-      "mark": 694.0
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 0.04,
-      "pnl_pct": 5.11,
-      "margin": 0.09,
-      "leverage": "8",
-      "tier": "1/2",
-      "entry": 71.3126,
-      "mark": 74.96
+      "mark": 693.53
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.577
+      "conf": 0.571
     },
     "XRPUSDT": {
       "dir": "neutral",
@@ -63,7 +52,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.55
+      "conf": 0.558
     },
     "ADAUSDT": {
       "dir": "long",
@@ -71,7 +60,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.489
+      "conf": 0.491
     },
     "ETHUSDT": {
       "dir": "neutral",
@@ -357,10 +346,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 1270.6
+      "v": 1270.44
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 08:25",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 0.03,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-02 08:20",
       "symbol": "HYPEUSDT",
@@ -493,13 +489,6 @@
       "side": "Buy",
       "pnl": 0.01,
       "reason": "마진 0.0USDT < 4"
-    },
-    {
-      "ts": "2026-06-01 10:00",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": 65.53,
-      "reason": "2/2"
     }
   ],
   "num_days": 63
