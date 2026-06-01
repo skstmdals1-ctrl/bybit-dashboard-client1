@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-02T08:20:34.038378+09:00",
+  "ts": "2026-06-02T08:21:36.408570+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6216.82,
-  "available": 5553.7,
-  "unrealized": 104.63,
-  "daily_pnl": 241.21,
-  "total_pnl": 1271.82,
-  "cum_pct": 25.72,
-  "daily_avg_pct": 0.364,
-  "annual_pct": 276.67,
+  "equity": 6215.73,
+  "available": 5791.79,
+  "unrealized": 1.63,
+  "daily_pnl": 342.83,
+  "total_pnl": 1270.73,
+  "cum_pct": 25.7,
+  "daily_avg_pct": 0.3637,
+  "annual_pct": 276.25,
   "mdd": -6.63,
   "current_dd": 0.0,
-  "seed_used": 663.12,
-  "seed_used_pct": 10.67,
+  "seed_used": 423.94,
+  "seed_used_pct": 6.82,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 103.1,
-      "pnl_pct": 5.71,
-      "margin": 238.68,
-      "leverage": "8",
-      "tier": "2/2",
-      "entry": 71.3126,
-      "mark": 75.383
-    },
-    {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 1.66,
-      "pnl_pct": 0.65,
-      "margin": 51.41,
+      "pnl": 1.59,
+      "pnl_pct": 0.62,
+      "margin": 51.39,
       "leverage": "5",
       "tier": "2/2",
       "entry": 690.2,
-      "mark": 694.69
+      "mark": 694.5
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": 0.04,
+      "pnl_pct": 5.55,
+      "margin": 0.09,
+      "leverage": "8",
+      "tier": "1/2",
+      "entry": 71.3126,
+      "mark": 75.273
     }
   ],
   "signals": {
@@ -357,10 +357,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 1271.82
+      "v": 1270.73
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 08:20",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 101.63,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-02 08:11",
       "symbol": "HYPEUSDT",
@@ -493,13 +500,6 @@
       "side": "Buy",
       "pnl": 65.53,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-06-01 09:58",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": 72.1,
-      "reason": "-"
     }
   ],
   "num_days": 63
