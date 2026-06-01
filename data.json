@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-02T02:14:27.897641+09:00",
+  "ts": "2026-06-02T02:15:29.668959+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6084.91,
-  "available": 5202.2,
-  "unrealized": 108.45,
+  "equity": 6093.83,
+  "available": 5212.03,
+  "unrealized": 117.29,
   "daily_pnl": 106.6,
-  "total_pnl": 1139.91,
-  "cum_pct": 23.05,
-  "daily_avg_pct": 0.3298,
-  "annual_pct": 232.61,
+  "total_pnl": 1148.83,
+  "cum_pct": 23.23,
+  "daily_avg_pct": 0.3321,
+  "annual_pct": 235.4,
   "mdd": -6.63,
-  "current_dd": -0.35,
-  "seed_used": 882.71,
-  "seed_used_pct": 14.51,
+  "current_dd": 0.0,
+  "seed_used": 881.81,
+  "seed_used_pct": 14.47,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 92.2,
-      "pnl_pct": 2.55,
-      "margin": 463.02,
+      "pnl": 94.84,
+      "pnl_pct": 2.63,
+      "margin": 463.35,
       "leverage": "8",
       "tier": "2/2",
       "entry": 71.3126,
-      "mark": 73.133
+      "mark": 73.185
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 16.39,
-      "pnl_pct": 0.78,
-      "margin": 417.72,
+      "pnl": 22.6,
+      "pnl_pct": 1.07,
+      "margin": 416.48,
       "leverage": "5",
       "tier": "3/3",
       "entry": 0.4064,
-      "mark": 0.4032
+      "mark": 0.402
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.56
+      "conf": 0.567
     },
     "XRPUSDT": {
       "dir": "short",
@@ -63,19 +63,19 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.553
+      "conf": 0.551
     },
     "ADAUSDT": {
       "dir": "long",
-      "conf": 0.418
+      "conf": 0.417
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.536
+      "conf": 0.537
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.354
+      "conf": 0.353
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -87,7 +87,7 @@
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.363
+      "conf": 0.362
     },
     "DOTUSDT": {
       "dir": "long",
@@ -361,7 +361,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 1139.91
+      "v": 1148.83
     }
   ],
   "trade_history": [
