@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-02T06:15:54.870296+09:00",
+  "ts": "2026-06-02T06:16:57.280447+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6058.7,
-  "available": 5177.9,
-  "unrealized": 35.9,
+  "equity": 6055.01,
+  "available": 5174.67,
+  "unrealized": 32.1,
   "daily_pnl": 151.89,
-  "total_pnl": 1113.7,
-  "cum_pct": 22.52,
-  "daily_avg_pct": 0.3229,
-  "annual_pct": 224.36,
+  "total_pnl": 1110.01,
+  "cum_pct": 22.45,
+  "daily_avg_pct": 0.322,
+  "annual_pct": 223.3,
   "mdd": -6.63,
   "current_dd": -1.58,
-  "seed_used": 880.8,
+  "seed_used": 880.34,
   "seed_used_pct": 14.54,
   "long_count": 2,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 35.42,
-      "pnl_pct": 0.98,
-      "margin": 455.93,
+      "pnl": 31.42,
+      "pnl_pct": 0.87,
+      "margin": 455.43,
       "leverage": "8",
       "tier": "2/2",
       "entry": 71.3126,
-      "mark": 72.012
+      "mark": 71.933
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 0.52,
-      "pnl_pct": 0.2,
-      "margin": 51.18,
+      "pnl": 0.71,
+      "pnl_pct": 0.28,
+      "margin": 51.22,
       "leverage": "5",
       "tier": "2/2",
       "entry": 690.2,
-      "mark": 691.6
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -0.0,
-      "pnl_pct": -0.94,
-      "margin": 0.01,
-      "leverage": "4",
-      "tier": "1/3",
-      "entry": 0.4267,
-      "mark": 0.4307
+      "mark": 692.12
     }
   ],
   "signals": {
@@ -74,7 +63,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.549
+      "conf": 0.553
     },
     "ADAUSDT": {
       "dir": "long",
@@ -368,10 +357,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 1113.7
+      "v": 1110.01
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 06:16",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-02 06:13",
       "symbol": "WLDUSDT",
@@ -503,13 +499,6 @@
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": 84.25,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-01 00:25",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": -38.68,
       "reason": "External Exit"
     }
   ],
