@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-02T08:14:19.929810+09:00",
+  "ts": "2026-06-02T08:15:22.266770+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6197.82,
-  "available": 5537.12,
-  "unrealized": 85.7,
+  "equity": 6204.22,
+  "available": 5542.71,
+  "unrealized": 92.47,
   "daily_pnl": 241.21,
-  "total_pnl": 1252.82,
-  "cum_pct": 25.34,
-  "daily_avg_pct": 0.3592,
-  "annual_pct": 270.15,
+  "total_pnl": 1259.22,
+  "cum_pct": 25.46,
+  "daily_avg_pct": 0.3607,
+  "annual_pct": 272.17,
   "mdd": -6.63,
   "current_dd": 0.0,
-  "seed_used": 660.7,
+  "seed_used": 661.52,
   "seed_used_pct": 10.66,
   "long_count": 2,
   "short_count": 0,
@@ -20,30 +20,30 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 85.14,
-      "pnl_pct": 4.71,
-      "margin": 236.44,
+      "pnl": 91.73,
+      "pnl_pct": 5.08,
+      "margin": 237.26,
       "leverage": "8",
       "tier": "2/2",
       "entry": 71.3126,
-      "mark": 74.674
+      "mark": 74.934
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 1.06,
-      "pnl_pct": 0.42,
-      "margin": 51.29,
+      "pnl": 1.15,
+      "pnl_pct": 0.45,
+      "margin": 51.3,
       "leverage": "5",
       "tier": "2/2",
       "entry": 690.2,
-      "mark": 693.07
+      "mark": 693.3
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.568
+      "conf": 0.569
     },
     "XRPUSDT": {
       "dir": "neutral",
@@ -71,7 +71,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.483
+      "conf": 0.486
     },
     "ETHUSDT": {
       "dir": "neutral",
@@ -86,7 +86,7 @@
       "conf": 0.509
     },
     "BNBUSDT": {
-      "dir": "long",
+      "dir": "neutral",
       "conf": 0.34
     },
     "DOTUSDT": {
@@ -357,7 +357,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 1252.82
+      "v": 1259.22
     }
   ],
   "trade_history": [
