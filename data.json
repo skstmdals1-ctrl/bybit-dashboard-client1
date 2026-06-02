@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-03T03:32:34.838479+09:00",
+  "ts": "2026-06-03T03:33:36.644457+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6133.31,
-  "available": 4924.01,
-  "unrealized": 18.85,
+  "equity": 6137.35,
+  "available": 4928.71,
+  "unrealized": 23.13,
   "daily_pnl": 1.89,
-  "total_pnl": 1188.31,
-  "cum_pct": 24.03,
-  "daily_avg_pct": 0.3371,
-  "annual_pct": 241.56,
+  "total_pnl": 1192.35,
+  "cum_pct": 24.11,
+  "daily_avg_pct": 0.3381,
+  "annual_pct": 242.8,
   "mdd": -6.63,
-  "current_dd": -1.99,
-  "seed_used": 1209.3,
-  "seed_used_pct": 19.72,
+  "current_dd": -1.89,
+  "seed_used": 1208.64,
+  "seed_used_pct": 19.69,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 8.71,
-      "pnl_pct": 0.21,
-      "margin": 604.24,
+      "pnl": 10.38,
+      "pnl_pct": 0.25,
+      "margin": 604.0,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1917.809,
-      "mark": 1913.87
+      "mark": 1913.11
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 10.18,
-      "pnl_pct": 0.75,
-      "margin": 193.18,
+      "pnl": 12.78,
+      "pnl_pct": 0.94,
+      "margin": 192.81,
       "leverage": "7",
       "tier": "3/3",
       "entry": 0.4183,
-      "mark": 0.4152
+      "mark": 0.4144
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.489
+      "conf": 0.476
     },
     "XRPUSDT": {
       "dir": "short",
@@ -232,6 +232,10 @@
     "RENDERUSDT": {
       "dir": "long",
       "conf": 0.459
+    },
+    "LABUSDT": {
+      "dir": "long",
+      "conf": 0.615
     }
   },
   "equity_hist": [
@@ -357,7 +361,7 @@
     },
     {
       "t": "2026-06-03",
-      "v": 1188.31
+      "v": 1192.35
     }
   ],
   "trade_history": [
