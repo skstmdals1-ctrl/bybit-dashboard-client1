@@ -1,43 +1,54 @@
 {
-  "ts": "2026-06-03T08:35:06.629167+09:00",
+  "ts": "2026-06-03T08:36:08.334935+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6329.7,
-  "available": 5689.49,
-  "unrealized": 145.39,
+  "equity": 6332.64,
+  "available": 5440.3,
+  "unrealized": 148.69,
   "daily_pnl": 70.16,
-  "total_pnl": 1384.7,
-  "cum_pct": 28.0,
-  "daily_avg_pct": 0.3865,
-  "annual_pct": 308.78,
+  "total_pnl": 1387.64,
+  "cum_pct": 28.06,
+  "daily_avg_pct": 0.3872,
+  "annual_pct": 309.82,
   "mdd": -6.63,
-  "current_dd": 0.0,
-  "seed_used": 640.21,
-  "seed_used_pct": 10.11,
+  "current_dd": -0.2,
+  "seed_used": 892.35,
+  "seed_used_pct": 14.09,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 3,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 149.92,
-      "pnl_pct": 3.54,
-      "margin": 584.06,
+      "pnl": 150.61,
+      "pnl_pct": 3.55,
+      "margin": 583.96,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1917.809,
-      "mark": 1849.97
+      "mark": 1849.66
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": -4.34,
-      "pnl_pct": -1.16,
-      "margin": 54.08,
+      "pnl": -1.23,
+      "pnl_pct": -0.09,
+      "margin": 205.36,
       "leverage": "7",
+      "tier": "2/3",
+      "entry": 0.3837,
+      "mark": 0.384
+    },
+    {
+      "symbol": "ENAUSDT",
+      "side": "SHORT",
+      "pnl": -0.49,
+      "pnl_pct": -0.1,
+      "margin": 100.3,
+      "leverage": "5",
       "tier": "1/3",
-      "entry": 0.3794,
-      "mark": 0.3838
+      "entry": 0.0914,
+      "mark": 0.0915
     }
   ],
   "signals": {
@@ -365,7 +376,7 @@
     },
     {
       "t": "2026-06-03",
-      "v": 1384.7
+      "v": 1387.64
     }
   ],
   "trade_history": [
