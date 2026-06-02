@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-02T09:31:43.863409+09:00",
+  "ts": "2026-06-02T09:32:45.418001+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6213.68,
-  "available": 5655.3,
-  "unrealized": -0.65,
+  "equity": 6214.18,
+  "available": 5656.13,
+  "unrealized": -0.13,
   "daily_pnl": 342.87,
-  "total_pnl": 1268.68,
-  "cum_pct": 25.66,
-  "daily_avg_pct": 0.3632,
-  "annual_pct": 275.57,
+  "total_pnl": 1269.18,
+  "cum_pct": 25.67,
+  "daily_avg_pct": 0.3633,
+  "annual_pct": 275.71,
   "mdd": -6.63,
   "current_dd": -0.02,
-  "seed_used": 558.37,
-  "seed_used_pct": 8.99,
+  "seed_used": 558.04,
+  "seed_used_pct": 8.98,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": -1.09,
+      "pnl_pct": -0.16,
+      "margin": 134.02,
+      "leverage": "5",
+      "tier": "2/3",
+      "entry": 0.4368,
+      "mark": 0.4375
+    },
+    {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 0.85,
-      "pnl_pct": 0.33,
-      "margin": 51.25,
+      "pnl": 0.96,
+      "pnl_pct": 0.38,
+      "margin": 51.27,
       "leverage": "5",
       "tier": "2/2",
       "entry": 690.2,
-      "mark": 692.5
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -1.47,
-      "pnl_pct": -0.88,
-      "margin": 33.72,
-      "leverage": "5",
-      "tier": "2/3",
-      "entry": 0.4326,
-      "mark": 0.4364
+      "mark": 692.8
     }
   ],
   "signals": {
@@ -357,7 +357,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 1268.68
+      "v": 1269.18
     }
   ],
   "trade_history": [
