@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-02T09:47:07.772611+09:00",
+  "ts": "2026-06-02T09:48:09.362807+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6221.54,
-  "available": 5362.61,
-  "unrealized": 7.09,
-  "daily_pnl": 342.87,
-  "total_pnl": 1276.54,
-  "cum_pct": 25.81,
-  "daily_avg_pct": 0.3651,
-  "annual_pct": 278.18,
+  "equity": 6219.88,
+  "available": 5796.25,
+  "unrealized": 0.41,
+  "daily_pnl": 348.09,
+  "total_pnl": 1274.88,
+  "cum_pct": 25.78,
+  "daily_avg_pct": 0.3647,
+  "annual_pct": 277.63,
   "mdd": -6.63,
   "current_dd": 0.0,
-  "seed_used": 858.93,
-  "seed_used_pct": 13.81,
+  "seed_used": 423.63,
+  "seed_used_pct": 6.81,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": 6.87,
-      "pnl_pct": 1.03,
-      "margin": 132.43,
-      "leverage": "5",
-      "tier": "3/3",
-      "entry": 0.4368,
-      "mark": 0.4323
-    },
-    {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 0.22,
-      "pnl_pct": 0.09,
-      "margin": 51.12,
+      "pnl": 0.41,
+      "pnl_pct": 0.16,
+      "margin": 51.16,
       "leverage": "5",
       "tier": "2/2",
       "entry": 690.2,
-      "mark": 690.8
+      "mark": 691.3
+    },
+    {
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": 0.0,
+      "pnl_pct": 0.98,
+      "margin": 0.01,
+      "leverage": "5",
+      "tier": "1/3",
+      "entry": 0.4368,
+      "mark": 0.4325
     }
   ],
   "signals": {
@@ -357,10 +357,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 1276.54
+      "v": 1274.88
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 09:47",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": 5.23,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-06-02 08:25",
       "symbol": "HYPEUSDT",
@@ -493,13 +500,6 @@
       "side": "Buy",
       "pnl": -2.04,
       "reason": "L3"
-    },
-    {
-      "ts": "2026-06-01 10:01",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": 0.01,
-      "reason": "마진 0.0USDT < 4"
     }
   ],
   "num_days": 63
