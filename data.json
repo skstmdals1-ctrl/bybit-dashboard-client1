@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-02T09:50:12.649372+09:00",
+  "ts": "2026-06-02T09:51:14.282573+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6220.15,
-  "available": 5796.49,
-  "unrealized": 0.52,
-  "daily_pnl": 348.09,
-  "total_pnl": 1275.15,
+  "equity": 6220.31,
+  "available": 5796.63,
+  "unrealized": 0.63,
+  "daily_pnl": 348.1,
+  "total_pnl": 1275.31,
   "cum_pct": 25.79,
   "daily_avg_pct": 0.3649,
   "annual_pct": 277.9,
   "mdd": -6.63,
-  "current_dd": 0.0,
-  "seed_used": 423.66,
+  "current_dd": -0.08,
+  "seed_used": 423.68,
   "seed_used_pct": 6.81,
   "long_count": 1,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 0.52,
-      "pnl_pct": 0.2,
-      "margin": 51.18,
+      "pnl": 0.63,
+      "pnl_pct": 0.25,
+      "margin": 51.2,
       "leverage": "5",
       "tier": "2/2",
       "entry": 690.2,
-      "mark": 691.6
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": 0.0,
-      "pnl_pct": 0.68,
-      "margin": 0.01,
-      "leverage": "5",
-      "tier": "1/3",
-      "entry": 0.4368,
-      "mark": 0.4338
+      "mark": 691.9
     }
   ],
   "signals": {
@@ -47,7 +36,7 @@
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.392
+      "conf": 0.39
     },
     "SOLUSDT": {
       "dir": "neutral",
@@ -67,7 +56,7 @@
     },
     "ADAUSDT": {
       "dir": "long",
-      "conf": 0.42
+      "conf": 0.421
     },
     "SUIUSDT": {
       "dir": "short",
@@ -75,7 +64,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.42
+      "conf": 0.433
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -357,10 +346,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 1275.15
+      "v": 1275.31
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 09:50",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": 0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-02 09:47",
       "symbol": "WLDUSDT",
@@ -493,13 +489,6 @@
       "side": "Buy",
       "pnl": 0.0,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-06-01 14:45",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": -2.04,
-      "reason": "L3"
     }
   ],
   "num_days": 63
