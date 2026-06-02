@@ -1,65 +1,54 @@
 {
-  "ts": "2026-06-03T07:44:45.400865+09:00",
+  "ts": "2026-06-03T07:45:47.015784+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6214.88,
-  "available": 5116.18,
-  "unrealized": 81.8,
-  "daily_pnl": 19.37,
-  "total_pnl": 1269.88,
-  "cum_pct": 25.68,
-  "daily_avg_pct": 0.3578,
-  "annual_pct": 268.27,
+  "equity": 6235.11,
+  "available": 5293.67,
+  "unrealized": 80.51,
+  "daily_pnl": 40.71,
+  "total_pnl": 1290.11,
+  "cum_pct": 26.09,
+  "daily_avg_pct": 0.3629,
+  "annual_pct": 275.16,
   "mdd": -6.63,
   "current_dd": -0.8,
-  "seed_used": 1098.7,
-  "seed_used_pct": 17.68,
-  "long_count": 1,
+  "seed_used": 941.44,
+  "seed_used_pct": 15.1,
+  "long_count": 0,
   "short_count": 3,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 57.86,
-      "pnl_pct": 1.37,
-      "margin": 597.21,
+      "pnl": 70.81,
+      "pnl_pct": 1.67,
+      "margin": 595.36,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1917.809,
-      "mark": 1891.63
+      "mark": 1885.77
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 4.1,
-      "pnl_pct": 1.01,
-      "margin": 57.35,
+      "pnl": 6.41,
+      "pnl_pct": 1.58,
+      "margin": 57.02,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.4051,
-      "mark": 0.401
+      "mark": 0.3987
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 2.59,
-      "pnl_pct": 1.95,
-      "margin": 32.57,
+      "pnl": 3.4,
+      "pnl_pct": 2.56,
+      "margin": 32.37,
       "leverage": "4",
       "tier": "2/3",
       "entry": 0.0948,
-      "mark": 0.093
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": 17.36,
-      "pnl_pct": 9.39,
-      "margin": 28.88,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 8.0337,
-      "mark": 8.7884
+      "mark": 0.0924
     }
   ],
   "signals": {
@@ -387,10 +376,17 @@
     },
     {
       "t": "2026-06-03",
-      "v": 1269.88
+      "v": 1290.11
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-03 07:45",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": 21.34,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-03 07:44",
       "symbol": "LABUSDT",
@@ -523,13 +519,6 @@
       "side": "Buy",
       "pnl": -6.4,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-06-02 22:40",
-      "symbol": "BNBUSDT",
-      "side": "Buy",
-      "pnl": -40.62,
-      "reason": "T1 진입 | GF=7 | Lv=8x | Seed=$621(10.0%)"
     }
   ],
   "num_days": 64
