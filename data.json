@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-03T04:32:20.278646+09:00",
+  "ts": "2026-06-03T04:33:22.047429+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6219.49,
-  "available": 5106.9,
-  "unrealized": 67.51,
-  "daily_pnl": 38.86,
-  "total_pnl": 1274.49,
-  "cum_pct": 25.77,
-  "daily_avg_pct": 0.3589,
-  "annual_pct": 269.74,
+  "equity": 6222.48,
+  "available": 5277.06,
+  "unrealized": 64.4,
+  "daily_pnl": 44.58,
+  "total_pnl": 1277.48,
+  "cum_pct": 25.83,
+  "daily_avg_pct": 0.3596,
+  "annual_pct": 270.69,
   "mdd": -6.63,
   "current_dd": -0.63,
-  "seed_used": 1112.59,
-  "seed_used_pct": 17.89,
-  "long_count": 1,
+  "seed_used": 945.42,
+  "seed_used_pct": 15.19,
+  "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 46.89,
-      "pnl_pct": 1.11,
-      "margin": 598.78,
+      "pnl": 52.42,
+      "pnl_pct": 1.24,
+      "margin": 597.99,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1917.809,
-      "mark": 1896.59
+      "mark": 1894.09
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 10.26,
-      "pnl_pct": 3.02,
-      "margin": 82.46,
+      "pnl": 12.07,
+      "pnl_pct": 3.55,
+      "margin": 82.01,
       "leverage": "4",
       "tier": "3/3",
       "entry": 0.0939,
-      "mark": 0.0911
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": 10.46,
-      "pnl_pct": 3.5,
-      "margin": 44.15,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 22.9664,
-      "mark": 23.7707
+      "mark": 0.0906
     }
   ],
   "signals": {
@@ -372,10 +361,17 @@
     },
     {
       "t": "2026-06-03",
-      "v": 1274.49
+      "v": 1277.48
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-03 04:32",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": 5.71,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-06-03 04:25",
       "symbol": "ENAUSDT",
@@ -508,13 +504,6 @@
       "side": "Sell",
       "pnl": -2.08,
       "reason": "T1 진입 | GF=6 | Lv=7x | Seed=$475(7.6%)"
-    },
-    {
-      "ts": "2026-06-02 13:47",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": -0.2,
-      "reason": "2/2"
     }
   ],
   "num_days": 64
