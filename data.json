@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-02T20:09:20.258643+09:00",
+  "ts": "2026-06-02T20:10:22.177381+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6160.61,
-  "available": 5286.75,
-  "unrealized": 0.04,
+  "equity": 6155.18,
+  "available": 5282.23,
+  "unrealized": -5.01,
   "daily_pnl": 291.09,
-  "total_pnl": 1215.61,
-  "cum_pct": 24.58,
-  "daily_avg_pct": 0.3495,
-  "annual_pct": 257.32,
+  "total_pnl": 1210.18,
+  "cum_pct": 24.47,
+  "daily_avg_pct": 0.3481,
+  "annual_pct": 255.5,
   "mdd": -6.63,
-  "current_dd": -1.75,
-  "seed_used": 873.86,
+  "current_dd": -1.61,
+  "seed_used": 872.95,
   "seed_used_pct": 14.18,
   "long_count": 2,
   "short_count": 0,
@@ -20,30 +20,30 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 17.09,
-      "pnl_pct": 0.54,
-      "margin": 453.99,
+      "pnl": 15.07,
+      "pnl_pct": 0.48,
+      "margin": 453.7,
       "leverage": "7",
       "tier": "2/2",
       "entry": 71.9679,
-      "mark": 72.357
+      "mark": 72.311
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": -17.75,
-      "pnl_pct": -0.84,
-      "margin": 418.58,
+      "pnl": -20.09,
+      "pnl_pct": -0.95,
+      "margin": 418.11,
       "leverage": "5",
       "tier": "2/2",
       "entry": 685.2727,
-      "mark": 679.51
+      "mark": 678.75
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.554
+      "conf": 0.56
     },
     "XRPUSDT": {
       "dir": "short",
@@ -71,11 +71,11 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.522
+      "conf": 0.521
     },
     "ETHUSDT": {
-      "dir": "neutral",
-      "conf": 0.343
+      "dir": "short",
+      "conf": 0.341
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -103,7 +103,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.451
+      "conf": 0.449
     },
     "ENAUSDT": {
       "dir": "neutral",
@@ -357,7 +357,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 1215.61
+      "v": 1210.18
     }
   ],
   "trade_history": [
