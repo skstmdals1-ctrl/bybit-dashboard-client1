@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-02T22:39:50.635182+09:00",
+  "ts": "2026-06-02T22:40:52.586876+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6208.99,
-  "available": 4893.94,
-  "unrealized": 49.35,
-  "daily_pnl": 290.85,
-  "total_pnl": 1263.99,
-  "cum_pct": 25.56,
-  "daily_avg_pct": 0.3619,
-  "annual_pct": 273.8,
+  "equity": 6197.73,
+  "available": 5241.28,
+  "unrealized": 78.45,
+  "daily_pnl": 250.23,
+  "total_pnl": 1252.73,
+  "cum_pct": 25.33,
+  "daily_avg_pct": 0.359,
+  "annual_pct": 269.88,
   "mdd": -6.63,
   "current_dd": -0.76,
-  "seed_used": 1315.05,
-  "seed_used_pct": 21.18,
-  "long_count": 3,
-  "short_count": 0,
+  "seed_used": 956.45,
+  "seed_used_pct": 15.43,
+  "long_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 57.98,
-      "pnl_pct": 1.83,
-      "margin": 459.83,
+      "pnl": 54.99,
+      "pnl_pct": 1.74,
+      "margin": 459.4,
       "leverage": "7",
       "tier": "2/2",
       "entry": 71.9679,
-      "mark": 73.288
+      "mark": 73.22
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 24.59,
-      "pnl_pct": 1.13,
-      "margin": 438.25,
+      "pnl": 21.79,
+      "pnl_pct": 1.01,
+      "margin": 437.7,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2.0136,
-      "mark": 2.0365
+      "mark": 2.0339
     },
     {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "pnl": -33.15,
-      "pnl_pct": -1.57,
-      "margin": 415.5,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 685.2727,
-      "mark": 674.51
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": 1.78,
+      "pnl_pct": 0.38,
+      "margin": 58.03,
+      "leverage": "8",
+      "tier": "1/3",
+      "entry": 0.4187,
+      "mark": 0.4171
     }
   ],
   "signals": {
@@ -368,10 +368,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 1263.99
+      "v": 1252.73
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 22:40",
+      "symbol": "BNBUSDT",
+      "side": "Buy",
+      "pnl": -40.62,
+      "reason": "T1 진입 | GF=7 | Lv=8x | Seed=$621(10.0%)"
+    },
     {
       "ts": "2026-06-02 21:51",
       "symbol": "WLDUSDT",
@@ -504,13 +511,6 @@
       "side": "Sell",
       "pnl": 12.56,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-02 02:18",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 25.91,
-      "reason": "-"
     }
   ],
   "num_days": 63
