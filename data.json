@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-03T23:59:41.304346+09:00",
+  "ts": "2026-06-04T00:00:43.374531+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6045.21,
-  "available": 5282.56,
-  "unrealized": 63.79,
-  "daily_pnl": -132.25,
-  "total_pnl": 1100.21,
-  "cum_pct": 22.25,
-  "daily_avg_pct": 0.3144,
-  "annual_pct": 214.48,
+  "equity": 6042.3,
+  "available": 5279.37,
+  "unrealized": 61.11,
+  "daily_pnl": 0,
+  "total_pnl": 1097.3,
+  "cum_pct": 22.19,
+  "daily_avg_pct": 0.3088,
+  "annual_pct": 208.14,
   "mdd": -6.63,
-  "current_dd": -5.76,
-  "seed_used": 762.65,
-  "seed_used_pct": 12.62,
+  "current_dd": -5.86,
+  "seed_used": 762.93,
+  "seed_used_pct": 12.63,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 62.98,
-      "pnl_pct": 1.42,
-      "margin": 623.4,
+      "pnl": 60.52,
+      "pnl_pct": 1.37,
+      "margin": 623.76,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1883.7519,
-      "mark": 1856.95
+      "mark": 1858.0
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 0.9,
-      "pnl_pct": 0.63,
-      "margin": 35.78,
+      "pnl": 0.71,
+      "pnl_pct": 0.5,
+      "margin": 35.73,
       "leverage": "4",
       "tier": "2/3",
       "entry": 2.0732,
-      "mark": 2.0863
+      "mark": 2.0835
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.507
+      "conf": 0.487
     },
     "XRPUSDT": {
       "dir": "short",
@@ -71,11 +71,11 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.529
+      "conf": 0.533
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.433
+      "conf": 0.434
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -103,7 +103,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.555
+      "conf": 0.556
     },
     "ENAUSDT": {
       "dir": "short",
@@ -366,6 +366,10 @@
     {
       "t": "2026-06-03",
       "v": 1100.21
+    },
+    {
+      "t": "2026-06-04",
+      "v": 1097.3
     }
   ],
   "trade_history": [
@@ -510,5 +514,5 @@
       "reason": "L2"
     }
   ],
-  "num_days": 64
+  "num_days": 65
 }
