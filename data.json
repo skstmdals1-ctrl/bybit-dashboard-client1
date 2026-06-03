@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-03T12:47:41.272159+09:00",
+  "ts": "2026-06-03T12:48:43.013563+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6414.21,
-  "available": 5601.16,
-  "unrealized": 218.8,
-  "daily_pnl": 80.89,
-  "total_pnl": 1469.21,
-  "cum_pct": 29.71,
-  "daily_avg_pct": 0.4073,
-  "annual_pct": 340.89,
+  "equity": 6415.19,
+  "available": 5889.63,
+  "unrealized": 114.72,
+  "daily_pnl": 185.54,
+  "total_pnl": 1470.19,
+  "cum_pct": 29.73,
+  "daily_avg_pct": 0.4075,
+  "annual_pct": 341.21,
   "mdd": -6.63,
   "current_dd": 0.0,
-  "seed_used": 813.05,
-  "seed_used_pct": 12.68,
+  "seed_used": 525.56,
+  "seed_used_pct": 8.19,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 208.09,
-      "pnl_pct": 4.91,
-      "margin": 575.75,
+      "pnl": 102.93,
+      "pnl_pct": 4.84,
+      "margin": 289.41,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1917.809,
-      "mark": 1823.65
+      "mark": 1825.08
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 10.98,
-      "pnl_pct": 2.24,
-      "margin": 95.82,
+      "pnl": 11.93,
+      "pnl_pct": 2.43,
+      "margin": 95.63,
       "leverage": "5",
       "tier": "2/3",
       "entry": 0.0924,
-      "mark": 0.0904
+      "mark": 0.0902
     }
   ],
   "signals": {
@@ -365,10 +365,17 @@
     },
     {
       "t": "2026-06-03",
-      "v": 1469.21
+      "v": 1470.19
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-03 12:48",
+      "symbol": "ETHUSDT",
+      "side": "Sell",
+      "pnl": 104.65,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-03 11:06",
       "symbol": "WLDUSDT",
@@ -500,13 +507,6 @@
       "symbol": "LABUSDT",
       "side": "Buy",
       "pnl": -3.86,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-03 04:12",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": -5.13,
       "reason": "External Exit"
     }
   ],
