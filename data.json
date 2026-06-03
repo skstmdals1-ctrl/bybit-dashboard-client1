@@ -1,26 +1,38 @@
 {
-  "ts": "2026-06-03T14:06:45.485805+09:00",
+  "ts": "2026-06-03T14:07:47.006504+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6373.12,
-  "available": 6373.12,
-  "unrealized": 0.0,
+  "equity": 6374.17,
+  "available": 6315.62,
+  "unrealized": 1.19,
   "daily_pnl": 257.84,
-  "total_pnl": 1428.12,
-  "cum_pct": 28.88,
-  "daily_avg_pct": 0.3972,
-  "annual_pct": 325.0,
+  "total_pnl": 1429.17,
+  "cum_pct": 28.9,
+  "daily_avg_pct": 0.3975,
+  "annual_pct": 325.46,
   "mdd": -6.63,
   "current_dd": -0.72,
-  "seed_used": 0,
-  "seed_used_pct": 0.0,
+  "seed_used": 58.55,
+  "seed_used_pct": 0.92,
   "long_count": 0,
-  "short_count": 0,
-  "positions": [],
+  "short_count": 1,
+  "positions": [
+    {
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": 1.19,
+      "pnl_pct": 0.29,
+      "margin": 58.37,
+      "leverage": "7",
+      "tier": "1/3",
+      "entry": 0.4115,
+      "mark": 0.4103
+    }
+  ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.497
+      "conf": 0.475
     },
     "XRPUSDT": {
       "dir": "short",
@@ -48,11 +60,11 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.574
+      "conf": 0.58
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.43
+      "conf": 0.431
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -80,7 +92,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.553
+      "conf": 0.554
     },
     "ENAUSDT": {
       "dir": "short",
@@ -216,7 +228,7 @@
     },
     "HUSDT": {
       "dir": "long",
-      "conf": 0.589
+      "conf": 0.59
     }
   },
   "equity_hist": [
@@ -342,7 +354,7 @@
     },
     {
       "t": "2026-06-03",
-      "v": 1428.12
+      "v": 1429.17
     }
   ],
   "trade_history": [
