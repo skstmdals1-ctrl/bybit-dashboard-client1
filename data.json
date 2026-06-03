@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-03T19:00:54.210977+09:00",
+  "ts": "2026-06-03T19:01:56.466424+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6317.65,
-  "available": 5139.99,
-  "unrealized": -15.15,
-  "daily_pnl": 220.05,
-  "total_pnl": 1372.65,
-  "cum_pct": 27.76,
-  "daily_avg_pct": 0.3835,
-  "annual_pct": 304.34,
+  "equity": 6294.4,
+  "available": 5662.82,
+  "unrealized": 19.01,
+  "daily_pnl": 161.87,
+  "total_pnl": 1349.4,
+  "cum_pct": 27.29,
+  "daily_avg_pct": 0.3777,
+  "annual_pct": 295.91,
   "mdd": -6.63,
   "current_dd": -1.35,
-  "seed_used": 1177.66,
-  "seed_used_pct": 18.64,
+  "seed_used": 631.58,
+  "seed_used_pct": 10.03,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 20.9,
-      "pnl_pct": 0.47,
-      "margin": 629.42,
+      "pnl": 19.04,
+      "pnl_pct": 0.43,
+      "margin": 629.68,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1883.7519,
-      "mark": 1874.86
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -36.06,
-      "pnl_pct": -0.95,
-      "margin": 544.73,
-      "leverage": "7",
-      "tier": "3/3",
-      "entry": 0.4708,
-      "mark": 0.4753
+      "mark": 1875.65
     }
   ],
   "signals": {
@@ -365,10 +354,17 @@
     },
     {
       "t": "2026-06-03",
-      "v": 1372.65
+      "v": 1349.4
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-03 19:01",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -58.18,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-03 17:49",
       "symbol": "WLDUSDT",
@@ -500,13 +496,6 @@
       "symbol": "LABUSDT",
       "side": "Buy",
       "pnl": 4.04,
-      "reason": "2/3"
-    },
-    {
-      "ts": "2026-06-03 05:23",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": 6.78,
       "reason": "2/3"
     }
   ],
