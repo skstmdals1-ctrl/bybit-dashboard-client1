@@ -1,32 +1,43 @@
 {
-  "ts": "2026-06-04T00:40:58.770301+09:00",
+  "ts": "2026-06-04T00:42:00.726974+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6069.32,
-  "available": 4979.02,
-  "unrealized": 88.34,
+  "equity": 6070.86,
+  "available": 4604.3,
+  "unrealized": 90.12,
   "daily_pnl": 0,
-  "total_pnl": 1124.32,
-  "cum_pct": 22.74,
-  "daily_avg_pct": 0.3157,
-  "annual_pct": 215.97,
+  "total_pnl": 1125.86,
+  "cum_pct": 22.77,
+  "daily_avg_pct": 0.3161,
+  "annual_pct": 216.43,
   "mdd": -6.63,
-  "current_dd": -5.54,
-  "seed_used": 1090.29,
-  "seed_used_pct": 17.96,
+  "current_dd": -5.44,
+  "seed_used": 1466.55,
+  "seed_used_pct": 24.16,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 95.27,
+      "pnl": 95.25,
       "pnl_pct": 2.15,
-      "margin": 618.79,
+      "margin": 618.8,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1883.7519,
-      "mark": 1843.21
+      "mark": 1843.22
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": -0.08,
+      "pnl_pct": -0.0,
+      "margin": 422.6,
+      "leverage": "5",
+      "tier": "2/2",
+      "entry": 72.1929,
+      "mark": 72.19
     },
     {
       "symbol": "TONUSDT",
@@ -38,23 +49,12 @@
       "tier": "3/3",
       "entry": 2.0662,
       "mark": 2.0476
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -1.88,
-      "pnl_pct": -0.8,
-      "margin": 46.64,
-      "leverage": "5",
-      "tier": "1/2",
-      "entry": 73.009,
-      "mark": 72.424
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.487
+      "conf": 0.502
     },
     "XRPUSDT": {
       "dir": "short",
@@ -74,7 +74,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.557
+      "conf": 0.554
     },
     "ADAUSDT": {
       "dir": "short",
@@ -86,7 +86,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.433
+      "conf": 0.435
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -380,7 +380,7 @@
     },
     {
       "t": "2026-06-04",
-      "v": 1124.32
+      "v": 1125.86
     }
   ],
   "trade_history": [
