@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-04T11:03:36.688757+09:00",
+  "ts": "2026-06-04T11:04:38.317029+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6130.81,
-  "available": 5710.51,
-  "unrealized": -14.27,
-  "daily_pnl": 160.5,
-  "total_pnl": 1185.81,
-  "cum_pct": 23.98,
-  "daily_avg_pct": 0.3312,
-  "annual_pct": 234.3,
+  "equity": 6112.74,
+  "available": 6112.74,
+  "unrealized": 0.0,
+  "daily_pnl": 127.8,
+  "total_pnl": 1167.74,
+  "cum_pct": 23.61,
+  "daily_avg_pct": 0.3266,
+  "annual_pct": 228.76,
   "mdd": -6.63,
   "current_dd": -4.54,
-  "seed_used": 420.31,
-  "seed_used_pct": 6.86,
-  "long_count": 1,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -14.28,
-      "pnl_pct": -0.68,
-      "margin": 419.76,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 72.1929,
-      "mark": 71.705
-    }
-  ],
+  "positions": [],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
@@ -354,10 +342,17 @@
     },
     {
       "t": "2026-06-04",
-      "v": 1185.81
+      "v": 1167.74
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-04 11:04",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": -32.7,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-04 11:03",
       "symbol": "ETHUSDT",
@@ -490,13 +485,6 @@
       "side": "Sell",
       "pnl": 0.0,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-06-03 11:02",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 54.28,
-      "reason": "3/3"
     }
   ],
   "num_days": 65
