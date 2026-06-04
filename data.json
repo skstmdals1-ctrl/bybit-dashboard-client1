@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-04T21:29:44.833325+09:00",
+  "ts": "2026-06-04T21:30:46.884311+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6267.31,
-  "available": 6086.83,
-  "unrealized": -1.13,
-  "daily_pnl": 283.71,
-  "total_pnl": 1322.31,
-  "cum_pct": 26.74,
-  "daily_avg_pct": 0.3652,
-  "annual_pct": 278.31,
+  "equity": 6265.0,
+  "available": 6265.0,
+  "unrealized": 0.0,
+  "daily_pnl": 280.49,
+  "total_pnl": 1320.0,
+  "cum_pct": 26.69,
+  "daily_avg_pct": 0.3646,
+  "annual_pct": 277.49,
   "mdd": -6.63,
   "current_dd": -2.36,
-  "seed_used": 180.48,
-  "seed_used_pct": 2.88,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "ENAUSDT",
-      "side": "SHORT",
-      "pnl": -1.13,
-      "pnl_pct": -0.33,
-      "margin": 49.18,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 0.0942,
-      "mark": 0.0945
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
@@ -354,10 +342,17 @@
     },
     {
       "t": "2026-06-04",
-      "v": 1322.31
+      "v": 1320.0
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-04 21:30",
+      "symbol": "ENAUSDT",
+      "side": "Sell",
+      "pnl": -3.22,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-06-04 20:42",
       "symbol": "WLDUSDT",
@@ -490,13 +485,6 @@
       "side": "Buy",
       "pnl": -29.62,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-03 22:11",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": -76.12,
-      "reason": "2/3"
     }
   ],
   "num_days": 65
