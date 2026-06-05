@@ -1,19 +1,19 @@
 {
-  "ts": "2026-06-06T01:49:50.940767+09:00",
+  "ts": "2026-06-06T01:50:52.441422+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6430.45,
-  "available": 6374.69,
+  "equity": 6427.63,
+  "available": 6427.63,
   "unrealized": 0.0,
-  "daily_pnl": -15.35,
-  "total_pnl": 1485.45,
-  "cum_pct": 30.04,
-  "daily_avg_pct": 0.3928,
-  "annual_pct": 318.25,
+  "daily_pnl": -18.43,
+  "total_pnl": 1482.63,
+  "cum_pct": 29.98,
+  "daily_avg_pct": 0.3921,
+  "annual_pct": 317.19,
   "mdd": -6.63,
   "current_dd": -2.93,
-  "seed_used": 55.76,
-  "seed_used_pct": 0.87,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
   "short_count": 0,
   "positions": [],
@@ -346,10 +346,17 @@
     },
     {
       "t": "2026-06-06",
-      "v": 1485.45
+      "v": 1482.63
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-06 01:50",
+      "symbol": "ENAUSDT",
+      "side": "Sell",
+      "pnl": -3.08,
+      "reason": "T1 진입 | GF=8 | Lv=7x | Seed=$643(10.0%)"
+    },
     {
       "ts": "2026-06-06 01:18",
       "symbol": "ETHUSDT",
@@ -482,13 +489,6 @@
       "side": "Sell",
       "pnl": 11.92,
       "reason": "-"
-    },
-    {
-      "ts": "2026-06-05 00:39",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": -14.84,
-      "reason": "External Exit"
     }
   ],
   "num_days": 67
