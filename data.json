@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-05T15:19:28.550111+09:00",
+  "ts": "2026-06-05T15:20:30.177724+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6410.3,
-  "available": 6218.35,
-  "unrealized": 20.78,
-  "daily_pnl": 144.04,
-  "total_pnl": 1465.3,
-  "cum_pct": 29.63,
-  "daily_avg_pct": 0.394,
-  "annual_pct": 320.08,
+  "equity": 6411.25,
+  "available": 6411.25,
+  "unrealized": 0.0,
+  "daily_pnl": 164.77,
+  "total_pnl": 1466.25,
+  "cum_pct": 29.65,
+  "daily_avg_pct": 0.3942,
+  "annual_pct": 320.39,
   "mdd": -6.63,
   "current_dd": -0.19,
-  "seed_used": 191.94,
-  "seed_used_pct": 2.99,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "TONUSDT",
-      "side": "SHORT",
-      "pnl": 20.8,
-      "pnl_pct": 6.14,
-      "margin": 45.4,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 1.6526,
-      "mark": 1.5511
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
@@ -354,10 +342,17 @@
     },
     {
       "t": "2026-06-05",
-      "v": 1465.3
+      "v": 1466.25
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-05 15:20",
+      "symbol": "TONUSDT",
+      "side": "Sell",
+      "pnl": 20.73,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-05 14:52",
       "symbol": "ETHUSDT",
@@ -490,13 +485,6 @@
       "side": "Sell",
       "pnl": 0.45,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-06-04 18:46",
-      "symbol": "ETHUSDT",
-      "side": "Sell",
-      "pnl": 29.49,
-      "reason": "3/3"
     }
   ],
   "num_days": 66
