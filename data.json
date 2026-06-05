@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-05T14:48:39.960492+09:00",
+  "ts": "2026-06-05T14:49:41.615104+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6396.35,
-  "available": 5905.59,
-  "unrealized": 113.56,
-  "daily_pnl": 38.1,
-  "total_pnl": 1451.35,
-  "cum_pct": 29.35,
-  "daily_avg_pct": 0.3907,
-  "annual_pct": 315.07,
+  "equity": 6397.23,
+  "available": 6200.98,
+  "unrealized": 8.54,
+  "daily_pnl": 143.22,
+  "total_pnl": 1452.23,
+  "cum_pct": 29.37,
+  "daily_avg_pct": 0.3909,
+  "annual_pct": 315.37,
   "mdd": -6.63,
   "current_dd": -0.3,
-  "seed_used": 490.77,
-  "seed_used_pct": 7.67,
+  "seed_used": 196.25,
+  "seed_used_pct": 3.07,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "pnl": 106.15,
-      "pnl_pct": 4.87,
-      "margin": 295.9,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 1784.8153,
-      "mark": 1697.81
-    },
-    {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 7.54,
-      "pnl_pct": 2.23,
-      "margin": 47.3,
+      "pnl": 7.68,
+      "pnl_pct": 2.27,
+      "margin": 47.28,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.6526,
-      "mark": 1.6158
+      "mark": 1.6151
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "pnl": 0.87,
+      "pnl_pct": 4.87,
+      "margin": 2.43,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 1784.8153,
+      "mark": 1697.9
     }
   ],
   "signals": {
@@ -365,10 +365,17 @@
     },
     {
       "t": "2026-06-05",
-      "v": 1451.35
+      "v": 1452.23
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-05 14:48",
+      "symbol": "ETHUSDT",
+      "side": "Sell",
+      "pnl": 105.12,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-05 14:45",
       "symbol": "ETHUSDT",
@@ -501,13 +508,6 @@
       "side": "Sell",
       "pnl": 27.45,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-04 18:13",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": 23.87,
-      "reason": "-"
     }
   ],
   "num_days": 66
