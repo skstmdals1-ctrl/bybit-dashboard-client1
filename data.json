@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-06T10:47:53.772075+09:00",
+  "ts": "2026-06-06T10:48:55.367720+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6335.02,
-  "available": 5980.37,
-  "unrealized": 6.53,
+  "equity": 6335.2,
+  "available": 5980.58,
+  "unrealized": 6.7,
   "daily_pnl": -120.19,
-  "total_pnl": 1390.02,
+  "total_pnl": 1390.2,
   "cum_pct": 28.11,
   "daily_avg_pct": 0.3704,
   "annual_pct": 285.54,
   "mdd": -6.63,
-  "current_dd": -4.34,
-  "seed_used": 354.66,
+  "current_dd": -4.35,
+  "seed_used": 354.62,
   "seed_used_pct": 5.6,
   "long_count": 0,
   "short_count": 2,
@@ -26,24 +26,24 @@
       "leverage": "7",
       "tier": "2/3",
       "entry": 1604.26,
-      "mark": 1584.85
+      "mark": 1584.86
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 1.87,
-      "pnl_pct": 1.25,
-      "margin": 36.92,
+      "pnl": 2.05,
+      "pnl_pct": 1.37,
+      "margin": 36.87,
       "leverage": "4",
       "tier": "2/3",
       "entry": 6.86,
-      "mark": 6.774
+      "mark": 6.766
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.496
+      "conf": 0.499
     },
     "XRPUSDT": {
       "dir": "short",
@@ -67,15 +67,15 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.444
+      "conf": 0.443
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.579
+      "conf": 0.569
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.433
+      "conf": 0.432
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -98,12 +98,12 @@
       "conf": 0.44
     },
     "AVAXUSDT": {
-      "dir": "short",
+      "dir": "neutral",
       "conf": 0.364
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.346
+      "conf": 0.348
     },
     "ENAUSDT": {
       "dir": "short",
@@ -365,7 +365,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 1390.02
+      "v": 1390.2
     }
   ],
   "trade_history": [
