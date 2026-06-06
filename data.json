@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-06T13:31:00.365355+09:00",
+  "ts": "2026-06-06T13:32:01.849018+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 6354.05,
-  "available": 6144.9,
-  "unrealized": 18.45,
-  "daily_pnl": -113.07,
-  "total_pnl": 1409.05,
-  "cum_pct": 28.49,
-  "daily_avg_pct": 0.3749,
-  "annual_pct": 291.9,
+  "equity": 6356.14,
+  "available": 6171.11,
+  "unrealized": 10.37,
+  "daily_pnl": -104.31,
+  "total_pnl": 1411.14,
+  "cum_pct": 28.54,
+  "daily_avg_pct": 0.3754,
+  "annual_pct": 292.61,
   "mdd": -6.63,
   "current_dd": -4.1,
-  "seed_used": 209.15,
-  "seed_used_pct": 3.29,
+  "seed_used": 185.03,
+  "seed_used_pct": 2.91,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 18.46,
-      "pnl_pct": 4.79,
-      "margin": 52.37,
+      "pnl": 10.37,
+      "pnl_pct": 4.97,
+      "margin": 28.31,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1604.26,
-      "mark": 1527.36
+      "mark": 1524.46
     }
   ],
   "signals": {
@@ -354,10 +354,17 @@
     },
     {
       "t": "2026-06-06",
-      "v": 1409.05
+      "v": 1411.14
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-06 13:31",
+      "symbol": "ETHUSDT",
+      "side": "Sell",
+      "pnl": 8.75,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-06 12:54",
       "symbol": "AVAXUSDT",
@@ -490,13 +497,6 @@
       "side": "Sell",
       "pnl": 0.0,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-06-06 01:15",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": -141.31,
-      "reason": "2/3"
     }
   ],
   "num_days": 67
