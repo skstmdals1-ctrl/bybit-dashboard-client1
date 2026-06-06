@@ -1,49 +1,38 @@
 {
-  "ts": "2026-06-07T00:12:03.722664+09:00",
+  "ts": "2026-06-07T00:13:05.352017+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 16604.49,
-  "available": 15007.37,
-  "unrealized": -36.0,
-  "daily_pnl": 0,
-  "total_pnl": 11659.49,
-  "cum_pct": 235.78,
-  "daily_avg_pct": 1.7973,
-  "annual_pct": 66539.94,
+  "equity": 16599.78,
+  "available": 15437.89,
+  "unrealized": 3.14,
+  "daily_pnl": -42.08,
+  "total_pnl": 11654.78,
+  "cum_pct": 235.69,
+  "daily_avg_pct": 1.7969,
+  "annual_pct": 66444.44,
   "mdd": -6.63,
-  "current_dd": -0.33,
-  "seed_used": 1597.13,
-  "seed_used_pct": 9.62,
-  "long_count": 1,
+  "current_dd": -0.42,
+  "seed_used": 1161.89,
+  "seed_used_pct": 7.0,
+  "long_count": 0,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -38.9,
-      "pnl_pct": -1.76,
-      "margin": 434.2,
-      "leverage": "5",
-      "tier": "3/3",
-      "entry": 58.8835,
-      "mark": 57.847
-    },
-    {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 2.89,
-      "pnl_pct": 0.51,
-      "margin": 139.67,
+      "pnl": 3.14,
+      "pnl_pct": 0.56,
+      "margin": 139.61,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1559.92,
-      "mark": 1551.9
+      "mark": 1551.2
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.504
+      "conf": 0.522
     },
     "XRPUSDT": {
       "dir": "short",
@@ -71,11 +60,11 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.57
+      "conf": 0.558
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.434
+      "conf": 0.433
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -99,7 +88,7 @@
     },
     "AVAXUSDT": {
       "dir": "neutral",
-      "conf": 0.393
+      "conf": 0.391
     },
     "NEARUSDT": {
       "dir": "long",
@@ -369,10 +358,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 11659.49
+      "v": 11654.78
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 00:12",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": -42.08,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-06 19:45",
       "symbol": "ETHUSDT",
@@ -504,13 +500,6 @@
       "symbol": "LABUSDT",
       "side": "Buy",
       "pnl": 0.04,
-      "reason": "2/3"
-    },
-    {
-      "ts": "2026-06-06 03:23",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": 10.13,
       "reason": "2/3"
     }
   ],
