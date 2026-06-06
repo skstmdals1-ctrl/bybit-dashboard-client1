@@ -1,49 +1,49 @@
 {
-  "ts": "2026-06-06T17:49:25.578246+09:00",
+  "ts": "2026-06-06T17:50:27.092271+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 16532.34,
-  "available": 15657.3,
-  "unrealized": -0.53,
+  "equity": 16530.37,
+  "available": 15654.72,
+  "unrealized": -1.02,
   "daily_pnl": -123.22,
-  "total_pnl": 11587.34,
-  "cum_pct": 234.32,
-  "daily_avg_pct": 1.8177,
-  "annual_pct": 71596.52,
+  "total_pnl": 11585.37,
+  "cum_pct": 234.28,
+  "daily_avg_pct": 1.8175,
+  "annual_pct": 71545.13,
   "mdd": -6.63,
-  "current_dd": -0.03,
-  "seed_used": 875.05,
-  "seed_used_pct": 5.29,
+  "current_dd": -0.01,
+  "seed_used": 875.65,
+  "seed_used_pct": 5.3,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -4.23,
-      "pnl_pct": -0.1,
-      "margin": 629.25,
+      "pnl": -6.43,
+      "pnl_pct": -0.15,
+      "margin": 629.56,
       "leverage": "7",
       "tier": "3/3",
       "entry": 1582.9172,
-      "mark": 1584.44
+      "mark": 1585.23
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 3.7,
-      "pnl_pct": 0.74,
-      "margin": 100.88,
+      "pnl": 5.53,
+      "pnl_pct": 1.1,
+      "margin": 101.25,
       "leverage": "5",
       "tier": "2/3",
       "entry": 59.678,
-      "mark": 60.119
+      "mark": 60.337
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.519
+      "conf": 0.514
     },
     "XRPUSDT": {
       "dir": "short",
@@ -71,11 +71,11 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.586
+      "conf": 0.585
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.434
+      "conf": 0.433
     },
     "DOGEUSDT": {
       "dir": "long",
@@ -98,12 +98,12 @@
       "conf": 0.44
     },
     "AVAXUSDT": {
-      "dir": "short",
+      "dir": "neutral",
       "conf": 0.364
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.526
+      "conf": 0.523
     },
     "ENAUSDT": {
       "dir": "short",
@@ -365,7 +365,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 11587.34
+      "v": 11585.37
     }
   ],
   "trade_history": [
