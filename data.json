@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-07T18:34:47.827436+09:00",
+  "ts": "2026-06-07T18:35:49.365400+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 16334.13,
-  "available": 15768.14,
-  "unrealized": 6.36,
-  "daily_pnl": -313.8,
-  "total_pnl": 1334.13,
+  "equity": 16333.54,
+  "available": 16333.54,
+  "unrealized": 0.0,
+  "daily_pnl": -307.23,
+  "total_pnl": 1333.54,
   "cum_pct": 8.89,
   "daily_avg_pct": 0.1253,
   "annual_pct": 57.94,
   "mdd": -6.63,
   "current_dd": -2.87,
-  "seed_used": 565.99,
-  "seed_used_pct": 3.47,
-  "long_count": 1,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "TONUSDT",
-      "side": "LONG",
-      "pnl": 6.36,
-      "pnl_pct": 0.59,
-      "margin": 155.01,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 1.6956,
-      "mark": 1.7056
-    }
-  ],
+  "positions": [],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
@@ -358,10 +346,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1334.13
+      "v": 1333.54
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 18:35",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": 6.57,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-06-07 15:18",
       "symbol": "BEATUSDT",
@@ -494,13 +489,6 @@
       "side": "Buy",
       "pnl": -31.48,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-07 02:44",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": -13.36,
-      "reason": "L3"
     }
   ],
   "num_days": 68
