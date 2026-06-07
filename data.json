@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-07T11:26:32.553427+09:00",
+  "ts": "2026-06-07T11:27:34.261461+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 16596.84,
-  "available": 13753.93,
-  "unrealized": 25.89,
-  "daily_pnl": -68.84,
-  "total_pnl": 11651.84,
-  "cum_pct": 235.63,
-  "daily_avg_pct": 1.7966,
-  "annual_pct": 66372.89,
+  "equity": 16588.56,
+  "available": 15421.22,
+  "unrealized": -27.1,
+  "daily_pnl": -23.61,
+  "total_pnl": 11643.56,
+  "cum_pct": 235.46,
+  "daily_avg_pct": 1.7958,
+  "annual_pct": 66182.49,
   "mdd": -6.63,
   "current_dd": -1.38,
-  "seed_used": 2842.9,
-  "seed_used_pct": 17.13,
+  "seed_used": 1167.34,
+  "seed_used_pct": 7.04,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -25.59,
-      "pnl_pct": -0.55,
-      "margin": 1164.23,
+      "pnl": -27.12,
+      "pnl_pct": -0.59,
+      "margin": 1164.61,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1575.2771,
-      "mark": 1583.98
+      "mark": 1584.5
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 51.48,
-      "pnl_pct": 3.99,
-      "margin": 191.67,
+      "pnl": 0.01,
+      "pnl_pct": 3.28,
+      "margin": 0.02,
       "leverage": "7",
-      "tier": "2/2",
+      "tier": "1/2",
       "entry": 1.6691,
-      "mark": 1.7357
+      "mark": 1.7238
     }
   ],
   "signals": {
@@ -369,10 +369,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 11651.84
+      "v": 11643.56
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 11:27",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": 45.23,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-07 10:22",
       "symbol": "BEATUSDT",
@@ -505,13 +512,6 @@
       "side": "Sell",
       "pnl": 0.41,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-06-06 19:43",
-      "symbol": "ETHUSDT",
-      "side": "Sell",
-      "pnl": 51.9,
-      "reason": "3/3"
     }
   ],
   "num_days": 68
