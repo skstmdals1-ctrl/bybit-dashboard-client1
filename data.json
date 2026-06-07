@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-07T17:33:11.954170+09:00",
+  "ts": "2026-06-07T17:34:13.545362+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 16347.53,
-  "available": 15779.67,
-  "unrealized": 19.33,
+  "equity": 16346.38,
+  "available": 15778.6,
+  "unrealized": 19.02,
   "daily_pnl": -313.8,
-  "total_pnl": 1347.53,
+  "total_pnl": 1346.38,
   "cum_pct": 8.98,
   "daily_avg_pct": 0.1265,
   "annual_pct": 58.63,
   "mdd": -6.63,
   "current_dd": -2.87,
-  "seed_used": 567.86,
+  "seed_used": 567.78,
   "seed_used_pct": 3.47,
   "long_count": 1,
   "short_count": 0,
@@ -20,19 +20,19 @@
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 19.34,
-      "pnl_pct": 1.79,
-      "margin": 156.87,
+      "pnl": 19.02,
+      "pnl_pct": 1.76,
+      "margin": 156.82,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.6956,
-      "mark": 1.726
+      "mark": 1.7255
     }
   ],
   "signals": {
     "BTCUSDT": {
-      "dir": "neutral",
-      "conf": 0.508
+      "dir": "short",
+      "conf": 0.428
     },
     "XRPUSDT": {
       "dir": "short",
@@ -60,7 +60,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.583
+      "conf": 0.582
     },
     "ETHUSDT": {
       "dir": "short",
@@ -68,7 +68,7 @@
     },
     "DOGEUSDT": {
       "dir": "long",
-      "conf": 0.441
+      "conf": 0.442
     },
     "TAOUSDT": {
       "dir": "short",
@@ -140,7 +140,7 @@
     },
     "TONUSDT": {
       "dir": "long",
-      "conf": 0.474
+      "conf": 0.483
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -358,7 +358,7 @@
     },
     {
       "t": "2026-06-07",
-      "v": 1347.53
+      "v": 1346.38
     }
   ],
   "trade_history": [
