@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-07T14:46:15.369372+09:00",
+  "ts": "2026-06-07T14:47:16.940115+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 16540.21,
-  "available": 15435.18,
-  "unrealized": -1.33,
-  "daily_pnl": -98.43,
-  "total_pnl": 11595.21,
-  "cum_pct": 234.48,
-  "daily_avg_pct": 1.7915,
-  "annual_pct": 65168.36,
+  "equity": 16426.66,
+  "available": 15860.31,
+  "unrealized": 8.84,
+  "daily_pnl": -223.83,
+  "total_pnl": 11481.66,
+  "cum_pct": 232.19,
+  "daily_avg_pct": 1.7812,
+  "annual_pct": 62801.63,
   "mdd": -6.63,
   "current_dd": -1.62,
-  "seed_used": 1105.02,
-  "seed_used_pct": 6.68,
-  "long_count": 2,
+  "seed_used": 566.34,
+  "seed_used_pct": 3.45,
+  "long_count": 1,
   "short_count": 0,
   "positions": [
     {
-      "symbol": "BEATUSDT",
-      "side": "LONG",
-      "pnl": -8.9,
-      "pnl_pct": -0.21,
-      "margin": 534.9,
-      "leverage": "8",
-      "tier": "2/3",
-      "entry": 2.0675,
-      "mark": 2.0633
-    },
-    {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 7.57,
-      "pnl_pct": 0.7,
-      "margin": 155.19,
+      "pnl": 8.84,
+      "pnl_pct": 0.82,
+      "margin": 155.37,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.6956,
-      "mark": 1.7075
+      "mark": 1.7095
     }
   ],
   "signals": {
@@ -369,10 +358,17 @@
     },
     {
       "t": "2026-06-07",
-      "v": 11595.21
+      "v": 11481.66
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-07 14:46",
+      "symbol": "BEATUSDT",
+      "side": "Buy",
+      "pnl": -125.39,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-07 12:19",
       "symbol": "ETHUSDT",
@@ -504,13 +500,6 @@
       "symbol": "LABUSDT",
       "side": "Buy",
       "pnl": -120.0,
-      "reason": "L3"
-    },
-    {
-      "ts": "2026-06-07 00:58",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": -85.81,
       "reason": "L3"
     }
   ],
