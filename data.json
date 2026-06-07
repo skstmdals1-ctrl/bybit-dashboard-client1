@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-07T09:52:09.247288+09:00",
+  "ts": "2026-06-07T09:53:10.746902+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 16817.08,
-  "available": 14404.39,
-  "unrealized": 46.29,
+  "equity": 16813.47,
+  "available": 14399.97,
+  "unrealized": 42.42,
   "daily_pnl": 132.36,
-  "total_pnl": 11872.08,
-  "cum_pct": 240.08,
-  "daily_avg_pct": 1.8163,
-  "annual_pct": 71237.59,
+  "total_pnl": 11868.47,
+  "cum_pct": 240.01,
+  "daily_avg_pct": 1.816,
+  "annual_pct": 71160.91,
   "mdd": -6.63,
-  "current_dd": 0.0,
-  "seed_used": 2412.69,
+  "current_dd": -0.08,
+  "seed_used": 2413.5,
   "seed_used_pct": 14.35,
   "long_count": 0,
   "short_count": 3,
@@ -20,9 +20,9 @@
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 43.58,
-      "pnl_pct": 0.75,
-      "margin": 1157.34,
+      "pnl": 40.37,
+      "pnl_pct": 0.69,
+      "margin": 1157.98,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.0907,
@@ -31,30 +31,30 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -2.01,
+      "pnl": -2.0,
       "pnl_pct": -0.36,
-      "margin": 140.9,
+      "margin": 140.89,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1559.92,
-      "mark": 1565.51
+      "mark": 1565.47
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 4.74,
-      "pnl_pct": 1.06,
-      "margin": 88.46,
+      "pnl": 4.06,
+      "pnl_pct": 0.91,
+      "margin": 88.6,
       "leverage": "5",
       "tier": "1/3",
       "entry": 1.6472,
-      "mark": 1.6297
+      "mark": 1.6322
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.521
+      "conf": 0.518
     },
     "XRPUSDT": {
       "dir": "short",
@@ -82,7 +82,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.526
+      "conf": 0.522
     },
     "ETHUSDT": {
       "dir": "short",
@@ -110,7 +110,7 @@
     },
     "AVAXUSDT": {
       "dir": "neutral",
-      "conf": 0.416
+      "conf": 0.415
     },
     "NEARUSDT": {
       "dir": "long",
@@ -118,7 +118,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.512
+      "conf": 0.511
     },
     "UNIUSDT": {
       "dir": "short",
@@ -254,7 +254,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.563
+      "conf": 0.565
     }
   },
   "equity_hist": [
@@ -380,7 +380,7 @@
     },
     {
       "t": "2026-06-07",
-      "v": 11872.08
+      "v": 11868.47
     }
   ],
   "trade_history": [
