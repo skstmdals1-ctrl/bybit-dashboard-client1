@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-08T23:24:39.873112+09:00",
+  "ts": "2026-06-08T23:25:43.177772+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15959.32,
-  "available": 14425.36,
-  "unrealized": 86.46,
-  "daily_pnl": -574.15,
-  "total_pnl": 959.32,
-  "cum_pct": 6.4,
-  "daily_avg_pct": 0.0899,
-  "annual_pct": 38.82,
+  "equity": 15965.68,
+  "available": 14827.53,
+  "unrealized": 32.48,
+  "daily_pnl": -515.75,
+  "total_pnl": 965.68,
+  "cum_pct": 6.44,
+  "daily_avg_pct": 0.0905,
+  "annual_pct": 39.12,
   "mdd": -3.63,
   "current_dd": -1.13,
-  "seed_used": 1533.96,
-  "seed_used_pct": 9.61,
+  "seed_used": 1138.15,
+  "seed_used_pct": 7.13,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 29.49,
-      "pnl_pct": 0.52,
-      "margin": 1135.5,
+      "pnl": 32.39,
+      "pnl_pct": 0.57,
+      "margin": 1134.92,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1693.472,
-      "mark": 1684.72
+      "mark": 1683.86
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 57.01,
-      "pnl_pct": 1.78,
-      "margin": 393.54,
+      "pnl": 0.0,
+      "pnl_pct": 2.15,
+      "margin": 0.01,
       "leverage": "8",
-      "tier": "3/3",
+      "tier": "1/3",
       "entry": 0.4834,
-      "mark": 0.4748
+      "mark": 0.473
     }
   ],
   "signals": {
@@ -369,10 +369,17 @@
     },
     {
       "t": "2026-06-08",
-      "v": 959.32
+      "v": 965.68
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-08 23:24",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": 58.39,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-06-08 23:16",
       "symbol": "WLDUSDT",
@@ -505,13 +512,6 @@
       "side": "Buy",
       "pnl": -90.3,
       "reason": "T1 진입 | GF=7 | Lv=10x | Seed=$1987(12.2%)"
-    },
-    {
-      "ts": "2026-06-08 07:14",
-      "symbol": "ETHUSDT",
-      "side": "Sell",
-      "pnl": -112.08,
-      "reason": "-"
     }
   ],
   "num_days": 69
