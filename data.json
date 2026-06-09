@@ -1,61 +1,50 @@
 {
-  "ts": "2026-06-09T15:12:51.088189+09:00",
+  "ts": "2026-06-09T15:13:52.756776+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15696.49,
-  "available": 10675.72,
-  "unrealized": -97.4,
-  "daily_pnl": -134.34,
-  "total_pnl": 696.49,
-  "cum_pct": 4.64,
-  "daily_avg_pct": 0.0648,
-  "annual_pct": 26.67,
+  "equity": 15672.93,
+  "available": 11783.54,
+  "unrealized": 6.7,
+  "daily_pnl": -263.26,
+  "total_pnl": 672.93,
+  "cum_pct": 4.49,
+  "daily_avg_pct": 0.0628,
+  "annual_pct": 25.75,
   "mdd": -1.23,
   "current_dd": -1.23,
-  "seed_used": 5020.77,
-  "seed_used_pct": 31.99,
+  "seed_used": 3889.4,
+  "seed_used_pct": 24.82,
   "long_count": 0,
-  "short_count": 4,
+  "short_count": 3,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 15.98,
-      "pnl_pct": 0.28,
-      "margin": 1138.2,
+      "pnl": 19.72,
+      "pnl_pct": 0.35,
+      "margin": 1137.46,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1693.472,
-      "mark": 1688.73
+      "mark": 1687.62
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -32.16,
-      "pnl_pct": -0.71,
-      "margin": 1133.77,
+      "pnl": -31.51,
+      "pnl_pct": -0.7,
+      "margin": 1133.6,
       "leverage": "4",
       "tier": "2/2",
       "entry": 206.3661,
-      "mark": 207.84
-    },
-    {
-      "symbol": "TONUSDT",
-      "side": "SHORT",
-      "pnl": -98.69,
-      "pnl_pct": -1.78,
-      "margin": 1127.23,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 1.7516,
-      "mark": 1.7828
+      "mark": 207.81
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 17.42,
-      "pnl_pct": 0.4,
-      "margin": 547.09,
+      "pnl": 18.49,
+      "pnl_pct": 0.42,
+      "margin": 546.95,
       "leverage": "8",
       "tier": "3/3",
       "entry": 0.0822,
@@ -391,10 +380,17 @@
     },
     {
       "t": "2026-06-09",
-      "v": 696.49
+      "v": 672.93
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-09 15:13",
+      "symbol": "TONUSDT",
+      "side": "Sell",
+      "pnl": -128.92,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-09 14:22",
       "symbol": "WLDUSDT",
@@ -526,13 +522,6 @@
       "symbol": "BEATUSDT",
       "side": "Buy",
       "pnl": 14.05,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-08 17:17",
-      "symbol": "BEATUSDT",
-      "side": "Buy",
-      "pnl": 28.3,
       "reason": "-"
     }
   ],
