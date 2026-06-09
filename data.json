@@ -1,50 +1,50 @@
 {
-  "ts": "2026-06-10T08:23:30.470737+09:00",
+  "ts": "2026-06-10T08:24:33.283143+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15690.62,
-  "available": 10479.14,
-  "unrealized": 226.73,
+  "equity": 15693.68,
+  "available": 10483.23,
+  "unrealized": 230.7,
   "daily_pnl": -289.82,
-  "total_pnl": 690.62,
-  "cum_pct": 4.6,
-  "daily_avg_pct": 0.0634,
-  "annual_pct": 26.03,
+  "total_pnl": 693.68,
+  "cum_pct": 4.62,
+  "daily_avg_pct": 0.0636,
+  "annual_pct": 26.12,
   "mdd": -3.49,
-  "current_dd": -3.2,
-  "seed_used": 5211.48,
-  "seed_used_pct": 33.21,
+  "current_dd": -3.11,
+  "seed_used": 5210.45,
+  "seed_used_pct": 33.2,
   "long_count": 0,
   "short_count": 3,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 185.93,
-      "pnl_pct": 3.26,
-      "margin": 1104.21,
+      "pnl": 188.29,
+      "pnl_pct": 3.3,
+      "margin": 1103.74,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1693.472,
-      "mark": 1638.3
+      "mark": 1637.6
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 45.49,
-      "pnl_pct": 2.56,
-      "margin": 247.15,
+      "pnl": 46.55,
+      "pnl_pct": 2.62,
+      "margin": 247.0,
       "leverage": "7",
       "tier": "2/2",
       "entry": 66.75,
-      "mark": 65.04
+      "mark": 65.0
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": -4.55,
-      "pnl_pct": -0.29,
-      "margin": 227.34,
+      "pnl": -4.75,
+      "pnl_pct": -0.3,
+      "margin": 227.37,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.0801,
@@ -54,11 +54,11 @@
   "signals": {
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.417
+      "conf": 0.416
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.447
+      "conf": 0.448
     },
     "SOLUSDT": {
       "dir": "short",
@@ -209,8 +209,8 @@
       "conf": 0.696
     },
     "ONDOUSDT": {
-      "dir": "short",
-      "conf": 0.528
+      "dir": "long",
+      "conf": 0.51
     },
     "ICPUSDT": {
       "dir": "short",
@@ -384,7 +384,7 @@
     },
     {
       "t": "2026-06-10",
-      "v": 690.62
+      "v": 693.68
     }
   ],
   "trade_history": [
