@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-09T09:38:11.801141+09:00",
+  "ts": "2026-06-09T09:39:13.490081+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 16046.03,
-  "available": 13452.62,
-  "unrealized": 165.42,
-  "daily_pnl": -53.85,
-  "total_pnl": 1046.03,
-  "cum_pct": 6.97,
-  "daily_avg_pct": 0.0963,
-  "annual_pct": 42.1,
+  "equity": 16051.0,
+  "available": 13825.27,
+  "unrealized": 158.56,
+  "daily_pnl": -40.57,
+  "total_pnl": 1051.0,
+  "cum_pct": 7.01,
+  "daily_avg_pct": 0.0968,
+  "annual_pct": 42.35,
   "mdd": -3.63,
   "current_dd": -0.87,
-  "seed_used": 2593.41,
-  "seed_used_pct": 16.16,
+  "seed_used": 2225.73,
+  "seed_used_pct": 13.87,
   "long_count": 0,
-  "short_count": 3,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 93.22,
-      "pnl_pct": 1.63,
-      "margin": 1122.76,
+      "pnl": 95.95,
+      "pnl_pct": 1.68,
+      "margin": 1122.21,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1693.472,
-      "mark": 1665.81
+      "mark": 1665.0
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 60.56,
-      "pnl_pct": 3.28,
-      "margin": 357.12,
+      "pnl": 62.68,
+      "pnl_pct": 3.39,
+      "margin": 356.7,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.7438,
-      "mark": 1.6866
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": 11.69,
-      "pnl_pct": 4.36,
-      "margin": 64.09,
-      "leverage": "4",
-      "tier": "2/3",
-      "entry": 0.5135,
-      "mark": 0.4911
+      "mark": 1.6846
     }
   ],
   "signals": {
@@ -384,10 +373,17 @@
     },
     {
       "t": "2026-06-09",
-      "v": 1046.03
+      "v": 1051.0
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-09 09:38",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": 13.28,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-09 09:37",
       "symbol": "WLDUSDT",
@@ -520,13 +516,6 @@
       "side": "Sell",
       "pnl": -109.88,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-08 16:07",
-      "symbol": "BEATUSDT",
-      "side": "Buy",
-      "pnl": 129.38,
-      "reason": "3/3"
     }
   ],
   "num_days": 70
