@@ -1,65 +1,54 @@
 {
-  "ts": "2026-06-10T18:29:31.550222+09:00",
+  "ts": "2026-06-10T18:30:34.585159+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 16076.17,
-  "available": 9557.79,
-  "unrealized": 563.96,
-  "daily_pnl": -239.68,
-  "total_pnl": 1076.17,
-  "cum_pct": 7.17,
-  "daily_avg_pct": 0.0976,
-  "annual_pct": 42.77,
+  "equity": 16091.51,
+  "available": 10124.19,
+  "unrealized": 452.54,
+  "daily_pnl": -113.26,
+  "total_pnl": 1091.51,
+  "cum_pct": 7.28,
+  "daily_avg_pct": 0.099,
+  "annual_pct": 43.5,
   "mdd": -3.1,
   "current_dd": -0.23,
-  "seed_used": 6518.38,
-  "seed_used_pct": 40.55,
+  "seed_used": 5967.32,
+  "seed_used_pct": 37.08,
   "long_count": 0,
-  "short_count": 4,
+  "short_count": 3,
   "positions": [
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 346.29,
-      "pnl_pct": 2.42,
-      "margin": 1991.27,
+      "pnl": 360.45,
+      "pnl_pct": 2.52,
+      "margin": 1989.24,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.0807,
-      "mark": 0.0787
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "pnl": 126.43,
-      "pnl_pct": 4.42,
-      "margin": 547.11,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 1693.472,
-      "mark": 1618.66
+      "mark": 0.0786
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 47.53,
-      "pnl_pct": 2.66,
-      "margin": 248.63,
+      "pnl": 48.06,
+      "pnl_pct": 2.69,
+      "margin": 248.55,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.7002,
-      "mark": 1.655
+      "mark": 1.6545
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 44.09,
-      "pnl_pct": 4.93,
-      "margin": 121.48,
+      "pnl": 44.35,
+      "pnl_pct": 4.96,
+      "margin": 121.44,
       "leverage": "7",
       "tier": "2/2",
       "entry": 66.75,
-      "mark": 63.46
+      "mark": 63.44
     }
   ],
   "signals": {
@@ -395,10 +384,17 @@
     },
     {
       "t": "2026-06-10",
-      "v": 1076.17
+      "v": 1091.51
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-10 18:30",
+      "symbol": "ETHUSDT",
+      "side": "Sell",
+      "pnl": 126.42,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-10 18:20",
       "symbol": "ETHUSDT",
@@ -531,13 +527,6 @@
       "side": "Sell",
       "pnl": -298.41,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-09 19:15",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": 89.84,
-      "reason": "3/3"
     }
   ],
   "num_days": 71
