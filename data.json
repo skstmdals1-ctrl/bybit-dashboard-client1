@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-11T13:58:46.301497+09:00",
+  "ts": "2026-06-11T13:59:49.150292+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15667.19,
-  "available": 12790.28,
-  "unrealized": 93.37,
+  "equity": 15670.58,
+  "available": 12792.71,
+  "unrealized": 96.08,
   "daily_pnl": 291.94,
-  "total_pnl": 667.19,
-  "cum_pct": 4.45,
-  "daily_avg_pct": 0.0605,
-  "annual_pct": 24.7,
+  "total_pnl": 670.58,
+  "cum_pct": 4.47,
+  "daily_avg_pct": 0.0608,
+  "annual_pct": 24.84,
   "mdd": -0.06,
-  "current_dd": 0.0,
-  "seed_used": 2876.91,
+  "current_dd": -0.05,
+  "seed_used": 2877.86,
   "seed_used_pct": 18.36,
   "long_count": 1,
   "short_count": 1,
@@ -20,34 +20,34 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 92.39,
-      "pnl_pct": 1.29,
-      "margin": 1445.83,
+      "pnl": 96.62,
+      "pnl_pct": 1.35,
+      "margin": 1446.68,
       "leverage": "5",
       "tier": "2/2",
       "entry": 53.9723,
-      "mark": 54.671
+      "mark": 54.703
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 1.09,
-      "pnl_pct": 0.05,
-      "margin": 473.06,
+      "pnl": 0.73,
+      "pnl_pct": 0.03,
+      "margin": 473.13,
       "leverage": "5",
       "tier": "2/2",
       "entry": 65.19,
-      "mark": 65.16
+      "mark": 65.17
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.382
+      "conf": 0.385
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.455
+      "conf": 0.457
     },
     "SOLUSDT": {
       "dir": "short",
@@ -67,7 +67,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.497
+      "conf": 0.498
     },
     "SUIUSDT": {
       "dir": "short",
@@ -75,7 +75,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.406
+      "conf": 0.355
     },
     "DOGEUSDT": {
       "dir": "short",
@@ -373,7 +373,7 @@
     },
     {
       "t": "2026-06-11",
-      "v": 667.19
+      "v": 670.58
     }
   ],
   "trade_history": [
