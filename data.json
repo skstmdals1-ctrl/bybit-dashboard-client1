@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-11T23:21:32.783949+09:00",
+  "ts": "2026-06-11T23:22:36.632867+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15968.56,
-  "available": 14179.3,
-  "unrealized": 22.82,
+  "equity": 15968.43,
+  "available": 12297.88,
+  "unrealized": 30.53,
   "daily_pnl": 663.42,
-  "total_pnl": 968.56,
+  "total_pnl": 968.43,
   "cum_pct": 6.46,
   "daily_avg_pct": 0.087,
   "annual_pct": 37.36,
   "mdd": -0.49,
-  "current_dd": -0.03,
-  "seed_used": 1789.26,
-  "seed_used_pct": 11.2,
+  "current_dd": -0.35,
+  "seed_used": 3670.55,
+  "seed_used_pct": 22.99,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
+      "symbol": "LABUSDT",
+      "side": "LONG",
+      "pnl": -31.66,
+      "pnl_pct": -0.16,
+      "margin": 2236.48,
+      "leverage": "9",
+      "tier": "2/2",
+      "entry": 9.0363,
+      "mark": 9.0221
+    },
+    {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 54.27,
-      "pnl_pct": 0.76,
-      "margin": 1413.3,
+      "pnl": 56.87,
+      "pnl_pct": 0.8,
+      "margin": 1412.78,
       "leverage": "5",
       "tier": "2/2",
       "entry": 65.6292,
-      "mark": 65.129
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": -23.39,
-      "pnl_pct": -0.7,
-      "margin": 370.76,
-      "leverage": "9",
-      "tier": "1/2",
-      "entry": 9.131,
-      "mark": 9.0674
+      "mark": 65.105
     }
   ],
   "signals": {
@@ -63,7 +63,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.481
+      "conf": 0.479
     },
     "ADAUSDT": {
       "dir": "short",
@@ -75,7 +75,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.452
+      "conf": 0.451
     },
     "DOGEUSDT": {
       "dir": "neutral",
@@ -123,7 +123,7 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.499
+      "conf": 0.497
     },
     "ARBUSDT": {
       "dir": "short",
@@ -139,7 +139,7 @@
     },
     "WLDUSDT": {
       "dir": "short",
-      "conf": 0.509
+      "conf": 0.507
     },
     "BCHUSDT": {
       "dir": "short",
@@ -373,7 +373,7 @@
     },
     {
       "t": "2026-06-11",
-      "v": 968.56
+      "v": 968.43
     }
   ],
   "trade_history": [
