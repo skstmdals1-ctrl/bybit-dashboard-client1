@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-11T20:11:32.158606+09:00",
+  "ts": "2026-06-11T20:12:35.047383+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15937.09,
-  "available": 13450.69,
-  "unrealized": 254.07,
-  "daily_pnl": 398.36,
-  "total_pnl": 937.09,
-  "cum_pct": 6.25,
-  "daily_avg_pct": 0.0842,
-  "annual_pct": 35.96,
+  "equity": 15936.22,
+  "available": 14503.65,
+  "unrealized": -12.69,
+  "daily_pnl": 663.42,
+  "total_pnl": 936.22,
+  "cum_pct": 6.24,
+  "daily_avg_pct": 0.0841,
+  "annual_pct": 35.91,
   "mdd": -0.49,
   "current_dd": 0.0,
-  "seed_used": 2486.4,
-  "seed_used_pct": 15.6,
+  "seed_used": 1432.57,
+  "seed_used_pct": 8.99,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -12.74,
-      "pnl_pct": -0.54,
-      "margin": 475.83,
+      "pnl": -12.45,
+      "pnl_pct": -0.53,
+      "margin": 475.77,
       "leverage": "5",
       "tier": "2/2",
       "entry": 65.19,
-      "mark": 65.541
+      "mark": 65.533
     }
   ],
   "signals": {
@@ -362,10 +362,17 @@
     },
     {
       "t": "2026-06-11",
-      "v": 937.09
+      "v": 936.22
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-11 20:11",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 265.07,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-11 20:06",
       "symbol": "HYPEUSDT",
@@ -498,13 +505,6 @@
       "side": "Buy",
       "pnl": -8.22,
       "reason": "L3"
-    },
-    {
-      "ts": "2026-06-10 05:58",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": -218.2,
-      "reason": "T1 진입 | GF=7 | Lv=7x | Seed=$2042(13.0%)"
     }
   ],
   "num_days": 72
