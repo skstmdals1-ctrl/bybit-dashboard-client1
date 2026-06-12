@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-12T16:04:33.876483+09:00",
+  "ts": "2026-06-12T16:05:36.692563+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15795.7,
-  "available": 12038.72,
-  "unrealized": -163.51,
-  "daily_pnl": -877.92,
-  "total_pnl": 795.7,
-  "cum_pct": 5.3,
-  "daily_avg_pct": 0.0708,
-  "annual_pct": 29.48,
+  "equity": 15888.17,
+  "available": 12245.2,
+  "unrealized": -101.59,
+  "daily_pnl": -847.54,
+  "total_pnl": 888.17,
+  "cum_pct": 5.92,
+  "daily_avg_pct": 0.0788,
+  "annual_pct": 33.31,
   "mdd": -2.78,
-  "current_dd": -2.78,
-  "seed_used": 3756.99,
-  "seed_used_pct": 23.78,
+  "current_dd": -1.78,
+  "seed_used": 3642.98,
+  "seed_used_pct": 22.93,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": -271.85,
-      "pnl_pct": -1.42,
-      "margin": 1882.1,
+      "pnl": -213.48,
+      "pnl_pct": -1.12,
+      "margin": 1887.93,
       "leverage": "10",
       "tier": "1/2",
       "entry": 9.862,
-      "mark": 9.7216
+      "mark": 9.7517
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 37.98,
-      "pnl_pct": 0.53,
-      "margin": 1423.86,
+      "pnl": 29.54,
+      "pnl_pct": 0.41,
+      "margin": 1425.55,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1696,
-      "mark": 0.1687
+      "mark": 0.1689
     },
     {
       "symbol": "VELVETUSDT",
       "side": "LONG",
-      "pnl": 72.29,
-      "pnl_pct": 3.47,
-      "margin": 430.59,
+      "pnl": 82.22,
+      "pnl_pct": 5.62,
+      "margin": 309.03,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1.6255,
-      "mark": 1.682
+      "mark": 1.7169
     }
   ],
   "signals": {
@@ -58,7 +58,7 @@
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.512
+      "conf": 0.549
     },
     "SOLUSDT": {
       "dir": "short",
@@ -78,7 +78,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.501
+      "conf": 0.498
     },
     "SUIUSDT": {
       "dir": "short",
@@ -134,7 +134,7 @@
     },
     "ZECUSDT": {
       "dir": "neutral",
-      "conf": 0.409
+      "conf": 0.41
     },
     "ARBUSDT": {
       "dir": "short",
@@ -150,7 +150,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.439
+      "conf": 0.442
     },
     "BCHUSDT": {
       "dir": "short",
@@ -258,7 +258,7 @@
     },
     "VELVETUSDT": {
       "dir": "long",
-      "conf": 0.558
+      "conf": 0.803
     }
   },
   "equity_hist": [
@@ -388,10 +388,17 @@
     },
     {
       "t": "2026-06-12",
-      "v": 795.7
+      "v": 888.17
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-12 16:05",
+      "symbol": "VELVETUSDT",
+      "side": "Buy",
+      "pnl": 30.38,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-12 16:01",
       "symbol": "VELVETUSDT",
@@ -524,13 +531,6 @@
       "side": "Sell",
       "pnl": -394.96,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-10 18:32",
-      "symbol": "SOLUSDT",
-      "side": "Sell",
-      "pnl": 44.37,
-      "reason": "2/2"
     }
   ],
   "num_days": 73
