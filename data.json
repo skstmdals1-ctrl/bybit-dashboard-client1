@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-13T22:06:50.211997+09:00",
+  "ts": "2026-06-13T22:07:55.355419+09:00",
   "start_date": "2026-04-01",
-  "status": "stopped",
-  "equity": 14991.68,
-  "available": 13570.94,
-  "unrealized": -61.58,
+  "status": "running",
+  "equity": 14998.82,
+  "available": 13579.87,
+  "unrealized": -54.43,
   "daily_pnl": -740.57,
-  "total_pnl": -8.32,
-  "cum_pct": -0.06,
-  "daily_avg_pct": -0.0008,
-  "annual_pct": -0.29,
+  "total_pnl": -1.18,
+  "cum_pct": -0.01,
+  "daily_avg_pct": -0.0001,
+  "annual_pct": -0.04,
   "mdd": -4.77,
-  "current_dd": -4.69,
-  "seed_used": 1420.74,
-  "seed_used_pct": 9.48,
+  "current_dd": -4.68,
+  "seed_used": 1418.95,
+  "seed_used_pct": 9.46,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "1000PEPEUSDT",
       "side": "SHORT",
-      "pnl": -61.62,
-      "pnl_pct": -1.1,
-      "margin": 1417.66,
+      "pnl": -54.46,
+      "pnl_pct": -0.97,
+      "margin": 1415.87,
       "leverage": "4",
       "tier": "1/1",
       "entry": 0.0028,
-      "mark": 0.0029
+      "mark": 0.0028
     }
   ],
   "signals": {
@@ -40,15 +40,15 @@
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.426
+      "conf": 0.43
     },
     "LINKUSDT": {
       "dir": "long",
       "conf": 0.397
     },
     "1000PEPEUSDT": {
-      "dir": "short",
-      "conf": 0.456
+      "dir": "long",
+      "conf": 0.443
     },
     "HYPEUSDT": {
       "dir": "short",
@@ -56,7 +56,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.55
+      "conf": 0.547
     },
     "SUIUSDT": {
       "dir": "short",
@@ -366,7 +366,7 @@
     },
     {
       "t": "2026-06-13",
-      "v": -8.32
+      "v": -1.18
     }
   ],
   "trade_history": [
