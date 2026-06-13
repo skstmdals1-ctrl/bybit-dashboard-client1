@@ -1,33 +1,22 @@
 {
-  "ts": "2026-06-13T14:02:25.080250+09:00",
+  "ts": "2026-06-13T14:03:27.925412+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15130.74,
-  "available": 11587.63,
-  "unrealized": -455.34,
-  "daily_pnl": -203.65,
-  "total_pnl": 130.74,
-  "cum_pct": 0.87,
-  "daily_avg_pct": 0.0117,
-  "annual_pct": 4.36,
+  "equity": 15085.44,
+  "available": 13687.97,
+  "unrealized": 31.79,
+  "daily_pnl": -740.57,
+  "total_pnl": 85.44,
+  "cum_pct": 0.57,
+  "daily_avg_pct": 0.0077,
+  "annual_pct": 2.85,
   "mdd": -3.78,
   "current_dd": -3.78,
-  "seed_used": 3543.11,
-  "seed_used_pct": 23.42,
-  "long_count": 1,
+  "seed_used": 1397.47,
+  "seed_used_pct": 9.26,
+  "long_count": 0,
   "short_count": 1,
   "positions": [
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -490.31,
-      "pnl_pct": -2.24,
-      "margin": 2135.55,
-      "leverage": "10",
-      "tier": "1/1",
-      "entry": 59.169,
-      "mark": 57.841
-    },
     {
       "symbol": "1000PEPEUSDT",
       "side": "SHORT",
@@ -377,10 +366,17 @@
     },
     {
       "t": "2026-06-13",
-      "v": 130.74
+      "v": 85.44
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-13 14:03",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": -536.91,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-13 04:18",
       "symbol": "1000PEPEUSDT",
@@ -513,13 +509,6 @@
       "side": "Buy",
       "pnl": 106.41,
       "reason": "-"
-    },
-    {
-      "ts": "2026-06-11 12:32",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": -319.91,
-      "reason": "External Exit"
     }
   ],
   "num_days": 74
