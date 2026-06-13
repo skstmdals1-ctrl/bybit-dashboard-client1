@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-14T01:39:30.831208+09:00",
+  "ts": "2026-06-14T01:40:33.667879+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 14975.38,
-  "available": 12361.81,
-  "unrealized": -77.16,
+  "equity": 14977.11,
+  "available": 12363.37,
+  "unrealized": -75.61,
   "daily_pnl": 0,
-  "total_pnl": -24.62,
-  "cum_pct": -0.16,
-  "daily_avg_pct": -0.0021,
-  "annual_pct": -0.76,
+  "total_pnl": -22.89,
+  "cum_pct": -0.15,
+  "daily_avg_pct": -0.002,
+  "annual_pct": -0.73,
   "mdd": -4.93,
-  "current_dd": -4.82,
-  "seed_used": 2613.57,
+  "current_dd": -4.83,
+  "seed_used": 2613.74,
   "seed_used_pct": 17.45,
   "long_count": 1,
   "short_count": 1,
@@ -20,9 +20,9 @@
     {
       "symbol": "1000PEPEUSDT",
       "side": "SHORT",
-      "pnl": -45.12,
+      "pnl": -44.92,
       "pnl_pct": -0.8,
-      "margin": 1413.53,
+      "margin": 1413.48,
       "leverage": "4",
       "tier": "1/1",
       "entry": 0.0028,
@@ -31,13 +31,13 @@
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -31.71,
-      "pnl_pct": -0.38,
-      "margin": 1193.57,
+      "pnl": -30.73,
+      "pnl_pct": -0.37,
+      "margin": 1193.71,
       "leverage": "7",
       "tier": "1/1",
       "entry": 68.24,
-      "mark": 67.982
+      "mark": 67.99
     }
   ],
   "signals": {
@@ -78,12 +78,12 @@
       "conf": 0.461
     },
     "DOGEUSDT": {
-      "dir": "neutral",
-      "conf": 0.45
+      "dir": "short",
+      "conf": 0.448
     },
     "TAOUSDT": {
       "dir": "short",
-      "conf": 0.519
+      "conf": 0.518
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -381,7 +381,7 @@
     },
     {
       "t": "2026-06-14",
-      "v": -24.62
+      "v": -22.89
     }
   ],
   "trade_history": [
