@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-14T14:22:06.791755+09:00",
+  "ts": "2026-06-14T14:23:09.618803+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15198.38,
-  "available": 11527.26,
-  "unrealized": 69.39,
+  "equity": 15200.85,
+  "available": 11529.25,
+  "unrealized": 71.53,
   "daily_pnl": 75.87,
-  "total_pnl": 198.38,
-  "cum_pct": 1.32,
-  "daily_avg_pct": 0.0175,
-  "annual_pct": 6.6,
+  "total_pnl": 200.85,
+  "cum_pct": 1.34,
+  "daily_avg_pct": 0.0177,
+  "annual_pct": 6.67,
   "mdd": -4.93,
-  "current_dd": -3.47,
-  "seed_used": 3671.12,
+  "current_dd": -3.41,
+  "seed_used": 3671.6,
   "seed_used_pct": 24.15,
   "long_count": 1,
   "short_count": 2,
@@ -20,9 +20,9 @@
     {
       "symbol": "1000PEPEUSDT",
       "side": "SHORT",
-      "pnl": 4.57,
-      "pnl_pct": 0.08,
-      "margin": 1401.11,
+      "pnl": 5.57,
+      "pnl_pct": 0.1,
+      "margin": 1400.86,
       "leverage": "4",
       "tier": "1/1",
       "entry": 0.0028,
@@ -31,24 +31,24 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 72.43,
-      "pnl_pct": 0.75,
-      "margin": 1196.51,
+      "pnl": 70.05,
+      "pnl_pct": 0.73,
+      "margin": 1196.8,
       "leverage": "8",
       "tier": "1/1",
       "entry": 68.84,
-      "mark": 68.323
+      "mark": 68.34
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -7.59,
-      "pnl_pct": -0.07,
-      "margin": 1059.54,
+      "pnl": -4.06,
+      "pnl_pct": -0.04,
+      "margin": 1059.89,
       "leverage": "10",
       "tier": "1/1",
       "entry": 60.053,
-      "mark": 60.01
+      "mark": 60.03
     }
   ],
   "signals": {
@@ -62,7 +62,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.554
+      "conf": 0.566
     },
     "LINKUSDT": {
       "dir": "long",
@@ -70,11 +70,11 @@
     },
     "1000PEPEUSDT": {
       "dir": "short",
-      "conf": 0.445
+      "conf": 0.444
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.949
+      "conf": 0.938
     },
     "ADAUSDT": {
       "dir": "short",
@@ -388,7 +388,7 @@
     },
     {
       "t": "2026-06-14",
-      "v": 198.38
+      "v": 200.85
     }
   ],
   "trade_history": [
