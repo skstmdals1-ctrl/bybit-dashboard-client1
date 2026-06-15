@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-15T23:16:56.398548+09:00",
+  "ts": "2026-06-15T23:17:59.509183+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15232.69,
-  "available": 11953.8,
-  "unrealized": 210.57,
-  "daily_pnl": -172.98,
-  "total_pnl": 232.69,
-  "cum_pct": 1.55,
-  "daily_avg_pct": 0.0202,
-  "annual_pct": 7.65,
+  "equity": 15265.26,
+  "available": 12800.5,
+  "unrealized": 339.44,
+  "daily_pnl": -270.9,
+  "total_pnl": 265.26,
+  "cum_pct": 1.77,
+  "daily_avg_pct": 0.0231,
+  "annual_pct": 8.8,
   "mdd": -6.74,
   "current_dd": -6.48,
-  "seed_used": 3278.89,
-  "seed_used_pct": 21.53,
+  "seed_used": 2464.76,
+  "seed_used_pct": 16.15,
   "long_count": 2,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -47.83,
-      "pnl_pct": -0.53,
-      "margin": 1280.46,
+      "pnl": -17.99,
+      "pnl_pct": -0.2,
+      "margin": 1284.72,
       "leverage": "7",
       "tier": "1/1",
       "entry": 67.63,
-      "mark": 67.271
+      "mark": 67.495
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 339.86,
-      "pnl_pct": 3.33,
-      "margin": 1170.3,
+      "pnl": 355.35,
+      "pnl_pct": 3.49,
+      "margin": 1172.02,
       "leverage": "9",
       "tier": "1/1",
       "entry": 71.08,
-      "mark": 73.45
-    },
-    {
-      "symbol": "ONDOUSDT",
-      "side": "SHORT",
-      "pnl": -81.34,
-      "pnl_pct": -2.03,
-      "margin": 818.5,
-      "leverage": "5",
-      "tier": "1/1",
-      "entry": 0.3797,
-      "mark": 0.3874
+      "mark": 73.558
     }
   ],
   "signals": {
@@ -388,10 +377,17 @@
     },
     {
       "t": "2026-06-15",
-      "v": 232.69
+      "v": 265.26
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-15 23:17",
+      "symbol": "ONDOUSDT",
+      "side": "Sell",
+      "pnl": -97.92,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-15 20:09",
       "symbol": "HUSDT",
@@ -524,13 +520,6 @@
       "side": "Buy",
       "pnl": -536.91,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-13 04:18",
-      "symbol": "1000PEPEUSDT",
-      "side": "Buy",
-      "pnl": -3.74,
-      "reason": "1/1"
     }
   ],
   "num_days": 76
