@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-15T20:09:58.488910+09:00",
+  "ts": "2026-06-15T20:11:01.402758+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15152.37,
-  "available": 11902.93,
-  "unrealized": 128.52,
-  "daily_pnl": 820.26,
-  "total_pnl": 152.37,
-  "cum_pct": 1.02,
-  "daily_avg_pct": 0.0134,
-  "annual_pct": 5.01,
+  "equity": 15165.42,
+  "available": 11911.11,
+  "unrealized": 141.44,
+  "daily_pnl": -172.98,
+  "total_pnl": 165.42,
+  "cum_pct": 1.1,
+  "daily_avg_pct": 0.0144,
+  "annual_pct": 5.4,
   "mdd": -4.93,
   "current_dd": -4.2,
-  "seed_used": 3249.44,
-  "seed_used_pct": 21.45,
+  "seed_used": 3254.3,
+  "seed_used_pct": 21.46,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 1.87,
-      "pnl_pct": 0.02,
-      "margin": 1287.56,
+      "pnl": 26.12,
+      "pnl_pct": 0.29,
+      "margin": 1291.02,
       "leverage": "7",
       "tier": "1/1",
       "entry": 67.63,
-      "mark": 67.644
+      "mark": 67.826
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 136.23,
-      "pnl_pct": 1.34,
-      "margin": 1147.68,
+      "pnl": 133.36,
+      "pnl_pct": 1.31,
+      "margin": 1147.36,
       "leverage": "9",
       "tier": "1/1",
       "entry": 71.08,
-      "mark": 72.03
+      "mark": 72.01
     },
     {
       "symbol": "ONDOUSDT",
       "side": "SHORT",
-      "pnl": -9.51,
-      "pnl_pct": -0.24,
-      "margin": 804.13,
+      "pnl": -17.96,
+      "pnl_pct": -0.45,
+      "margin": 805.82,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.3797,
-      "mark": 0.3806
+      "mark": 0.3814
     }
   ],
   "signals": {
@@ -388,7 +388,7 @@
     },
     {
       "t": "2026-06-15",
-      "v": 152.37
+      "v": 165.42
     }
   ],
   "trade_history": [
@@ -397,7 +397,7 @@
       "symbol": "HUSDT",
       "side": "Buy",
       "pnl": -993.24,
-      "reason": "-"
+      "reason": "External Exit"
     },
     {
       "ts": "2026-06-15 19:22",
