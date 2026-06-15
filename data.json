@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-16T07:46:35.529311+09:00",
+  "ts": "2026-06-16T07:47:38.315535+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15077.2,
-  "available": 11240.77,
-  "unrealized": -327.81,
-  "daily_pnl": 479.07,
-  "total_pnl": 77.2,
-  "cum_pct": 0.51,
-  "daily_avg_pct": 0.0066,
-  "annual_pct": 2.44,
+  "equity": 14984.68,
+  "available": 12503.36,
+  "unrealized": -290.02,
+  "daily_pnl": 345.86,
+  "total_pnl": -15.32,
+  "cum_pct": -0.1,
+  "daily_avg_pct": -0.0013,
+  "annual_pct": -0.47,
   "mdd": -7.29,
   "current_dd": -7.11,
-  "seed_used": 3836.43,
-  "seed_used_pct": 25.45,
-  "long_count": 3,
+  "seed_used": 2481.32,
+  "seed_used_pct": 16.56,
+  "long_count": 2,
   "short_count": 0,
   "positions": [
     {
-      "symbol": "NEARUSDT",
-      "side": "LONG",
-      "pnl": -87.62,
-      "pnl_pct": -0.81,
-      "margin": 1343.73,
-      "leverage": "8",
-      "tier": "1/2",
-      "entry": 2.4367,
-      "mark": 2.417
-    },
-    {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -96.33,
-      "pnl_pct": -1.07,
-      "margin": 1273.53,
+      "pnl": -127.11,
+      "pnl_pct": -1.41,
+      "margin": 1269.13,
       "leverage": "7",
       "tier": "1/1",
       "entry": 67.63,
-      "mark": 66.907
+      "mark": 66.676
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -148.72,
-      "pnl_pct": -1.73,
-      "margin": 1207.25,
+      "pnl": -164.62,
+      "pnl_pct": -1.91,
+      "margin": 1204.98,
       "leverage": "7",
       "tier": "1/1",
       "entry": 75.17,
-      "mark": 73.87
+      "mark": 73.731
     }
   ],
   "signals": {
@@ -392,10 +381,17 @@
     },
     {
       "t": "2026-06-16",
-      "v": 77.2
+      "v": -15.32
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-16 07:47",
+      "symbol": "NEARUSDT",
+      "side": "Buy",
+      "pnl": -133.21,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-16 04:20",
       "symbol": "SOLUSDT",
@@ -528,13 +524,6 @@
       "side": "Buy",
       "pnl": 258.2,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-06-14 20:03",
-      "symbol": "HUSDT",
-      "side": "Buy",
-      "pnl": 139.17,
-      "reason": "-"
     }
   ],
   "num_days": 77
