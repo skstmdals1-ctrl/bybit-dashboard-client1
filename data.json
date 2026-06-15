@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-15T15:04:41.322305+09:00",
+  "ts": "2026-06-15T15:05:44.215581+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 16094.91,
-  "available": 13601.81,
-  "unrealized": -58.27,
-  "daily_pnl": 958.38,
-  "total_pnl": 1094.91,
-  "cum_pct": 7.3,
-  "daily_avg_pct": 0.0928,
-  "annual_pct": 40.29,
+  "equity": 15988.06,
+  "available": 14628.73,
+  "unrealized": 60.11,
+  "daily_pnl": 728.14,
+  "total_pnl": 988.06,
+  "cum_pct": 6.59,
+  "daily_avg_pct": 0.084,
+  "annual_pct": 35.86,
   "mdd": -4.93,
   "current_dd": -0.18,
-  "seed_used": 2493.09,
-  "seed_used_pct": 15.49,
-  "long_count": 3,
+  "seed_used": 1359.33,
+  "seed_used_pct": 8.5,
+  "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 9.03,
-      "pnl_pct": 0.09,
-      "margin": 1133.55,
+      "pnl": 21.51,
+      "pnl_pct": 0.21,
+      "margin": 1134.93,
       "leverage": "9",
       "tier": "1/1",
       "entry": 71.08,
-      "mark": 71.143
-    },
-    {
-      "symbol": "BEATUSDT",
-      "side": "LONG",
-      "pnl": -111.95,
-      "pnl_pct": -0.99,
-      "margin": 1123.96,
-      "leverage": "10",
-      "tier": "2/2",
-      "entry": 5.6758,
-      "mark": 5.6198
+      "mark": 71.23
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 38.89,
-      "pnl_pct": 2.6,
-      "margin": 219.47,
+      "pnl": 38.51,
+      "pnl_pct": 2.57,
+      "margin": 219.41,
       "leverage": "7",
       "tier": "1/2",
       "entry": 63.101,
-      "mark": 64.74
+      "mark": 64.724
     }
   ],
   "signals": {
@@ -388,10 +377,17 @@
     },
     {
       "t": "2026-06-15",
-      "v": 1094.91
+      "v": 988.06
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-15 15:05",
+      "symbol": "BEATUSDT",
+      "side": "Buy",
+      "pnl": -230.24,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-15 09:14",
       "symbol": "SOLUSDT",
@@ -524,13 +520,6 @@
       "side": "Sell",
       "pnl": -186.22,
       "reason": "1/1"
-    },
-    {
-      "ts": "2026-06-12 23:11",
-      "symbol": "XMRUSDT",
-      "side": "Sell",
-      "pnl": -346.08,
-      "reason": "-"
     }
   ],
   "num_days": 76
