@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-16T20:01:14.425970+09:00",
+  "ts": "2026-06-16T20:02:17.520320+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15342.63,
-  "available": 13008.39,
-  "unrealized": 295.93,
+  "equity": 15380.15,
+  "available": 13041.71,
+  "unrealized": 334.6,
   "daily_pnl": 120.29,
-  "total_pnl": 342.63,
-  "cum_pct": 2.28,
-  "daily_avg_pct": 0.0293,
-  "annual_pct": 11.29,
+  "total_pnl": 380.15,
+  "cum_pct": 2.53,
+  "daily_avg_pct": 0.0325,
+  "annual_pct": 12.59,
   "mdd": -8.33,
-  "current_dd": -5.52,
-  "seed_used": 2334.24,
-  "seed_used_pct": 15.21,
+  "current_dd": -5.44,
+  "seed_used": 2338.44,
+  "seed_used_pct": 15.2,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 70.22,
-      "pnl_pct": 0.71,
-      "margin": 1237.72,
+      "pnl": 74.86,
+      "pnl_pct": 0.76,
+      "margin": 1238.3,
       "leverage": "8",
       "tier": "1/1",
       "entry": 74.2,
-      "mark": 74.73
+      "mark": 74.765
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 227.71,
-      "pnl_pct": 2.38,
-      "margin": 1088.84,
+      "pnl": 259.58,
+      "pnl_pct": 2.71,
+      "margin": 1092.38,
       "leverage": "9",
       "tier": "1/1",
       "entry": 73.897,
-      "mark": 75.655
+      "mark": 75.901
     }
   ],
   "signals": {
@@ -122,8 +122,8 @@
       "conf": 0.5
     },
     "ZECUSDT": {
-      "dir": "short",
-      "conf": 0.475
+      "dir": "long",
+      "conf": 0.476
     },
     "ARBUSDT": {
       "dir": "short",
@@ -381,7 +381,7 @@
     },
     {
       "t": "2026-06-16",
-      "v": 342.63
+      "v": 380.15
     }
   ],
   "trade_history": [
