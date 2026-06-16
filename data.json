@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-16T15:48:00.334587+09:00",
+  "ts": "2026-06-16T15:49:03.273890+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 15326.5,
-  "available": 12186.77,
-  "unrealized": -246.48,
-  "daily_pnl": 646.03,
-  "total_pnl": 326.5,
-  "cum_pct": 2.18,
-  "daily_avg_pct": 0.028,
-  "annual_pct": 10.76,
+  "equity": 15382.86,
+  "available": 12869.97,
+  "unrealized": -159.09,
+  "daily_pnl": 613.41,
+  "total_pnl": 382.86,
+  "cum_pct": 2.55,
+  "daily_avg_pct": 0.0327,
+  "annual_pct": 12.67,
   "mdd": -8.33,
   "current_dd": -5.91,
-  "seed_used": 3139.73,
-  "seed_used_pct": 20.49,
+  "seed_used": 2512.88,
+  "seed_used_pct": 16.34,
   "long_count": 0,
-  "short_count": 3,
+  "short_count": 2,
   "positions": [
-    {
-      "symbol": "HYPEUSDT",
-      "side": "SHORT",
-      "pnl": -110.5,
-      "pnl_pct": -1.11,
-      "margin": 1255.89,
-      "leverage": "8",
-      "tier": "1/1",
-      "entry": 71.76,
-      "mark": 72.558
-    },
     {
       "symbol": "XLMUSDT",
       "side": "SHORT",
-      "pnl": -105.92,
-      "pnl_pct": -1.22,
-      "margin": 1253.94,
+      "pnl": -94.92,
+      "pnl_pct": -1.09,
+      "margin": 1252.37,
       "leverage": "7",
       "tier": "1/1",
       "entry": 0.2129,
-      "mark": 0.2155
+      "mark": 0.2152
     },
     {
-      "symbol": "SOLUSDT",
+      "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": -31.72,
-      "pnl_pct": -0.74,
-      "margin": 617.43,
-      "leverage": "7",
+      "pnl": -64.25,
+      "pnl_pct": -0.65,
+      "margin": 1250.11,
+      "leverage": "8",
       "tier": "1/1",
-      "entry": 73.59,
-      "mark": 74.134
+      "entry": 71.76,
+      "mark": 72.224
     }
   ],
   "signals": {
@@ -74,7 +63,7 @@
     },
     "HYPEUSDT": {
       "dir": "short",
-      "conf": 0.501
+      "conf": 0.502
     },
     "ADAUSDT": {
       "dir": "short",
@@ -262,7 +251,7 @@
     },
     "XLMUSDT": {
       "dir": "short",
-      "conf": 0.577
+      "conf": 0.575
     }
   },
   "equity_hist": [
@@ -392,10 +381,17 @@
     },
     {
       "t": "2026-06-16",
-      "v": 326.5
+      "v": 382.86
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-16 15:48",
+      "symbol": "SOLUSDT",
+      "side": "Sell",
+      "pnl": -32.62,
+      "reason": "1/1"
+    },
     {
       "ts": "2026-06-16 15:31",
       "symbol": "SOLUSDT",
@@ -528,13 +524,6 @@
       "side": "Buy",
       "pnl": 157.48,
       "reason": "-"
-    },
-    {
-      "ts": "2026-06-15 00:06",
-      "symbol": "SOLUSDT",
-      "side": "Sell",
-      "pnl": 103.16,
-      "reason": "1/1"
     }
   ],
   "num_days": 77
