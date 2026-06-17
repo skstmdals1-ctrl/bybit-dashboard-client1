@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-17T17:36:23.737954+09:00",
+  "ts": "2026-06-17T17:37:26.565030+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 14474.76,
-  "available": 13028.37,
-  "unrealized": -176.12,
-  "daily_pnl": -324.63,
-  "total_pnl": -525.24,
-  "cum_pct": -3.5,
-  "daily_avg_pct": -0.0457,
-  "annual_pct": -15.37,
+  "equity": 14347.94,
+  "available": 14347.94,
+  "unrealized": 0.0,
+  "daily_pnl": -630.14,
+  "total_pnl": -652.06,
+  "cum_pct": -4.35,
+  "daily_avg_pct": -0.057,
+  "annual_pct": -18.79,
   "mdd": -1.39,
   "current_dd": -1.39,
-  "seed_used": 1446.39,
-  "seed_used_pct": 9.99,
-  "long_count": 1,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "WLDUSDT",
-      "side": "LONG",
-      "pnl": -176.28,
-      "pnl_pct": -1.51,
-      "margin": 1442.05,
-      "leverage": "8",
-      "tier": "2/2",
-      "entry": 0.6733,
-      "mark": 0.6632
-    }
-  ],
+  "positions": [],
   "signals": {
     "BTCUSDT": {
       "dir": "long",
@@ -370,10 +358,17 @@
     },
     {
       "t": "2026-06-17",
-      "v": -525.24
+      "v": -652.06
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-17 17:37",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": -305.52,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-17 12:23",
       "symbol": "HUSDT",
@@ -506,13 +501,6 @@
       "side": "Buy",
       "pnl": 151.17,
       "reason": "-"
-    },
-    {
-      "ts": "2026-06-15 23:17",
-      "symbol": "ONDOUSDT",
-      "side": "Sell",
-      "pnl": -97.92,
-      "reason": "External Exit"
     }
   ],
   "num_days": 78
