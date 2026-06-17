@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-18T01:01:42.697765+09:00",
+  "ts": "2026-06-18T01:02:45.643173+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 14762.32,
-  "available": 12899.41,
-  "unrealized": 275.42,
+  "equity": 14775.27,
+  "available": 12910.74,
+  "unrealized": 287.7,
   "daily_pnl": 138.35,
-  "total_pnl": -237.68,
-  "cum_pct": -1.58,
-  "daily_avg_pct": -0.0202,
-  "annual_pct": -7.11,
+  "total_pnl": -224.73,
+  "cum_pct": -1.5,
+  "daily_avg_pct": -0.0191,
+  "annual_pct": -6.73,
   "mdd": -3.55,
   "current_dd": 0.0,
-  "seed_used": 1862.91,
+  "seed_used": 1864.52,
   "seed_used_pct": 12.62,
   "long_count": 2,
   "short_count": 0,
@@ -20,24 +20,24 @@
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 196.29,
-      "pnl_pct": 1.71,
-      "margin": 1459.92,
+      "pnl": 206.58,
+      "pnl_pct": 1.8,
+      "margin": 1461.21,
       "leverage": "8",
       "tier": "1/1",
       "entry": 72.54,
-      "mark": 73.78
+      "mark": 73.845
     },
     {
       "symbol": "XLMUSDT",
       "side": "LONG",
-      "pnl": 79.01,
-      "pnl_pct": 2.55,
-      "margin": 397.31,
+      "pnl": 83.42,
+      "pnl_pct": 2.69,
+      "margin": 397.86,
       "leverage": "8",
       "tier": "1/2",
       "entry": 0.2252,
-      "mark": 0.2309
+      "mark": 0.2312
     }
   ],
   "signals": {
@@ -50,8 +50,8 @@
       "conf": 0.467
     },
     "SOLUSDT": {
-      "dir": "short",
-      "conf": 0.453
+      "dir": "long",
+      "conf": 0.441
     },
     "LINKUSDT": {
       "dir": "long",
@@ -103,7 +103,7 @@
     },
     "NEARUSDT": {
       "dir": "short",
-      "conf": 0.54
+      "conf": 0.537
     },
     "ENAUSDT": {
       "dir": "short",
@@ -139,7 +139,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.487
+      "conf": 0.488
     },
     "BCHUSDT": {
       "dir": "short",
@@ -243,7 +243,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.597
+      "conf": 0.598
     },
     "VELVETUSDT": {
       "dir": "long",
@@ -251,7 +251,7 @@
     },
     "XLMUSDT": {
       "dir": "short",
-      "conf": 0.587
+      "conf": 0.577
     }
   },
   "equity_hist": [
@@ -385,7 +385,7 @@
     },
     {
       "t": "2026-06-18",
-      "v": -237.68
+      "v": -224.73
     }
   ],
   "trade_history": [
