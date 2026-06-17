@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-17T21:51:29.943874+09:00",
+  "ts": "2026-06-17T21:52:32.864888+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 14390.23,
-  "available": 13274.64,
-  "unrealized": 43.61,
+  "equity": 14378.42,
+  "available": 13264.37,
+  "unrealized": 30.65,
   "daily_pnl": -630.14,
-  "total_pnl": -609.77,
-  "cum_pct": -4.07,
-  "daily_avg_pct": -0.0533,
-  "annual_pct": -17.68,
+  "total_pnl": -621.58,
+  "cum_pct": -4.14,
+  "daily_avg_pct": -0.0542,
+  "annual_pct": -17.95,
   "mdd": -2.95,
-  "current_dd": -2.25,
-  "seed_used": 1115.58,
+  "current_dd": -2.19,
+  "seed_used": 1114.05,
   "seed_used_pct": 7.75,
   "long_count": 1,
   "short_count": 0,
@@ -20,13 +20,13 @@
     {
       "symbol": "XLMUSDT",
       "side": "LONG",
-      "pnl": 43.65,
-      "pnl_pct": 0.49,
-      "margin": 1112.34,
+      "pnl": 30.67,
+      "pnl_pct": 0.35,
+      "margin": 1110.71,
       "leverage": "8",
       "tier": "1/2",
       "entry": 0.2252,
-      "mark": 0.2263
+      "mark": 0.226
     }
   ],
   "signals": {
@@ -92,7 +92,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.611
+      "conf": 0.594
     },
     "ENAUSDT": {
       "dir": "short",
@@ -232,15 +232,15 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.591
+      "conf": 0.59
     },
     "VELVETUSDT": {
       "dir": "long",
       "conf": 0.897
     },
     "XLMUSDT": {
-      "dir": "long",
-      "conf": 0.557
+      "dir": "short",
+      "conf": 0.546
     }
   },
   "equity_hist": [
@@ -370,7 +370,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": -609.77
+      "v": -621.58
     }
   ],
   "trade_history": [
