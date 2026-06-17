@@ -1,22 +1,34 @@
 {
-  "ts": "2026-06-17T16:32:22.786536+09:00",
+  "ts": "2026-06-17T16:33:25.655496+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 14653.21,
-  "available": 14653.21,
-  "unrealized": 0.0,
+  "equity": 14653.62,
+  "available": 13919.77,
+  "unrealized": 2.59,
   "daily_pnl": -324.63,
-  "total_pnl": -346.79,
+  "total_pnl": -346.38,
   "cum_pct": -2.31,
   "daily_avg_pct": -0.03,
   "annual_pct": -10.37,
   "mdd": -0.06,
-  "current_dd": 0.0,
-  "seed_used": 0,
-  "seed_used_pct": 0.0,
-  "long_count": 0,
+  "current_dd": -0.01,
+  "seed_used": 733.85,
+  "seed_used_pct": 5.01,
+  "long_count": 1,
   "short_count": 0,
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "WLDUSDT",
+      "side": "LONG",
+      "pnl": 3.46,
+      "pnl_pct": 0.06,
+      "margin": 731.88,
+      "leverage": "8",
+      "tier": "1/2",
+      "entry": 0.6764,
+      "mark": 0.6768
+    }
+  ],
   "signals": {
     "BTCUSDT": {
       "dir": "long",
@@ -228,7 +240,7 @@
     },
     "XLMUSDT": {
       "dir": "short",
-      "conf": 0.57
+      "conf": 0.562
     }
   },
   "equity_hist": [
@@ -358,7 +370,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": -346.79
+      "v": -346.38
     }
   ],
   "trade_history": [
