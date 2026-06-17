@@ -1,22 +1,34 @@
 {
-  "ts": "2026-06-17T21:31:33.317335+09:00",
+  "ts": "2026-06-17T21:32:36.164884+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 14349.56,
-  "available": 13240.36,
-  "unrealized": 0.0,
+  "equity": 14345.58,
+  "available": 13235.58,
+  "unrealized": -1.18,
   "daily_pnl": -630.14,
-  "total_pnl": -650.44,
-  "cum_pct": -4.34,
-  "daily_avg_pct": -0.0569,
-  "annual_pct": -18.76,
+  "total_pnl": -654.42,
+  "cum_pct": -4.36,
+  "daily_avg_pct": -0.0571,
+  "annual_pct": -18.82,
   "mdd": -2.48,
   "current_dd": -2.46,
-  "seed_used": 1109.2,
-  "seed_used_pct": 7.73,
-  "long_count": 0,
+  "seed_used": 1110.0,
+  "seed_used_pct": 7.74,
+  "long_count": 1,
   "short_count": 0,
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "XLMUSDT",
+      "side": "LONG",
+      "pnl": -1.18,
+      "pnl_pct": -0.01,
+      "margin": 1106.73,
+      "leverage": "8",
+      "tier": "1/2",
+      "entry": 0.2252,
+      "mark": 0.2251
+    }
+  ],
   "signals": {
     "BTCUSDT": {
       "dir": "long",
@@ -358,7 +370,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": -650.44
+      "v": -654.42
     }
   ],
   "trade_history": [
