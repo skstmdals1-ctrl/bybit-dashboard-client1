@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-18T09:25:43.102031+09:00",
+  "ts": "2026-06-18T09:26:46.234140+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 13517.06,
-  "available": 13394.97,
-  "unrealized": -1.53,
-  "daily_pnl": -831.54,
-  "total_pnl": -1482.94,
+  "equity": 13516.29,
+  "available": 13516.29,
+  "unrealized": 0.0,
+  "daily_pnl": -833.34,
+  "total_pnl": -1483.71,
   "cum_pct": -9.89,
   "daily_avg_pct": -0.1317,
   "annual_pct": -38.18,
   "mdd": -8.73,
   "current_dd": -8.72,
-  "seed_used": 122.09,
-  "seed_used_pct": 0.9,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "pnl": -1.53,
-      "pnl_pct": -0.18,
-      "margin": 121.66,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 72.04,
-      "mark": 72.17
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "BTCUSDT": {
       "dir": "long",
@@ -374,10 +362,17 @@
     },
     {
       "t": "2026-06-18",
-      "v": -1482.94
+      "v": -1483.71
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-18 09:25",
+      "symbol": "SOLUSDT",
+      "side": "Sell",
+      "pnl": -1.79,
+      "reason": "1/2"
+    },
     {
       "ts": "2026-06-18 09:11",
       "symbol": "SOLUSDT",
@@ -510,13 +505,6 @@
       "side": "Sell",
       "pnl": -220.91,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-16 15:48",
-      "symbol": "SOLUSDT",
-      "side": "Sell",
-      "pnl": -32.62,
-      "reason": "1/1"
     }
   ],
   "num_days": 79
