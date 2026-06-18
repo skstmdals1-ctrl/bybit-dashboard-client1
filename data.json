@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-18T13:40:32.308966+09:00",
+  "ts": "2026-06-18T13:41:35.557210+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 13310.46,
-  "available": 11978.56,
-  "unrealized": -203.12,
+  "equity": 13307.22,
+  "available": 11975.72,
+  "unrealized": -206.26,
   "daily_pnl": -833.34,
-  "total_pnl": -1689.54,
-  "cum_pct": -11.26,
-  "daily_avg_pct": -0.1511,
-  "annual_pct": -42.42,
-  "mdd": -10.0,
-  "current_dd": -10.0,
-  "seed_used": 1331.9,
+  "total_pnl": -1692.78,
+  "cum_pct": -11.29,
+  "daily_avg_pct": -0.1515,
+  "annual_pct": -42.5,
+  "mdd": -10.12,
+  "current_dd": -10.12,
+  "seed_used": 1331.5,
   "seed_used_pct": 10.01,
   "long_count": 1,
   "short_count": 0,
@@ -20,18 +20,18 @@
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -203.9,
-      "pnl_pct": -1.88,
-      "margin": 1327.83,
+      "pnl": -207.94,
+      "pnl_pct": -1.92,
+      "margin": 1327.33,
       "leverage": "8",
       "tier": "1/1",
       "entry": 72.37,
-      "mark": 71.007
+      "mark": 70.98
     }
   ],
   "signals": {
     "BTCUSDT": {
-      "dir": "neutral",
+      "dir": "short",
       "conf": 0.338
     },
     "XRPUSDT": {
@@ -112,7 +112,7 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.495
+      "conf": 0.497
     },
     "ARBUSDT": {
       "dir": "short",
@@ -128,7 +128,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.488
+      "conf": 0.494
     },
     "BCHUSDT": {
       "dir": "short",
@@ -370,7 +370,7 @@
     },
     {
       "t": "2026-06-18",
-      "v": -1689.54
+      "v": -1692.78
     }
   ],
   "trade_history": [
