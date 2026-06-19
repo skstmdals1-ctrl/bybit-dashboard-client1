@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-20T03:36:10.321121+09:00",
+  "ts": "2026-06-20T03:37:13.330847+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 13717.44,
-  "available": 11105.65,
-  "unrealized": 506.73,
-  "daily_pnl": 120.25,
-  "total_pnl": -1282.56,
-  "cum_pct": -8.55,
-  "daily_avg_pct": -0.1103,
-  "annual_pct": -33.16,
+  "equity": 13849.83,
+  "available": 11636.5,
+  "unrealized": 500.41,
+  "daily_pnl": 258.33,
+  "total_pnl": -1150.17,
+  "cum_pct": -7.67,
+  "daily_avg_pct": -0.0985,
+  "annual_pct": -30.21,
   "mdd": -10.45,
-  "current_dd": -7.02,
-  "seed_used": 2611.79,
-  "seed_used_pct": 19.04,
+  "current_dd": -6.75,
+  "seed_used": 2213.34,
+  "seed_used_pct": 15.98,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 171.65,
-      "pnl_pct": 1.82,
-      "margin": 1323.57,
+      "pnl": 189.08,
+      "pnl_pct": 2.0,
+      "margin": 1321.08,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.37,
-      "mark": 69.09
+      "mark": 68.96
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 337.01,
-      "pnl_pct": 3.63,
-      "margin": 1278.4,
+      "pnl": 313.85,
+      "pnl_pct": 4.83,
+      "margin": 883.79,
       "leverage": "7",
       "tier": "1/1",
       "entry": 6.172,
-      "mark": 5.948
+      "mark": 5.874
     }
   ],
   "signals": {
@@ -51,7 +51,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.576
+      "conf": 0.575
     },
     "LINKUSDT": {
       "dir": "long",
@@ -63,7 +63,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.476
+      "conf": 0.475
     },
     "ADAUSDT": {
       "dir": "short",
@@ -99,7 +99,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.499
+      "conf": 0.5
     },
     "NEARUSDT": {
       "dir": "short",
@@ -123,7 +123,7 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.535
+      "conf": 0.536
     },
     "ARBUSDT": {
       "dir": "short",
@@ -139,7 +139,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.485
+      "conf": 0.484
     },
     "BCHUSDT": {
       "dir": "short",
@@ -235,7 +235,7 @@
     },
     "LABUSDT": {
       "dir": "long",
-      "conf": 0.564
+      "conf": 0.591
     },
     "HUSDT": {
       "dir": "long",
@@ -385,10 +385,17 @@
     },
     {
       "t": "2026-06-20",
-      "v": -1282.56
+      "v": -1150.17
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-20 03:36",
+      "symbol": "AVAXUSDT",
+      "side": "Sell",
+      "pnl": 138.08,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-20 03:11",
       "symbol": "HYPEUSDT",
@@ -520,13 +527,6 @@
       "symbol": "SOLUSDT",
       "side": "Buy",
       "pnl": 10.14,
-      "reason": "1/1"
-    },
-    {
-      "ts": "2026-06-18 04:17",
-      "symbol": "SOLUSDT",
-      "side": "Buy",
-      "pnl": 38.59,
       "reason": "1/1"
     }
   ],
