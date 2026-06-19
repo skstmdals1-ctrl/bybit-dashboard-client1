@@ -1,65 +1,65 @@
 {
-  "ts": "2026-06-20T00:13:35.670706+09:00",
+  "ts": "2026-06-20T00:14:39.201157+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 13443.45,
-  "available": 8881.84,
-  "unrealized": 353.41,
+  "equity": 13435.53,
+  "available": 8869.04,
+  "unrealized": 345.34,
   "daily_pnl": 0,
-  "total_pnl": -1556.55,
-  "cum_pct": -10.38,
-  "daily_avg_pct": -0.1352,
-  "annual_pct": -38.97,
+  "total_pnl": -1564.47,
+  "cum_pct": -10.43,
+  "daily_avg_pct": -0.1359,
+  "annual_pct": -39.13,
   "mdd": -10.45,
-  "current_dd": -9.16,
-  "seed_used": 4561.61,
-  "seed_used_pct": 33.93,
+  "current_dd": -9.22,
+  "seed_used": 4566.49,
+  "seed_used_pct": 33.99,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 168.97,
-      "pnl_pct": 1.79,
-      "margin": 1323.95,
+      "pnl": 164.81,
+      "pnl_pct": 1.75,
+      "margin": 1324.54,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.37,
-      "mark": 69.11
+      "mark": 69.141
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 76.73,
-      "pnl_pct": 0.83,
-      "margin": 1315.58,
+      "pnl": 70.71,
+      "pnl_pct": 0.76,
+      "margin": 1316.44,
       "leverage": "7",
       "tier": "1/1",
       "entry": 6.172,
-      "mark": 6.121
+      "mark": 6.125
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 81.37,
-      "pnl_pct": 2.01,
-      "margin": 824.33,
+      "pnl": 91.34,
+      "pnl_pct": 2.26,
+      "margin": 826.32,
       "leverage": "5",
       "tier": "1/1",
       "entry": 67.631,
-      "mark": 68.993
+      "mark": 69.16
     },
     {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": 34.41,
-      "pnl_pct": 2.16,
-      "margin": 173.22,
+      "pnl": 19.7,
+      "pnl_pct": 1.24,
+      "margin": 174.85,
       "leverage": "9",
       "tier": "2/2",
       "entry": 15.175,
-      "mark": 14.8473
+      "mark": 14.9874
     }
   ],
   "signals": {
@@ -73,7 +73,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.576
+      "conf": 0.578
     },
     "LINKUSDT": {
       "dir": "long",
@@ -121,7 +121,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.501
+      "conf": 0.5
     },
     "NEARUSDT": {
       "dir": "short",
@@ -407,7 +407,7 @@
     },
     {
       "t": "2026-06-20",
-      "v": -1556.55
+      "v": -1564.47
     }
   ],
   "trade_history": [
