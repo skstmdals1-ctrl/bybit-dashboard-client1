@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-19T12:27:20.476486+09:00",
+  "ts": "2026-06-19T12:28:23.638322+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 13745.12,
-  "available": 12123.47,
-  "unrealized": 173.65,
-  "daily_pnl": -134.38,
-  "total_pnl": -1254.88,
-  "cum_pct": -8.37,
-  "daily_avg_pct": -0.1092,
-  "annual_pct": -32.89,
+  "equity": 13760.51,
+  "available": 12428.31,
+  "unrealized": 143.21,
+  "daily_pnl": -90.51,
+  "total_pnl": -1239.49,
+  "cum_pct": -8.26,
+  "daily_avg_pct": -0.1077,
+  "annual_pct": -32.52,
   "mdd": -10.45,
   "current_dd": -7.04,
-  "seed_used": 1621.65,
-  "seed_used_pct": 11.8,
-  "long_count": 1,
+  "seed_used": 1332.21,
+  "seed_used_pct": 9.68,
+  "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 131.95,
-      "pnl_pct": 1.4,
-      "margin": 1329.24,
+      "pnl": 143.35,
+      "pnl_pct": 1.52,
+      "margin": 1327.61,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.37,
-      "mark": 69.386
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": 41.88,
-      "pnl_pct": 2.13,
-      "margin": 286.37,
-      "leverage": "7",
-      "tier": "1/2",
-      "entry": 17.682,
-      "mark": 18.0593
+      "mark": 69.301
     }
   ],
   "signals": {
@@ -381,10 +370,17 @@
     },
     {
       "t": "2026-06-19",
-      "v": -1254.88
+      "v": -1239.49
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-19 12:28",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": 43.87,
+      "reason": "1/2"
+    },
     {
       "ts": "2026-06-19 11:26",
       "symbol": "LABUSDT",
@@ -517,13 +513,6 @@
       "side": "Sell",
       "pnl": 31.36,
       "reason": "1/1"
-    },
-    {
-      "ts": "2026-06-17 07:11",
-      "symbol": "ZECUSDT",
-      "side": "Sell",
-      "pnl": -162.32,
-      "reason": "External Exit"
     }
   ],
   "num_days": 80
