@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-19T21:56:02.778448+09:00",
+  "ts": "2026-06-19T21:57:06.352958+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 13432.51,
-  "available": 10043.03,
-  "unrealized": 188.0,
-  "daily_pnl": -461.75,
-  "total_pnl": -1567.49,
-  "cum_pct": -10.45,
-  "daily_avg_pct": -0.1379,
-  "annual_pct": -39.57,
+  "equity": 13366.41,
+  "available": 11234.25,
+  "unrealized": 274.25,
+  "daily_pnl": -617.18,
+  "total_pnl": -1633.59,
+  "cum_pct": -10.89,
+  "daily_avg_pct": -0.144,
+  "annual_pct": -40.9,
   "mdd": -10.45,
-  "current_dd": -9.28,
-  "seed_used": 3389.48,
-  "seed_used_pct": 25.23,
+  "current_dd": -9.33,
+  "seed_used": 2132.16,
+  "seed_used_pct": 15.95,
   "long_count": 1,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 246.74,
-      "pnl_pct": 2.61,
-      "margin": 1312.84,
+      "pnl": 247.01,
+      "pnl_pct": 2.62,
+      "margin": 1312.8,
       "leverage": "7",
       "tier": "1/1",
       "entry": 70.37,
-      "mark": 68.53
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "SHORT",
-      "pnl": -83.73,
-      "pnl_pct": -0.97,
-      "margin": 1247.69,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 15.6989,
-      "mark": 15.8509
+      "mark": 68.528
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 25.69,
-      "pnl_pct": 0.64,
-      "margin": 813.19,
+      "pnl": 27.48,
+      "pnl_pct": 0.68,
+      "margin": 813.55,
       "leverage": "5",
       "tier": "1/1",
       "entry": 67.631,
-      "mark": 68.061
+      "mark": 68.091
     }
   ],
   "signals": {
@@ -62,7 +51,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.581
+      "conf": 0.582
     },
     "LINKUSDT": {
       "dir": "long",
@@ -74,7 +63,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.566
+      "conf": 0.565
     },
     "ADAUSDT": {
       "dir": "short",
@@ -150,7 +139,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.499
+      "conf": 0.5
     },
     "BCHUSDT": {
       "dir": "short",
@@ -246,7 +235,7 @@
     },
     "LABUSDT": {
       "dir": "short",
-      "conf": 0.87
+      "conf": 0.834
     },
     "HUSDT": {
       "dir": "long",
@@ -392,10 +381,17 @@
     },
     {
       "t": "2026-06-19",
-      "v": -1567.49
+      "v": -1633.59
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-19 21:56",
+      "symbol": "LABUSDT",
+      "side": "Sell",
+      "pnl": -155.43,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-19 13:20",
       "symbol": "LABUSDT",
@@ -528,13 +524,6 @@
       "side": "Buy",
       "pnl": -74.78,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-17 10:18",
-      "symbol": "HYPEUSDT",
-      "side": "Sell",
-      "pnl": -17.4,
-      "reason": "1/1"
     }
   ],
   "num_days": 80
