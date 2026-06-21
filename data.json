@@ -1,38 +1,38 @@
 {
-  "ts": "2026-06-22T05:29:17.778163+09:00",
+  "ts": "2026-06-22T05:30:20.591006+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 12895.07,
-  "available": 11844.73,
-  "unrealized": -6.55,
+  "equity": 12902.01,
+  "available": 11852.42,
+  "unrealized": 0.27,
   "daily_pnl": 0,
-  "total_pnl": -2104.93,
-  "cum_pct": -14.03,
-  "daily_avg_pct": -0.182,
-  "annual_pct": -48.57,
+  "total_pnl": -2097.99,
+  "cum_pct": -13.99,
+  "daily_avg_pct": -0.1814,
+  "annual_pct": -48.45,
   "mdd": -0.06,
   "current_dd": -0.06,
-  "seed_used": 1050.34,
-  "seed_used_pct": 8.15,
+  "seed_used": 1049.59,
+  "seed_used_pct": 8.14,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": -6.76,
-      "pnl_pct": -0.44,
-      "margin": 171.96,
+      "pnl": 0.28,
+      "pnl_pct": 0.02,
+      "margin": 171.18,
       "leverage": "9",
       "tier": "2/2",
       "entry": 13.399,
-      "mark": 13.4578
+      "mark": 13.3966
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.354
+      "conf": 0.355
     },
     "XRPUSDT": {
       "dir": "neutral",
@@ -92,11 +92,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.529
+      "conf": 0.527
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.498
+      "conf": 0.488
     },
     "UNIUSDT": {
       "dir": "short",
@@ -374,7 +374,7 @@
     },
     {
       "t": "2026-06-22",
-      "v": -2104.93
+      "v": -2097.99
     }
   ],
   "trade_history": [
