@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-22T07:14:10.673406+09:00",
+  "ts": "2026-06-22T07:15:13.536005+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 12802.43,
-  "available": 11750.72,
-  "unrealized": -95.72,
-  "daily_pnl": 0,
-  "total_pnl": -2197.57,
-  "cum_pct": -14.65,
-  "daily_avg_pct": -0.1907,
-  "annual_pct": -50.18,
+  "equity": 12731.46,
+  "available": 12731.46,
+  "unrealized": 0.0,
+  "daily_pnl": -170.6,
+  "total_pnl": -2268.54,
+  "cum_pct": -15.12,
+  "daily_avg_pct": -0.1973,
+  "annual_pct": -51.37,
   "mdd": -1.74,
   "current_dd": -1.74,
-  "seed_used": 1051.71,
-  "seed_used_pct": 8.21,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "LABUSDT",
-      "side": "SHORT",
-      "pnl": -93.43,
-      "pnl_pct": -1.01,
-      "margin": 1041.28,
-      "leverage": "9",
-      "tier": "2/2",
-      "entry": 13.5446,
-      "mark": 13.681
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
@@ -374,10 +362,17 @@
     },
     {
       "t": "2026-06-22",
-      "v": -2197.57
+      "v": -2268.54
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-22 07:14",
+      "symbol": "LABUSDT",
+      "side": "Sell",
+      "pnl": -170.6,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-20 21:30",
       "symbol": "LABUSDT",
@@ -509,13 +504,6 @@
       "symbol": "HYPEUSDT",
       "side": "Sell",
       "pnl": 126.49,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-18 23:26",
-      "symbol": "HYPEUSDT",
-      "side": "Sell",
-      "pnl": 67.88,
       "reason": "-"
     }
   ],
