@@ -1,248 +1,23 @@
 {
-  "ts": "2026-06-22T19:16:09.135275+09:00",
+  "ts": "2026-06-22T19:20:57.838164+09:00",
   "start_date": "2026-04-01",
-  "status": "running",
-  "equity": 12729.38,
-  "available": 11459.2,
-  "unrealized": -3.08,
-  "daily_pnl": -170.6,
-  "total_pnl": -2270.62,
-  "cum_pct": -15.14,
-  "daily_avg_pct": -0.1976,
-  "annual_pct": -51.42,
-  "mdd": -2.39,
-  "current_dd": -2.39,
-  "seed_used": 1270.17,
-  "seed_used_pct": 9.98,
+  "status": "stopped",
+  "equity": 12728.13,
+  "available": 12728.13,
+  "unrealized": 0.0,
+  "daily_pnl": -174.87,
+  "total_pnl": -2271.87,
+  "cum_pct": -15.15,
+  "daily_avg_pct": -0.1977,
+  "annual_pct": -51.44,
+  "mdd": 0.0,
+  "current_dd": 0.0,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -3.09,
-      "pnl_pct": -0.21,
-      "margin": 210.84,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 0.6206,
-      "mark": 0.6219
-    }
-  ],
-  "signals": {
-    "BTCUSDT": {
-      "dir": "long",
-      "conf": 0.427
-    },
-    "XRPUSDT": {
-      "dir": "neutral",
-      "conf": 0.585
-    },
-    "SOLUSDT": {
-      "dir": "short",
-      "conf": 0.458
-    },
-    "LINKUSDT": {
-      "dir": "long",
-      "conf": 0.397
-    },
-    "1000PEPEUSDT": {
-      "dir": "short",
-      "conf": 0.459
-    },
-    "HYPEUSDT": {
-      "dir": "long",
-      "conf": 0.49
-    },
-    "ADAUSDT": {
-      "dir": "short",
-      "conf": 0.476
-    },
-    "SUIUSDT": {
-      "dir": "long",
-      "conf": 0.432
-    },
-    "ETHUSDT": {
-      "dir": "long",
-      "conf": 0.438
-    },
-    "DOGEUSDT": {
-      "dir": "long",
-      "conf": 0.441
-    },
-    "TAOUSDT": {
-      "dir": "short",
-      "conf": 0.529
-    },
-    "BNBUSDT": {
-      "dir": "neutral",
-      "conf": 0.361
-    },
-    "DOTUSDT": {
-      "dir": "long",
-      "conf": 0.507
-    },
-    "AAVEUSDT": {
-      "dir": "long",
-      "conf": 0.44
-    },
-    "AVAXUSDT": {
-      "dir": "short",
-      "conf": 0.466
-    },
-    "NEARUSDT": {
-      "dir": "long",
-      "conf": 0.545
-    },
-    "ENAUSDT": {
-      "dir": "short",
-      "conf": 0.641
-    },
-    "UNIUSDT": {
-      "dir": "short",
-      "conf": 0.445
-    },
-    "STABLEUSDT": {
-      "dir": "short",
-      "conf": 0.592
-    },
-    "LTCUSDT": {
-      "dir": "long",
-      "conf": 0.5
-    },
-    "ZECUSDT": {
-      "dir": "short",
-      "conf": 0.469
-    },
-    "ARBUSDT": {
-      "dir": "short",
-      "conf": 0.643
-    },
-    "ALGOUSDT": {
-      "dir": "short",
-      "conf": 0.529
-    },
-    "TRUMPUSDT": {
-      "dir": "short",
-      "conf": 0.449
-    },
-    "WLDUSDT": {
-      "dir": "short",
-      "conf": 0.499
-    },
-    "BCHUSDT": {
-      "dir": "short",
-      "conf": 0.491
-    },
-    "XMRUSDT": {
-      "dir": "short",
-      "conf": 0.691
-    },
-    "TONUSDT": {
-      "dir": "short",
-      "conf": 0.512
-    },
-    "WLFIUSDT": {
-      "dir": "short",
-      "conf": 0.524
-    },
-    "DASHUSDT": {
-      "dir": "short",
-      "conf": 0.813
-    },
-    "RAVEUSDT": {
-      "dir": "long",
-      "conf": 0.754
-    },
-    "ASTERUSDT": {
-      "dir": "short",
-      "conf": 0.628
-    },
-    "SIRENUSDT": {
-      "dir": "short",
-      "conf": 0.573
-    },
-    "1000BONKUSDT": {
-      "dir": "short",
-      "conf": 0.529
-    },
-    "MUSDT": {
-      "dir": "long",
-      "conf": 0.51
-    },
-    "MNTUSDT": {
-      "dir": "long",
-      "conf": 0.504
-    },
-    "TRXUSDT": {
-      "dir": "short",
-      "conf": 0.557
-    },
-    "PENGUUSDT": {
-      "dir": "short",
-      "conf": 0.601
-    },
-    "APTUSDT": {
-      "dir": "short",
-      "conf": 0.696
-    },
-    "ONDOUSDT": {
-      "dir": "short",
-      "conf": 0.492
-    },
-    "ICPUSDT": {
-      "dir": "short",
-      "conf": 0.384
-    },
-    "1000LUNCUSDT": {
-      "dir": "long",
-      "conf": 0.617
-    },
-    "FILUSDT": {
-      "dir": "long",
-      "conf": 0.558
-    },
-    "VIRTUALUSDT": {
-      "dir": "long",
-      "conf": 0.528
-    },
-    "VVVUSDT": {
-      "dir": "long",
-      "conf": 0.501
-    },
-    "BUSDT": {
-      "dir": "short",
-      "conf": 0.452
-    },
-    "INJUSDT": {
-      "dir": "long",
-      "conf": 0.527
-    },
-    "RENDERUSDT": {
-      "dir": "long",
-      "conf": 0.459
-    },
-    "LABUSDT": {
-      "dir": "short",
-      "conf": 0.602
-    },
-    "HUSDT": {
-      "dir": "long",
-      "conf": 0.638
-    },
-    "BEATUSDT": {
-      "dir": "short",
-      "conf": 0.639
-    },
-    "VELVETUSDT": {
-      "dir": "long",
-      "conf": 0.897
-    },
-    "XLMUSDT": {
-      "dir": "short",
-      "conf": 0.695
-    }
-  },
+  "short_count": 0,
+  "positions": [],
+  "signals": {},
   "equity_hist": [
     {
       "t": "2026-05-22",
@@ -370,10 +145,17 @@
     },
     {
       "t": "2026-06-22",
-      "v": -2270.62
+      "v": -2271.87
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-22 19:17",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -4.27,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-22 07:14",
       "symbol": "LABUSDT",
@@ -506,13 +288,6 @@
       "side": "Buy",
       "pnl": -274.83,
       "reason": "1/1"
-    },
-    {
-      "ts": "2026-06-18 23:42",
-      "symbol": "HYPEUSDT",
-      "side": "Sell",
-      "pnl": 126.49,
-      "reason": "-"
     }
   ],
   "num_days": 83
