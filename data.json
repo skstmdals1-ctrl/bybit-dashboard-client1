@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-30T09:05:30.938385+09:00",
+  "ts": "2026-06-30T09:06:34.212703+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 12892.6,
-  "available": 9744.63,
-  "unrealized": -19.75,
-  "daily_pnl": 0,
-  "total_pnl": -2107.4,
-  "cum_pct": -14.05,
-  "daily_avg_pct": -0.1662,
-  "annual_pct": -45.51,
+  "equity": 12887.95,
+  "available": 11275.96,
+  "unrealized": 0.0,
+  "daily_pnl": -25.54,
+  "total_pnl": -2112.05,
+  "cum_pct": -14.08,
+  "daily_avg_pct": -0.1666,
+  "annual_pct": -45.59,
   "mdd": 0.0,
   "current_dd": 0.0,
-  "seed_used": 3147.97,
-  "seed_used_pct": 24.42,
+  "seed_used": 1611.99,
+  "seed_used_pct": 12.51,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "AAVEUSDT",
-      "side": "SHORT",
-      "pnl": -20.46,
-      "pnl_pct": -0.33,
-      "margin": 3147.72,
-      "leverage": "2",
-      "tier": "1/1",
-      "entry": 91.2325,
-      "mark": 91.53
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {},
   "equity_hist": [
     {
@@ -161,10 +149,17 @@
     },
     {
       "t": "2026-06-30",
-      "v": -2107.4
+      "v": -2112.05
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-30 09:06",
+      "symbol": "AAVEUSDT",
+      "side": "Sell",
+      "pnl": -25.54,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-29 09:02",
       "symbol": "AAVEUSDT",
