@@ -1,54 +1,54 @@
 {
-  "ts": "2026-07-02T10:45:15.843474+09:00",
+  "ts": "2026-07-02T10:49:00.696093+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 13586.73,
-  "available": 7844.77,
-  "unrealized": 695.42,
-  "daily_pnl": 0,
-  "total_pnl": -1413.27,
-  "cum_pct": -9.42,
-  "daily_avg_pct": -0.1063,
-  "annual_pct": -32.17,
+  "equity": 13576.9,
+  "available": 10698.01,
+  "unrealized": 344.47,
+  "daily_pnl": 340.22,
+  "total_pnl": -1423.1,
+  "cum_pct": -9.49,
+  "daily_avg_pct": -0.1072,
+  "annual_pct": -32.4,
   "mdd": -1.15,
-  "current_dd": -0.13,
-  "seed_used": 5741.96,
-  "seed_used_pct": 42.26,
+  "current_dd": -0.12,
+  "seed_used": 2878.89,
+  "seed_used_pct": 21.2,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 389.07,
-      "pnl_pct": 6.25,
-      "margin": 2917.77,
+      "pnl": 186.23,
+      "pnl_pct": 5.98,
+      "margin": 1463.04,
       "leverage": "2",
       "tier": "1/1",
       "entry": 89.8992,
-      "mark": 84.28
+      "mark": 84.52
     },
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 194.53,
-      "pnl_pct": 6.97,
-      "margin": 1493.15,
+      "pnl": 100.84,
+      "pnl_pct": 7.22,
+      "margin": 748.45,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.3128,
-      "mark": 0.3346
+      "mark": 0.3354
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 110.5,
-      "pnl_pct": 4.33,
-      "margin": 1331.67,
+      "pnl": 58.23,
+      "pnl_pct": 4.56,
+      "margin": 667.33,
       "leverage": "2",
       "tier": "1/1",
       "entry": 397.6388,
-      "mark": 414.85
+      "mark": 415.78
     }
   ],
   "signals": {},
@@ -183,10 +183,31 @@
     },
     {
       "t": "2026-07-02",
-      "v": -1413.27
+      "v": -1423.1
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-07-02 10:46",
+      "symbol": "ZECUSDT",
+      "side": "Buy",
+      "pnl": 54.96,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-07-02 10:46",
+      "symbol": "ONDOUSDT",
+      "side": "Buy",
+      "pnl": 95.84,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-07-02 10:46",
+      "symbol": "AAVEUSDT",
+      "side": "Sell",
+      "pnl": 189.42,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-30 09:06",
       "symbol": "AAVEUSDT",
