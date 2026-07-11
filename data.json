@@ -1,22 +1,33 @@
 {
-  "ts": "2026-07-11T17:22:49.616699+09:00",
+  "ts": "2026-07-11T17:23:51.078929+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 13777.35,
-  "available": 5404.04,
-  "unrealized": 375.56,
+  "equity": 13772.51,
+  "available": 5396.83,
+  "unrealized": 370.51,
   "daily_pnl": 0,
-  "total_pnl": -1222.65,
-  "cum_pct": -8.15,
-  "daily_avg_pct": -0.0833,
-  "annual_pct": -26.23,
+  "total_pnl": -1227.49,
+  "cum_pct": -8.18,
+  "daily_avg_pct": -0.0836,
+  "annual_pct": -26.31,
   "mdd": -3.62,
   "current_dd": -2.57,
-  "seed_used": 8373.3,
-  "seed_used_pct": 60.78,
+  "seed_used": 8375.68,
+  "seed_used_pct": 60.81,
   "long_count": 3,
   "short_count": 4,
   "positions": [
+    {
+      "symbol": "AAVEUSDT",
+      "side": "SHORT",
+      "pnl": -229.21,
+      "pnl_pct": -7.36,
+      "margin": 1670.76,
+      "leverage": "2",
+      "tier": "1/1",
+      "entry": 89.8992,
+      "mark": 96.52
+    },
     {
       "symbol": "LDOUSDT",
       "side": "SHORT",
@@ -27,17 +38,6 @@
       "tier": "1/1",
       "entry": 0.2985,
       "mark": 0.3085
-    },
-    {
-      "symbol": "AAVEUSDT",
-      "side": "SHORT",
-      "pnl": -226.1,
-      "pnl_pct": -7.26,
-      "margin": 1669.2,
-      "leverage": "2",
-      "tier": "1/1",
-      "entry": 89.8992,
-      "mark": 96.43
     },
     {
       "symbol": "SOLUSDT",
@@ -64,13 +64,13 @@
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 423.3,
-      "pnl_pct": 11.21,
-      "margin": 1117.49,
+      "pnl": 421.3,
+      "pnl_pct": 11.16,
+      "margin": 1118.15,
       "leverage": "3",
       "tier": "1/1",
       "entry": 0.1891,
-      "mark": 0.1679
+      "mark": 0.168
     },
     {
       "symbol": "ONDOUSDT",
@@ -86,13 +86,13 @@
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 166.65,
-      "pnl_pct": 26.03,
-      "margin": 403.43,
+      "pnl": 166.7,
+      "pnl_pct": 26.04,
+      "margin": 403.45,
       "leverage": "2",
       "tier": "1/1",
       "entry": 397.6388,
-      "mark": 501.15
+      "mark": 501.18
     }
   ],
   "signals": {},
@@ -223,7 +223,7 @@
     },
     {
       "t": "2026-07-11",
-      "v": -1222.65
+      "v": -1227.49
     }
   ],
   "trade_history": [
