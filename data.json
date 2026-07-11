@@ -1,87 +1,87 @@
 {
-  "ts": "2026-07-11T23:25:02.712618+09:00",
+  "ts": "2026-07-11T23:26:04.037750+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 13754.56,
-  "available": 6935.47,
-  "unrealized": 709.87,
+  "equity": 13757.26,
+  "available": 6937.5,
+  "unrealized": 713.22,
   "daily_pnl": -353.15,
-  "total_pnl": -1245.44,
-  "cum_pct": -8.3,
-  "daily_avg_pct": -0.0849,
-  "annual_pct": -26.66,
+  "total_pnl": -1242.74,
+  "cum_pct": -8.28,
+  "daily_avg_pct": -0.0847,
+  "annual_pct": -26.6,
   "mdd": -3.62,
   "current_dd": -2.54,
-  "seed_used": 6819.09,
-  "seed_used_pct": 49.58,
+  "seed_used": 6819.77,
+  "seed_used_pct": 49.57,
   "long_count": 3,
   "short_count": 3,
   "positions": [
     {
       "symbol": "LDOUSDT",
       "side": "SHORT",
-      "pnl": -147.27,
-      "pnl_pct": -4.56,
-      "margin": 1689.8,
+      "pnl": -150.52,
+      "pnl_pct": -4.66,
+      "margin": 1691.43,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.2985,
-      "mark": 0.3121
+      "mark": 0.3124
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 176.84,
-      "pnl_pct": 3.91,
-      "margin": 1448.12,
+      "pnl": 179.55,
+      "pnl_pct": 3.97,
+      "margin": 1447.21,
       "leverage": "3",
       "tier": "1/1",
       "entry": 81.61,
-      "mark": 78.418
+      "mark": 78.369
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": -16.11,
-      "pnl_pct": -0.57,
-      "margin": 1399.41,
+      "pnl": -12.69,
+      "pnl_pct": -0.45,
+      "margin": 1401.12,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.4124,
-      "mark": 0.41
+      "mark": 0.4105
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 417.31,
-      "pnl_pct": 11.05,
-      "margin": 1119.48,
+      "pnl": 419.31,
+      "pnl_pct": 11.11,
+      "margin": 1118.82,
       "leverage": "3",
       "tier": "1/1",
       "entry": 0.1891,
-      "mark": 0.1682
+      "mark": 0.1681
     },
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 107.09,
-      "pnl_pct": 7.67,
-      "margin": 751.57,
+      "pnl": 104.86,
+      "pnl_pct": 7.51,
+      "margin": 750.45,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.3128,
-      "mark": 0.3368
+      "mark": 0.3363
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 172.61,
-      "pnl_pct": 26.96,
-      "margin": 406.4,
+      "pnl": 173.35,
+      "pnl_pct": 27.08,
+      "margin": 406.77,
       "leverage": "2",
       "tier": "1/1",
       "entry": 397.6388,
-      "mark": 504.85
+      "mark": 505.31
     }
   ],
   "signals": {},
@@ -212,10 +212,17 @@
     },
     {
       "t": "2026-07-11",
-      "v": -1245.44
+      "v": -1242.74
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-07-11 23:24",
+      "symbol": "AAVEUSDT",
+      "side": "Sell",
+      "pnl": -353.15,
+      "reason": "-"
+    },
     {
       "ts": "2026-07-08 01:05",
       "symbol": "ZECUSDT",
@@ -347,13 +354,6 @@
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": 141.15,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-20 03:11",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 60.17,
       "reason": "External Exit"
     }
   ],
