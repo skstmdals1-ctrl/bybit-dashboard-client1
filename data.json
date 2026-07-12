@@ -1,19 +1,19 @@
 {
-  "ts": "2026-07-12T19:12:55.345143+09:00",
+  "ts": "2026-07-12T19:13:56.766974+09:00",
   "start_date": "2026-04-01",
   "status": "running",
-  "equity": 14000.82,
-  "available": 5652.91,
-  "unrealized": 954.75,
+  "equity": 13999.87,
+  "available": 5650.51,
+  "unrealized": 953.41,
   "daily_pnl": 0,
-  "total_pnl": -999.18,
-  "cum_pct": -6.66,
-  "daily_avg_pct": -0.0669,
-  "annual_pct": -21.67,
+  "total_pnl": -1000.13,
+  "cum_pct": -6.67,
+  "daily_avg_pct": -0.067,
+  "annual_pct": -21.7,
   "mdd": -4.27,
   "current_dd": -0.97,
-  "seed_used": 8347.91,
-  "seed_used_pct": 59.62,
+  "seed_used": 8349.36,
+  "seed_used_pct": 59.64,
   "long_count": 3,
   "short_count": 3,
   "positions": [
@@ -29,6 +29,17 @@
       "mark": 0.3081
     },
     {
+      "symbol": "SOLUSDT",
+      "side": "SHORT",
+      "pnl": 271.96,
+      "pnl_pct": 6.02,
+      "margin": 1416.41,
+      "leverage": "3",
+      "tier": "1/1",
+      "entry": 81.61,
+      "mark": 76.701
+    },
+    {
       "symbol": "WLDUSDT",
       "side": "LONG",
       "pnl": 16.66,
@@ -38,17 +49,6 @@
       "tier": "1/1",
       "entry": 0.4124,
       "mark": 0.4148
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "pnl": 274.23,
-      "pnl_pct": 6.07,
-      "margin": 1415.65,
-      "leverage": "3",
-      "tier": "1/1",
-      "entry": 81.61,
-      "mark": 76.66
     },
     {
       "symbol": "ADAUSDT",
@@ -64,24 +64,24 @@
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 61.12,
-      "pnl_pct": 4.38,
-      "margin": 728.58,
+      "pnl": 61.57,
+      "pnl_pct": 4.41,
+      "margin": 728.81,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.3128,
-      "mark": 0.3265
+      "mark": 0.3266
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 204.83,
-      "pnl_pct": 31.99,
-      "margin": 422.51,
+      "pnl": 205.29,
+      "pnl_pct": 32.07,
+      "margin": 422.75,
       "leverage": "2",
       "tier": "1/1",
       "entry": 397.6388,
-      "mark": 524.86
+      "mark": 525.15
     }
   ],
   "signals": {},
@@ -212,7 +212,7 @@
     },
     {
       "t": "2026-07-12",
-      "v": -999.18
+      "v": -1000.13
     }
   ],
   "trade_history": [
